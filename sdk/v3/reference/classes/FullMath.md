@@ -18,9 +18,6 @@
 
 Cannot be constructed.
 
-#### Defined in
-
-[utils/fullMath.ts:8](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/fullMath.ts#L8)
 
 ## Methods
 
@@ -39,7 +36,3 @@ Cannot be constructed.
 #### Returns
 
 `default`
-
-#### Defined in
-
-[utils/fullMath.ts:10](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/fullMath.ts#L10)

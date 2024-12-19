@@ -22,9 +22,6 @@ Options for producing the calldata to exit a position.
 
 Whether the NFT should be burned if the entire position is being exited, by default false.
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:162](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L162)
 
 ___
 
@@ -34,9 +31,6 @@ ___
 
 Parameters to be passed on to collect
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:172](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L172)
 
 ___
 
@@ -46,9 +40,6 @@ ___
 
 When the transaction expires, in epoch seconds.
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:157](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L157)
 
 ___
 
@@ -58,9 +49,6 @@ ___
 
 The percentage of position liquidity to exit.
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:147](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L147)
 
 ___
 
@@ -70,9 +58,6 @@ ___
 
 The optional permit of the token ID being exited, in case the exit transaction is being sent by an account that does not own the NFT
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:167](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L167)
 
 ___
 
@@ -82,10 +67,6 @@ ___
 
 How much the pool price is allowed to move.
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:152](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L152)
-
 ___
 
 ### tokenId
@@ -93,7 +74,3 @@ ___
 • **tokenId**: `BigintIsh`
 
 The ID of the token to exit
-
-#### Defined in
-
-[nonfungiblePositionManager.ts:142](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L142)

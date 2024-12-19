@@ -34,9 +34,6 @@ do not need to load tick data for your use case.
 
 ▪ `Static` `Private` **ERROR\_MESSAGE**: `string` = `'No tick data provider was given'`
 
-#### Defined in
-
-[entities/tickDataProvider.ts:27](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickDataProvider.ts#L27)
 
 ## Methods
 
@@ -60,9 +57,6 @@ Return information corresponding to a specific tick
 
 [TickDataProvider](../interfaces/TickDataProvider.md).[getTick](../interfaces/TickDataProvider.md#gettick)
 
-#### Defined in
-
-[entities/tickDataProvider.ts:28](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickDataProvider.ts#L28)
 
 ___
 
@@ -88,6 +82,3 @@ Return the next tick that is initialized within a single word
 
 [TickDataProvider](../interfaces/TickDataProvider.md).[nextInitializedTickWithinOneWord](../interfaces/TickDataProvider.md#nextinitializedtickwithinoneword)
 
-#### Defined in
-
-[entities/tickDataProvider.ts:32](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickDataProvider.ts#L32)

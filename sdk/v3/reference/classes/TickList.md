@@ -26,9 +26,6 @@ Utility methods for interacting with sorted lists of ticks
 
 Cannot be constructed
 
-#### Defined in
-
-[utils/tickList.ts:18](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickList.ts#L18)
 
 ## Methods
 
@@ -49,9 +46,6 @@ Finds the largest tick in the list of ticks that is less than or equal to tick
 
 `number`
 
-#### Defined in
-
-[utils/tickList.ts:62](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickList.ts#L62)
 
 ___
 
@@ -70,9 +64,6 @@ ___
 
 [`Tick`](Tick.md)
 
-#### Defined in
-
-[utils/tickList.ts:50](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickList.ts#L50)
 
 ___
 
@@ -91,9 +82,6 @@ ___
 
 `boolean`
 
-#### Defined in
-
-[utils/tickList.ts:45](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickList.ts#L45)
 
 ___
 
@@ -112,9 +100,6 @@ ___
 
 `boolean`
 
-#### Defined in
-
-[utils/tickList.ts:40](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickList.ts#L40)
 
 ___
 
@@ -134,9 +119,6 @@ ___
 
 [`Tick`](Tick.md)
 
-#### Defined in
-
-[utils/tickList.ts:83](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickList.ts#L83)
 
 ___
 
@@ -157,10 +139,6 @@ ___
 
 [`number`, `boolean`]
 
-#### Defined in
-
-[utils/tickList.ts:101](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickList.ts#L101)
-
 ___
 
 ### validateList
@@ -178,6 +156,3 @@ ___
 
 `void`
 
-#### Defined in
-
-[utils/tickList.ts:20](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickList.ts#L20)

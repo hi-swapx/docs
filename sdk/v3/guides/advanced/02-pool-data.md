@@ -1,10 +1,6 @@
 ## Introduction
 
-This guide will cover how to initialize a Pool with full tick data to allow offchain calculations. It is based on the [Fetching Pool data example](https://github.com/SwapX/examples/tree/main/v3-sdk/pool-data), found in the SwapX code examples [repository](https://github.com/SwapX/examples). To run this example, check out the guide's [README](https://github.com/SwapX/examples/blob/main/v3-sdk/pool-data/README.md) and follow the setup instructions.
-
-:::info
-If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](./01-background.md) page!
-:::
+This guide will cover how to initialize a Pool with full tick data to allow offchain calculations. 
 
 In this example we will use **ethers JS** and **ethers-multicall** to construct a `Pool` object that we can use in the following guides.
 
@@ -27,11 +23,9 @@ We will also use the `ethers-multicall` npm package:
 
 - [`ethers-multicall`](https://www.npmjs.com/package/ethers-multicall)
 
-The core code of this guide can be found in [`fetcher.ts`](https://github.com/SwapX/examples/tree/main/v3-sdk/multicall/src/libs/fetcher.ts)
 
 ## Configuration
 
-The example accompanying this guide can be configured in the [`config.ts`](https://github.com/SwapX/examples/tree/main/v3-sdk/multicall/src/config.ts) file.
 The default configuration defines the rpc endpoint and the pool that is used for this guide:
 
 ```typescript
@@ -51,7 +45,6 @@ export const CurrentConfig: ExampleConfig = {
 ```
 
 FeeAmount.MEDIUM means that the pool has a swap fee of **0.3%**.
-The `USDC_TOKEN` and `WETH_TOKEN` are defined in the [`constants.ts`](https://github.com/SwapX/examples/tree/main/v3-sdk/multicall/src/libs/constants.ts) file:
 
 ```typescript
 export const WETH_TOKEN = new Token(

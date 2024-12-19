@@ -17,10 +17,6 @@ Options to specify when withdrawing a position.
 
 Set when withdrawing. `data` is passed to `safeTransferFrom` when transferring the position from contract back to owner.
 
-#### Defined in
-
-[staker.ts:66](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L66)
-
 ___
 
 ### owner
@@ -28,7 +24,3 @@ ___
 • **owner**: `string`
 
 Set when withdrawing. The position will be sent to `owner` on withdraw.
-
-#### Defined in
-
-[staker.ts:61](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L61)

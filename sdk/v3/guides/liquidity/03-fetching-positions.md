@@ -7,7 +7,7 @@ Like the [Liquidity Position guide](./01-position-data.md) it doesn't have an ac
 If you need an introduction to liquidity positions, check out the [Liquidity Position guide](./01-position-data.md)
 :::
 
-The [NonfungiblePositionManager Contract](../../../../contracts/v3/reference/periphery/NonfungiblePositionManager.md) can be used to create Positions, as well as get information on **existing Positions**.
+The NonfungiblePositionManager Contract can be used to create Positions, as well as get information on **existing Positions**.
 In this guide, we will fetch **all Positions** an address has and fetch the **detailed Position Data** for those positions.
 
 The guide will **cover**:
@@ -18,7 +18,6 @@ The guide will **cover**:
 
 At the end of the guide, given the inputs above, we should be able to mint a liquidity position with the press of a button and view the position on the UI of the web application.
 
-For this guide, we do not need to use the SwapX SDKs, we will only import the contract ABI for the NonfungiblePositionManager Contract from [`@swapx/v3-periphery`](https://www.npmjs.com/package/@swapx/v3-periphery).
 
 ## Connecting to the NFTPositionManager Contract
 
@@ -26,7 +25,6 @@ We use **ethersJS** to interact with the NonfungiblePositionManager Contract. Le
 
 ```typescript
 import { ethers } from 'ethers'
-import INONFUNGIBLE_POSITION_MANAGER from '@swapx/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 
 const provider = new ethers.providers.JsonRpcProvider(rpcUrl)
 
@@ -36,8 +34,6 @@ const nfpmContract = new ethers.Contract(
     provider
 )
 ```
-
-We get the Contract ABI from the 'v3-periphery` package and the contract address from [Github](https://github.com/SwapX/v3-periphery/blob/main/deploys.md)
 
 ## Fetching the Position Ids
 

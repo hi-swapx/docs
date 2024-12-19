@@ -49,9 +49,7 @@ Constructs a position for a given pool with the given liquidity
 | :------ | :------ |
 | `__namedParameters` | `PositionConstructorArgs` |
 
-#### Defined in
 
-[entities/position.ts:40](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L40)
 
 ## Properties
 
@@ -59,19 +57,11 @@ Constructs a position for a given pool with the given liquidity
 
 • `Private` **\_mintAmounts**: ``null`` \| `Readonly`<{ `amount0`: `default` ; `amount1`: `default`  }\> = `null`
 
-#### Defined in
-
-[entities/position.ts:31](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L31)
-
 ___
 
 ### \_token0Amount
 
 • `Private` **\_token0Amount**: ``null`` \| `CurrencyAmount`<`Token`\> = `null`
-
-#### Defined in
-
-[entities/position.ts:29](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L29)
 
 ___
 
@@ -79,19 +69,11 @@ ___
 
 • `Private` **\_token1Amount**: ``null`` \| `CurrencyAmount`<`Token`\> = `null`
 
-#### Defined in
-
-[entities/position.ts:30](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L30)
-
 ___
 
 ### liquidity
 
 • `Readonly` **liquidity**: `default`
-
-#### Defined in
-
-[entities/position.ts:26](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L26)
 
 ___
 
@@ -99,29 +81,17 @@ ___
 
 • `Readonly` **pool**: [`Pool`](Pool.md)
 
-#### Defined in
-
-[entities/position.ts:23](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L23)
-
 ___
 
 ### tickLower
 
 • `Readonly` **tickLower**: `number`
 
-#### Defined in
-
-[entities/position.ts:24](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L24)
-
 ___
 
 ### tickUpper
 
 • `Readonly` **tickUpper**: `number`
-
-#### Defined in
-
-[entities/position.ts:25](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L25)
 
 ## Accessors
 
@@ -135,10 +105,6 @@ Returns the amount of token0 that this position's liquidity could be burned for 
 
 `CurrencyAmount`<`Token`\>
 
-#### Defined in
-
-[entities/position.ts:68](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L68)
-
 ___
 
 ### amount1
@@ -150,10 +116,6 @@ Returns the amount of token1 that this position's liquidity could be burned for 
 #### Returns
 
 `CurrencyAmount`<`Token`\>
-
-#### Defined in
-
-[entities/position.ts:100](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L100)
 
 ___
 
@@ -168,10 +130,6 @@ the current price for the pool
 
 `Readonly`<{ `amount0`: `default` ; `amount1`: `default`  }\>
 
-#### Defined in
-
-[entities/position.ts:258](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L258)
-
 ___
 
 ### token0PriceLower
@@ -184,10 +142,6 @@ Returns the price of token0 at the lower tick
 
 `Price`<`Token`, `Token`\>
 
-#### Defined in
-
-[entities/position.ts:54](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L54)
-
 ___
 
 ### token0PriceUpper
@@ -199,10 +153,6 @@ Returns the price of token0 at the upper tick
 #### Returns
 
 `Price`<`Token`, `Token`\>
-
-#### Defined in
-
-[entities/position.ts:61](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L61)
 
 ## Methods
 
@@ -225,10 +175,6 @@ position with the given slippage tolerance
 
 The amounts, with slippage
 
-#### Defined in
-
-[entities/position.ts:213](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L213)
-
 ___
 
 ### mintAmountsWithSlippage
@@ -249,10 +195,6 @@ with the given slippage tolerance
 `Readonly`<{ `amount0`: `default` ; `amount1`: `default`  }\>
 
 The amounts, with slippage
-
-#### Defined in
-
-[entities/position.ts:157](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L157)
 
 ___
 
@@ -279,10 +221,6 @@ The sqrt ratios after slippage
 | `sqrtRatioX96Lower` | `default` |
 | `sqrtRatioX96Upper` | `default` |
 
-#### Defined in
-
-[entities/position.ts:134](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L134)
-
 ___
 
 ### fromAmount0
@@ -308,10 +246,6 @@ Computes a position with the maximum amount of liquidity received for a given am
 
 The position
 
-#### Defined in
-
-[entities/position.ts:354](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L354)
-
 ___
 
 ### fromAmount1
@@ -335,10 +269,6 @@ Computes a position with the maximum amount of liquidity received for a given am
 [`Position`](Position.md)
 
 The position
-
-#### Defined in
-
-[entities/position.ts:378](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L378)
 
 ___
 
@@ -366,7 +296,3 @@ and the prices at the tick boundaries.
 [`Position`](Position.md)
 
 The amount of liquidity for the position
-
-#### Defined in
-
-[entities/position.ts:312](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L312)

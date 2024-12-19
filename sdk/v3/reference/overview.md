@@ -87,9 +87,6 @@
 
 Ƭ **AddLiquidityOptions**: [`MintOptions`](modules.md#mintoptions) \| [`IncreaseOptions`](modules.md#increaseoptions)
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:77](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L77)
 
 ___
 
@@ -97,9 +94,6 @@ ___
 
 Ƭ **FullWithdrawOptions**: [`ClaimOptions`](interfaces/ClaimOptions.md) & [`WithdrawOptions`](interfaces/WithdrawOptions.md)
 
-#### Defined in
-
-[staker.ts:8](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L8)
 
 ___
 
@@ -107,9 +101,6 @@ ___
 
 Ƭ **IncreaseOptions**: [`CommonAddLiquidityOptions`](interfaces/CommonAddLiquidityOptions.md) & [`IncreaseSpecificOptions`](interfaces/IncreaseSpecificOptions.md)
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:75](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L75)
 
 ___
 
@@ -117,9 +108,6 @@ ___
 
 Ƭ **MintOptions**: [`CommonAddLiquidityOptions`](interfaces/CommonAddLiquidityOptions.md) & [`MintSpecificOptions`](interfaces/MintSpecificOptions.md)
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:74](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L74)
 
 ___
 
@@ -127,9 +115,6 @@ ___
 
 Ƭ **PermitOptions**: [`StandardPermitArguments`](interfaces/StandardPermitArguments.md) \| [`AllowedPermitArguments`](interfaces/AllowedPermitArguments.md)
 
-#### Defined in
-
-[selfPermit.ts:22](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/selfPermit.ts#L22)
 
 ## Variables
 
@@ -137,9 +122,6 @@ ___
 
 • `Const` **ADDRESS\_ZERO**: ``"0x0000000000000000000000000000000000000000"``
 
-#### Defined in
-
-[constants.ts:3](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/constants.ts#L3)
 
 ___
 
@@ -147,19 +129,11 @@ ___
 
 • `Const` **FACTORY\_ADDRESS**: ``"0x1F98431c8aD98523631AE4a59f267346ea31F984"``
 
-#### Defined in
-
-[constants.ts:1](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/constants.ts#L1)
-
 ___
 
 ### POOL\_INIT\_CODE\_HASH
 
 • `Const` **POOL\_INIT\_CODE\_HASH**: ``"0xe34f199b19b2b4f47f68442619d555527d244f78a3297ea89325f843f87b8b54"``
-
-#### Defined in
-
-[constants.ts:5](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/constants.ts#L5)
 
 ___
 
@@ -169,9 +143,6 @@ ___
 
 The default factory tick spacings by fee amount.
 
-#### Defined in
-
-[constants.ts:20](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/constants.ts#L20)
 
 ## Functions
 
@@ -198,10 +169,6 @@ Computes a pool address
 
 The pool address
 
-#### Defined in
-
-[utils/computePoolAddress.ts:16](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/computePoolAddress.ts#L16)
-
 ___
 
 ### encodeRouteToPath
@@ -220,10 +187,6 @@ Converts a route to a hex encoded path
 #### Returns
 
 `string`
-
-#### Defined in
-
-[utils/encodeRouteToPath.ts:11](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/encodeRouteToPath.ts#L11)
 
 ___
 
@@ -245,10 +208,6 @@ Returns the sqrt ratio as a Q64.96 corresponding to a given ratio of amount1 and
 `JSBI`
 
 The sqrt ratio
-
-#### Defined in
-
-[utils/encodeSqrtRatioX96.ts:11](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/encodeSqrtRatioX96.ts#L11)
 
 ___
 
@@ -277,10 +236,6 @@ Determines if a tick list is sorted
 
 true if sorted
 
-#### Defined in
-
-[utils/isSorted.ts:7](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/isSorted.ts#L7)
-
 ___
 
 ### maxLiquidityForAmounts
@@ -305,10 +260,6 @@ and the prices at the tick boundaries.
 
 `JSBI`
 
-#### Defined in
-
-[utils/maxLiquidityForAmounts.ts:68](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/maxLiquidityForAmounts.ts#L68)
-
 ___
 
 ### mostSignificantBit
@@ -324,10 +275,6 @@ ___
 #### Returns
 
 `number`
-
-#### Defined in
-
-[utils/mostSignificantBit.ts:12](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/mostSignificantBit.ts#L12)
 
 ___
 
@@ -348,10 +295,6 @@ Returns the closest tick that is nearest a given tick and usable for the given t
 
 `number`
 
-#### Defined in
-
-[utils/nearestUsableTick.ts:9](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/nearestUsableTick.ts#L9)
-
 ___
 
 ### priceToClosestTick
@@ -370,10 +313,6 @@ Returns the first tick for which the given price is greater than or equal to the
 
 `number`
 
-#### Defined in
-
-[utils/priceTickConversions.ts:29](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/priceTickConversions.ts#L29)
-
 ___
 
 ### subIn256
@@ -390,10 +329,6 @@ ___
 #### Returns
 
 `JSBI`
-
-#### Defined in
-
-[utils/tickLibrary.ts:11](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickLibrary.ts#L11)
 
 ___
 
@@ -416,10 +351,6 @@ Inputs must be tokens because the address order is used to interpret the price r
 
 `Price`<`Token`, `Token`\>
 
-#### Defined in
-
-[utils/priceTickConversions.ts:14](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/priceTickConversions.ts#L14)
-
 ___
 
 ### toHex
@@ -439,10 +370,6 @@ Converts a big int to a hex string
 `string`
 
 The hex encoded calldata
-
-#### Defined in
-
-[utils/calldata.ts:23](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/calldata.ts#L23)
 
 ___
 
@@ -472,7 +399,3 @@ Trades comparator, an extension of the input output comparator that also conside
 `number`
 
 A sorted ordering for two neighboring elements in a trade array
-
-#### Defined in
-
-[entities/trade.ts:16](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L16)

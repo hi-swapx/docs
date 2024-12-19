@@ -28,19 +28,12 @@
 
 Cannot be constructed.
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:181](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L181)
-
 ## Properties
 
 ### INTERFACE
 
 ▪ `Static` **INTERFACE**: `Interface`
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:176](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L176)
 
 ## Methods
 
@@ -59,9 +52,6 @@ Cannot be constructed.
 
 [`MethodParameters`](../interfaces/MethodParameters.md)
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:199](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L199)
 
 ___
 
@@ -79,10 +69,6 @@ ___
 
 [`MethodParameters`](../interfaces/MethodParameters.md)
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:326](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L326)
-
 ___
 
 ### createCallParameters
@@ -99,9 +85,6 @@ ___
 
 [`MethodParameters`](../interfaces/MethodParameters.md)
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:192](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L192)
 
 ___
 
@@ -119,9 +102,6 @@ ___
 
 `string`[]
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:286](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L286)
 
 ___
 
@@ -139,9 +119,6 @@ ___
 
 `string`
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:183](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L183)
 
 ___
 
@@ -164,10 +141,6 @@ Produces the calldata for completely or partially exiting a position
 
 The call parameters
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:341](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L341)
-
 ___
 
 ### safeTransferFromParameters
@@ -184,6 +157,3 @@ ___
 
 [`MethodParameters`](../interfaces/MethodParameters.md)
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:416](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L416)

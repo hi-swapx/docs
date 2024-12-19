@@ -24,9 +24,6 @@ Represents the SwapX V3 SwapRouter, and has static methods for helping execute t
 
 Cannot be constructed.
 
-#### Defined in
-
-[swapRouter.ts:57](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/swapRouter.ts#L57)
 
 ## Properties
 
@@ -34,9 +31,6 @@ Cannot be constructed.
 
 ▪ `Static` **INTERFACE**: `Interface`
 
-#### Defined in
-
-[swapRouter.ts:52](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/swapRouter.ts#L52)
 
 ## Methods
 
@@ -56,7 +50,3 @@ Produces the on-chain method name to call and the hex encoded parameters to pass
 #### Returns
 
 [`MethodParameters`](../interfaces/MethodParameters.md)
-
-#### Defined in
-
-[swapRouter.ts:64](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/swapRouter.ts#L64)

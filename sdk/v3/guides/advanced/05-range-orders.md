@@ -1,15 +1,13 @@
 ## Introduction
 
 This guide will cover how single-side liquidity provisioning can be used to execute **Limit Orders** on SwapX V3 Pools.
-An example to showcase this concept can be found in the [Range Order example](https://github.com/SwapX/examples/tree/main/v3-sdk/range-order), in the SwapX code examples [repository](https://github.com/SwapX/example).
-To run this example, check out the guide's [README](https://github.com/SwapX/examples/blob/main/v3-sdk/price-oracle/README.md) and follow the setup instructions.
 
 :::info
-This guide builds on top of the [Pooling Liquidity guides](../liquidity/01-position-data.md).
+This guide builds on top of the Pooling Liquidity guides.
 We recommend going through this section of the docs before imnplementing Range Orders.
 :::
 
-In this example we will create a single-side liquidity position with the [NonfungiblePositionManager](../../../../contracts/v3/reference/periphery/NonfungiblePositionManager.md) contract.
+In this example we will create a single-side liquidity position with the NonfungiblePositionManager contract.
 We will then use **ethers JS** to observe the price of the Pool on new blocks and withdraw the liquidity when our target is reached.
 
 This guide will **cover**:
@@ -20,18 +18,14 @@ This guide will **cover**:
 4. Observing the price of the Pool
 5. Closing the Limit Order
 
-Before working through this guide, consider checking out the Range Orders [concept page](../../../../concepts/protocol/range-orders.md) to understand how Limit orders can be executed with SwapX V3.
-
 For this guide, the following SwapX packages are used:
   
 - [`@swapx/v3-sdk`](https://www.npmjs.com/package/@swapx/v3-sdk)
 - [`@swapx/sdk-core`](https://www.npmjs.com/package/@swapx/sdk-core)
 
-The core code of this guide can be found in [`range-order.ts`](https://github.com/SwapX/examples/tree/main/v3-sdk/range-order/src/libs/range-order.ts).
 
 ## Understanding Range Orders
 
-If you have read the [Range Order Concept page](../../../../concepts/protocol/range-orders.md), you can skip this section.
 
 Positions on a V3 Pool are always created with a Tick range in which their liquidity is accessible to swaps on the Pool.
 Lets look at the return value of the NonfungiblePositionManager contract when calling the `positions` function with a Position `tokenId`.
@@ -71,12 +65,12 @@ We will utilise this behaviour to provide liquidity with `token1` and withdraw t
 
 ## Calculating the Tick Range
 
-Our goal for this guide is to create a [Take Profit Order](../../../../concepts/protocol/range-orders.md#take-profit-orders) that trades `token0` for `token1` when the Price of `token0` increases by 5%.
+Our goal for this guide is to create a Take Profit Order that trades `token0` for `token1` when the Price of `token0` increases by 5%.
 To create our Position, we need to first decide the Tick Range that we want to provide liquidity in.
 
 ### Upper Tick
 
-We [create a Pool](./02-pool-data.md) that represents the V3 Pool we are interacting with and get the `token0Price`.
+We create a Pool that represents the V3 Pool we are interacting with and get the `token0Price`.
 We won't need full tick data in this example.
 
 ```typescript
@@ -152,7 +146,7 @@ We now have a lower and upper Tick for our Position, next we need to construct a
 
 We will use the `NonfungiblePositionManager` and `Position` classes from the `v3-sdk` to construct our position. We then use an **etherJS** wallet to mint our Position on-chain.
 
-If you are not familiar with liquidity Positions, check out the [liquidity position guides](../liquidity/01-position-data.md).
+If you are not familiar with liquidity Positions, check out the liquidity position guides.
 
 ### Minting the Position
 
@@ -171,9 +165,8 @@ const position = Position.fromAmount0({
 ```
 
 Before we mint our position, we need to give the `NonfungiblePositionManager` Contract an approval to transfer our tokens.
-We can find the Contract address on the official [SwapX Github](https://github.com/SwapX/v3-periphery/blob/main/deploys.md).
 For local development, the contract address is the same as the network we are forking from.
-So if we are using a local fork of mainnet like described in the [Local development guide](../02-local-development.md), the contract address would be the same as on mainnet.
+So if we are using a local fork of mainnet like described in the Local development guide], the contract address would be the same as on mainnet.
 
 ```typescript
 import ethers from 'ethers'
@@ -225,8 +218,6 @@ We can populate our mint transaction and send it with our wallet:
 
 const txRes = await wallet.sendTransaction(transaction)
 ```
-
-You can find full code examples for these code snippets in [`range-order.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/range-order/src/libs/range-order.ts).
 
 ### Getting the tokenId
 
@@ -287,7 +278,6 @@ The decodedOutput we get from the AbiCoder is a `ethers.Bignumber` so we need to
 
 We have created our Range Order Position, now we need to monitor it.
 
-In the [code example](https://github.com/SwapX/examples/blob/main/v3-sdk/range-order/src/libs/range-order.ts#L180) we use `wallet.call` to get the position id.
 `call` and `trace_call` both simulate a transaction on the connected node and return the expected output, `trace_call` gives us a much more detailed output though.
 Depending on the use case, either can be the better choice.
 In a production environment you would prefer to wait for the `transactionReceipt` like described earlier to ensure the transaction was actaully included in the blockchain.
@@ -420,6 +410,4 @@ Executing a range order has certain limitations that may have become obvious dur
 ## Next Steps
 
 This guide showcases everything you need to implement Range Orders on your own, but only demonstrates creating a Take Profit order in `token0` to `token1` direction.
-Consider implementing Buy Limit orders as described in the [Range Orders concept page](../../../../concepts/protocol/range-orders.md#buy-limit-orders).
 
-This is currently the last guide in the `v3-sdk` series. Consider joining the [SwapX Discord](https://discord.com/invite/SwapX) or checkout the official [Github](https://github.com/SwapX) to learn more about the SwapX Protocol.

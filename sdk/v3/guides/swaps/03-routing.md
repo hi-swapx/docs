@@ -5,7 +5,7 @@ title: Routing a Swap
 
 ## Introduction
 
-This guide will cover how to use SwapX's smart order router to compute optimal routes and execute swaps. Rather than trading between a single pool, smart routing may use multiple hops (as many as needed) to ensure that the end result of the swap is the optimal price. It is based on the [routing code example](https://github.com/SwapX/examples/tree/main/v3-sdk/routing), found in the SwapX code examples [repository](https://github.com/SwapX/examples). To run this example, check out the guide's [README](https://github.com/SwapX/examples/blob/main/v3-sdk/routing/README.md) and follow the setup instructions.
+This guide will cover how to use SwapX's smart order router to compute optimal routes and execute swaps. Rather than trading between a single pool, smart routing may use multiple hops (as many as needed) to ensure that the end result of the swap is the optimal price. 
 
 :::info
 If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](./01-background.md) page!
@@ -23,11 +23,10 @@ At the end of the guide, we should be able to create a route and and execute a s
 
 For this guide, the following SwapX packages are used:
 
-- [`@swapx/v3-sdk`](https://www.npmjs.com/package/@swapx/v3-sdk)
-- [`@swapx/sdk-core`](https://www.npmjs.com/package/@swapx/sdk-core)
-- [`@swapx/smart-order-router`](https://www.npmjs.com/package/@swapx/smart-order-router)
+- `@swapx/v3-sdk`
+- `@swapx/sdk-core`
 
-The core code of this guide can be found in [`routing.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/routing/src/libs/routing.ts)
+
 
 The config, which we will use in some code snippets in this guides has this structure:
 
@@ -71,7 +70,7 @@ const router = new AlphaRouter({
 
 ## Creating a route
 
-We will use the [SwapRouter02](https://github.com/SwapX/v3-periphery/blob/v1.0.0/contracts/SwapRouter.sol) for our trade.
+We will use the SwapRouter02 for our trade.
 The `smart-order-router` package provides us with a `SwapOptionsSwapRouter02` interface, defining the wallet to use, slippage tolerance, and deadline for the transaction that we need to interact with the contract:
 
 ```typescript
@@ -159,7 +158,6 @@ const tokenApproval = await tokenContract.approve(
 To be able to spend the tokens of a wallet, a smart contract first needs to get an approval from that wallet. 
 ERC20 tokens have an `approve` function that accepts the address of the smart contract that we want to allow spending our tokens and the amount the smart contract should be allowed to spend.
 
-We can get the **V3_SWAP_ROUTER_ADDRESS** for our chain from [Github](https://github.com/SwapX/v3-periphery/blob/main/deploys.md). 
 Keep in mind that different chains might have **different deployment addresses** for the same contracts.
 The deployment address for local forks of a network are the same as in the network you forked, so for a **fork of mainnet** it would be the address for **Mainnet**.
 
@@ -180,7 +178,6 @@ const txRes = await wallet.sendTransaction({
 
 After swapping, you should see the currency balances update in the UI shortly after the block is confirmed.
 
-You can find the full code in [`routing.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/routing/src/libs/routing.ts).
 
 ## Next Steps
 

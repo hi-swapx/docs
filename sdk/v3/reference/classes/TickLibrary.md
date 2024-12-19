@@ -18,9 +18,6 @@
 
 Cannot be constructed.
 
-#### Defined in
-
-[utils/tickLibrary.ts:25](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickLibrary.ts#L25)
 
 ## Methods
 
@@ -44,6 +41,3 @@ Cannot be constructed.
 
 `default`[]
 
-#### Defined in
-
-[utils/tickLibrary.ts:27](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/tickLibrary.ts#L27)

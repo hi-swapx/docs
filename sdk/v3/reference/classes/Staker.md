@@ -25,9 +25,6 @@
 
 • `Protected` **new Staker**()
 
-#### Defined in
-
-[staker.ts:72](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L72)
 
 ## Properties
 
@@ -35,9 +32,6 @@
 
 ▪ `Static` `Private` **INCENTIVE\_KEY\_ABI**: `string` = `'tuple(address rewardToken, address pool, uint256 startTime, uint256 endTime, address refundee)'`
 
-#### Defined in
-
-[staker.ts:73](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L73)
 
 ___
 
@@ -45,9 +39,6 @@ ___
 
 ▪ `Static` **INTERFACE**: `Interface`
 
-#### Defined in
-
-[staker.ts:70](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L70)
 
 ## Methods
 
@@ -67,9 +58,6 @@ ___
 
 An encoded IncentiveKey to be read by ethers
 
-#### Defined in
-
-[staker.ts:194](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L194)
 
 ___
 
@@ -90,9 +78,6 @@ Note:  A `tokenId` can be staked in many programs but to claim rewards and conti
 
 [`MethodParameters`](../interfaces/MethodParameters.md)
 
-#### Defined in
-
-[staker.ts:107](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L107)
 
 ___
 
@@ -115,9 +100,6 @@ To claim rewards, must unstake and then claim.
 
 The calldatas for 'unstakeToken' and 'claimReward'.
 
-#### Defined in
-
-[staker.ts:82](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L82)
 
 ___
 
@@ -137,9 +119,6 @@ ___
 
 An IncentiveKey as a string
 
-#### Defined in
-
-[staker.ts:173](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L173)
 
 ___
 
@@ -159,7 +138,3 @@ ___
 [`MethodParameters`](../interfaces/MethodParameters.md)
 
 Calldata for unstaking, claiming, and withdrawing.
-
-#### Defined in
-
-[staker.ts:136](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/staker.ts#L136)

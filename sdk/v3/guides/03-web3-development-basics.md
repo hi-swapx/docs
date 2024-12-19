@@ -162,14 +162,8 @@ In this example of a failed transaction on the SwapX V2 Router you can easily se
 SwapX offers several SDKs that work together and enable you to easily interact with the SwapX protocol
 The most important SDKs are:
 
-* [sdk-core](https://github.com/SwapX/sdk-core): The core of the SwapX SDKs, defines classes and types shared across all the SDKs
-* [v2-sdk](https://github.com/SwapX/v2-sdk): An SDK to interact with the SwapX V2 protocol.
-* [v3-sdk](https://github.com/SwapX/v3-sdk): An SDK to interact with the SwapX V3 protocol.
-* [router-sdk](https://github.com/SwapX/router-sdk): Provides abstractions to interact with the (older) SwapRouter contracts.
-* [universal-router-sdk](https://github.com/SwapX/universal-router-sdk): Abstracts interactions with the Universal Router.
-* [smart-order-router](https://github.com/SwapX/smart-order-router): Searches for the most efficient routes for a trade.
-* [permit2-sdk](https://github.com/SwapX/permit2-sdk): Simplifies interactions with Permit2 in JS.
-* [SwapXx-sdk](https://github.com/SwapX/SwapXx-sdk): SDK for the SwapXX protocol.
+* v2-sdk: An SDK to interact with the SwapX V2 protocol.
+* v3-sdk: An SDK to interact with the SwapX V3 protocol.
 
 As you know already, all interactions with the blockchain happens through RPCs. So the SwapX SDKs, as you will see throughout the guides,
 requires you to have access to an RPC endpoint like [Chainnodes](https://www.chainnodes.org).

@@ -30,19 +30,11 @@ calldata needed to call the quoter contract.
 
 ▪ `Static` **V1INTERFACE**: `Interface`
 
-#### Defined in
-
-[quoter.ts:37](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/quoter.ts#L37)
-
 ___
 
 ### V2INTERFACE
 
 ▪ `Static` **V2INTERFACE**: `Interface`
-
-#### Defined in
-
-[quoter.ts:38](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/quoter.ts#L38)
 
 ## Methods
 
@@ -69,12 +61,6 @@ and the relevant hex encoded parameters.
 | `tradeType` | `TradeType` | The trade type, either exact input or exact output |
 | `options` | [`QuoteOptions`](../interfaces/QuoteOptions.md) | The optional params including price limit and Quoter contract switch |
 
-#### Returns
-
-[`MethodParameters`](../interfaces/MethodParameters.md)
 
 The formatted calldata
 
-#### Defined in
-
-[quoter.ts:51](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/quoter.ts#L51)

@@ -18,9 +18,6 @@
 
 Cannot be constructed.
 
-#### Defined in
-
-[utils/swapMath.ts:13](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/swapMath.ts#L13)
 
 ## Methods
 
@@ -41,7 +38,3 @@ Cannot be constructed.
 #### Returns
 
 [`default`, `default`, `default`, `default`]
-
-#### Defined in
-
-[utils/swapMath.ts:15](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/swapMath.ts#L15)

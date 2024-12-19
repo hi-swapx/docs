@@ -16,19 +16,12 @@
 
 • **deadline**: `BigintIsh`
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:131](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L131)
-
 ___
 
 ### r
 
 • **r**: `string`
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:129](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L129)
 
 ___
 
@@ -36,9 +29,6 @@ ___
 
 • **s**: `string`
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:130](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L130)
 
 ___
 
@@ -46,16 +36,9 @@ ___
 
 • **spender**: `string`
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:132](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L132)
 
 ___
 
 ### v
 
 • **v**: ``0`` \| ``1`` \| ``27`` \| ``28``
-
-#### Defined in
-
-[nonfungiblePositionManager.ts:128](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L128)

@@ -2,7 +2,7 @@ The SwapX SDK exists to help developers build on top of SwapX. It's designed to 
 
 # Installation
 
-The easiest way to consume the SDK is via [npm](https://github.com/SwapX/SwapX-v2-sdk). To install it in your project, simply run `yarn add @swapx/v2-sdk` (or `npm install @swapx/v2-sdk`). This also installs the sdk-core package that is used by both the V2 and V3 SDK and ethers as dependencies.
+The easiest way to consume the SDK is via npm package. To install it in your project, simply run `yarn add @swapx/v2-sdk` (or `npm install @swapx/v2-sdk`). This also installs the sdk-core package that is used by both the V2 and V3 SDK and ethers as dependencies.
 
 # Usage
 
@@ -23,7 +23,3 @@ const CORE = require('@swapx/sdk-core')
 const V2_SDK = require('@swapx/v2-sdk')
 console.log(`The chainId of mainnet is ${CORE.ChainId.MAINNET}.`)
 ```
-
-# Reference
-
-Comprehensive reference material for the SDK is publicly available on the [SwapX Labs Github](https://github.com/SwapX).

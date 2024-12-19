@@ -17,10 +17,6 @@ Optional arguments to send to the quoter.
 
 The optional price limit for the trade.
 
-#### Defined in
-
-[quoter.ts:17](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/quoter.ts#L17)
-
 ___
 
 ### useQuoterV2
@@ -28,7 +24,3 @@ ___
 • `Optional` **useQuoterV2**: `boolean`
 
 The optional quoter interface to use
-
-#### Defined in
-
-[quoter.ts:22](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/quoter.ts#L22)

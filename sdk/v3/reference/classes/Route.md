@@ -51,19 +51,11 @@ Creates an instance of route.
 | `input` | `TInput` | The input token |
 | `output` | `TOutput` | The output token |
 
-#### Defined in
-
-[entities/route.ts:25](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/route.ts#L25)
-
 ## Properties
 
 ### \_midPrice
 
 • `Private` **\_midPrice**: ``null`` \| `Price`<`TInput`, `TOutput`\> = `null`
-
-#### Defined in
-
-[entities/route.ts:17](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/route.ts#L17)
 
 ___
 
@@ -71,19 +63,11 @@ ___
 
 • `Readonly` **input**: `TInput`
 
-#### Defined in
-
-[entities/route.ts:14](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/route.ts#L14)
-
 ___
 
 ### output
 
 • `Readonly` **output**: `TOutput`
-
-#### Defined in
-
-[entities/route.ts:15](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/route.ts#L15)
 
 ___
 
@@ -91,19 +75,11 @@ ___
 
 • `Readonly` **pools**: [`Pool`](Pool.md)[]
 
-#### Defined in
-
-[entities/route.ts:12](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/route.ts#L12)
-
 ___
 
 ### tokenPath
 
 • `Readonly` **tokenPath**: `Token`[]
-
-#### Defined in
-
-[entities/route.ts:13](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/route.ts#L13)
 
 ## Accessors
 
@@ -114,10 +90,6 @@ ___
 #### Returns
 
 `number`
-
-#### Defined in
-
-[entities/route.ts:54](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/route.ts#L54)
 
 ___
 
@@ -130,7 +102,3 @@ Returns the mid price of the route
 #### Returns
 
 `Price`<`TInput`, `TOutput`\>
-
-#### Defined in
-
-[entities/route.ts:61](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/route.ts#L61)

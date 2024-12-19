@@ -1,9 +1,12 @@
 # The SwapX V2 SDK
 
-Welcome to the SwapX Protocol V2 SDK. To begin, we recommend looking at the [**Guides**](./guides/01-quick-start.md) and for deeper reference see the [**V2 SDK Github**](https://github.com/SwapX/v2-sdk) repo.
+> **Welcome to the V2 SwapX SDK!**
 
+The SwapX V2 SDK provides abstractions to assist you with interacting with the SwapX V2 smart contracts in a Typescript/Javascript environment.
+## Installation
 
-# SwapX V2 SDK
+To interact with the V2 SDK we recommend installing though npm:
 
-- [**V2 SDK Github**](https://github.com/SwapX/v2-sdk)
-
+```bash
+npm i --save @swapx/v2-sdk
+npm i --save @swapx/sdk-core

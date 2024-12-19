@@ -22,19 +22,12 @@
 
 Cannot be constructed.
 
-#### Defined in
-
-[selfPermit.ts:34](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/selfPermit.ts#L34)
 
 ## Properties
 
 ### INTERFACE
 
 ▪ `Static` **INTERFACE**: `Interface`
-
-#### Defined in
-
-[selfPermit.ts:29](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/selfPermit.ts#L29)
 
 ## Methods
 
@@ -52,7 +45,3 @@ Cannot be constructed.
 #### Returns
 
 `string`
-
-#### Defined in
-
-[selfPermit.ts:36](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/selfPermit.ts#L36)

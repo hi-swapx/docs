@@ -17,10 +17,6 @@ Generated method parameters for executing a call.
 
 The hex encoded calldata to perform the given operation
 
-#### Defined in
-
-[utils/calldata.ts:11](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/calldata.ts#L11)
-
 ___
 
 ### value
@@ -28,7 +24,3 @@ ___
 • **value**: `string`
 
 The amount of ether (wei) to send in hex.
-
-#### Defined in
-
-[utils/calldata.ts:15](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/calldata.ts#L15)

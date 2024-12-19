@@ -1,7 +1,5 @@
 ## Introduction
 
-This guide will cover how to collect fees from a liquidity position on the SwapX V3 protocol. It is based on the [collecting fees code example](https://github.com/SwapX/examples/tree/main/v3-sdk/collecting-fees), found in the SwapX code examples [repository](https://github.com/SwapX/examples). To run this example, check out the examples's [README](https://github.com/SwapX/examples/blob/main/v3-sdk/collecting-fees/README.md) and follow the setup instructions.
-
 :::info
 If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](../01-background.md) page!
 :::
@@ -17,10 +15,9 @@ At the end of the guide, given the inputs above, we should be able to collect th
 
 For this guide, the following SwapX packages are used:
 
-- [`@swapx/v3-sdk`](https://www.npmjs.com/package/@swapx/v3-sdk)
-- [`@swapx/sdk-core`](https://www.npmjs.com/package/@swapx/sdk-core)
+- @swapx/v3-sdk
+- @swapx/sdk-core
 
-The core code of this guide can be found in [`collectFees()`](https://github.com/SwapX/examples/blob/main/v3-sdk/collecting-fees/src/libs/liquidity.ts#L35).
 
 :::note
 This guide assumes you are familiar with our [Minting a Position](./01-minting-position.md) guide. A minted position is required to add or remove liquidity from, so the buttons will be disabled until a position is minted.
@@ -30,7 +27,7 @@ Also note that we do not need to give approval to the `NonfungiblePositionManage
 
 ## Setting up our fee collection
 
-All of the fee collecting logic can be found in the [`collectFees`](https://github.com/SwapX/examples/blob/be67e7df220b0a270c9d18bbaab529e017213adf/v3-sdk/collecting-fees/src/example/Example.tsx#L24) function. Notice how the **Collect Fees** button is disabled until a position is minted. This happens because there will be no fees to collect unless there is a position whose liquidity has been traded against.
+All of the fee collecting logic can be found in the `collectFees` function. Notice how the **Collect Fees** button is disabled until a position is minted. This happens because there will be no fees to collect unless there is a position whose liquidity has been traded against.
 
 To start, we fetch the position from the NonfungiblePositionManager Contract to get the fees we are owed:
 
@@ -43,7 +40,7 @@ const nfpmContract = new ethers.Contract(NONFUNGIBLE_POSITION_MANAGER_ADDRESS, p
 const position = nfpmContract.positions(positionId)
 ```
 
-Next, we construct an options object of type  [`CollectOptions`](https://github.com/SwapX/v3-sdk/blob/08a7c050cba00377843497030f502c05982b1c43/src/nonfungiblePositionManager.ts#L105) that holds the data about the fees we want to collect:
+Next, we construct an options object of type  `CollectOptions` that holds the data about the fees we want to collect:
 
 ```typescript
 import { CurrencyAmount } from '@swapx/sdk-core'
@@ -87,7 +84,6 @@ const positionInfos = callResponses.map((position) => {
 
 The `tokensOwed0` and `tokensOwed1` values are the fees owed.
 
-In this example, we have the values hardcoded in the [`config.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/collecting-fees/src/config.ts) file.
 
 ## Submitting our fee collection transaction
 

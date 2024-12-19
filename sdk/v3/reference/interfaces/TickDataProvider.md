@@ -32,10 +32,6 @@ Return information corresponding to a specific tick
 
 `Promise`<{ `liquidityNet`: `BigintIsh`  }\>
 
-#### Defined in
-
-[entities/tickDataProvider.ts:11](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickDataProvider.ts#L11)
-
 ___
 
 ### nextInitializedTickWithinOneWord
@@ -55,7 +51,3 @@ Return the next tick that is initialized within a single word
 #### Returns
 
 `Promise`<[`number`, `boolean`]\>
-
-#### Defined in
-
-[entities/tickDataProvider.ts:19](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickDataProvider.ts#L19)

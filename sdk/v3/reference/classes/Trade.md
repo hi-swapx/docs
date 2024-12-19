@@ -77,9 +77,6 @@ Construct a trade by passing in the pre-computed property values
 | `__namedParameters.routes` | { `inputAmount`: `CurrencyAmount`<`TInput`\> ; `outputAmount`: `CurrencyAmount`<`TOutput`\> ; `route`: [`Route`](Route.md)<`TInput`, `TOutput`\>  }[] |
 | `__namedParameters.tradeType` | `TTradeType` |
 
-#### Defined in
-
-[entities/trade.ts:397](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L397)
 
 ## Properties
 
@@ -89,9 +86,6 @@ Construct a trade by passing in the pre-computed property values
 
 The cached result of the computed execution price
 
-#### Defined in
-
-[entities/trade.ts:143](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L143)
 
 ___
 
@@ -101,10 +95,6 @@ ___
 
 The cached result of the input amount computation
 
-#### Defined in
-
-[entities/trade.ts:97](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L97)
-
 ___
 
 ### \_outputAmount
@@ -113,10 +103,6 @@ ___
 
 The cached result of the output amount computation
 
-#### Defined in
-
-[entities/trade.ts:120](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L120)
-
 ___
 
 ### \_priceImpact
@@ -124,10 +110,6 @@ ___
 • `Private` **\_priceImpact**: `undefined` \| `Percent`
 
 The cached result of the price impact computation
-
-#### Defined in
-
-[entities/trade.ts:164](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L164)
 
 ___
 
@@ -138,9 +120,6 @@ ___
 The swaps of the trade, i.e. which routes and how much is swapped in each that
 make up the trade.
 
-#### Defined in
-
-[entities/trade.ts:82](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L82)
 
 ___
 
@@ -149,10 +128,6 @@ ___
 • `Readonly` **tradeType**: `TTradeType`
 
 The type of the trade, either exact in or exact out.
-
-#### Defined in
-
-[entities/trade.ts:91](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L91)
 
 ## Accessors
 
@@ -166,10 +141,6 @@ The price expressed in terms of output amount/input amount.
 
 `Price`<`TInput`, `TOutput`\>
 
-#### Defined in
-
-[entities/trade.ts:148](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L148)
-
 ___
 
 ### inputAmount
@@ -182,9 +153,6 @@ The input amount for the trade assuming no slippage.
 
 `CurrencyAmount`<`TInput`\>
 
-#### Defined in
-
-[entities/trade.ts:102](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L102)
 
 ___
 
@@ -198,9 +166,6 @@ The output amount for the trade assuming no slippage.
 
 `CurrencyAmount`<`TOutput`\>
 
-#### Defined in
-
-[entities/trade.ts:125](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L125)
 
 ___
 
@@ -213,10 +178,6 @@ Returns the percent difference between the route's mid price and the price impac
 #### Returns
 
 `Percent`
-
-#### Defined in
-
-[entities/trade.ts:169](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L169)
 
 ___
 
@@ -236,9 +197,6 @@ i.e. which pools the trade goes through.
 
 [`Route`](Route.md)<`TInput`, `TOutput`\>
 
-#### Defined in
-
-[entities/trade.ts:73](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L73)
 
 ## Methods
 
@@ -261,10 +219,6 @@ Get the maximum amount in that can be spent via this trade for the given slippag
 
 The amount in
 
-#### Defined in
-
-[entities/trade.ts:456](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L456)
-
 ___
 
 ### minimumAmountOut
@@ -286,10 +240,6 @@ Get the minimum amount that must be received from this trade for the given slipp
 
 The amount out
 
-#### Defined in
-
-[entities/trade.ts:438](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L438)
-
 ___
 
 ### worstExecutionPrice
@@ -310,9 +260,6 @@ Return the execution price after accounting for slippage tolerance
 
 The execution price
 
-#### Defined in
-
-[entities/trade.ts:471](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L471)
 
 ___
 
@@ -350,9 +297,6 @@ the amount in among multiple routes.
 
 The exact in trade
 
-#### Defined in
-
-[entities/trade.ts:495](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L495)
 
 ___
 
@@ -391,10 +335,6 @@ the amount in among multiple routes.
 
 The exact out trade
 
-#### Defined in
-
-[entities/trade.ts:576](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L576)
-
 ___
 
 ### createUncheckedTrade
@@ -428,10 +368,6 @@ elsewhere and do not have any tick data
 
 The unchecked trade
 
-#### Defined in
-
-[entities/trade.ts:346](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L346)
-
 ___
 
 ### createUncheckedTradeWithMultipleRoutes
@@ -463,10 +399,6 @@ elsewhere and do not have any tick data
 
 The unchecked trade
 
-#### Defined in
-
-[entities/trade.ts:377](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L377)
-
 ___
 
 ### exactIn
@@ -495,9 +427,6 @@ Constructs an exact in trade with the given amount in and route
 
 The exact in trade
 
-#### Defined in
-
-[entities/trade.ts:194](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L194)
 
 ___
 
@@ -527,9 +456,6 @@ Constructs an exact out trade with the given amount out and route
 
 The exact out trade
 
-#### Defined in
-
-[entities/trade.ts:209](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L209)
 
 ___
 
@@ -561,10 +487,6 @@ Constructs a trade by simulating swaps through the given route
 
 The route
 
-#### Defined in
-
-[entities/trade.ts:226](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L226)
-
 ___
 
 ### fromRoutes
@@ -593,7 +515,3 @@ Constructs a trade from routes by simulating swaps
 `Promise`<[`Trade`](Trade.md)<`TInput`, `TOutput`, `TTradeType`\>\>
 
 The trade
-
-#### Defined in
-
-[entities/trade.ts:276](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/trade.ts#L276)

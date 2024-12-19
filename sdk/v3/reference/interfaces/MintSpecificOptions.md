@@ -15,10 +15,6 @@
 
 Creates pool if not initialized before mint.
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:34](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L34)
-
 ___
 
 ### recipient
@@ -26,7 +22,3 @@ ___
 • **recipient**: `string`
 
 The account that should receive the minted NFT.
-
-#### Defined in
-
-[nonfungiblePositionManager.ts:29](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L29)

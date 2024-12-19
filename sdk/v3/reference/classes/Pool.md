@@ -56,9 +56,6 @@ Construct a pool
 | `tickCurrent` | `number` | `undefined` | The current tick of the pool |
 | `ticks` | [`TickDataProvider`](../interfaces/TickDataProvider.md) \| ([`Tick`](Tick.md) \| [`TickConstructorArgs`](../interfaces/TickConstructorArgs.md))[] | `NO_TICK_DATA_PROVIDER_DEFAULT` | The current state of the pool ticks or a data provider that can return tick data |
 
-#### Defined in
-
-[entities/pool.ts:70](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L70)
 
 ## Properties
 
@@ -66,19 +63,11 @@ Construct a pool
 
 • `Private` `Optional` **\_token0Price**: `Price`<`Token`, `Token`\>
 
-#### Defined in
-
-[entities/pool.ts:41](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L41)
-
 ___
 
 ### \_token1Price
 
 • `Private` `Optional` **\_token1Price**: `Price`<`Token`, `Token`\>
-
-#### Defined in
-
-[entities/pool.ts:42](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L42)
 
 ___
 
@@ -86,19 +75,11 @@ ___
 
 • `Readonly` **fee**: [`FeeAmount`](../enums/FeeAmount.md)
 
-#### Defined in
-
-[entities/pool.ts:35](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L35)
-
 ___
 
 ### liquidity
 
 • `Readonly` **liquidity**: `default`
-
-#### Defined in
-
-[entities/pool.ts:37](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L37)
 
 ___
 
@@ -106,19 +87,11 @@ ___
 
 • `Readonly` **sqrtRatioX96**: `default`
 
-#### Defined in
-
-[entities/pool.ts:36](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L36)
-
 ___
 
 ### tickCurrent
 
 • `Readonly` **tickCurrent**: `number`
-
-#### Defined in
-
-[entities/pool.ts:38](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L38)
 
 ___
 
@@ -126,29 +99,17 @@ ___
 
 • `Readonly` **tickDataProvider**: [`TickDataProvider`](../interfaces/TickDataProvider.md)
 
-#### Defined in
-
-[entities/pool.ts:39](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L39)
-
 ___
 
 ### token0
 
 • `Readonly` **token0**: `Token`
 
-#### Defined in
-
-[entities/pool.ts:33](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L33)
-
 ___
 
 ### token1
 
 • `Readonly` **token1**: `Token`
-
-#### Defined in
-
-[entities/pool.ts:34](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L34)
 
 ## Accessors
 
@@ -162,10 +123,6 @@ Returns the chain ID of the tokens in the pool.
 
 `number`
 
-#### Defined in
-
-[entities/pool.ts:149](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L149)
-
 ___
 
 ### tickSpacing
@@ -175,10 +132,6 @@ ___
 #### Returns
 
 `number`
-
-#### Defined in
-
-[entities/pool.ts:317](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L317)
 
 ___
 
@@ -192,10 +145,6 @@ Returns the current mid price of the pool in terms of token0, i.e. the ratio of 
 
 `Price`<`Token`, `Token`\>
 
-#### Defined in
-
-[entities/pool.ts:109](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L109)
-
 ___
 
 ### token1Price
@@ -207,10 +156,6 @@ Returns the current mid price of the pool in terms of token1, i.e. the ratio of 
 #### Returns
 
 `Price`<`Token`, `Token`\>
-
-#### Defined in
-
-[entities/pool.ts:124](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L124)
 
 ## Methods
 
@@ -233,10 +178,6 @@ Given a desired output amount of a token, return the computed input amount and a
 
 The input amount and the pool with updated state
 
-#### Defined in
-
-[entities/pool.ts:185](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L185)
-
 ___
 
 ### getOutputAmount
@@ -258,10 +199,6 @@ Given an input amount of a token, return the computed output amount, and a pool 
 
 The output amount and the pool with updated state
 
-#### Defined in
-
-[entities/pool.ts:159](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L159)
-
 ___
 
 ### involvesToken
@@ -282,10 +219,6 @@ Returns true if the token is either token0 or token1
 
 True if token is either token0 or token
 
-#### Defined in
-
-[entities/pool.ts:102](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L102)
-
 ___
 
 ### priceOf
@@ -305,10 +238,6 @@ Return the price of the given token in terms of the other token in the pool.
 `Price`<`Token`, `Token`\>
 
 The price of the given token, in terms of the other.
-
-#### Defined in
-
-[entities/pool.ts:141](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L141)
 
 ___
 
@@ -338,10 +267,6 @@ liquidity
 
 tickCurrent
 
-#### Defined in
-
-[entities/pool.ts:215](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L215)
-
 ___
 
 ### getAddress
@@ -361,7 +286,3 @@ ___
 #### Returns
 
 `string`
-
-#### Defined in
-
-[entities/pool.ts:44](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/pool.ts#L44)

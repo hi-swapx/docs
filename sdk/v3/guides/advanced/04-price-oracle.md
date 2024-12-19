@@ -1,12 +1,6 @@
 ## Introduction
 
 This guide will cover how to fetch price observations from a V3 pool to get onchain asset prices.
-It is based on the [Price Oracle example](https://github.com/SwapX/examples/tree/main/v3-sdk/oracle), found in the SwapX code examples [repository](https://github.com/SwapX/example).
-To run this example, check out the guide's [README](https://github.com/SwapX/examples/blob/main/v3-sdk/oracle/README.md) and follow the setup instructions.
-
-:::info
-If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](./01-background.md) page!
-:::
 
 In this example we will use **ethers JS** to observe the development of a Pool's current tick over several blocks.
 We will then calculate the time weighted average price - **TWAP**, and time weighted average liquidity - **TWAL** over the observed time interval.
@@ -19,17 +13,16 @@ This guide will **cover**:
 4. Computing TWAL
 5. Why prefer observe over observations
 
-Before diving into this guide, consider reading the theory behind using SwapX V3 as an [Onchain Oracle](../../../../concepts/protocol/oracle.md).
+Before diving into this guide, consider reading the theory behind using SwapX V3 as an Onchain Oracle.
 
 For this guide, the following SwapX packages are used:
   
 - [`@swapx/v3-sdk`](https://www.npmjs.com/package/@swapx/v3-sdk)
 
-The core code of this guide can be found in [`oracle.ts`](https://github.com/SwapX/examples/tree/main/v3-sdk/oracle/src/libs/oracle.ts)
 
 ## Understanding Observations
 
-First, we need to create a Pool contract to fetch data from the blockchain. Check out the [Pool data guide](./02-pool-data.md) to learn how to compute the address and create an **ethers Contract** to interact with.
+First, we need to create a Pool contract to fetch data from the blockchain. Check out the Pool data guide to learn how to compute the address and create an **ethers Contract** to interact with.
 
 ```typescript
 const poolContract = new ethers.Contract(
@@ -41,7 +34,7 @@ const poolContract = new ethers.Contract(
 
 All V3 pools store observations of the current tick and the block timestamp. 
 To minimize pool deployment costs, only one Observation is stored in the contract when the Pool is created.
-Anyone who is willing to pay the gas costs can [increase](../../../../contracts/v3/reference/core/SwapXV3Pool.md#increaseobservationcardinalitynext) the number of stored observations to up to `65535`.
+Anyone who is willing to pay the gas costs can increase the number of stored observations to up to `65535`.
 If the Pool cannot store an additional Observation, it overwrites the oldest one.
 
 We create an interface to map our data to:
@@ -54,7 +47,7 @@ interface Observation {
 }
 ```
 
-To fetch the `Observations` from our pool contract, we will use the [`observe`](../../../../contracts/v3/reference/core/SwapXV3Pool.md#observe) function:
+To fetch the `Observations` from our pool contract, we will use the [`observe`] function:
 
 ```solidity
 function observe(
@@ -168,7 +161,7 @@ Let's continue with the average liquidity.
 
 ## Calculating the average Liquidity
 
-To understand the term **active Liquidity**, check out the [previous guide](./03-active-liquidity.md).
+To understand the term **active Liquidity**, check out the active-liquidity.
 Similar to the `tick accumulator`, the `liquidity accumulator` stores a sum of values for every second since the Pool was initialized and increases with every second.
 Because of the size of the active liquidity value, it is impractical to just add up the active liquidity. Instead the **seconds per liquidity** are summed up.
 
@@ -181,7 +174,7 @@ uint128 secondsPerLiquidityX128 = (uint160(delta) << 128) / liquidity
 uint160 secondsPerLiquidityCumulativeX128 = last.secondsPerLiquidityCumulativeX128 + secondsPerLiquidityX128
 ```
 
-`last` is the most recent Observation in this illustrative code snippet. Consider taking a look at the [Solidity Oracle library](https://github.com/SwapX/v3-core/blob/main/contracts/libraries/Oracle.sol) to see the actual implementation.
+`last` is the most recent Observation in this illustrative code snippet. 
 
 Let's invert this calculation and find the average active liquidity over our observed time period.
 
@@ -225,8 +218,7 @@ struct Observation {
 
 It is possible to request any Observation up to (excluding) index `65535`, but indices equal to or greater than the `observationCardinality` will return uninitialized Observations.
 
-The full code to the following code snippets can be found in [`oracle.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/oracle/src/libs/oracle.ts)
-
+The full code to the following code snippets can be found in [`oracle.ts`]
 ```typescript
 let requests = []
 for (let i = 0; i < 10; i++) {
@@ -248,7 +240,7 @@ Because we access indices of an array, this would give us an unexpected result t
 :::
 
 One way to handle this behaviour is deploying or [using](https://github.com/mds1/multicall) a Contract with a [multicall](https://solidity-by-example.org/app/multi-call/) functionality to get all observations with one request.
-You can also find an example of a JS multicall in the [Pool data guide](./02-pool-data.md).
+You can also find an example of a JS multicall in the Pool data guide.
 
 We map the RPC result to the Typescript interface that we created:
 
@@ -279,4 +271,4 @@ For this reason, it is recommended to use the `observe` function.
 
 ## Next Steps
 
-Now that you are familiar with the Oracle feature of SwapX, consider checking out the [next guide](./05-range-orders.md) on **Range Orders**.
+Now that you are familiar with the Oracle feature of SwapX, consider checking out the range-orders on **Range Orders**.

@@ -18,10 +18,6 @@
 
 Cannot be constructed.
 
-#### Defined in
-
-[utils/position.ts:10](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/position.ts#L10)
-
 ## Methods
 
 ### getTokensOwed
@@ -44,4 +40,3 @@ Cannot be constructed.
 
 #### Defined in
 
-[utils/position.ts:13](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/utils/position.ts#L13)

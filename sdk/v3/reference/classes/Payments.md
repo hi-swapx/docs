@@ -25,19 +25,11 @@
 
 Cannot be constructed.
 
-#### Defined in
-
-[payments.ts:25](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/payments.ts#L25)
-
 ## Properties
 
 ### INTERFACE
 
 ▪ `Static` **INTERFACE**: `Interface`
-
-#### Defined in
-
-[payments.ts:20](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/payments.ts#L20)
 
 ## Methods
 
@@ -55,10 +47,6 @@ Cannot be constructed.
 
 `string`
 
-#### Defined in
-
-[payments.ts:27](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/payments.ts#L27)
-
 ___
 
 ### encodeRefundETH
@@ -68,10 +56,6 @@ ___
 #### Returns
 
 `string`
-
-#### Defined in
-
-[payments.ts:73](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/payments.ts#L73)
 
 ___
 
@@ -92,10 +76,6 @@ ___
 
 `string`
 
-#### Defined in
-
-[payments.ts:49](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/payments.ts#L49)
-
 ___
 
 ### encodeUnwrapWETH9
@@ -113,7 +93,3 @@ ___
 #### Returns
 
 `string`
-
-#### Defined in
-
-[payments.ts:31](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/payments.ts#L31)

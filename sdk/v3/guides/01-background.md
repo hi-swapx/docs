@@ -14,11 +14,6 @@ To achieve this, our examples use the [ethers.js](https://docs.ethers.io/v5/) li
 
 - **Wallet Extension**: If you are connecting to a wallet browser extension, these wallets embed a source directly into the Javascript window object as `window.ethereum`. This object surfaces information about the user's wallets and provides the ability to communicate with the connected chain. Importantly for our examples, it can be used with `ethers.js` to construct a provider.
 
-## SwapX's Runnable Examples
-
-Each guide is accompanied and driven by [runnable examples](https://github.com/SwapX/examples/tree/main/v3-sdk) using React to provide a basic UI for interacting with the example. Each examples provides relevant options such as running against a local blockchain or connecting to the Ethereum mainnet directly. You also have the option of using a wallet extension which can be connected to either environment.
-
-Inputs and environment settings are configured in each example's `config.ts` and allows for simple setup and configuration.
 
 ### Developing and Testing
 

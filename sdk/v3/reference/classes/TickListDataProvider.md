@@ -34,9 +34,6 @@ A data provider for ticks that is backed by an in-memory array of ticks.
 | `ticks` | ([`Tick`](Tick.md) \| [`TickConstructorArgs`](../interfaces/TickConstructorArgs.md))[] |
 | `tickSpacing` | `number` |
 
-#### Defined in
-
-[entities/tickListDataProvider.ts:12](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickListDataProvider.ts#L12)
 
 ## Properties
 
@@ -44,9 +41,6 @@ A data provider for ticks that is backed by an in-memory array of ticks.
 
 • `Private` **ticks**: readonly [`Tick`](Tick.md)[]
 
-#### Defined in
-
-[entities/tickListDataProvider.ts:10](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickListDataProvider.ts#L10)
 
 ## Methods
 
@@ -70,9 +64,6 @@ Return information corresponding to a specific tick
 
 [TickDataProvider](../interfaces/TickDataProvider.md).[getTick](../interfaces/TickDataProvider.md#gettick)
 
-#### Defined in
-
-[entities/tickListDataProvider.ts:18](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickListDataProvider.ts#L18)
 
 ___
 
@@ -97,7 +88,3 @@ Return the next tick that is initialized within a single word
 #### Implementation of
 
 [TickDataProvider](../interfaces/TickDataProvider.md).[nextInitializedTickWithinOneWord](../interfaces/TickDataProvider.md#nextinitializedtickwithinoneword)
-
-#### Defined in
-
-[entities/tickListDataProvider.ts:22](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/tickListDataProvider.ts#L22)

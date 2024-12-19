@@ -1,11 +1,7 @@
----
-id: trading
-title: Executing a Trade
----   
-
 ## Introduction
 
-This guide will build off our [quoting guide](./01-quoting.md) and show how to use a quote to construct and execute a trade on the SwapX V3 protocol. It is based on the [Trading code example](https://github.com/SwapX/examples/tree/main/v3-sdk/trading), found in the SwapX code examples [repository](https://github.com/SwapX/examples). To run this example, check out the guide's [README](https://github.com/SwapX/examples/blob/main/v3-sdk/trading/README.md) and follow the setup instructions.
+This guide will build off our [quoting guide](./01-quoting.md) and show how to use a quote to construct and execute a trade on the SwapX V3 protocol.- `@swapx/v3-sdk`
+- `@swapx/sdk-core`
 
 :::info
 If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](../01-background.md) page!
@@ -29,14 +25,12 @@ Included in the example application is functionality to wrap/unwrap ETH as neede
 
 For this guide, the following SwapX packages are used:
 
-- [`@swapx/v3-sdk`](https://www.npmjs.com/package/@swapx/v3-sdk)
-- [`@swapx/sdk-core`](https://www.npmjs.com/package/@swapx/sdk-core)
+- `@swapx/v3-sdk`
+- `@swapx/sdk-core`
 
-The core code of this guide can be found in [`trading.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/trading/src/libs/trading.ts)
 
 ## Using a wallet extension
 
-Like in the previous guide, our [example](https://github.com/SwapX/examples/blob/main/v3-sdk/trading) uses a [config file ](https://github.com/SwapX/examples/blob/main/v3-sdk/trading/src/config.ts) to configurate the inputs used.
 The strucuture is similar to the quoting config, but we also have the option to select an environment:
 
 ```typescript
@@ -102,8 +96,6 @@ export const CurrentConfig: ExampleConfig = {
 Run the example and then add the local network to your wallet browser extension, if you are using Metamask for example, follow [this guide](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC).
 You should also import a private key to use on your local network, for example `0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80` from Foundry's example wallets.
 
-Consider checking out the [README](https://github.com/SwapX/examples/blob/main/v3-sdk/trading/README.md) of the example.
-
 If you cannot see the Tokens traded in your wallet, you possibly have to [import them](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask).
 
 ## Constructing a route from pool information
@@ -136,9 +128,6 @@ Before continuing, let's talk about the values we fetched here and what they rep
 - `sqrtPriceX96` is the current Price of the pool, encoded as a ratio between `token0` and `token1`.
 - `tick` is the tick at the current price of the pool.
 
-Check out the [whitepaper](https://SwapX.org/whitepaper-v3.pdf) to learn more on how liquidity and ticks work in SwapX V3.
-  
-You can find the full code in [`pool.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/trading/src/libs/pool.ts).
 
 Using this metadata along with our inputs, we will then construct a `Pool`:
 
@@ -200,7 +189,6 @@ As shown below, the quote is obtained using the `v3-sdk`'s `SwapQuoter`, in cont
 
 ```typescript
 import { SwapQuoter } from '@swapx/v3-sdk'
-import { CurrencyAmount, TradeType } from '@swapx/sdk-core'
 
 const { calldata } = await SwapQuoter.quoteCallParameters(
   swapRoute,
@@ -264,7 +252,6 @@ Once we have created a trade, we can now execute this trade with our provider. F
 const tokenApproval = await getTokenTransferApproval(CurrentConfig.tokens.in)
 ```
 
-You can find the approval function [here](https://github.com/SwapX/examples/blob/main/v3-sdk/trading/src/libs/trading.ts#L151). 
 We will use this function or similar implementations in most guides.
 
 Then, we set our options that define how much time and slippage can occur in our execution as well as the address to use for our wallet:
@@ -284,7 +271,7 @@ The slippage of our trade is the maximum decrease from our calculated output amo
 The deadline is the latest point in time when we want the transaction to go through. 
 If we set this value too high, the transaction could be left waiting for days and we would need to pay gas fees to cancel it.
 
-Next, we use the `SwapRouter` class, a representation of the SwapX [SwapRouter Contract](https://github.com/SwapX/v3-periphery/blob/v1.0.0/contracts/SwapRouter.sol), to get the associated call parameters for our trade and options:
+Next, we use the `SwapRouter` class, a representation of the SwapX SwapRouter Contract, to get the associated call parameters for our trade and options:
 
 ```typescript
 import { SwapRouter } from '@swapx/v3-sdk'

@@ -1,5 +1,4 @@
 The pages that follow contain technical reference information on the SwapX SDK.
-Looking for a [quick start](../guides/quick-start) instead?
 You may also want to jump into a [guide](../guides/fetching-data),
 which offers a friendlier introduction to the SDK!
 
@@ -19,15 +18,11 @@ To address this issue, all math operations are performed as fraction operations,
 until the point that values are rounded for display purposes, or truncated to fit inside a fixed bit width.
 
 The Fractions class, among others that the V2 SDK depends on, are exported from the SDK Core to allow interoperability with the V3 SDK. 
-Refer to the [Core SDK section of the docs](../../core/overview.md) to learn more about these classes.
+Refer to the Core SDK section of the docs to learn more about these classes.
 
-The SDK works for all chains on which the [factory](../../../contracts/v2/reference/smart-contracts/factory#address) is deployed.
-
-## Code
-
-The [source code is available on GitHub](https://github.com/SwapX/SwapX-sdk).
+The SDK works for all chains on which the factory is deployed.
 
 ## Dependencies
 
-The SDK installs a small number of dependencies(https://github.com/SwapX/v2-sdk/blob/main/package.json#L24).
+The SDK installs a small number of dependencies.
 The most important dependency of the V2 SDK is the SDK core, which was previously part of the V2 SDK itself, but later released as its own package to avoid duplicate code between the V2 and V3 SDK.

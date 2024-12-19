@@ -1,10 +1,6 @@
 ## Introduction
 
-This guide will cover how to execute a swap-and-add operation in a single atomic transaction. It is based on the [swap-and-add example](https://github.com/SwapX/examples/tree/main/v3-sdk/swap-and-add-liquidity), found in the SwapX code examples [repository](https://github.com/SwapX/examples). To run this example, check out the examples's [README](https://github.com/SwapX/examples/tree/main/v3-sdk/swap-and-add-liquidity) and follow the setup instructions.
-
-:::info
-If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](../01-background.md) page!
-:::
+This guide will cover how to execute a swap-and-add operation in a single atomic transaction.
 
 When adding liquidity to a SwapX v3 pool, you must provide two assets in a particular ratio. In many cases, your contract or the user's wallet hold a different ratio of those two assets. In order to deposit 100% of your assets, you must first swap your assets to the optimal ratio and then add liquidity.
 
@@ -25,7 +21,7 @@ For this guide, the following SwapX packages are used:
 - [`@swapx/sdk-core`](https://www.npmjs.com/package/@swapx/sdk-core)
 - [`@swapx/smart-order-router`](https://www.npmjs.com/package/@swapx/smart-order-router)
 
-The core code of this guide can be found in [`swapAndAddLiquidity()`](https://github.com/SwapX/examples/blob/main/v3-sdk/swap-and-add-liquidity/src/libs/liquidity.ts#L48).
+The core code of this guide can be found in `swapAndAddLiquidity()`.
 
 :::note
 This guide assumes you are familiar with our [Minting a Position](./01-minting-position.md) guide. A minted position is required to add or remove liquidity from, so the buttons will be disabled until a position is minted.
@@ -51,11 +47,10 @@ const tokenOutApproval = await getTokenTransferApproval(
 
 We described the `getTokenTransferApproval` function [here](./02-minting-position.md#giving-approval-to-transfer-our-tokens).
 
-Then we can setup our router, the [`AlphaRouter`](https://github.com/SwapX/smart-order-router/blob/97c1bb7cb64b22ebf3509acda8de60c0445cf250/src/routers/alpha-router/alpha-router.ts#L333), which is part of the [smart-order-router package](https://www.npmjs.com/package/@swapx/smart-order-router). The router requires a `chainId` and a `provider` to be initialized. Note that routing is not supported for local forks, so we will use a mainnet provider even when swapping on a local fork:
+Then we can setup our router, the `AlphaRouter`, which is part of the smart-order-router package. The router requires a `chainId` and a `provider` to be initialized. Note that routing is not supported for local forks, so we will use a mainnet provider even when swapping on a local fork:
 
 ```typescript
 import { ethers } from 'ethers'
-import { AlphaRouter } from '@swapx/smart-order-router'
 
 const provider = new ethers.providers.JsonRpcProvider(rpcUrl)
 
@@ -158,8 +153,6 @@ const routeToRatioResponse: SwapToRatioResponse = await router.routeToRatio(
   swapAndAddOptions
 )
 ```
-
-The return type of the function call is [SwapToRatioResponse](https://github.com/SwapX/smart-order-router/blob/97c1bb7cb64b22ebf3509acda8de60c0445cf250/src/routers/router.ts#L121). If a route was found successfully, this object will have two fields: the status (success) and the `SwapToRatioRoute` object. We check to make sure that both of those conditions hold true before we construct and submit the transaction:
 
 ```typescript
 import { SwapToRatioStatus } from '@swapx/smart-order-router'

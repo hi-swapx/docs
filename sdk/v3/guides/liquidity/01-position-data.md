@@ -1,7 +1,6 @@
 ## Introduction
 
 This guide will introduce us to **liquidity positions** in SwapX V3 and present the `v3-sdk` classes and Contracts used to interact with the protocol.
-The concepts and code snippets showcased here can be found across the **Pooling Liquidity** examples in the SwapX code examples [repository](https://github.com/SwapX/examples).
 
 In this guide, we will take a look at the [Position](../../reference/classes/Position.md) and [NonfungiblePositionManager](../../reference/classes/NonfungiblePositionManager.md) classes, as well as the [NonfungiblePositionManager Contract](../../../../contracts/v3/reference/periphery/NonfungiblePositionManager.md).
 
@@ -12,9 +11,6 @@ For this guide, the following SwapX packages are used:
 
 - [`@swapx/v3-sdk`](https://www.npmjs.com/package/@swapx/v3-sdk)
 - [`@swapx/sdk-core`](https://www.npmjs.com/package/@swapx/sdk-core)
-- [`@swapx/v3-periphery`](https://www.npmjs.com/package/@swapx/v3-periphery)
-
-The code mentioned in this guide can be found across the [minting Position](https://github.com/SwapX/examples/blob/main/v3-sdk/minting-position/src), [collecting Fees](https://github.com/SwapX/examples/blob/main/v3-sdk/collecting-fees/src), [modifying positions](https://github.com/SwapX/examples/blob/d34a53412dbf905802da2249391788a225719bb8/v3-sdk/modifying-position/src) and [swap and add liquidity](https://github.com/SwapX/examples/blob/main/v3-sdk/swap-and-add-liquidity/src) examples.
 
 ## Prerequisites
 
@@ -56,12 +52,11 @@ Now that we have a rough understanding of liquidity positions in SwapX V3, let's
 
 ## Position class
 
-The **sdk** provides a [`Position`](https://github.com/SwapX/v3-sdk/blob/main/src/entities/position.ts) class used to create local representations of an onchain position.
+The **sdk** provides a `Position` class used to create local representations of an onchain position.
 It is used to create the calldata for onchain calls to mint or modify an onchain position.
 
 There are four ways to construct a position.
 
-Directly with the [constructor](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L40):
 
 ```typescript
 import { Pool, Position } from '@swapx/v3-sdk'
@@ -80,7 +75,7 @@ const position = new Position({
 })
 ```
 
-Using the [`fromAmounts()`](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/entities/position.ts#L312) function:
+Using the `fromAmounts()` function:
 
 ```typescript
 import { BigIntish } from '@swapx/sdk-core'
@@ -102,7 +97,6 @@ const position = Position.fromAmounts({
 })
 ```
 
-Or using the [`fromAmount0()`](https://github.com/SwapX/v3-sdk/blob/08a7c050cba00377843497030f502c05982b1c43/src/entities/position.ts#L354) or [`fromAmount1()`](https://github.com/SwapX/v3-sdk/blob/08a7c050cba00377843497030f502c05982b1c43/src/entities/position.ts#L378) functions:
 
 ```typescript
 import { BigIntish } from '@swapx/sdk-core'

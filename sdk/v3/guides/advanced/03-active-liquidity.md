@@ -1,7 +1,6 @@
 ## Introduction
 
-This guide will cover how to fetch and compute the active liquidity in the specific Tick ranges of a pool. It is based on the [Liquidity Density example](https://github.com/SwapX/examples/tree/main/v3-sdk/liquidity-density) and can be seen used in production, albeit in a more sophisticated way, in the [SwapX Analytics](https://info.SwapX.org/#/pools) website.
-
+This guide will cover how to fetch and compute the active liquidity in the specific Tick ranges of a pool.
 :::info
 If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](./01-background.md) page!
 :::
@@ -47,37 +46,6 @@ This is important for the edge case that one position ends at a Tick and a secon
 In this case `liquidityNet` would be **0** but `liquidityGross` would still have a value, which ensures that the Tick is not deleted from the Pool.
 
 To visualize liquidity in a graph, we will only need to consider the changes, so it's sufficient to fetch the Ticks with `liquidityNet` not 0.
-
-### Fetching initialized Ticks
-
-To fetch all ticks of our Pool, we will use the [SwapX V3 graph](../../../../api/subgraph/overview.md).
-To visualize active liquidity, we need the **tickIdx**, the **liquidityGross** and the **liquidityNet**.
-
-We define our GraphQL query and [send a POST request](https://axios-http.com/docs/post_example) to the V3 subgraph API endpoint:
-
-```typescript
-axios.post(
-        "https://api.thegraph.com/subgraphs/name/SwapX/SwapX-v3",
-        {"query": `{ ticks(
-              where: {poolAddress: "${poolAddress.toLowerCase()}", liquidityNet_not: "0"}
-              first: 1000,
-              skip: ${skip},
-              orderBy: tickIdx,
-              orderDirection: asc
-            ) {
-              tickIdx
-              liquidityGross
-              liquidityNet
-            }
-          }`
-        },
-        {
-            headers: {
-                "Content-Type": "application/json"
-            }
-        }
-    )
-```
 
 We only fetch the ticks that **have liquidity**, and we convert the poolAddress to **lower case** for the subgraph to work with. To make sure the Ticks are ordered correctly, we also define the **order direction** in the query.
 
@@ -128,8 +96,6 @@ Instead, we will display a sensible number of Ticks around the current price.
 
 We know the spacing between Ticks and the Initialized Ticks where active liquidity changes.
 All we have to do is start calculating from the current Tick and iterate outwards.
-
-The code mentioned in the following snippets can be found in [`active-liquidity.ts`](https://github.com/SwapX/examples/tree/main/v3-sdk/pool-data/src/libs/active-liquidity.ts).
 
 To draw our chart we want a data structure that looks something like this:
 
@@ -241,7 +207,6 @@ for (let i = 0; i < 100; i++) {
 ```
 
 After we are done calculating the next 100 Ticks after the current Tick, we iterate in the opposite direction for the previous Ticks. Iterating downwards, we need to subtract the net liquidity where we added it when iterating upwards.
-You can find a full code example in the [SwapX Example repository](https://github.com/SwapX/examples/tree/main/v3-sdk/active-liquidity).
 
 We are finally able to combine the previous, active and subsequent Ticks:
 
@@ -284,9 +249,7 @@ Finally, we draw the Chart:
 ```
 
 In a real application, you will probably want to format the chart properly and display additional information for users.
-Check out the full [code example](https://github.com/SwapX/examples/tree/main/v3-sdk/active-liquidity) to this guide and the official recharts [documentation](https://recharts.org/).
 
-You can also take a look at the [SwapX Info](https://github.com/SwapX/v3-info) repository to see a similar chart used in production.
 
 ## Locked Liquidity
 
@@ -295,8 +258,7 @@ The total locked liqudity in the tooltip represents the sum of positions in the 
 It is calculated as the maximum token output of a swap when crossing to the next Tick.
 The V3 pool here is initialized with only the liquidity of the current Tick.
 
-Depending on your use case, it may make sense to display this value. You can find the full code in the [code example](https://github.com/SwapX/examples/tree/main/v3-sdk/active-liquidity).
 
 ## Next Steps
 
-Now that you are familiar with liquidity data, consider checking out our [next guide](./04-price-oracle.md) on using SwapX as a Price Oracle.
+Now that you are familiar with liquidity data, consider checking out our price-oracle on using SwapX as a Price Oracle.

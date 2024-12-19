@@ -16,11 +16,6 @@
 • **expectedCurrencyOwed0**: `CurrencyAmount`<`Currency`\>
 
 Expected value of tokensOwed0, including as-of-yet-unaccounted-for fees/liquidity value to be burned
-
-#### Defined in
-
-[nonfungiblePositionManager.ts:114](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L114)
-
 ___
 
 ### expectedCurrencyOwed1
@@ -28,10 +23,6 @@ ___
 • **expectedCurrencyOwed1**: `CurrencyAmount`<`Currency`\>
 
 Expected value of tokensOwed1, including as-of-yet-unaccounted-for fees/liquidity value to be burned
-
-#### Defined in
-
-[nonfungiblePositionManager.ts:119](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L119)
 
 ___
 
@@ -41,10 +32,6 @@ ___
 
 The account that should receive the tokens.
 
-#### Defined in
-
-[nonfungiblePositionManager.ts:124](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L124)
-
 ___
 
 ### tokenId
@@ -52,7 +39,3 @@ ___
 • **tokenId**: `BigintIsh`
 
 Indicates the ID of the position to collect for.
-
-#### Defined in
-
-[nonfungiblePositionManager.ts:109](https://github.com/SwapX/v3-sdk/blob/08a7c05/src/nonfungiblePositionManager.ts#L109)

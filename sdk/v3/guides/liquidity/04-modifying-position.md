@@ -1,10 +1,6 @@
 ## Introduction
 
-This guide will cover how to modify a liquidity position by adding or removing liquidity on the SwapX V3 protocol. It is based on the [modifying a position code example](https://github.com/SwapX/examples/tree/main/v3-sdk/modifying-position), found in the SwapX code examples [repository](https://github.com/SwapX/examples). To run this example, check out the examples's [README](https://github.com/SwapX/examples/blob/main/v3-sdk/modifying-position/README.md) and follow the setup instructions.
-
-:::info
-If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](../01-background.md) page!
-:::
+This guide will cover how to modify a liquidity position by adding or removing liquidity on the SwapX V3 protocol.
 
 In the SwapX V3 protocol, liquidity positions are represented using non-fungible tokens. In this guide we will use the `NonfungiblePositionManager` class to help us mint a liquidity position and then modify the provided liquidity for the  **USDC - DAI** pair. The inputs to our guide are the **two tokens** that we are pooling for, the **amount** of each token we are pooling for, the Pool **fee** and the **fraction** by which to **add and remove** from our position.
 
@@ -17,10 +13,8 @@ At the end of the guide, given the inputs above, we should be able to add or rem
 
 For this guide, the following SwapX packages are used:
 
-- [`@swapx/v3-sdk`](https://www.npmjs.com/package/@swapx/v3-sdk)
-- [`@swapx/sdk-core`](https://www.npmjs.com/package/@swapx/sdk-core)
-
-The core code of this guide can be found in [`addLiquidity()`](https://github.com/SwapX/examples/blob/d34a53412dbf905802da2249391788a225719bb8/v3-sdk/modifying-position/src/example/Example.tsx#L33) and [`removeLiquidity()`](https://github.com/SwapX/examples/blob/733d586070afe2c8cceb35d557a77eac7a19a656/v3-sdk/modifying-position/src/example/Example.tsx#L83)
+- @swapx/v3-sdk
+- @swapx/sdk-core
 
 :::note
 This guide assumes you are familiar with our [Minting a Position](./02-minting-position.md) guide. A minted position is required to add or remove liquidity from, so the buttons will be disabled until a position is minted.
@@ -30,7 +24,6 @@ Also note that we do not need to give approval to the `NonfungiblePositionManage
 
 ## Configuration and utils
 
-The example can be configured in the [`config.ts`](https://github.com/SwapX/examples/blob/d34a53412dbf905802da2249391788a225719bb8/v3-sdk/modifying-position/src/config.ts) file.
 The `CurrentConfig` object has this structure:
 
 ```typescript
@@ -118,7 +111,7 @@ function constructPosition(
 
 The function receives two arguments, which are the amounts that are used to construct the Position instance. In this example, both of the arguments follow the same logic: we multiply the parameterized `tokenAmount` by the parameterized `fractionToAdd` since the new liquidity position will be added on top of the already minted liquidity position.
 
-We then need to construct an options object of type [`AddLiquidityOptions`](https://github.com/SwapX/v3-sdk/blob/08a7c050cba00377843497030f502c05982b1c43/src/nonfungiblePositionManager.ts#L77) similar to how we did in the minting case. In this case, we will use [`IncreaseOptions`](https://github.com/SwapX/v3-sdk/blob/08a7c050cba00377843497030f502c05982b1c43/src/nonfungiblePositionManager.ts#L75):
+We then need to construct an options object of type AddLiquidityOptions similar to how we did in the minting case. In this case, we will use IncreaseOptions:
 
 ```typescript
 import { AddLiquidityOptions } from '@swapx/v3-sdk'
@@ -167,7 +160,7 @@ const wallet = new ethers.Wallet(privateKey, provider)
 const txRes = await wallet.sendTransaction(transaction)
 ```
 
-We can get the Contract address for the NonfungiblePositionManager from [Github](https://github.com/SwapX/v3-periphery/blob/main/deploys.md).
+We can get the Contract address for the NonfungiblePositionManager
 
 After pressing the button, note how the balance of USDC and DAI drops and our position's liquidity increases.
 
@@ -193,7 +186,7 @@ const currentPosition = constructPosition(
 )
 ```
 
-We then need to construct an options object of type [`RemoveLiquidityOptions`](https://github.com/SwapX/v3-sdk/blob/08a7c050cba00377843497030f502c05982b1c43/src/nonfungiblePositionManager.ts#L138):
+We then need to construct an options object of type RemoveLiquidityOptions:
 
 ```typescript
 import { RemoveLiquidityOptions } from '@swapx/v3-sdk'
@@ -214,7 +207,7 @@ Just as with adding liquidity, we have we have omitted the `recipient` parameter
 We have also provide two additional parameters:
 
 - `liquidityPercentage` determines how much liquidity is removed from our initial position (as a `Percentage`), and transfers the removed liquidity back to our address. We set this percentage from our guide configuration ranging from 0 (0%) to 1 (100%). In this example we would remove 50% of the liquidity.
-- [`collectOptions`](https://github.com/SwapX/v3-sdk/blob/08a7c050cba00377843497030f502c05982b1c43/src/nonfungiblePositionManager.ts#L105) gives us the option to collect the fees, if any, that we have accrued for this position. In this example, we won't collect any fees, so we provide zero values. If you'd like to see how to collect fees without modifying your position, check out our [collecting fees](./03-collecting-fees.md) guide!
+- `collectOptions` gives us the option to collect the fees, if any, that we have accrued for this position. In this example, we won't collect any fees, so we provide zero values. If you'd like to see how to collect fees without modifying your position, check out our [collecting fees](./03-collecting-fees.md) guide!
 
 ```typescript
 import { CurrencyAmount } from '@swapx/sdk-core'

@@ -24,7 +24,7 @@ const pair = new Pair(CurrencyAmount.fromRawAmount(HOT, '2000000000000000000'), 
 getAddress(tokenA: Token, tokenB: Token): string
 ```
 
-Computes the pair address for the passed [Tokens](token). See [Pair Addresses](../../../contracts/v2/guides/smart-contract-integration/getting-pair-addresses).
+Computes the pair address for the passed [Tokens](token). 
 
 # Properties
 
@@ -34,7 +34,7 @@ Computes the pair address for the passed [Tokens](token). See [Pair Addresses](.
 liquidityToken: Token
 ```
 
-A Token representing the liquidity token for the pair. See [Pair (ERC-20)](../../../contracts/v2/reference/smart-contracts/pair-erc-20).
+A Token representing the liquidity token for the pair. 
 
 ## token0
 
@@ -42,16 +42,11 @@ A Token representing the liquidity token for the pair. See [Pair (ERC-20)](../..
 token0: Token
 ```
 
-See [Token0](../../../contracts/v2/reference/smart-contracts/pair#token0).
-
 ## token1
 
 ```typescript
 token1: Token
 ```
-
-See [Token1](../../../contracts/v2/reference/smart-contracts/pair#token1).
-
 ## reserve0
 
 ```typescript

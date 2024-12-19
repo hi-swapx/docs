@@ -1,11 +1,8 @@
----
 id: quoting
 title: Getting a Quote
 ---     
 
 ## Introduction
-
-This guide will cover how to get the current quotes for any token pair on the SwapX protocol. It is based on the [Quoting code example](https://github.com/SwapX/examples/tree/main/v3-sdk/quoting), found in the SwapX code examples [repository](https://github.com/SwapX/examples). To run this example, check out the examples's [README](https://github.com/SwapX/examples/blob/main/v3-sdk/quoting/README.md) and follow the setup instructions.
 
 :::info
 If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](../01-background.md) page!
@@ -26,10 +23,9 @@ At the end of the guide, we should be able to fetch a quote for the given input 
 
 For this guide, the following SwapX packages are used:
 
-- [`@swapx/v3-sdk`](https://www.npmjs.com/package/@swapx/v3-sdk)
-- [`@swapx/sdk-core`](https://www.npmjs.com/package/@swapx/sdk-core)
+- `@swapx/v3-sdk`
+- `@swapx/sdk-core`
 
-The core code of this guide can be found in [`quote.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/quoting/src/libs/quote.ts)
 
 ## Example configuration
 
@@ -54,8 +50,7 @@ interface ExampleConfig {
 export const CurrentConfig: ExampleConfig = {...}
 ```
 
-The default config of the example uses a local fork of mainnet. If you haven't already, check out our [local development guide](../02-local-development.md).
-To change the rpc endpoint or the Pool used, edit the [`Currentconfig`](https://github.com/SwapX/examples/blob/main/v3-sdk/quoting/src/config.ts#L21).
+The default config of the example uses a local fork of mainnet. 
 To connect to mainnet directly, set the `mainnet` field in the config:
 
 ```typescript
@@ -73,14 +68,10 @@ export const CurrentConfig: ExampleConfig = {
 }
 ```
 
-The pool used is defined by a pair of tokens in [`constants.ts`](https://github.com/SwapX/examples/blob/main/v3-sdk/quoting/src/libs/constants.ts#L14). 
-You can also change these two tokens and the fee of the pool in the config, just make sure a Pool actually exists for your configuration.
-Check out the top pools on [SwapX info](https://info.SwapX.org/#/pools).
 
 ## Computing the Pool's deployment address
 
 To interact with the **USDC - WETH** Pool contract, we first need to compute its deployment address.
-If you haven't worked directly with smart contracts yet, check out this [guide](https://docs.alchemy.com/docs/smart-contract-basics) from Alchemy.
 The SDK provides a utility method for that:
 
 ```typescript
@@ -96,7 +87,6 @@ const currentPoolAddress = computePoolAddress({
 
 Since each *SwapX V3 Pool* is uniquely identified by 3 characteristics (token in, token out, fee), we use those
 in combination with the address of the *PoolFactory* contract to compute the address of the **USDC - ETH** Pool.
-These parameters have already been defined in our [constants.ts](https://github.com/SwapX/examples/blob/main/v3-sdk/quoting/src/libs/constants.ts#L14) file:
 
 ```typescript
 const WETH_TOKEN = new Token(
@@ -118,7 +108,6 @@ const USDC_TOKEN = new Token(
 
 These constants are used in the `config.ts` file, as mentioned in the Introduction.
 
-We can find the Pool Factory Contract address for our chain [here](../../../../contracts/v3/reference/Deployments.md).
 
 ## Referencing the Pool contract and fetching metadata
 
@@ -136,7 +125,6 @@ const poolContract = new ethers.Contract(
 ```
 
 To construct the *Contract* we need to provide the address of the contract, its ABI and the provider that will carry out the RPC call for us.
-We get access to the contract's ABI through the [@swapx/v3-core](https://www.npmjs.com/package/@swapx/v3-core) package, which holds the core smart contracts of the SwapX V3 protocol:
 
 ```typescript
 import ISwapXV3PoolABI from '@swapx/v3-core/artifacts/contracts/interfaces/ISwapXV3Pool.sol/ISwapXV3Pool.json'
@@ -157,7 +145,6 @@ const [token0, token1, fee, liquidity, slot0] = await Promise.all([
 
 The return values of these methods will become inputs to the quote fetching function.
 The `token0` and `token1` variables are the addresses of the tokens in the Pool and should not be mistaken for `Token` objects from the sdk.
-For the full code, check out [`getPoolConstants()`](https://github.com/SwapX/examples/blob/main/v3-sdk/quoting/src/libs/quote.ts#L35) in `quote.ts`.
 
 :::note
 In this example, the metadata we fetch is already present in our inputs. This guide fetches this information first in order to show how to fetch any metadata, which will be expanded on in future guides.
@@ -166,7 +153,6 @@ In this example, the metadata we fetch is already present in our inputs. This gu
 ## Referencing the Quoter contract and getting a quote
 
 To get quotes for trades, SwapX has deployed a **Quoter Contract**. We will use this contract to fetch the output amount we can expect for our trade, without actually executing the trade.
-Check out the full code for the following snippets in [quote.ts](https://github.com/SwapX/examples/blob/main/v3-sdk/quoting/src/libs/quote.ts)
 
 Like we did for the Pool contract, we need to construct an instance of an **ethers** `Contract` for our Quoter contract in order to interact with it:
 
@@ -178,15 +164,6 @@ const quoterContract = new ethers.Contract(
 )
 ```
 
-We get access to the contract's ABI through the [@swapx/v3-periphery](https://www.npmjs.com/package/@swapx/v3-periphery) package, which holds the periphery smart contracts of the SwapX V3 protocol:
-
-```typescript
-import Quoter from '@swapx/v3-periphery/artifacts/contracts/lens/Quoter.sol/Quoter.json'
-```
-
-We get the QUOTE_CONTRACT_ADDRESS for our chain from [Github](https://github.com/SwapX/v3-periphery/blob/main/deploys.md).
-
-We can now use our Quoter contract to obtain the quote.
 
 In an ideal world, the quoter functions would be `view` functions, which would make them very easy to query on-chain with minimal gas costs. However, the SwapX V3 Quoter contracts rely on state-changing calls designed to be reverted to return the desired data. This means calling the quoter will be very expensive and should not be called on-chain.
 
