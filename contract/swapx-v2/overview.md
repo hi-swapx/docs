@@ -13,5 +13,5 @@
 # 部署地址
 |合约|测试网合约地址|正式网合约地址|
 |:---------------:|:---------------:|:---------------:|
-|swapx-v2-factory|0x0790F47c8bB3d07adAb53002606AC4B7638a5968||
-|swax-v2-router|0x9a44EBec952AdfFf1E8adEAcFEB6292D93e5B283||
+|swapx-v2-factory|0xF75d30dD587b0616698912aA1E3608fBc8ea852a||
+|swax-v2-router|0x216BC88DE32E256e598eD8B0Dc9a7c6b835208BD||
