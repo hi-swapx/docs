@@ -426,4 +426,4 @@ Executing a range order has certain limitations that may have become obvious dur
 This guide showcases everything you need to implement Range Orders on your own, but only demonstrates creating a Take Profit order in `token0` to `token1` direction.
 Consider implementing Buy Limit orders as described in the [Range Orders concept page](concepts/protocol/range-orders.md#buy-limit-orders).
 
-This is currently the last guide in the `v3-sdk` series. Consider joining the [SwapX Discord](https://discord.com/invite/SwapX) or checkout the official [Github](https://github.com/huione-labs) to learn more about the SwapX Protocol.
+This is currently the last guide in the `v3-sdk` series. Consider joining the [SwapX Discord](https://discord.com/invite/SwapX) or checkout the official [Github](https://github.com/hi-swapx) to learn more about the SwapX Protocol.

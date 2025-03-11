@@ -44,7 +44,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: "./sidebars.js",
-          editUrl: "https://github.com/huione-labs/SwapX-doc",
+          editUrl: "https://github.com/hi-swapx/docs",
         },
         blog: false,
         theme: {
@@ -82,7 +82,7 @@ const config = {
             position: "left",
           },
           {
-            href: "https://github.com/huione-labs/SwapX-doc",
+            href: "https://github.com/hi-swapx/docs",
             label: "GitHub",
             position: "right",
           },

@@ -30,9 +30,9 @@ The SDK works for all chains on which the [factory](contracts/v2/reference/smart
 
 ## Code
 
-The [source code is available on GitHub](https://github.com/huione-labs/SwapX-SDK).
+The [source code is available on GitHub](https://github.com/hi-swapx/sdk).
 
 ## Dependencies
 
-The SDK installs a small [number of dependencies](https://github.com/huione-labs/SwapX-SDK/blob/main/packages/v2-sdk/package.json).
+The SDK installs a small [number of dependencies](https://github.com/hi-swapx/sdk/blob/main/packages/v2-sdk/package.json).
 The most important dependency of the V2 SDK is the SDK core, which was previously part of the V2 SDK itself, but later released as its own package to avoid duplicate code between the V2 and V3 SDK.
