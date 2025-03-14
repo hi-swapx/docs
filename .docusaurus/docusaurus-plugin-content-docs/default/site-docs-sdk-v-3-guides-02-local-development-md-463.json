@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/guides/local-development",
+  "title": "local-development",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/02-local-development.md",
+  "sourceDirName": "sdk/v3/guides",
+  "slug": "/sdk/v3/guides/local-development",
+  "permalink": "/sdk/v3/guides/local-development",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/guides/02-local-development.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "第二步：本地发展",
+    "sidebar_position": 2
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "第一步：背景",
+    "permalink": "/sdk/v3/guides/background"
+  },
+  "next": {
+    "title": "第三步：Web3 开发基础",
+    "permalink": "/sdk/v3/guides/web3-development-basics"
+  }
+}

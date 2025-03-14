@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/interfaces/QuoteOptions",
+  "title": "Interface: QuoteOptions",
+  "description": "Optional arguments to send to the quoter.",
+  "source": "@site/docs/sdk/v3/reference/interfaces/QuoteOptions.md",
+  "sourceDirName": "sdk/v3/reference/interfaces",
+  "slug": "/sdk/v3/reference/interfaces/QuoteOptions",
+  "permalink": "/sdk/v3/reference/interfaces/QuoteOptions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/interfaces/QuoteOptions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_label": "报价选项",
+    "sidebar_position": 12
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "NFTP 许可选项",
+    "permalink": "/sdk/v3/reference/interfaces/NFTPermitOptions"
+  },
+  "next": {
+    "title": "移除流动性选项",
+    "permalink": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions"
+  }
+}

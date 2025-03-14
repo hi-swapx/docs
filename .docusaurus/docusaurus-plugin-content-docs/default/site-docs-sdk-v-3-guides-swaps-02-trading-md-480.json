@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/guides/swaps/trading",
+  "title": "trading",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/swaps/02-trading.md",
+  "sourceDirName": "sdk/v3/guides/swaps",
+  "slug": "/sdk/v3/guides/swaps/trading",
+  "permalink": "/sdk/v3/guides/swaps/trading",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/guides/swaps/02-trading.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "执行交易",
+    "sidebar_position": 2
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "获取报价",
+    "permalink": "/sdk/v3/guides/swaps/quoting"
+  },
+  "next": {
+    "title": "路由掉期",
+    "permalink": "/sdk/v3/guides/swaps/routing"
+  }
+}

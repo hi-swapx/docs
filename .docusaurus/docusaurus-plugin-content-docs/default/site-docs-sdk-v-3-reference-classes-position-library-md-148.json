@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/classes/PositionLibrary",
+  "title": "Class: PositionLibrary",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/classes/PositionLibrary.md",
+  "sourceDirName": "sdk/v3/reference/classes",
+  "slug": "/sdk/v3/reference/classes/PositionLibrary",
+  "permalink": "/sdk/v3/reference/classes/PositionLibrary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/classes/PositionLibrary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_label": "职位库",
+    "sidebar_position": 9
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "位置",
+    "permalink": "/sdk/v3/reference/classes/Position"
+  },
+  "next": {
+    "title": "路线",
+    "permalink": "/sdk/v3/reference/classes/Route"
+  }
+}

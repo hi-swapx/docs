@@ -1,0 +1,25 @@
+{
+  "id": "sdk/index",
+  "title": "SDK",
+  "description": "",
+  "source": "@site/docs/sdk/index.md",
+  "sourceDirName": "sdk",
+  "slug": "/sdk/",
+  "permalink": "/sdk/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "SDK",
+    "sidebar_label": "概述",
+    "sidebar_position": 1
+  },
+  "sidebar": "sdkSidebar",
+  "next": {
+    "title": "The SwapX V2 SDK",
+    "permalink": "/sdk/v2/overview"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/guides/advanced/price-oracle",
+  "title": "price-oracle",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/advanced/04-price-oracle.md",
+  "sourceDirName": "sdk/v3/guides/advanced",
+  "slug": "/sdk/v3/guides/advanced/price-oracle",
+  "permalink": "/sdk/v3/guides/advanced/price-oracle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/guides/advanced/04-price-oracle.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "价格预言",
+    "sidebar_position": 4
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "主动流动性",
+    "permalink": "/sdk/v3/guides/advanced/active-liquidity"
+  },
+  "next": {
+    "title": "范围订单",
+    "permalink": "/sdk/v3/guides/advanced/range-orders"
+  }
+}

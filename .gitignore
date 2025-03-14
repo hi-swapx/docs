@@ -9,3 +9,4 @@ node_modules/
 .idea/
 
 push.sh
+.DS_Store
