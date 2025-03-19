@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/guides/background",
+  "title": "background",
+  "description": "Before integrating with SwapX, it may be helpful for newcomers to review the following background information on some important developer web3 concepts, the structure of our examples, and SDK concepts.",
+  "source": "@site/docs/sdk/v3/guides/01-background.md",
+  "sourceDirName": "sdk/v3/guides",
+  "slug": "/sdk/v3/guides/background",
+  "permalink": "/sdk/v3/guides/background",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/guides/01-background.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "第一步：背景",
+    "sidebar_position": 1
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "指南",
+    "permalink": "/category/指南-1"
+  },
+  "next": {
+    "title": "第二步：本地发展",
+    "permalink": "/sdk/v3/guides/local-development"
+  }
+}

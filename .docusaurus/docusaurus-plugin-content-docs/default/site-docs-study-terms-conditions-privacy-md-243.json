@@ -1,0 +1,28 @@
+{
+  "id": "study/terms&conditions/privacy",
+  "title": "privacy",
+  "description": "我们收集的数据",
+  "source": "@site/docs/study/terms&conditions/privacy.md",
+  "sourceDirName": "study/terms&conditions",
+  "slug": "/study/terms&conditions/privacy",
+  "permalink": "/study/terms&conditions/privacy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/study/terms&conditions/privacy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "隐私政策",
+    "sidebar_position": 1
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "条款和条件",
+    "permalink": "/category/条款和条件"
+  },
+  "next": {
+    "title": "服务协议",
+    "permalink": "/study/terms&conditions/terms"
+  }
+}

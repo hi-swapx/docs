@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/classes/SwapMath",
+  "title": "Class: SwapMath",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/classes/SwapMath.md",
+  "sourceDirName": "sdk/v3/reference/classes",
+  "slug": "/sdk/v3/reference/classes/SwapMath",
+  "permalink": "/sdk/v3/reference/classes/SwapMath",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/classes/SwapMath.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_label": "交换数学",
+    "sidebar_position": 14
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "赌注",
+    "permalink": "/sdk/v3/reference/classes/Staker"
+  },
+  "next": {
+    "title": "掉期报价器",
+    "permalink": "/sdk/v3/reference/classes/SwapQuoter"
+  }
+}

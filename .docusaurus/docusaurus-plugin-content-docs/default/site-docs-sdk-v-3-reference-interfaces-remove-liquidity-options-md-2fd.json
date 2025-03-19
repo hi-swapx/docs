@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/interfaces/RemoveLiquidityOptions",
+  "title": "Interface: RemoveLiquidityOptions",
+  "description": "Options for producing the calldata to exit a position.",
+  "source": "@site/docs/sdk/v3/reference/interfaces/RemoveLiquidityOptions.md",
+  "sourceDirName": "sdk/v3/reference/interfaces",
+  "slug": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions",
+  "permalink": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/interfaces/RemoveLiquidityOptions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_label": "移除流动性选项",
+    "sidebar_position": 13
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "报价选项",
+    "permalink": "/sdk/v3/reference/interfaces/QuoteOptions"
+  },
+  "next": {
+    "title": "安全传输选项",
+    "permalink": "/sdk/v3/reference/interfaces/SafeTransferOptions"
+  }
+}

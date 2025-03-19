@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v2/guides/quick-start",
+  "title": "quick-start",
+  "description": "The SwapX SDK exists to help developers build on top of SwapX. It's designed to run in any environment that can execute JavaScript (think websites, node scripts, etc.). While simple enough to use in a hackathon project, it's also robust enough to power production applications.",
+  "source": "@site/docs/sdk/v2/guides/01-quick-start.md",
+  "sourceDirName": "sdk/v2/guides",
+  "slug": "/sdk/v2/guides/quick-start",
+  "permalink": "/sdk/v2/guides/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v2/guides/01-quick-start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "第一步：快速启动",
+    "sidebar_position": 1
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "指南",
+    "permalink": "/category/指南"
+  },
+  "next": {
+    "title": "第二步：获取数据",
+    "permalink": "/sdk/v2/guides/fetching-data"
+  }
+}

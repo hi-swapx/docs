@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/interfaces/FeeOptions",
+  "title": "Interface: FeeOptions",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/interfaces/FeeOptions.md",
+  "sourceDirName": "sdk/v3/reference/interfaces",
+  "slug": "/sdk/v3/reference/interfaces/FeeOptions",
+  "permalink": "/sdk/v3/reference/interfaces/FeeOptions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/interfaces/FeeOptions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_label": "费用选项",
+    "sidebar_position": 6
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "常见的增加流动性选项",
+    "permalink": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions"
+  },
+  "next": {
+    "title": "激励关键",
+    "permalink": "/sdk/v3/reference/interfaces/IncentiveKey"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/classes/SelfPermit",
+  "title": "Class: SelfPermit",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/classes/SelfPermit.md",
+  "sourceDirName": "sdk/v3/reference/classes",
+  "slug": "/sdk/v3/reference/classes/SelfPermit",
+  "permalink": "/sdk/v3/reference/classes/SelfPermit",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/classes/SelfPermit.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_label": "自我许可",
+    "sidebar_position": 11
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "路线",
+    "permalink": "/sdk/v3/reference/classes/Route"
+  },
+  "next": {
+    "title": "平方价格数学",
+    "permalink": "/sdk/v3/reference/classes/SqrtPriceMath"
+  }
+}

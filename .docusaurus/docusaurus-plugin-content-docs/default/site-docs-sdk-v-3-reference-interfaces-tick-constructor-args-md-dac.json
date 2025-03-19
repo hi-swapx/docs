@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/interfaces/TickConstructorArgs",
+  "title": "Interface: TickConstructorArgs",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/interfaces/TickConstructorArgs.md",
+  "sourceDirName": "sdk/v3/reference/interfaces",
+  "slug": "/sdk/v3/reference/interfaces/TickConstructorArgs",
+  "permalink": "/sdk/v3/reference/interfaces/TickConstructorArgs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/interfaces/TickConstructorArgs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_label": "勾选构造函数参数",
+    "sidebar_position": 17
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "掉期期权",
+    "permalink": "/sdk/v3/reference/interfaces/SwapOptions"
+  },
+  "next": {
+    "title": "勾选数据提供者",
+    "permalink": "/sdk/v3/reference/interfaces/TickDataProvider"
+  }
+}

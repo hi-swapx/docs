@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/classes/NoTickDataProvider",
+  "title": "Class: NoTickDataProvider",
+  "description": "This tick data provider does not know how to fetch any tick data. It throws whenever it is required. Useful if you",
+  "source": "@site/docs/sdk/v3/reference/classes/NoTickDataProvider.md",
+  "sourceDirName": "sdk/v3/reference/classes",
+  "slug": "/sdk/v3/reference/classes/NoTickDataProvider",
+  "permalink": "/sdk/v3/reference/classes/NoTickDataProvider",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/classes/NoTickDataProvider.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_label": "不勾选数据提供者",
+    "sidebar_position": 5
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "非同质化仓位经理",
+    "permalink": "/sdk/v3/reference/classes/NonfungiblePositionManager"
+  },
+  "next": {
+    "title": "付款",
+    "permalink": "/sdk/v3/reference/classes/Payments"
+  }
+}
