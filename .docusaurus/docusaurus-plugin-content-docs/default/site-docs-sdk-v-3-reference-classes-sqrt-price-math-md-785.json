@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/classes/SqrtPriceMath",
+  "title": "Class: SqrtPriceMath",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/classes/SqrtPriceMath.md",
+  "sourceDirName": "sdk/v3/reference/classes",
+  "slug": "/sdk/v3/reference/classes/SqrtPriceMath",
+  "permalink": "/sdk/v3/reference/classes/SqrtPriceMath",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/classes/SqrtPriceMath.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_label": "平方价格数学",
+    "sidebar_position": 12
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "自我许可",
+    "permalink": "/sdk/v3/reference/classes/SelfPermit"
+  },
+  "next": {
+    "title": "赌注",
+    "permalink": "/sdk/v3/reference/classes/Staker"
+  }
+}

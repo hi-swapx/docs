@@ -1,0 +1,24 @@
+{
+  "id": "contract/swapx-v2/concepts/advanced-topics/security",
+  "title": "在 SwapX 上构建时的注意事项",
+  "description": "将 SwapX V2 集成到另一个链上系统时，必须特别小心避免安全漏洞、操纵途径和潜在的资金损失。",
+  "source": "@site/docs/contract/swapx-v2/concepts/advanced-topics/security.md",
+  "sourceDirName": "contract/swapx-v2/concepts/advanced-topics",
+  "slug": "/contract/swapx-v2/concepts/advanced-topics/security",
+  "permalink": "/contract/swapx-v2/concepts/advanced-topics/security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/contract/swapx-v2/concepts/advanced-topics/security.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "contractSidebar",
+  "previous": {
+    "title": "价格是如何确定的?",
+    "permalink": "/contract/swapx-v2/concepts/advanced-topics/price"
+  },
+  "next": {
+    "title": "了解退货",
+    "permalink": "/contract/swapx-v2/concepts/advanced-topics/understanding-returns"
+  }
+}

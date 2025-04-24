@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/classes/TickListDataProvider",
+  "title": "Class: TickListDataProvider",
+  "description": "A data provider for ticks that is backed by an in-memory array of ticks.",
+  "source": "@site/docs/sdk/v3/reference/classes/TickListDataProvider.md",
+  "sourceDirName": "sdk/v3/reference/classes",
+  "slug": "/sdk/v3/reference/classes/TickListDataProvider",
+  "permalink": "/sdk/v3/reference/classes/TickListDataProvider",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/classes/TickListDataProvider.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 20,
+  "frontMatter": {
+    "sidebar_label": "勾选数据提供者",
+    "sidebar_position": 20
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "勾选列表",
+    "permalink": "/sdk/v3/reference/classes/TickList"
+  },
+  "next": {
+    "title": "滴答数学",
+    "permalink": "/sdk/v3/reference/classes/TickMath"
+  }
+}

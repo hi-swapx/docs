@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/interfaces/StandardPermitArguments",
+  "title": "Interface: StandardPermitArguments",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/interfaces/StandardPermitArguments.md",
+  "sourceDirName": "sdk/v3/reference/interfaces",
+  "slug": "/sdk/v3/reference/interfaces/StandardPermitArguments",
+  "permalink": "/sdk/v3/reference/interfaces/StandardPermitArguments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/interfaces/StandardPermitArguments.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_label": "标准许可参数",
+    "sidebar_position": 15
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "安全传输选项",
+    "permalink": "/sdk/v3/reference/interfaces/SafeTransferOptions"
+  },
+  "next": {
+    "title": "掉期期权",
+    "permalink": "/sdk/v3/reference/interfaces/SwapOptions"
+  }
+}

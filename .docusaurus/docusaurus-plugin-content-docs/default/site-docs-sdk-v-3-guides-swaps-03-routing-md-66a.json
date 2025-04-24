@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/guides/swaps/routing",
+  "title": "routing",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/swaps/03-routing.md",
+  "sourceDirName": "sdk/v3/guides/swaps",
+  "slug": "/sdk/v3/guides/swaps/routing",
+  "permalink": "/sdk/v3/guides/swaps/routing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/guides/swaps/03-routing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_label": "路由掉期",
+    "sidebar_position": 3
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "执行交易",
+    "permalink": "/sdk/v3/guides/swaps/trading"
+  },
+  "next": {
+    "title": "overview",
+    "permalink": "/sdk/v3/reference/overview"
+  }
+}

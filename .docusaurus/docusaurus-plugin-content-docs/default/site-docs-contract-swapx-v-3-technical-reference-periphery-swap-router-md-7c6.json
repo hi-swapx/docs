@@ -1,0 +1,20 @@
+{
+  "id": "contract/swapx-v3/technical-reference/periphery/SwapRouter",
+  "title": "无状态执行 SwapX V3 交换的路由器",
+  "description": "Functions",
+  "source": "@site/docs/contract/swapx-v3/technical-reference/periphery/SwapRouter.md",
+  "sourceDirName": "contract/swapx-v3/technical-reference/periphery",
+  "slug": "/contract/swapx-v3/technical-reference/periphery/SwapRouter",
+  "permalink": "/contract/swapx-v3/technical-reference/periphery/SwapRouter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/contract/swapx-v3/technical-reference/periphery/SwapRouter.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "contractSidebar",
+  "previous": {
+    "title": "NonfungibleTokenPositionDescriptor",
+    "permalink": "/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/guides/liquidity/position-data",
+  "title": "position-data",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/liquidity/01-position-data.md",
+  "sourceDirName": "sdk/v3/guides/liquidity",
+  "slug": "/sdk/v3/guides/liquidity/position-data",
+  "permalink": "/sdk/v3/guides/liquidity/position-data",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/guides/liquidity/01-position-data.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "位置数据",
+    "sidebar_position": 1
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "流动性",
+    "permalink": "/category/流动性"
+  },
+  "next": {
+    "title": "铸造位置",
+    "permalink": "/sdk/v3/guides/liquidity/minting-position"
+  }
+}

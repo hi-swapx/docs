@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/interfaces/AllowedPermitArguments",
+  "title": "Interface: AllowedPermitArguments",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/interfaces/AllowedPermitArguments.md",
+  "sourceDirName": "sdk/v3/reference/interfaces",
+  "slug": "/sdk/v3/reference/interfaces/AllowedPermitArguments",
+  "permalink": "/sdk/v3/reference/interfaces/AllowedPermitArguments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/interfaces/AllowedPermitArguments.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "允许的许可参数",
+    "sidebar_position": 1
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "接口",
+    "permalink": "/category/接口"
+  },
+  "next": {
+    "title": "最佳交易选择",
+    "permalink": "/sdk/v3/reference/interfaces/BestTradeOptions"
+  }
+}

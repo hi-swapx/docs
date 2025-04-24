@@ -1,0 +1,24 @@
+{
+  "id": "contract/swapx-v2/concepts/protocol-overview/smart-contract",
+  "title": "智能合约",
+  "description": "SwapX V2 是一个二元智能合约系统。核心合约为与 SwapX 交互的各方提供基本的安全保障。外围合约与一个或多个核心合约交互，但本身不属于核心的一部分。",
+  "source": "@site/docs/contract/swapx-v2/concepts/protocol-overview/smart-contract.md",
+  "sourceDirName": "contract/swapx-v2/concepts/protocol-overview",
+  "slug": "/contract/swapx-v2/concepts/protocol-overview/smart-contract",
+  "permalink": "/contract/swapx-v2/concepts/protocol-overview/smart-contract",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/contract/swapx-v2/concepts/protocol-overview/smart-contract.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "contractSidebar",
+  "previous": {
+    "title": "Uniswap 的工作原理",
+    "permalink": "/contract/swapx-v2/concepts/protocol-overview/how-it-works"
+  },
+  "next": {
+    "title": "SwapX V3 智能合约",
+    "permalink": "/contract/swapx-v3/overview"
+  }
+}

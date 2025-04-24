@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/classes/SwapQuoter",
+  "title": "Class: SwapQuoter",
+  "description": "Represents the SwapX V3 QuoterV1 contract with a method for returning the formatted",
+  "source": "@site/docs/sdk/v3/reference/classes/SwapQuoter.md",
+  "sourceDirName": "sdk/v3/reference/classes",
+  "slug": "/sdk/v3/reference/classes/SwapQuoter",
+  "permalink": "/sdk/v3/reference/classes/SwapQuoter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/classes/SwapQuoter.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_label": "掉期报价器",
+    "sidebar_position": 15
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "交换数学",
+    "permalink": "/sdk/v3/reference/classes/SwapMath"
+  },
+  "next": {
+    "title": "交换路由器",
+    "permalink": "/sdk/v3/reference/classes/SwapRouter"
+  }
+}

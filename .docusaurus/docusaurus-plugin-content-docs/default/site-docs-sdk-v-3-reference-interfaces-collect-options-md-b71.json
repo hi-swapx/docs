@@ -1,0 +1,28 @@
+{
+  "id": "sdk/v3/reference/interfaces/CollectOptions",
+  "title": "Interface: CollectOptions",
+  "description": "Table of contents",
+  "source": "@site/docs/sdk/v3/reference/interfaces/CollectOptions.md",
+  "sourceDirName": "sdk/v3/reference/interfaces",
+  "slug": "/sdk/v3/reference/interfaces/CollectOptions",
+  "permalink": "/sdk/v3/reference/interfaces/CollectOptions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/sdk/v3/reference/interfaces/CollectOptions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_label": "收集选项",
+    "sidebar_position": 4
+  },
+  "sidebar": "sdkSidebar",
+  "previous": {
+    "title": "索赔选项",
+    "permalink": "/sdk/v3/reference/interfaces/ClaimOptions"
+  },
+  "next": {
+    "title": "常见的增加流动性选项",
+    "permalink": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions"
+  }
+}
