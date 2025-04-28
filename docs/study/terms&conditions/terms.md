@@ -6,7 +6,7 @@ sidebar_position: 2
 
 **1. 概述**
 
-欢迎使用 SwapX（“我们”或“SwapX”）！本服务条款（“条款”）适用于您使用 SwapX 的服务（“服务”），包括但不限于https://swapx.exchange/zh网站、文档中心（https://docs.swapx.exchange/study/）、智能合约及相关功能。
+欢迎使用 SwapX（“我们”或“SwapX”）！本服务条款（“条款”）适用于您使用 SwapX 的服务（“服务”），包括但不限于[SwapX官网](https://swapx.exchange)、[SwapX文档中心](https://docs.swapx.exchange/study/)、智能合约及相关功能。
 
 **使用服务即表示您同意本条款**。如果您不同意，请勿使用我们的服务。
 
