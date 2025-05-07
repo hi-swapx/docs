@@ -1,6 +1,7 @@
 {
   "label": "流动性",
   "position": 5,
+  "className": "hidden",
   "link": {
     "type": "generated-index",
     "description": "流动性"
