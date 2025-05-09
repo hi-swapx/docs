@@ -1,0 +1,3 @@
+name = "swapx-doc"
+compatibility_date = "2025-05-09"
+compatibility_flags = ["nodejs_compat"]
