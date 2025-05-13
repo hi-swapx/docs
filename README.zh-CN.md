@@ -1,7 +1,7 @@
 
 # SwapX 文档 
 
-[English](README.md) | [中文](README.zh-CN.md)
+[English](README.md) | [中文](README.zh-CN.md) 
 
 <p align="center">
   <img src="./static/img/swapx.png" alt="SwapX banner" width="400">
