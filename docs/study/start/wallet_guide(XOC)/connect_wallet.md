@@ -13,15 +13,15 @@ XOC 是 Xone Chain 的原生加密货币，其运作方式与以太坊生态系�
 
 ## 添加XOC网络信息
 
-网络名称： Xone Mainnet
+    网络名称： Xone Mainnet
 
-RPC 网址： https://rpc.xone.org 
+    RPC 网址： https://rpc.xone.org 
 
-链 ID： 3721 (0xe89)
+    链 ID： 3721 (0xe89)
 
-符号： XOC
+    符号： XOC
 
-区块浏览器网址：https://xscscan.com/
+    区块浏览器网址：https://xscscan.com/
 
 ## 在钱包中使用
 
@@ -32,3 +32,10 @@ RPC 网址： https://rpc.xone.org
 ![alt text](image-6.png)
 * 添加网络完成后，就可以充值XOC啦，我们的各项上链操作都需要gas费哦～所有钱包都需要添加Xone主网后才能继续操作。
 * 现在让我们来到[SwapX](https://swapx.exchange/)，将钱包连接上就可以开启swap新世界啦。
+
+## SwapX 支持链
+
+* Xone Chain(Xone)
+* 以太坊链（ETH）：即将开放
+* 币安智能链（BSC）：即将开放
+* 波场链（Tron）:即将开放
