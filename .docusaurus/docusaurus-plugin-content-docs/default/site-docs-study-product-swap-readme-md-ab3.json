@@ -1,0 +1,29 @@
+{
+  "id": "study/product/swap/README",
+  "title": "兑换基本概念",
+  "description": "🔄 交易所",
+  "source": "@site/docs/study/product/swap/README.md",
+  "sourceDirName": "study/product/swap",
+  "slug": "/study/product/swap/",
+  "permalink": "/study/product/swap/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/study/product/swap/README.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "兑换基本概念",
+    "sidebar_label": "兑换基本概念",
+    "sidebar_position": 1
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "兑换",
+    "permalink": "/category/兑换"
+  },
+  "next": {
+    "title": "如何交易",
+    "permalink": "/study/product/swap/trade_guide"
+  }
+}

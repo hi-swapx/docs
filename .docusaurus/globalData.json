@@ -486,6 +486,61 @@
               "sidebar": "studySidebar"
             },
             {
+              "id": "study/product/buy&sell/start_with_xone",
+              "path": "/study/product/buy&sell/start_with_xone",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/liquidity/pool",
+              "path": "/study/product/liquidity/pool",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/fees_and_routes",
+              "path": "/study/product/swap/fees_and_routes",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/market-maker-integration",
+              "path": "/study/product/swap/market-maker-integration",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/README",
+              "path": "/study/product/swap/",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/trade",
+              "path": "/study/product/swap/trade",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/trade_guide",
+              "path": "/study/product/swap/trade_guide",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/start/about_xone",
+              "path": "/study/start/about_xone",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/start/wallet_guide(XOC)/connect_wallet",
+              "path": "/study/start/wallet_guide(XOC)/connect_wallet",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/start/wallet_guide(XOC)/creat_wallet",
+              "path": "/study/start/wallet_guide(XOC)/creat_wallet",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/start/wallet_guide(XOC)/README",
+              "path": "/study/start/wallet_guide(XOC)/",
+              "sidebar": "studySidebar"
+            },
+            {
               "id": "study/terms&conditions/privacy",
               "path": "/study/terms&conditions/privacy",
               "sidebar": "studySidebar"
@@ -496,8 +551,28 @@
               "sidebar": "studySidebar"
             },
             {
+              "id": "/category/开始",
+              "path": "/category/开始",
+              "sidebar": "studySidebar"
+            },
+            {
               "id": "/category/条款和条件",
               "path": "/category/条款和条件",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "/category/兑换",
+              "path": "/category/兑换",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "/category/交易",
+              "path": "/category/交易",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "/category/流动性",
+              "path": "/category/流动性",
               "sidebar": "studySidebar"
             },
             {
@@ -521,13 +596,13 @@
               "sidebar": "sdkSidebar"
             },
             {
-              "id": "/category/流动性",
-              "path": "/category/流动性",
+              "id": "/category/流动性-1",
+              "path": "/category/流动性-1",
               "sidebar": "sdkSidebar"
             },
             {
-              "id": "/category/兑换",
-              "path": "/category/兑换",
+              "id": "/category/兑换-1",
+              "path": "/category/兑换-1",
               "sidebar": "sdkSidebar"
             },
             {

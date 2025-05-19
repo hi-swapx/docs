@@ -1,0 +1,29 @@
+{
+  "id": "study/start/wallet_guide(XOC)/README",
+  "title": "入门指南（XOC）",
+  "description": "",
+  "source": "@site/docs/study/start/wallet_guide(XOC)/README.md",
+  "sourceDirName": "study/start/wallet_guide(XOC)",
+  "slug": "/study/start/wallet_guide(XOC)/",
+  "permalink": "/study/start/wallet_guide(XOC)/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/study/start/wallet_guide(XOC)/README.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "入门指南（XOC）",
+    "description": "",
+    "sidebar_position": 1
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "Xone",
+    "permalink": "/study/start/about_xone"
+  },
+  "next": {
+    "title": "如何连接和使用钱包",
+    "permalink": "/study/start/wallet_guide(XOC)/connect_wallet"
+  }
+}

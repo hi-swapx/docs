@@ -1,0 +1,29 @@
+{
+  "id": "study/start/about_xone",
+  "title": "Xone",
+  "description": "",
+  "source": "@site/docs/study/start/about_xone.md",
+  "sourceDirName": "study/start",
+  "slug": "/study/start/about_xone",
+  "permalink": "/study/start/about_xone",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/study/start/about_xone.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Xone",
+    "description": "",
+    "sidebar_position": 1
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "开始",
+    "permalink": "/category/开始"
+  },
+  "next": {
+    "title": "入门指南（XOC）",
+    "permalink": "/study/start/wallet_guide(XOC)/"
+  }
+}

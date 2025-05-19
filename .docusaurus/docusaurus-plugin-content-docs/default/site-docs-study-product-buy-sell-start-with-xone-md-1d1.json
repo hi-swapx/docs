@@ -1,0 +1,29 @@
+{
+  "id": "study/product/buy&sell/start_with_xone",
+  "title": "购买USDH",
+  "description": "",
+  "source": "@site/docs/study/product/buy&sell/start_with_xone.md",
+  "sourceDirName": "study/product/buy&sell",
+  "slug": "/study/product/buy&sell/start_with_xone",
+  "permalink": "/study/product/buy&sell/start_with_xone",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/study/product/buy&sell/start_with_xone.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "购买USDH",
+    "description": "",
+    "sidebar_position": 1
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "交易",
+    "permalink": "/category/交易"
+  },
+  "next": {
+    "title": "流动性",
+    "permalink": "/category/流动性"
+  }
+}

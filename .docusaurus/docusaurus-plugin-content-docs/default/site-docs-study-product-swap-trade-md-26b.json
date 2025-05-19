@@ -1,0 +1,24 @@
+{
+  "id": "study/product/swap/trade",
+  "title": "代币兑换",
+  "description": "去中心化交易所（DEX）的代币兑换是通过区块链智能合约实现的点对点资产交换，其核心特征和流程如下：",
+  "source": "@site/docs/study/product/swap/trade.md",
+  "sourceDirName": "study/product/swap",
+  "slug": "/study/product/swap/trade",
+  "permalink": "/study/product/swap/trade",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/study/product/swap/trade.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "market-maker-integration",
+    "permalink": "/study/product/swap/market-maker-integration"
+  },
+  "next": {
+    "title": "交易",
+    "permalink": "/category/交易"
+  }
+}

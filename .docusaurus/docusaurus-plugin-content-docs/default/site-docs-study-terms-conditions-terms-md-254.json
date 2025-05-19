@@ -1,7 +1,7 @@
 {
   "id": "study/terms&conditions/terms",
   "title": "terms",
-  "description": "本服务条款（以下简称“协议”）解释了您访问和使用 SwapX（以下简称“SwapX”、“我们”、“我们的”或“我们”）提供的产品的条款和条件。产品应包括但不限于：",
+  "description": "1. 概述",
   "source": "@site/docs/study/terms&conditions/terms.md",
   "sourceDirName": "study/terms&conditions",
   "slug": "/study/terms&conditions/terms",
@@ -20,5 +20,9 @@
   "previous": {
     "title": "隐私政策",
     "permalink": "/study/terms&conditions/privacy"
+  },
+  "next": {
+    "title": "兑换",
+    "permalink": "/category/兑换"
   }
 }

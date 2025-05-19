@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
@@ -49,55 +14,19 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '836'),
+    component: ComponentCreator('/', 'a16'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '15d'),
+        component: ComponentCreator('/', 'f43'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'f1d'),
+            component: ComponentCreator('/', '2c2'),
             routes: [
               {
-                path: '/category/参考',
-                component: ComponentCreator('/category/参考', 'e76'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/category/兑换',
-                component: ComponentCreator('/category/兑换', 'ada'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/category/接口',
-                component: ComponentCreator('/category/接口', 'b45'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/category/类',
-                component: ComponentCreator('/category/类', '608'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/category/流动性',
-                component: ComponentCreator('/category/流动性', '6ef'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/category/枚举',
-                component: ComponentCreator('/category/枚举', 'a34'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/category/条款和条件',
-                component: ComponentCreator('/category/条款和条件', '4fe'),
+                path: '/category/交易',
+                component: ComponentCreator('/category/交易', '485'),
                 exact: true,
                 sidebar: "studySidebar"
               },
@@ -108,6 +37,30 @@ export default [
                 sidebar: "sdkSidebar"
               },
               {
+                path: '/category/兑换',
+                component: ComponentCreator('/category/兑换', '9e2'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/category/兑换-1',
+                component: ComponentCreator('/category/兑换-1', 'be0'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/category/参考',
+                component: ComponentCreator('/category/参考', 'e76'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/category/开始',
+                component: ComponentCreator('/category/开始', '8fb'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
                 path: '/category/指南',
                 component: ComponentCreator('/category/指南', '2b7'),
                 exact: true,
@@ -116,6 +69,42 @@ export default [
               {
                 path: '/category/指南-1',
                 component: ComponentCreator('/category/指南-1', '5fc'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/category/接口',
+                component: ComponentCreator('/category/接口', 'b45'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/category/条款和条件',
+                component: ComponentCreator('/category/条款和条件', '4fe'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/category/枚举',
+                component: ComponentCreator('/category/枚举', 'a34'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/category/流动性',
+                component: ComponentCreator('/category/流动性', '1ae'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/category/流动性-1',
+                component: ComponentCreator('/category/流动性-1', 'eed'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/category/类',
+                component: ComponentCreator('/category/类', '608'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
@@ -686,6 +675,72 @@ export default [
               {
                 path: '/study/',
                 component: ComponentCreator('/study/', '172'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/buy&sell/start_with_xone',
+                component: ComponentCreator('/study/product/buy&sell/start_with_xone', 'b51'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/liquidity/pool',
+                component: ComponentCreator('/study/product/liquidity/pool', '987'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/',
+                component: ComponentCreator('/study/product/swap/', 'd95'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/fees_and_routes',
+                component: ComponentCreator('/study/product/swap/fees_and_routes', '22d'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/market-maker-integration',
+                component: ComponentCreator('/study/product/swap/market-maker-integration', 'a54'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/trade',
+                component: ComponentCreator('/study/product/swap/trade', '36b'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/trade_guide',
+                component: ComponentCreator('/study/product/swap/trade_guide', '8e1'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/start/about_xone',
+                component: ComponentCreator('/study/start/about_xone', '95e'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/start/wallet_guide(XOC)/',
+                component: ComponentCreator('/study/start/wallet_guide(XOC)/', 'e2b'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/start/wallet_guide(XOC)/connect_wallet',
+                component: ComponentCreator('/study/start/wallet_guide(XOC)/connect_wallet', '6ba'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/start/wallet_guide(XOC)/creat_wallet',
+                component: ComponentCreator('/study/start/wallet_guide(XOC)/creat_wallet', 'c17'),
                 exact: true,
                 sidebar: "studySidebar"
               },

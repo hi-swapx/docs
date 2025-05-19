@@ -1,0 +1,29 @@
+{
+  "id": "study/product/swap/trade_guide",
+  "title": "如何交易",
+  "description": "与大多数交易所相比，在 SwapX 上交易非常简单。您不会被图表或术语所困扰，交易路线和计算都由 SwapX 为您处理。",
+  "source": "@site/docs/study/product/swap/trade_guide.md",
+  "sourceDirName": "study/product/swap",
+  "slug": "/study/product/swap/trade_guide",
+  "permalink": "/study/product/swap/trade_guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/hi-swapx/docs/docs/study/product/swap/trade_guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "如何交易",
+    "sidebar_label": "如何交易",
+    "sidebar_position": 1
+  },
+  "sidebar": "studySidebar",
+  "previous": {
+    "title": "兑换基本概念",
+    "permalink": "/study/product/swap/"
+  },
+  "next": {
+    "title": "fees_and_routes",
+    "permalink": "/study/product/swap/fees_and_routes"
+  }
+}
