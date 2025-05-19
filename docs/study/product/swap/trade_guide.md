@@ -11,7 +11,7 @@ sidebar_position: 1
 
 **交易设置**
 
-在进行交易之前，您需要一个钱包。您可以在[此处了解](../../../study/start/wallet_guide(XOC)/creat_wallet.md)如何获取钱包。您还需要一些 Gas 进行交易。您可以在[此处了解](../../../study/start/wallet_guide(XOC)/connect_wallet.md)如何获取。
+在进行交易之前，您需要一个钱包。您可以在[此处了解](../../../study/start/wallet_guide(XOC)/create_wallet.md)如何获取钱包。您还需要一些 Gas 进行交易。您可以在[此处了解](../../../study/start/wallet_guide(XOC)/connect_wallet.md)如何获取。
 
 ## 在 SwapX 交易所进行交易
 
