@@ -4,6 +4,7 @@
 
 <p align="center">
 <img src="./static/img/swapx.png" alt="SwapX banner" width="400">
+</img>
 </p>
 
 SwapX is a decentralized token exchange system based on the Uniswap v2/v3 protocol, providing users with a complete digital asset management solution.
