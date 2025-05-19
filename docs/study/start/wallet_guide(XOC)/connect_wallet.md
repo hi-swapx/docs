@@ -27,7 +27,7 @@ XOC 是 Xone Chain 的原生加密货币，其运作方式与以太坊生态系�
 
 让我们以Metamask为例子开始吧：
 * 打开您的Metamask网络扩展
-![alt text](image-5.png)
+![alt text](./image-5.png)
 * 点击左上角网络按钮，点击添加自定义网络
 ![alt text](image-6.png)
 * 添加网络完成后，就可以充值XOC啦，我们的各项上链操作都需要gas费哦～所有钱包都需要添加Xone主网后才能继续操作。
