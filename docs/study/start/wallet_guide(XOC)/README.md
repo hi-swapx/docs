@@ -17,5 +17,6 @@ sidebar_position: 1
 
 请按照以下指南完成钱包的所有设置；如果您之前操作顺利但遇到困难，也可以直接跳转到您需要的指南。
 
-[获取并创建钱包]() 
-[将您的钱包连接到SwapX并进行设置]()
+[获取并创建钱包](../wallet_guide(XOC)/creat_wallet.md) 
+
+[将您的钱包连接到SwapX并进行设置](../wallet_guide(XOC)/connect_wallet.md)
