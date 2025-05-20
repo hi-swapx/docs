@@ -1,3 +1,4 @@
 name = "swapx-doc"
 compatibility_date = "2025-05-09"
-compatibility_flags = ["nodejs_compat"]
+compatibility_flags = []
+pages_build_output_dir = "build"
