@@ -1,5 +1,5 @@
 # 如何连接和使用钱包
-
+[英语](connect_wallet.EN.md) | [中文](connect_wallet.md)
 ## 获取gas费（XOC） 
 
 ### 什么是XOC
