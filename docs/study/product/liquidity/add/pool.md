@@ -4,6 +4,7 @@ description: ""
 sidebar_position: 1
 ---
 # 什么是流动性
+[英语](pool.EN.md) | [中文](pool.md)
 ## 流动性
     去中心化交易所（DEX）的流动性与传统中心化交易所（CEX）有本质区别，它不依赖订单簿和做市商，而是通过流动性池（Liquidity Pool）和自动做市商（AMM）算法来实现交易。
 ## 流动性池
@@ -43,7 +44,7 @@ sidebar_position: 1
 
     分析流动性池的深度（订单簿或 AMM 曲线分布）
 
-    比较不同 DEX（如 Uniswap vs. SushiSwap vs. Curve）
+    比较不同 DEX（如 Uniswap vs. SushiSwap vs. Curve vs. SwapX）
 
 ## 总结
 
@@ -53,4 +54,4 @@ DEX 的流动性依赖于流动性池 + AMM 算法，而非传统做市商。
 
 DEX 的流动性模式是 DeFi 革命的基石，尽管存在挑战，但其开放性和创新性正在重塑金融市场的未来。
 
-现在，我们对流动性有了一些基础的了解，让我们[去这里](../liquidity/add/liquidity.md)学习如何添加/移除流动性吧。
+现在，我们对流动性有了一些基础的了解，让我们[去这里](../liquidity/add/liquidity.EN.md)学习如何添加/移除流动性吧。
