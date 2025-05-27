@@ -6,6 +6,7 @@ sidebar_position: 1
 
 
 # 如何交易
+[英语](trade_guide.EN.md) | [中文](trade_guide.md)
 
 与大多数交易所相比，在 SwapX 上交易非常简单。您不会被图表或术语所困扰，交易路线和计算都由 SwapX 为您处理。
 
