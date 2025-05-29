@@ -1,140 +1,150 @@
 ---
-sidebar_label: "隐私政策"
+sidebar_label: "Privacy"
 sidebar_position: 1
 ---
 
-**1. 概述**
+**1. Overview**
 
-SwapX（“我们”或“SwapX”）是一个基于 XONE Chain 的去中心化交易平台（DEX），我们致力于保护您的隐私，并通过本隐私协议（“协议”）向您说明在使用 SwapX 服务（“服务”）时，我们如何收集、使用和分享您的信息。
+SwapX ("we" or "SwapX") is a decentralized exchange (DEX) based on XONE Chain. We are committed to protecting your privacy and explain to you through this Privacy Agreement ("Agreement") how we collect, use and share your information when using SwapX services ("Services").
 
-**重要提示**：SwapX 是一个去中心化平台，我们不收集或存储个人身份信息（Personally Identifiable Information, PII），如姓名、地址、出生日期或电子邮件地址。我们也不直接存储您的私钥或控制您的资产。您在使用 SwapX 时需自行管理钱包和资产安全。
-
----
-
-**2. 我们收集的信息**
-
-我们仅收集提供服务所需的最少信息，主要包括以下类别：
-
-**2.1 公开的链上数据**
-
-由于 SwapX 是去中心化平台，您与服务的交互会生成链上数据，这些数据存储在 XONE Chain 及第三方区块链网络上，可能包括：
-
-- **钱包地址**：用于识别您的交易发起方和接收方。
-- **交易记录**：包括跨链兑换、代币 购买及 Swap 交易的金额、代币类型、时间戳等。
-- **智能合约交互**：您与 SwapX 智能合约交互的数据，如兑换请求、Gas 费等。
-
-**说明**：链上数据是公开的，任何人都可以通过区块链浏览器查看。我们不控制链上数据的公开性。
-
-**2.2 有限的非链上数据**
-
-在使用 SwapX 网站（https://swapx.exchange/）或文档中心（https://docs.swapx.exchange/study）时，我们可能收集以下信息以优化用户体验：
-
-- **设备信息**：设备类型、操作系统、浏览器版本、语言设置。
-- **使用数据**：访问时间、页面浏览记录、点击行为。
-
-**2.3 Cookies 和类似技术**
-
-我们可能使用 Cookies 和类似技术（如本地存储）来分析网站流量和改善用户体验。您可以通过浏览器设置禁用 Cookies，但这可能影响部分功能。
-
-**2.4 第三方支付数据**
-
-通过第三方购买代币时，第三方可能会收集您的支付信息（如银行卡号、支付金额）。SwapX 不直接收集或存储这些信息，但可能接收以下数据：
-
-- 支付状态：交易是否成功。
-- 关联钱包地址：用于向您发送代币。
-
-**2.5 用户提供的信息**
-
-- **支持请求**：通过电子邮件（support@swapx.exchange）或 Discord 提交问题时，您可能提供信息（如钱包地址）。
-- **社区参与**：在 Twitter、Telegram 或 Discord 参与活动时，您可能分享信息。
+**Important Note**: SwapX is a decentralized platform. We do not collect or store personally identifiable information (PII), such as name, address, date of birth or email address. We also do not directly store your private keys or control your assets. You need to manage your wallet and asset security when using SwapX.
 
 ---
 
-**3. 我们如何使用您的信息**
+**2. Information we collect**
 
-我们仅将收集的信息用于以下目的：
+We only collect the minimum information required to provide services, mainly including the following categories:
 
-- **提供服务**：处理跨链兑换、代币购买及 Swap 交易，显示交易状态。
-- **改进服务**：分析使用数据，优化网站性能和用户体验。
-- **客户支持**：响应您的支持请求，解决技术问题。
-- **安全与合规**：通过区块链分析工具筛选钱包地址，检测和防止欺诈或非法活动，遵守反洗钱（AML）和反恐融资（CTF）法规。
+**2.1 Public on-chain data**
 
-**不用于营销**：SwapX 不使用您的信息进行营销目的。
+Since SwapX is a decentralized platform, your interaction with the service will generate on-chain data, which is stored on XONE Chain and third-party blockchain networks and may include:
+
+- **Wallet address**: used to identify your transaction initiator and recipient.
+
+- **Transaction records**: including cross-chain exchange, token purchase and Swap transaction amount, token type, timestamp, etc.
+
+- **Smart contract interaction**: data you interact with SwapX smart contracts, such as exchange requests, gas fees, etc.
+
+**Note**: On-chain data is public and can be viewed by anyone through a blockchain browser. We do not control the publicity of on-chain data.
+
+**2.2 Limited off-chain data**
+
+When using the SwapX website (https://swapx.exchange/) or the Document Center (https://docs.swapx.exchange/study), we may collect the following information to optimize the user experience:
+
+- **Device information**: device type, operating system, browser version, language settings.
+
+- **Usage data**: access time, page browsing history, click behavior.
+
+**2.3 Cookies and similar technologies**
+
+We may use cookies and similar technologies (such as local storage) to analyze website traffic and improve user experience. You can disable cookies through browser settings, but this may affect some functions.
+
+**2.4 Third-party payment data**
+
+When purchasing tokens through a third party, the third party may collect your payment information (such as bank card number, payment amount). SwapX does not directly collect or store this information, but may receive the following data:
+
+- Payment status: whether the transaction is successful.
+
+- Associated wallet address: used to send tokens to you.
+
+**2.5 User-Provided Information**
+
+- **Support Requests**: When submitting questions via email (support@swapx.exchange) or Discord, you may provide information (such as wallet addresses).
+- **Community Participation**: When participating in activities on Twitter, Telegram, or Discord, you may share information.
+
+---
+**3. How we use your information**
+
+We only use the collected information for the following purposes:
+
+- **Provide services**: Process cross-chain exchange, token purchase and Swap transactions, and display transaction status.
+
+- **Improve services**: Analyze usage data, optimize website performance and user experience.
+
+- **Customer support**: Respond to your support requests and solve technical problems.
+
+- **Security and compliance**: Screen wallet addresses through blockchain analysis tools, detect and prevent fraud or illegal activities, and comply with anti-money laundering (AML) and counter-terrorism financing (CTF) regulations.
+
+**Not for marketing**: SwapX does not use your information for marketing purposes.
 
 ---
 
-**4. 我们如何分享您的信息**
+**4. How we share your information**
 
-SwapX 不会出售或租赁您的个人信息。我们可能在以下情况下分享信息：
+SwapX will not sell or rent your personal information. We may share information in the following circumstances:
 
-- **链上数据**：链上数据（如钱包地址、交易记录）公开存储在 XONE Chain,Ethereum,TRON,Solana,Binance Chain 等区块链上，任何人都可访问。
-- **区块链分析提供商**：我们可能与第三方区块链分析提供商共享钱包地址，以检测非法活动，但不会分享任何个人身份信息。
-
----
-
-**5. 数据存储与安全**
-
-**5.1 存储**
-
-- **链上数据**：存储在 XONE Chain 及相关区块链（Ethereum,TRON,Solana,Binance Chain），由区块链网络维护。
-
-**5.2 安全措施**
-
-- **加密**：传输中的数据通过 HTTPS 加密。
-- **访问控制**：仅授权人员可访问非链上数据。
-- **反向代理**：我们使用反向代理服务器，防止第三方工具读取用户数据。
-
-**注意**：SwapX 不存储您的私钥或控制您的资产，您需自行保护钱包安全。
+- **On-chain data**: On-chain data (such as wallet addresses, transaction records) are publicly stored on blockchains such as XONE Chain, Ethereum, TRON, Solana, Binance Chain, etc., and can be accessed by anyone.
+- **Blockchain analysis providers**: We may share wallet addresses with third-party blockchain analysis providers to detect illegal activities, but no personally identifiable information will be shared.
 
 ---
 
-**6. 您的权利**
+**5. Data storage and security**
 
-**6.1 访问与控制**
+**5.1 Storage**
 
-- **链上数据**：您可通过区块链浏览器查看交易记录。
-- **非链上数据**：您可通过 support@swapx.exchange 请求访问我们持有的数据。
-- **Cookies 管理**：通过浏览器设置禁用 Cookies。
+- **On-chain data**: Stored on XONE Chain and related blockchains (Ethereum, TRON, Solana, Binance Chain), maintained by the blockchain network.
 
-**6.2 GDPR 权利（欧盟用户）**
+**5.2 Security measures**
 
-欧盟用户可通过 support@swapx.exchange行使以下权利：
+- **Encryption**: Data in transit is encrypted via HTTPS.
 
-- 访问或更正您的非链上数据。
-- 请求删除非链上数据（链上数据不可删除）。
-- 限制或反对数据处理。
+- **Access control**: Only authorized personnel can access non-on-chain data.
 
-**6.3 CCPA 合规（加州居民）**
+- **Reverse proxy**: We use a reverse proxy server to prevent third-party tools from reading user data.
 
-加州居民可请求访问或删除非链上数据。SwapX 不“出售”个人信息（根据 CCPA 定义）。
-
-**6.4 退出通知**
-
-如收到服务通知，您可通过电子邮件中的“取消订阅”链接退出。
+**Note**: SwapX does not store your private keys or control your assets, you need to protect your wallet security yourself.
 
 ---
 
-**7. 儿童隐私**
+**6. Your rights**
 
-SwapX 服务不面向 18 岁以下儿童。我们不会故意收集儿童信息。如发现相关情况，请联系 support@swapx.exchange，我们将立即删除相关数据。
+**6.1 Access and control**
+
+- **On-chain data**: You can view transaction records through the blockchain browser.
+- **Off-chain data**: You can request access to the data we hold about you at support@swapx.exchange.
+- **Cookies management**: Disable cookies via your browser settings.
+
+**6.2 GDPR rights (EU users)**
+
+EU users can exercise the following rights at support@swapx.exchange:
+
+- Access or correct your off-chain data.
+
+- Request deletion of off-chain data (on-chain data cannot be deleted).
+
+- Restrict or object to data processing.
+
+**6.3 CCPA compliance (California residents)**
+
+California residents can request access or deletion of off-chain data. SwapX does not "sell" personal information (as defined under the CCPA).
+
+**6.4 Opt-out notifications**
+
+If you receive service notifications, you can opt-out via the "unsubscribe" link in the email.
 
 ---
 
-**8. 国际数据传输**
+**7. Children's Privacy**
 
-SwapX 的服务器可能位于多个司法管辖区。
-
----
-
-**9. 协议变更**
-
-我们可能不时更新本隐私协议，更新版本将在 https://docs.swapx.exchange/study发布，并在生效前通过网站公告或电子邮件通知您。继续使用服务即表示您同意更新后的协议。
+SwapX services are not intended for children under 18 years of age. We do not knowingly collect information from children. If you find any relevant situation, please contact support@swapx.exchange and we will delete the relevant data immediately.
 
 ---
 
-**10. 联系我们**
+**8. International Data Transfer**
 
-如对本隐私协议有任何疑问，或需行使您的权利，请通过以下方式联系我们：
+SwapX's servers may be located in multiple jurisdictions.
 
-- **电子邮件:**support@swapx.exchange
-- **推特**：https://x.com/SwapX009
+---
+
+**9. Agreement Changes**
+
+We may update this Privacy Agreement from time to time. The updated version will be posted on https://docs.swapx.exchange/study and notified to you by website announcement or email before it takes effect. By continuing to use the service, you agree to the updated agreement.
+
+---
+
+**10. Contact Us**
+
+If you have any questions about this Privacy Agreement or need to exercise your rights, please contact us as follows:
+
+- **Email:**support@swapx.exchange
+- **Twitter**: https://x.com/SwapX009

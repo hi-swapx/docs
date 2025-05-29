@@ -1,41 +1,40 @@
 ---
-title: 如何交易
-sidebar_label: "如何交易"
-sidebar_position: 1
+title: How to Trade
+sidebar_label: "How to Trade"
+sidebar_position: 3
 ---
 
+# How to Trade
 
-# 如何交易
-[英语](trade_guide.EN.md) | [中文](trade_guide.md)
 
-与大多数交易所相比，在 SwapX 上交易非常简单。您不会被图表或术语所困扰，交易路线和计算都由 SwapX 为您处理。
 
-**交易设置**
+Trading on SwapX is very simple compared to most exchanges. You won't be bothered by charts or terminology, and the trade routing and calculations are all handled for you by SwapX.
 
-在进行交易之前，您需要一个钱包。您可以在[此处了解](../../../study/start/wallet_guide(XOC)/create_wallet.md)如何获取钱包。您还需要一些 Gas 进行交易。您可以在[此处了解](../../../study/start/wallet_guide(XOC)/connect_wallet.md)如何获取。
+**Trading Setup**
 
-## 在 SwapX 交易所进行交易
+Before you can trade, you'll need a wallet. You can learn how to get one here. You'll also need some Gas to trade. You can learn how to get it here.
 
-1 - 前往交易所页面，[点击此处](https://swapx.exchange)。
+## Trading on SwapX Exchange
 
-2 - 点击“连接钱包”解锁您的钱包（您也可以点击右上角的“连接”）。如果您尚未将钱包连接到 SwapX，您可以[此处了解](../../../study/start/wallet_guide(XOC)/connect_wallet.md)查看指南。
-![alt text](image-2.png)
+1 - Go to the exchange page, [click here](https://swapx.exchange).
 
-3 - 从上方下拉菜单中选择您想要交易的代币。无论您选择哪种代币，都需要确保您的钱包中有足够的代币进行交易。您的余额显示在代币下拉菜单上方。
-![alt text](image-4.png)
+2 - Unlock your wallet by clicking "Connect Wallet" (you can also click "Connect" in the top right corner). If you haven't connected your wallet to SwapX yet, you can check out the guide here.
+![alt text](image-11.png)
 
-4 - 像上面一样，在下面部分中选择您想要交易的代币。
-![alt text](image-6.png)
+3 - Select the token you want to trade from the drop-down menu above. Whichever token you choose, you need to make sure you have enough in your wallet to trade. Your balance is shown above the token drop-down menu.
+![alt text](image-12.png)
 
-5 - 接下来，在上方输入金额，即您想要兑换的代币数量（支出金额）。或者，在下方输入金额，即您想要兑换成的代币数量（接收金额）。
-无论您在哪个部分输入金额，另一个部分的金额都会自动估算。
+4 - Select the token you want to trade in the section below, just like above.
+![alt text](image-13.png)
 
-6 - 检查所有详细信息，然后点击**兑换**按钮。
-如果您是首次交易代币，可能需要先点击“启用 XXX（您的代币）”进行批准。
+5 - Next, enter the amount in the top section, which is the number of tokens you want to exchange (spend amount). Alternatively, enter the amount in the bottom section, which is the number of tokens you want to exchange to (receive amount).
+Whichever section you enter the amount in, the amount in the other section will be automatically estimated.
 
-7 - 系统将出现一个包含更多详细信息的窗口。请检查信息是否正确。准备就绪后，点击“确认兑换”按钮。您的钱包会要求您确认此操作。
+6 - Check all the details and click the **Exchange** button.
+If you are trading a token for the first time, you may need to approve it by clicking "Enable XXX (your token)".
 
-![alt text](image-7.png)
+7 - A window will appear with more details. Please check that the information is correct. When you are ready, click the "Confirm Exchange" button. Your wallet will ask you to confirm this action.
 
-8 - 完成！您可以在区块链浏览器上查看您的交易。
+![alt text](image-14.png)
 
+8 - Now you are Done success! You can view your transaction on the blockchain explorer.

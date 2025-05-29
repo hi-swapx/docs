@@ -1,32 +1,33 @@
-# 代币兑换
-[英语](trade.EN.md) | [中文](trade.md)
+---
+title:  What is Trade
+sidebar_label: " What is Trade"
+sidebar_position: 2
+---
 
+# Token Exchange
 
-去中心化交易所（DEX）的代币兑换是通过区块链智能合约实现的点对点资产交换，其核心特征和流程如下：
-## 非托管机制：
-    * 用户始终通过钱包（如MetaMask）掌控私钥
-    * 资产无需存入交易所，直接由智能合约完成链上结算
-## 兑换实现方式：
-    【AMM模式】
-    基于流动性池（如Uniswap的x*y=k算法）
-    价格由资金池比例自动计算
-    兑换公式：Δy = (Δx * y)/(x + Δx)
-    【订单簿模式】
-    链上订单撮合（如dYdX）
-    买卖挂单上链执行
+Token exchange on decentralized exchanges (DEX) is a peer-to-peer asset exchange achieved through blockchain smart contracts. Its core features and processes are as follows:
+## Non-custodial mechanism:
+* Users always control private keys through wallets (such as MetaMask)
+* Assets do not need to be deposited in exchanges, and smart contracts complete on-chain settlement directly
+## Exchange implementation method:
+[AMM mode]
+Based on liquidity pools (such as Uniswap's x*y=k algorithm)
+The price is automatically calculated by the proportion of the capital pool
+Exchange formula: Δy = (Δx * y)/(x + Δx)
+[Order book mode]
+On-chain order matching (such as dYdX)
+Buy and sell orders are executed on the chain
 
-SwapX 上的 [**代币兑换**](https://swapx.exchange) 是一种简单的代币兑换方式，流动性来自于 SwapX 上创建的流动性池（https://swapx.exchange/pools）。
-![alt text](image.png)
+[**Token Exchange**](https://swapx.exchange) on SwapX is a simple token exchange method, and liquidity comes from the liquidity pool created on SwapX (https://swapx.exchange/pools).
+![alt text](image-10.png)
 
-# 费用
-当您在SwapX交易所进行代币兑换（交易）时，您将根据交易所经过的流动性池类型支付交易费。
-## 流动性提供者费用
-兑换代币需支付0.3% 的费用。该费用由流动性提供者根据其对流动性储备的贡献按比例分配。
-交换费用会立即存入流动性储备。这会增加流动性代币的价值，作为对所有流动性提供者的支付，其金额与他们在池中的份额成比例。费用是通过销毁流动性代币来收取的，以消除基础储备的比例份额。
-## 协议费用
-目前没有协议费用。但是，将来可能会收取0.05% 的费用。
-将来，协议范围内每笔交易收取0.05% 的费用可能会生效。这相当于0.30% 费用的⅙ 分之一(16.6̅%)。如果feeTo 不为address(0)( 0x0000000000000000000000000000000000000000)，则该费用有效，表明feeTo 是费用的接收者。
-该金额不会影响交易者支付的费用，但会影响流动性提供者收到的金额。
-
-
-
+# Fees
+When you swap (trade) tokens on the SwapX exchange, you will pay a transaction fee based on the type of liquidity pool the swap goes through.
+## Liquidity Provider Fees
+A fee of 0.3% is charged for swapping tokens. This fee is shared by liquidity providers in proportion to their contribution to the liquidity reserve.
+Swap fees are immediately deposited into the liquidity reserve. This increases the value of the liquidity tokens as a payment to all liquidity providers in an amount proportional to their share of the pool. Fees are collected by burning liquidity tokens to eliminate a proportional share of the underlying reserve.
+## Protocol Fees
+There are currently no protocol fees. However, a 0.05% fee may be charged in the future.
+In the future, a 0.05% fee on every trade within the protocol may come into effect. This is equivalent to one-⅙ of the 0.30% fee (16.6̅%). If feeTo is not address(0) ( 0x00000000000000000000000000000000000000000000), the fee is valid, indicating that feeTo is the recipient of the fee.
+This amount does not affect the fees paid by traders, but does affect the amount received by liquidity providers.

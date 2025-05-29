@@ -1,46 +1,46 @@
 ---
-title: 概述
-sidebar_label: "概述"
+title: Hi Swapx!
+sidebar_label: "Hi Swapx!"
 sidebar_position: 1
 ---
 
-# 欢迎来到 [SwapX](https://swapx.exchange/en)
+# Welcome to [SwapX](https://swapx.exchange/en)
 
-:::tip[[SwapX](https://swapx.exchange/en) 为你的加密货币赋能: ]
-**兑换, 交易 和 奖励**
+:::tip[[SwapX](https://swapx.exchange/en) empowers your cryptocurrency: ]
+**Exchange, Trading and Rewards**
 :::
 
-[SwapX](https://swapx.exchange/en) 是一个基于 [Uniswap](https://app.uniswap.org/) v2/v3 协议的去中心化代币兑换系统，为用户提供完整的数字资产管理解决方案。作为 [Xone](https://xone.org) 生态的核心组件，[SwapX](https://swapx.exchange/en) 不仅提供链上代币兑换服务，还集成了多个第三方支付平台的法币交易功能，创造了一个无缝衔接的加密货币交易环境。
+[SwapX](https://swapx.exchange/en) is a decentralized token exchange system based on the [Uniswap](https://app.uniswap.org/) v2/v3 protocol, providing users with a complete digital asset management solution. As a core component of the [Xone](https://xone.org) ecosystem, [SwapX](https://swapx.exchange/en) not only provides on-chain token exchange services, but also integrates the fiat currency trading functions of multiple third-party payment platforms, creating a seamless cryptocurrency trading environment.
 
-### Swap：代币交换
+### Swap: Token Exchange
 
-🔄 **低手续费**  
-[SwapX](https://swapx.exchange/en) 提供更具竞争力的交易费率，低于行业平均水平，让每一笔交易都更加经济高效。
+🔄 **Low Fees**
+[SwapX](https://swapx.exchange/en) offers more competitive transaction fees, lower than the industry average, making every transaction more cost-effective.
 
-🔐 **去中心化**  
-[SwapX](https://swapx.exchange/en) 允许用户直接从自己的钱包进行交易，无需存入资金或信任第三方。您始终保持对资产的完全控制权，大大降低了中心化平台带来的安全隐患。
+🔐 **Decentralization**
+[SwapX](https://swapx.exchange/en) allows users to trade directly from their wallets without depositing funds or trusting third parties. You always maintain full control of your assets, greatly reducing the security risks brought by centralized platforms.
 
-🌐 **公链生态支持**  
-作为 [Xone](https://xone.org) 公链的原生 DEX，[SwapX](https://swapx.exchange/en) 享有生态系统的全面支持，包括优化的交易确认速度、更低的 gas 费用，以及与生态内其他应用的无缝互操作性。
+🌐 **Public Chain Ecosystem Support**
+As the native DEX of the [Xone](https://xone.org) public chain, [SwapX](https://swapx.exchange/en) enjoys full support from the ecosystem, including optimized transaction confirmation speed, lower gas fees, and seamless interoperability with other applications in the ecosystem.
 
-⚡ **高效交易路由**  
-[SwapX](https://swapx.exchange/en) 有高效的智能路由算法，自动发现最优交易路径，即使是复杂的代币对也能实现最小滑点和最佳执行价格，为大额交易提供理想解决方案。
+⚡ **Efficient transaction routing**
+[SwapX](https://swapx.exchange/en) has an efficient intelligent routing algorithm that automatically discovers the optimal transaction path, achieving minimum slippage and best execution price even for complex token pairs, providing an ideal solution for large transactions.
 
-### Trade：法币交易
+### Trade: Fiat currency trading
 
-💱 **法币快速买卖**  
-通过与 第三方支付 平台的集成，[SwapX](https://swapx.exchange/en) 支持多种法币直接购买和出售加密货币，消除了传统交易所复杂的充值和提现流程，实现一站式服务。
+💱 **Fast buying and selling of fiat currency**
+Through integration with third-party payment platforms, [SwapX](https://swapx.exchange/en) supports direct purchase and sale of cryptocurrencies with multiple fiat currencies, eliminating the complex deposit and withdrawal processes of traditional exchanges and achieving one-stop service.
 
-### Earn：收益机会
+### Earn: Income opportunities
 
-📈 **赚取 Swap 手续费**  
-通过向流动性池提供资金，您可以按比例获得交易手续费收入，创造被动收益流。[SwapX](https://swapx.exchange/en) 的流动性提供机制经过优化，为流动性提供者提供更公平的回报分配。
+📈 **Earn Swap fees**
+By providing funds to the liquidity pool, you can earn transaction fee income in proportion and create a passive income stream. [SwapX](https://swapx.exchange/en)'s liquidity provision mechanism has been optimized to provide a fairer return distribution for liquidity providers.
 
-🏆 **参与赛季活动获取奖励**  
-参与[SwapX](https://swapx.exchange/en)举办各种赛季性活动，获得额外的收益机会和独特的参与体验。
+🏆 **Get rewards by participating in seasonal events**
+Participate in various seasonal events held by [SwapX](https://swapx.exchange/en) to get additional income opportunities and unique participation experience.
 
 ---
 
-[SwapX](https://swapx.exchange/en) 致力于打造一个安全、高效、用户友好的去中心化金融平台，无论您是加密货币新手还是经验丰富的交易者，都能在这里找到适合自己的服务和工具。
+[SwapX](https://swapx.exchange/en) is committed to building a safe, efficient and user-friendly decentralized financial platform. Whether you are a cryptocurrency novice or an experienced trader, you can find services and tools suitable for you here.
 
-开始探索 [SwapX](https://swapx.exchange/en)，体验下一代去中心化交易的无限可能！
+Start exploring [SwapX](https://swapx.exchange/en) and experience the infinite possibilities of the next generation of decentralized trading!
