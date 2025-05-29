@@ -1,38 +1,41 @@
-# 做市商集成
-[英语](market-maker-integration.EN.md) | [中文](market-maker-integration.md)
-## AMM基本概念
-做市商整合是指通过技术、策略或制度设计，将多个做市商（或做市商与其他流动性提供方）的资源和能力协同结合，以优化市场流动性、提升交易效率并降低交易成本的过程。这一概念在传统金融市场和加密市场中均有广泛应用，尤其在去中心化交易所（DEX）和衍生品市场中成为关键机制。
+---
+title: Market Maker Integration
+sidebar_label: "Market Maker Integration"
+sidebar_position: 4
+---
 
-## 做市商整合的核心目标
-    * 提升流动性：通过整合多来源的流动性（如做市商自有资金、自动化做市商AMM池等），减少市场买卖价差，增强交易深度。
+# Market Maker Integration
 
-    * 优化交易执行：智能路由技术根据实时报价，将交易分配到价格最优的做市商或流动性池中，确保用户获得最佳成交价。
+## Basic Concepts of AMM
+Market Maker Integration refers to the process of synergizing the resources and capabilities of multiple market makers (or market makers and other liquidity providers) through technology, strategy or institutional design to optimize market liquidity, improve transaction efficiency and reduce transaction costs. This concept is widely used in both traditional financial markets and crypto markets, especially in decentralized exchanges (DEX) and derivatives markets as a key mechanism.
 
-    * 降低交易成本：通过减少中间环节和竞争性报价，压缩手续费和滑点成本。
+## Core Goals of Market Maker Integration
+* Improve liquidity: Reduce market bid-ask spreads and enhance transaction depth by integrating liquidity from multiple sources (such as market makers' own funds, automated market maker AMM pools, etc.).
 
-    * 增强市场稳定性：整合后的做市商能更高效地应对极端市场波动，平衡供需关系，防止价格剧烈波动
+* Optimize transaction execution: Intelligent routing technology allocates transactions to the market maker or liquidity pool with the best price based on real-time quotes to ensure that users get the best transaction price.
 
-## Xone Chain 做市商集成
+* Reduce transaction costs: Reduce fees and slippage costs by reducing intermediaries and competitive quotes.
 
-SwapX 已与XoneChain的做市商集成，帮助交易者以更低的成本执行交易。
+* Enhanced market stability: integrated market makers can more efficiently deal with extreme market fluctuations, balance supply and demand, and prevent drastic price fluctuations
 
-做市商在 SwapX 上运营有以下场景。
+## Xone Chain Market Maker Integration
 
-**现有的 AMM 流动性池**
+SwapX has integrated with XoneChain's market makers to help traders execute transactions at a lower cost.
 
-如果 SwapX 的 AMM 中已有特定代币（例如 XOC/PANDA）的流动性，SwapX 会向做市商请求同一交易的报价。然后，SwapX 的智能路由器会根据哪个流动性来源在特定时间提供最优价格，将交易请求路由至 AMM 或做市商。
+Market makers operate in the following scenarios on SwapX.
 
-#### 目前支持的资产
+**Existing AMM liquidity pool**
 
-目前支持以下资产，并且可能会根据做市商的不同而增加/减少：
+If SwapX's AMM already has liquidity for a specific token (such as XOC/PANDA), SwapX will request quotes for the same transaction from the market maker. SwapX's smart router will then route the transaction request to the AMM or market maker based on which liquidity source provides the best price at a specific time.
+
+#### Currently supported assets
+
+The following assets are currently supported, and may increase/decrease depending on the market maker:
 
 **Xone Chian**
 
-* **主要货币**：XOC、WXOC、XUSD
-* **稳定币**：USDH
-* **其他热门资产**：PANDE、PHX、T1、T2、PANDA、PNUTX、PnutX、TEST、NUTX、PEPE
+* **Major currencies**: XOC, WXOC, XUSD
+* **Stablecoin**: USDH
+* **Other popular assets**: PANDE, PHX, T1, T2, PANDA, PNUTX, PnutX, TEST, NUTX, PEPE
 
-请注意，与自动做市商 (AMM) 不同，做市商无法以任意金额进行交易，其愿意执行的金额取决于自身的流动性。有时大额订单无法完全成交的情况并不少见。我们建议用户仔细查看报价，确保每笔交易的价格和数量都符合其需求。
-
-
-
+Please note that unlike automated market makers (AMMs), market makers cannot trade in arbitrary amounts, and the amount they are willing to execute depends on their own liquidity. Sometimes it is not uncommon for large orders to not be fully executed. We recommend that users carefully check the quotes to ensure that the price and quantity of each transaction meet their needs.

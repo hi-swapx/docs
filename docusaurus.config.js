@@ -31,11 +31,28 @@ const config = {
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
+  //i18n: {
+   // defaultLocale: "zh",
+    //locales: ["zh"],
+ // },
   i18n: {
-    defaultLocale: "zh",
-    locales: ["zh"],
+    defaultLocale: 'en',
+    locales: ['en', 'zh'], // 添加你需要的语言代码
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      zh: {
+        label: '中文',
+        direction: 'ltr',
+      },
+      // 其他语言配置...
+    },
+    
   },
 
+  
   presets: [
     [
       "classic",
@@ -53,12 +70,16 @@ const config = {
       }),
     ],
   ],
+  
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
       // image: "",
+      
+    
+  
       navbar: {
         title: "SwapX Docs",
         logo: {
@@ -86,6 +107,10 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+        type: 'localeDropdown',
+        position: 'right',
+      },
         ],
       },
       footer: {

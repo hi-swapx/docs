@@ -1,9 +1,9 @@
 {
-  "label": "交易",
-  "position": 4,
+  "label": "buy&sell",
+  "position": 1,
   "className": "hidden",
   "link": {
     "type": "generated-index",
-    "description": "交易"
+    "description": "buy&sell"
   }
 }

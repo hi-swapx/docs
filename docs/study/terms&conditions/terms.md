@@ -1,180 +1,197 @@
 ---
-sidebar_label: "服务协议"
+sidebar_label: "terms"
 sidebar_position: 2
 ---
 
 
-**1. 概述**
+**1. Overview**
 
-欢迎使用 SwapX（“我们”或“SwapX”）！本服务条款（“条款”）适用于您使用 SwapX 的服务（“服务”），包括但不限于[SwapX官网](https://swapx.exchange)、[SwapX文档中心](https://docs.swapx.exchange/study/)、智能合约及相关功能。
+Welcome to SwapX ("we" or "SwapX")! These Terms of Service ("Terms") apply to your use of SwapX's services ("Services"), including but not limited to [SwapX Official Website](https://swapx.exchange), [SwapX Document Center](https://docs.swapx.exchange/study/), smart contracts and related functions.
 
-**使用服务即表示您同意本条款**。如果您不同意，请勿使用我们的服务。
-
----
-
-**2. 服务描述**
-
-SwapX 提供以下核心功能：
-
-- **跨链兑换**：通过第三方跨链桥，实现第三方区块链资产的去中心化兑换，
-- **代币购买**：通过第三方支持法币（美元）购买代币；
-- **去中心化 Swap**：基于 XONE Chain 的 AMM 模型，支持 XOC、第三方代币及其他链代币兑换。
-
-**注意**：SwapX 是一个去中心化平台，我们不持有或控制您的资产。您需自行管理钱包和私钥。
+**You agree to these Terms by using the Services**. If you do not agree, please do not use our Services.
 
 ---
 
-**3. 使用条件**
+**2. Service Description**
 
-**3.1 资格**
+SwapX provides the following core functions:
 
-您声明并保证：
+- **Cross-chain Exchange**: Decentralized exchange of third-party blockchain assets through third-party cross-chain bridges,
 
-- 您年满 18 岁，或在您所在司法管辖区内已达到法定年龄。
-- 您未被任何法律、监管机构禁止使用 DeFi 服务。
-- 您不位于受限制地区（包括但不限于美国、朝鲜、伊朗、古巴、叙利亚等受制裁国家，具体受限地区可通过 support@swapx.exchange查询）。
+- **Token Purchase**: Purchase tokens through third-party supported fiat currencies (USD);
 
-**3.2 用户责任**
+- **Decentralized Swap**: Based on the AMM model of XONE Chain, it supports XOC, third-party tokens and other chain tokens.
 
-- **钱包安全**：您需自行保护私钥和钱包安全，SwapX 不负责因私钥丢失、被盗导致的资产损失。
-- **合规性**：您需遵守所在司法管辖区的法律法规，包括反洗钱（AML）和反恐融资（CTF）要求。
-- **合法使用**：禁止使用服务从事非法活动（如洗钱、欺诈、恐怖主义融资）。
+**Note**: SwapX is a decentralized platform and we do not hold or control your assets. You need to manage your wallet and private key by yourself.
 
 ---
 
-**4. 费用**
+**3. Conditions of Use**
 
-**4.1 交易费用**
+**3.1 Eligibility**
 
-- **跨链兑换和 Swap 费用**：SwapX 收取 0.15%-0.25% 的交易手续费。
-- **Gas 费**：您需支付链上 Gas 费（由 XONE Chain,Ethereum,TRON,Solana,Binance Chain 等网络决定，SwapX 不控制 Gas 费）。
-- **代币购买费用**：第三方可能收取额外费用（详见其服务条款）。
+You represent and warrant that:
 
-**4.2 费用调整**
+- You are 18 years of age or older, or have reached the legal age in your jurisdiction.
 
-SwapX 保留调整费率的权利，调整将在网站公告后生效。
+- You are not prohibited from using DeFi services by any law or regulatory agency.
 
----
+- You are not located in a restricted region (including but not limited to the United States, North Korea, Iran, Cuba, Syria and other sanctioned countries. The specific restricted regions can be checked at support@swapx.exchange).
 
-**5. 风险披露**
+**3.2 User Responsibilities**
 
-**5.1 去中心化服务的风险**
+- **Wallet Security**: You need to protect your private key and wallet security by yourself. SwapX is not responsible for asset losses caused by loss or theft of private keys.
 
-- **市场风险**：加密资产价格波动可能导致损失，SwapX 不对市场风险负责。
-- **技术风险**：区块链网络可能出现故障、延迟或攻击（如 51% 攻击），SwapX 不对由此导致的损失负责。
-- **智能合约风险**：尽管 SwapX 智能合约已通过Solidity审计，仍可能存在未知漏洞，用户需自行承担风险。
+- **Compliance**: You need to comply with the laws and regulations of your jurisdiction, including anti-money laundering (AML) and counter-terrorism financing (CTF) requirements.
 
-**5.2 第三方服务风险**
-
-- **第三方**通过Swapx购买代币可能涉及第三方风险，SwapX 不对其服务负责。
-- **区块链网络**：服务依赖 XONE Chain,Ethereum,TRON,Solana,Binance Chain等网络，网络问题可能影响服务。
-
-**5.3 无担保**
-
-SwapX 不提供任何明示或暗示的担保，包括但不限于服务的可用性、准确性或适用性。
+- **Legal Use**: It is prohibited to use the service for illegal activities (such as money laundering, fraud, and terrorist financing).
 
 ---
 
-**6. 知识产权**
+**4. Fees**
 
-**6.1 所有权**
+**4.1 Transaction Fees**
 
-SwapX 的网站、智能合约、品牌标识（如“SwapX”）及相关内容受版权、商标和其他知识产权法保护，归 SwapX 所有。
+- **Cross-chain Exchange and Swap Fees**: SwapX charges a transaction fee of 0.15%-0.25%.
 
-**6.2 使用许可**
+- **Gas Fees**: You need to pay the on-chain Gas Fees (determined by the XONE Chain, Ethereum, TRON, Solana, Binance Chain and other networks, SwapX does not control the Gas Fees).
 
-我们授予您有限的、非独占的、可撤销的许可，仅用于访问和使用服务。您不得：
+- **Token Purchase Fees**: Third parties may charge additional fees (see their Terms of Service for details).
 
-- 修改、反编译、复制服务代码或内容。
-- 将服务用于商业用途（除非获得书面授权）。
+**4.2 Fee Adjustments**
 
-**6.3 开源代码**
+SwapX reserves the right to adjust the fee rates, and the adjustment will take effect after the website announcement.
 
-部分代码在 GitHub 开源（https://github.com/hi-swapx ），受开源许可（如 MIT License）约束，具体条款见 GitHub 仓库。
+---
+**5. Risk Disclosure**
+
+**5.1 Risks of Decentralized Services**
+
+- **Market Risk**: Fluctuations in the price of crypto assets may result in losses, and SwapX is not responsible for market risks.
+
+- **Technical Risk**: Blockchain networks may fail, delay, or be attacked (such as 51% attacks), and SwapX is not responsible for losses caused by such failures.
+
+- **Smart Contract Risk**: Although the SwapX smart contract has passed the Solidity audit, there may still be unknown vulnerabilities, and users are responsible for their own risks.
+
+**5.2 Third-party Service Risk**
+
+- **Third Party** Purchasing tokens through Swapx may involve third-party risks, and SwapX is not responsible for its services.
+
+- **Blockchain Network**: The service relies on networks such as XONE Chain, Ethereum, TRON, Solana, and Binance Chain, and network problems may affect the service.
+
+**5.3 No Guarantee**
+
+SwapX does not provide any express or implied warranties, including but not limited to the availability, accuracy, or suitability of the service.
 
 ---
 
-**7. 禁止行为**
+**6. Intellectual Property**
 
-您同意不从事以下行为：
+**6.1 Ownership**
 
-- 使用服务进行非法活动，包括洗钱、欺诈、恐怖主义融资。
-- 利用服务漏洞或未经授权的方式访问系统。
-- 干扰服务运行（如通过 DDoS 攻击）。
-- 传播恶意软件、病毒或其他有害代码。
+SwapX's website, smart contracts, brand logos (such as "SwapX") and related content are protected by copyright, trademark and other intellectual property laws and are owned by SwapX.
 
-若发现上述行为，SwapX 保留暂停或终止服务的权利，并可能向相关机构报告。
+**6.2 License to Use**
 
----
+We grant you a limited, non-exclusive, revocable license solely to access and use the Services. You may not:
 
-**8. 第三方服务**
+- Modify, decompile, or copy the Service code or content.
 
-SwapX 服务可能涉及第三方区块浏览器。这些服务受其各自条款约束，SwapX 不对其行为或可用性负责。
+- Use the Services for commercial purposes (unless authorized in writing).
 
----
+**6.3 Open Source Code**
 
-**9. 免责声明**
-
-**9.1 无托管**
-
-SwapX 不持有或控制您的资产、私钥或资金。您需自行管理钱包安全，SwapX 不对资产损失负责。
-
-**9.2 服务“按原样”提供**
-
-SwapX 按“现状”和“可用”基础提供服务，不提供任何明示或暗示的担保，包括但不限于：
-
-- 服务不中断或无错误。
-- 服务适合特定用途。
-
-**9.3 责任限制**
-
-在法律允许的范围内，SwapX 不对以下情况承担责任：
-
-- 因用户操作失误、黑客攻击、私钥泄露导致的损失。
-- 因区块链网络故障、Gas 费波动导致的损失。
-- 间接、附带、特殊或惩罚性损害。
+Some of the code is open source on GitHub (https://github.com/hi-swapx) and is subject to open source licenses (such as the MIT License). The specific terms are available in the GitHub repository.
 
 ---
 
-**10. 终止服务**
+**7. Prohibited Conduct**
 
-**10.1 用户终止**
+You agree not to engage in the following:
 
-您可随时停止使用 SwapX 服务。
+- Use the Services for illegal activities, including money laundering, fraud, and terrorist financing.
 
-**10.2 SwapX 终止**
+- Exploit service vulnerabilities or access the system in an unauthorized manner.
+- Interfere with the operation of the service (such as through DDoS attacks).
+- Spread malware, viruses or other harmful code.
 
-SwapX 保留在以下情况下暂停或终止服务的权利：
-
-- 您违反本条款。
-- 服务需遵守法律或监管要求。
-- 技术或安全问题导致服务不可用。
-
-终止服务后，您仍可通过区块链网络访问您的资产（受网络规则约束）。
+If the above behavior is found, SwapX reserves the right to suspend or terminate the service and may report it to the relevant authorities.
 
 ---
 
-**11. 法律适用与争议解决**
+**8. Third-party services**
 
-**11.1 适用法律**
-
-本条款受新加坡法律管辖。
-
-**11.2 争议解决**
-
-任何因本条款引起的争议，应通过友好协商解决。若协商失败，双方同意提交新加坡国际仲裁中心（SIAC）] 仲裁，仲裁裁决为最终裁决。
+SwapX services may involve third-party block explorers. These services are subject to their own terms and SwapX is not responsible for their actions or availability.
 
 ---
 
-**12. 条款变更**
+**9. Disclaimer**
 
-SwapX 保留随时修改本条款的权利，修改将在 https://docs.swapx.exchange/study发布，并通过网站公告或电子邮件通知您。继续使用服务即表示您同意更新后的条款。
+**9.1 No Custody**
+
+SwapX does not hold or control your assets, private keys or funds. You are responsible for managing your own wallet security and SwapX is not responsible for the loss of assets.
+
+**9.2 Service is provided "as is"**
+
+SwapX provides services on an "as is" and "as available" basis without any express or implied warranties, including but not limited to:
+
+- The service will be uninterrupted or error-free.
+
+- The service is suitable for a particular purpose.
+
+**9.3 Limitation of Liability**
+
+To the extent permitted by law, SwapX is not responsible for the following:
+
+- Losses caused by user operation errors, hacker attacks, and private key leaks.
+
+- Losses caused by blockchain network failures and gas fee fluctuations.
+
+- Indirect, incidental, special or punitive damages.
 
 ---
 
-**13. 联系我们**
+**10. Termination of Service**
 
-如对本隐私协议有任何疑问，或需行使您的权利，请通过以下方式联系我们：
+**10.1 User Termination**
 
-- **电子邮件**：support@swapx.exchange
-- **推特**：https://x.com/SwapX009
+You may stop using SwapX services at any time.
+
+**10.2 SwapX Termination**
+
+SwapX reserves the right to suspend or terminate the service in the following circumstances:
+
+- You violate these Terms.
+
+- The service must comply with legal or regulatory requirements.
+
+- Technical or security issues make the service unavailable.
+
+After the service is terminated, you can still access your assets through the blockchain network (subject to network rules).
+
+---
+
+**11. Applicable Law and Dispute Resolution**
+
+**11.1 Applicable Law**
+
+These Terms are governed by the laws of Singapore.
+
+**11.2 Dispute Resolution**
+
+Any dispute arising from these Terms shall be resolved through friendly negotiation. If the negotiation fails, both parties agree to submit the dispute to arbitration by the Singapore International Arbitration Centre (SIAC), and the arbitration award shall be final.
+
+---
+
+**12. Changes to Terms**
+
+SwapX reserves the right to modify these Terms at any time, which will be published on https://docs.swapx.exchange/study and notified to you through website announcements or emails. By continuing to use the service, you agree to the updated terms.
+
+---
+
+**13. Contact Us**
+
+If you have any questions about this Privacy Agreement or need to exercise your rights, please contact us through the following methods:
+
+- **Email**: support@swapx.exchange
+- **Twitter**: https://x.com/SwapX009

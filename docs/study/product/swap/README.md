@@ -1,28 +1,26 @@
 ---
-title: 兑换基本概念
-sidebar_label: "兑换基本概念"
+title: Basic Concepts of Exchange
+sidebar_label: "Basic Concepts of Exchange"
 sidebar_position: 1
 ---
 
-### 🔄 交易所
-[英语](README.EN.md) | [中文](README.md)
-
-SwapX 是一个自动做市商 (AMM)，去中心化交易所（DEX） ，通过智能合约和算法自动提供流动性，无需传统订单簿。交易价格由数学公式（如恒定乘积 x * y = k）决定，用户直接与流动性池交易。流动性提供者（LP）存入代币对并赚取手续费，但可能面临无常损失。特点是无需许可、透明且抗审查。
-SwapX 交易所提供多种支持去中心化交易的功能：
-
-### 兑换/交易
-
-去中心化交易所（DEX） 通过智能合约实现用户间的点对点资产交易，无需中介托管资金。用户直接通过钱包（如MetaMask）连接链上协议，使用 自动做市商（AMM） 模型（如Uniswap）或订单簿（如dYdX）完成兑换，交易在区块链上公开结算。优势包括非托管、抗审查，但受限于链上性能（如速度、滑点）。
-如果是 中心化交易所（CEX），则依赖平台订单簿撮合交易，用户需充值资产至交易所托管，由中心化机构管理流动性。
-SwapX允许用户无需通过中心化交易所即可进行交易。您在 SwapX 上进行的所有操作都直接通过您自己的钱包进行——无需将您的代币委托给其他人！
-
-### 流动性池
-
-去中心化交易所（DEX）流动性池（Liquidity Pool） 是由用户存入的加密资产组成的智能合约资金池，用于实现自动交易定价和即时兑换。
-只有在 SwapX拥有足够流动性的情况下，您才能兑换这些代币。
-如果没有人为您想要兑换的代币增加足够的流动性，那么兑换将会非常困难、昂贵，甚至无法实现。
-提供流动性将为您带来流动性代币 (LP Tokens)，这些代币将以交易费的形式奖励您，以确保您始终拥有足够的流动性供交易所使用。
+### 🔄 Exchange
 
 
+SwapX is an automated market maker (AMM), a decentralized exchange (DEX) that automatically provides liquidity through smart contracts and algorithms without the need for traditional order books. The transaction price is determined by a mathematical formula (such as the constant product x * y = k), and users trade directly with the liquidity pool. Liquidity providers (LPs) deposit token pairs and earn fees, but may face impermanent losses. Features are permissionless, transparent, and censorship-resistant.
+SwapX Exchange provides a variety of functions that support decentralized trading:
 
-以上您已经了解基本概念，让我们开始[兑换](../../product/swap/trade.md)之旅吧！
+### Exchange/Trading
+
+Decentralized Exchange (DEX) enables peer-to-peer asset trading between users through smart contracts, without the need for intermediary custody of funds. Users connect to the on-chain protocol directly through a wallet (such as MetaMask), use an automated market maker (AMM) model (such as Uniswap) or an order book (such as dYdX) to complete the exchange, and the transaction is publicly settled on the blockchain. Advantages include non-custodial and censorship-resistant, but are limited by on-chain performance (such as speed and slippage).
+If it is a centralized exchange (CEX), it relies on the platform order book to match transactions. Users need to recharge assets to the exchange for custody, and centralized institutions manage liquidity.
+SwapX allows users to trade without going through a centralized exchange. All operations you perform on SwapX are performed directly through your own wallet - no need to entrust your tokens to others!
+
+### Liquidity Pool
+
+The decentralized exchange (DEX) liquidity pool (Liquidity Pool) is a smart contract fund pool composed of crypto assets deposited by users, which is used to achieve automatic transaction pricing and instant exchange.
+You can only exchange these tokens if SwapX has sufficient liquidity.
+If no one adds enough liquidity to the token you want to exchange, then the exchange will be difficult, expensive, or even impossible.
+Providing liquidity will earn you liquidity tokens (LP Tokens), which will be rewarded to you in the form of trading fees to ensure that you always have enough liquidity for the exchange.
+
+Now that you understand the basic concepts, let's start the [exchange](../../product/swap/trade.md) journey!
