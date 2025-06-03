@@ -11,5 +11,5 @@ node_modules/
 push.sh
 .DS_Store
 .docusaurus/
-.yarn.lock
+yarn.lock
 build/

@@ -49,15 +49,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '836'),
+    component: ComponentCreator('/', '8db'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '15d'),
+        component: ComponentCreator('/', '91d'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'f1d'),
+            component: ComponentCreator('/', '3e0'),
             routes: [
               {
                 path: '/category/参考',
@@ -96,12 +96,6 @@ export default [
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/条款和条件',
-                component: ComponentCreator('/category/条款和条件', '4fe'),
-                exact: true,
-                sidebar: "studySidebar"
-              },
-              {
                 path: '/category/先进的',
                 component: ComponentCreator('/category/先进的', 'fb4'),
                 exact: true,
@@ -118,6 +112,36 @@ export default [
                 component: ComponentCreator('/category/指南-1', '5fc'),
                 exact: true,
                 sidebar: "sdkSidebar"
+              },
+              {
+                path: '/category/liquidity',
+                component: ComponentCreator('/category/liquidity', '850'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/category/privacy-and-terms',
+                component: ComponentCreator('/category/privacy-and-terms', '574'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/category/start',
+                component: ComponentCreator('/category/start', 'ce6'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/category/swap',
+                component: ComponentCreator('/category/swap', 'a2e'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/category/wallet_guide',
+                component: ComponentCreator('/category/wallet_guide', 'c77'),
+                exact: true,
+                sidebar: "studySidebar"
               },
               {
                 path: '/contract/',
@@ -686,6 +710,66 @@ export default [
               {
                 path: '/study/',
                 component: ComponentCreator('/study/', '172'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/',
+                component: ComponentCreator('/study/product/', '3d7'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/liquidity/',
+                component: ComponentCreator('/study/product/liquidity/', 'd39'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/liquidity/pool',
+                component: ComponentCreator('/study/product/liquidity/pool', '987'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/',
+                component: ComponentCreator('/study/product/swap/', 'd95'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/market-maker-integration',
+                component: ComponentCreator('/study/product/swap/market-maker-integration', 'a54'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/trade',
+                component: ComponentCreator('/study/product/swap/trade', '36b'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/product/swap/trade_guide',
+                component: ComponentCreator('/study/product/swap/trade_guide', '8e1'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/start/wallet_guide/',
+                component: ComponentCreator('/study/start/wallet_guide/', 'b91'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/start/wallet_guide/connect_wallet',
+                component: ComponentCreator('/study/start/wallet_guide/connect_wallet', '433'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/study/start/wallet_guide/create_wallet',
+                component: ComponentCreator('/study/start/wallet_guide/create_wallet', '2f5'),
                 exact: true,
                 sidebar: "studySidebar"
               },

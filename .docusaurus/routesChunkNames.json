@@ -56,17 +56,17 @@
     },
     "config": "config---5-e-9-4f3"
   },
-  "/-836": {
+  "/-8db": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-15d": {
+  "/-91d": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-f1d": {
+  "/-3e0": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/category/参考-e76": {
@@ -93,10 +93,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---category-枚举-7-a-5-1c5"
   },
-  "/category/条款和条件-4fe": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-条款和条件-4-e-5-44c"
-  },
   "/category/先进的-fb4": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---category-先进的c-38-e45"
@@ -108,6 +104,26 @@
   "/category/指南-1-5fc": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---category-指南-1-e-19-77a"
+  },
+  "/category/liquidity-850": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-liquidityc-35-ec3"
+  },
+  "/category/privacy-and-terms-574": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-privacy-and-terms-4-b-8-65f"
+  },
+  "/category/start-ce6": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-start-81-a-6c6"
+  },
+  "/category/swap-a2e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-swap-9-eb-f83"
+  },
+  "/category/wallet_guide-c77": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-wallet-guide-2-b-7-780"
   },
   "/contract/-b26": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -488,6 +504,46 @@
   "/study/-172": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---study-2-bc-87e"
+  },
+  "/study/product/-3d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-product-0-ae-7d5"
+  },
+  "/study/product/liquidity/-d39": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-product-liquidity-628-ec9"
+  },
+  "/study/product/liquidity/pool-987": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-product-liquidity-pool-032-416"
+  },
+  "/study/product/swap/-d95": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-product-swap-ab-3-e84"
+  },
+  "/study/product/swap/market-maker-integration-a54": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-product-swap-market-maker-integration-43-d-865"
+  },
+  "/study/product/swap/trade-36b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-product-swap-trade-26-b-95e"
+  },
+  "/study/product/swap/trade_guide-8e1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-product-swap-trade-guidee-17-0e6"
+  },
+  "/study/start/wallet_guide/-b91": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-start-wallet-guide-392-c2c"
+  },
+  "/study/start/wallet_guide/connect_wallet-433": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-start-wallet-guide-connect-wallet-814-f19"
+  },
+  "/study/start/wallet_guide/create_wallet-2f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---study-start-wallet-guide-create-wallet-54-a-678"
   },
   "/study/terms&conditions/privacy-d25": {
     "__comp": "__comp---theme-doc-item-178-a40",

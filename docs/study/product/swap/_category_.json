@@ -1,9 +1,8 @@
 {
-  "label": "兑换",
-  "position": 3,
-  "className": "hidden",
+  "label": "Swap",
+  "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "兑换"
+    "description": "Swap"
   }
 }
