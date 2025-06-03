@@ -3,785 +3,750 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/zh/markdown-page',
+    component: ComponentCreator('/zh/markdown-page', '520'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/zh/',
+    component: ComponentCreator('/zh/', '9c6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', '2e1'),
-    exact: true
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', '8db'),
+    path: '/zh/',
+    component: ComponentCreator('/zh/', 'd61'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '91d'),
+        path: '/zh/',
+        component: ComponentCreator('/zh/', '658'),
         routes: [
           {
-            path: '/',
-            component: ComponentCreator('/', '3e0'),
+            path: '/zh/',
+            component: ComponentCreator('/zh/', '27e'),
             routes: [
               {
-                path: '/category/参考',
-                component: ComponentCreator('/category/参考', 'e76'),
+                path: '/zh/category/参考',
+                component: ComponentCreator('/zh/category/参考', 'f38'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/兑换',
-                component: ComponentCreator('/category/兑换', 'ada'),
+                path: '/zh/category/兑换',
+                component: ComponentCreator('/zh/category/兑换', '9cf'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/接口',
-                component: ComponentCreator('/category/接口', 'b45'),
+                path: '/zh/category/接口',
+                component: ComponentCreator('/zh/category/接口', '075'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/类',
-                component: ComponentCreator('/category/类', '608'),
+                path: '/zh/category/类',
+                component: ComponentCreator('/zh/category/类', '95e'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/流动性',
-                component: ComponentCreator('/category/流动性', '6ef'),
+                path: '/zh/category/流动性',
+                component: ComponentCreator('/zh/category/流动性', '55c'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/枚举',
-                component: ComponentCreator('/category/枚举', 'a34'),
+                path: '/zh/category/枚举',
+                component: ComponentCreator('/zh/category/枚举', '2f6'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/先进的',
-                component: ComponentCreator('/category/先进的', 'fb4'),
+                path: '/zh/category/先进的',
+                component: ComponentCreator('/zh/category/先进的', '954'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/指南',
-                component: ComponentCreator('/category/指南', '2b7'),
+                path: '/zh/category/指南',
+                component: ComponentCreator('/zh/category/指南', '321'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/指南-1',
-                component: ComponentCreator('/category/指南-1', '5fc'),
+                path: '/zh/category/指南-1',
+                component: ComponentCreator('/zh/category/指南-1', '842'),
                 exact: true,
                 sidebar: "sdkSidebar"
               },
               {
-                path: '/category/liquidity',
-                component: ComponentCreator('/category/liquidity', '850'),
-                exact: true,
-                sidebar: "studySidebar"
-              },
-              {
-                path: '/category/privacy-and-terms',
-                component: ComponentCreator('/category/privacy-and-terms', '574'),
+                path: '/zh/category/liquidity',
+                component: ComponentCreator('/zh/category/liquidity', 'c9d'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/category/start',
-                component: ComponentCreator('/category/start', 'ce6'),
+                path: '/zh/category/privacy-and-terms',
+                component: ComponentCreator('/zh/category/privacy-and-terms', 'fcd'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/category/swap',
-                component: ComponentCreator('/category/swap', 'a2e'),
+                path: '/zh/category/start',
+                component: ComponentCreator('/zh/category/start', '1e2'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/category/wallet_guide',
-                component: ComponentCreator('/category/wallet_guide', 'c77'),
+                path: '/zh/category/swap',
+                component: ComponentCreator('/zh/category/swap', '581'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/contract/',
-                component: ComponentCreator('/contract/', 'b26'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/',
-                component: ComponentCreator('/contract/swapx-v2/', '77b'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/advanced-topics/fees',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/fees', 'cf6'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/advanced-topics/price',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/price', '7bd'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/advanced-topics/security',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/security', 'f14'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/advanced-topics/understanding-returns',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/understanding-returns', 'd18'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/core-concepts/flash-swaps',
-                component: ComponentCreator('/contract/swapx-v2/concepts/core-concepts/flash-swaps', '29a'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/core-concepts/pools',
-                component: ComponentCreator('/contract/swapx-v2/concepts/core-concepts/pools', 'a03'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/core-concepts/swaps',
-                component: ComponentCreator('/contract/swapx-v2/concepts/core-concepts/swaps', '905'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants',
-                component: ComponentCreator('/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants', 'd49'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/protocol-overview/how-it-works',
-                component: ComponentCreator('/contract/swapx-v2/concepts/protocol-overview/how-it-works', '301'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v2/concepts/protocol-overview/smart-contract',
-                component: ComponentCreator('/contract/swapx-v2/concepts/protocol-overview/smart-contract', '0fd'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps',
-                component: ComponentCreator('/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps', '70b'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/guides/Implement-A-Swap/single-swaps',
-                component: ComponentCreator('/contract/swapx-v3/guides/Implement-A-Swap/single-swaps', '60f'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/overview',
-                component: ComponentCreator('/contract/swapx-v3/overview', '2f8'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/technical-reference/core/SwapXV3Factory',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/core/SwapXV3Factory', 'bc1'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/technical-reference/core/SwapXV3Pool',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/core/SwapXV3Pool', '558'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer', '7d8'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager', '581'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor', 'e37'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/contract/swapx-v3/technical-reference/periphery/SwapRouter',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/periphery/SwapRouter', 'dc2'),
-                exact: true,
-                sidebar: "contractSidebar"
-              },
-              {
-                path: '/sdk/',
-                component: ComponentCreator('/sdk/', 'dc1'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/guides/fetching-data',
-                component: ComponentCreator('/sdk/v2/guides/fetching-data', 'a31'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/guides/getting-pair-addresses',
-                component: ComponentCreator('/sdk/v2/guides/getting-pair-addresses', 'a9d'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/guides/pricing',
-                component: ComponentCreator('/sdk/v2/guides/pricing', '3a6'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/guides/quick-start',
-                component: ComponentCreator('/sdk/v2/guides/quick-start', 'b31'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/guides/trading',
-                component: ComponentCreator('/sdk/v2/guides/trading', '498'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/overview',
-                component: ComponentCreator('/sdk/v2/overview', 'db2'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/reference/getting-started',
-                component: ComponentCreator('/sdk/v2/reference/getting-started', '643'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/reference/other-exports',
-                component: ComponentCreator('/sdk/v2/reference/other-exports', 'e95'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/reference/pair',
-                component: ComponentCreator('/sdk/v2/reference/pair', '597'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/reference/route',
-                component: ComponentCreator('/sdk/v2/reference/route', 'd33'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v2/reference/trade',
-                component: ComponentCreator('/sdk/v2/reference/trade', 'd65'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/advanced/active-liquidity',
-                component: ComponentCreator('/sdk/v3/guides/advanced/active-liquidity', '074'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/advanced/introduction',
-                component: ComponentCreator('/sdk/v3/guides/advanced/introduction', '714'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/advanced/pool-data',
-                component: ComponentCreator('/sdk/v3/guides/advanced/pool-data', '087'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/advanced/price-oracle',
-                component: ComponentCreator('/sdk/v3/guides/advanced/price-oracle', '297'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/advanced/range-orders',
-                component: ComponentCreator('/sdk/v3/guides/advanced/range-orders', 'c94'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/background',
-                component: ComponentCreator('/sdk/v3/guides/background', 'ddf'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/liquidity/collecting-fees',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/collecting-fees', 'e23'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/liquidity/fetching-positions',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/fetching-positions', 'd33'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/liquidity/minting-position',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/minting-position', 'a60'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/liquidity/modifying-position',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/modifying-position', 'c72'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/liquidity/position-data',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/position-data', '969'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/liquidity/swap-and-add-liquidity',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/swap-and-add-liquidity', 'e3a'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/local-development',
-                component: ComponentCreator('/sdk/v3/guides/local-development', '396'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/swaps/quoting',
-                component: ComponentCreator('/sdk/v3/guides/swaps/quoting', 'fed'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/swaps/routing',
-                component: ComponentCreator('/sdk/v3/guides/swaps/routing', 'c24'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/swaps/trading',
-                component: ComponentCreator('/sdk/v3/guides/swaps/trading', 'e5b'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/guides/web3-development-basics',
-                component: ComponentCreator('/sdk/v3/guides/web3-development-basics', 'a99'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/overview',
-                component: ComponentCreator('/sdk/v3/overview', 'd05'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/FullMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/FullMath', 'ee1'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/LiquidityMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/LiquidityMath', '3a3'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/Multicall',
-                component: ComponentCreator('/sdk/v3/reference/classes/Multicall', '65e'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/NonfungiblePositionManager',
-                component: ComponentCreator('/sdk/v3/reference/classes/NonfungiblePositionManager', '328'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/NoTickDataProvider',
-                component: ComponentCreator('/sdk/v3/reference/classes/NoTickDataProvider', '11b'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/Payments',
-                component: ComponentCreator('/sdk/v3/reference/classes/Payments', '6ca'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/Pool',
-                component: ComponentCreator('/sdk/v3/reference/classes/Pool', '7c2'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/Position',
-                component: ComponentCreator('/sdk/v3/reference/classes/Position', '148'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/PositionLibrary',
-                component: ComponentCreator('/sdk/v3/reference/classes/PositionLibrary', '284'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/Route',
-                component: ComponentCreator('/sdk/v3/reference/classes/Route', 'c77'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/SelfPermit',
-                component: ComponentCreator('/sdk/v3/reference/classes/SelfPermit', '4cf'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/SqrtPriceMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/SqrtPriceMath', '287'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/Staker',
-                component: ComponentCreator('/sdk/v3/reference/classes/Staker', '9a2'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/SwapMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/SwapMath', '731'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/SwapQuoter',
-                component: ComponentCreator('/sdk/v3/reference/classes/SwapQuoter', '477'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/SwapRouter',
-                component: ComponentCreator('/sdk/v3/reference/classes/SwapRouter', '017'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/Tick',
-                component: ComponentCreator('/sdk/v3/reference/classes/Tick', '112'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/TickLibrary',
-                component: ComponentCreator('/sdk/v3/reference/classes/TickLibrary', '55e'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/TickList',
-                component: ComponentCreator('/sdk/v3/reference/classes/TickList', '2ae'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/TickListDataProvider',
-                component: ComponentCreator('/sdk/v3/reference/classes/TickListDataProvider', 'b8e'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/TickMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/TickMath', '20b'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/classes/Trade',
-                component: ComponentCreator('/sdk/v3/reference/classes/Trade', 'cf8'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/enums/FeeAmount',
-                component: ComponentCreator('/sdk/v3/reference/enums/FeeAmount', 'e7c'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/AllowedPermitArguments',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/AllowedPermitArguments', '3a6'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/BestTradeOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/BestTradeOptions', '597'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/ClaimOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/ClaimOptions', 'b00'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/CollectOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/CollectOptions', '163'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/CommonAddLiquidityOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/CommonAddLiquidityOptions', '0e6'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/FeeOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/FeeOptions', '437'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/IncentiveKey',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/IncentiveKey', '2bd'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/IncreaseSpecificOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/IncreaseSpecificOptions', '53c'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/MethodParameters',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/MethodParameters', 'eeb'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/MintSpecificOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/MintSpecificOptions', '6b0'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/NFTPermitOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/NFTPermitOptions', '7cb'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/QuoteOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/QuoteOptions', '2aa'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/RemoveLiquidityOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/RemoveLiquidityOptions', '70c'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/SafeTransferOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/SafeTransferOptions', 'd75'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/StandardPermitArguments',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/StandardPermitArguments', '5d9'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/SwapOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/SwapOptions', '837'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/TickConstructorArgs',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/TickConstructorArgs', '413'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/TickDataProvider',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/TickDataProvider', 'ea3'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/interfaces/WithdrawOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/WithdrawOptions', 'd12'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/sdk/v3/reference/overview',
-                component: ComponentCreator('/sdk/v3/reference/overview', '836'),
-                exact: true,
-                sidebar: "sdkSidebar"
-              },
-              {
-                path: '/study/',
-                component: ComponentCreator('/study/', '172'),
+                path: '/zh/category/wallet_guide',
+                component: ComponentCreator('/zh/category/wallet_guide', '947'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/product/',
-                component: ComponentCreator('/study/product/', '3d7'),
+                path: '/zh/contract/',
+                component: ComponentCreator('/zh/contract/', '500'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/',
+                component: ComponentCreator('/zh/contract/swapx-v2/', '9b3'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/advanced-topics/fees',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/advanced-topics/fees', '628'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/advanced-topics/price',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/advanced-topics/price', 'eb0'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/advanced-topics/security',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/advanced-topics/security', '064'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/advanced-topics/understanding-returns',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/advanced-topics/understanding-returns', 'b1b'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/core-concepts/flash-swaps',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/core-concepts/flash-swaps', '71d'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/core-concepts/pools',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/core-concepts/pools', '3a3'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/core-concepts/swaps',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/core-concepts/swaps', 'd5a'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants', 'a18'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/protocol-overview/how-it-works',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/protocol-overview/how-it-works', '59f'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v2/concepts/protocol-overview/smart-contract',
+                component: ComponentCreator('/zh/contract/swapx-v2/concepts/protocol-overview/smart-contract', '1cd'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps',
+                component: ComponentCreator('/zh/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps', '0e1'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/guides/Implement-A-Swap/single-swaps',
+                component: ComponentCreator('/zh/contract/swapx-v3/guides/Implement-A-Swap/single-swaps', 'fe9'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/overview',
+                component: ComponentCreator('/zh/contract/swapx-v3/overview', 'a94'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/technical-reference/core/SwapXV3Factory',
+                component: ComponentCreator('/zh/contract/swapx-v3/technical-reference/core/SwapXV3Factory', 'c20'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/technical-reference/core/SwapXV3Pool',
+                component: ComponentCreator('/zh/contract/swapx-v3/technical-reference/core/SwapXV3Pool', '094'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer',
+                component: ComponentCreator('/zh/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer', '26e'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager',
+                component: ComponentCreator('/zh/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager', '0df'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor',
+                component: ComponentCreator('/zh/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor', '3ca'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/contract/swapx-v3/technical-reference/periphery/SwapRouter',
+                component: ComponentCreator('/zh/contract/swapx-v3/technical-reference/periphery/SwapRouter', '2c2'),
+                exact: true,
+                sidebar: "contractSidebar"
+              },
+              {
+                path: '/zh/sdk/',
+                component: ComponentCreator('/zh/sdk/', 'e25'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/guides/fetching-data',
+                component: ComponentCreator('/zh/sdk/v2/guides/fetching-data', 'fb0'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/guides/getting-pair-addresses',
+                component: ComponentCreator('/zh/sdk/v2/guides/getting-pair-addresses', '3a5'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/guides/pricing',
+                component: ComponentCreator('/zh/sdk/v2/guides/pricing', 'd68'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/guides/quick-start',
+                component: ComponentCreator('/zh/sdk/v2/guides/quick-start', '082'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/guides/trading',
+                component: ComponentCreator('/zh/sdk/v2/guides/trading', 'c38'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/overview',
+                component: ComponentCreator('/zh/sdk/v2/overview', '06f'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/reference/getting-started',
+                component: ComponentCreator('/zh/sdk/v2/reference/getting-started', '97b'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/reference/other-exports',
+                component: ComponentCreator('/zh/sdk/v2/reference/other-exports', '2ae'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/reference/pair',
+                component: ComponentCreator('/zh/sdk/v2/reference/pair', 'dbd'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/reference/route',
+                component: ComponentCreator('/zh/sdk/v2/reference/route', '017'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v2/reference/trade',
+                component: ComponentCreator('/zh/sdk/v2/reference/trade', '63c'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/advanced/active-liquidity',
+                component: ComponentCreator('/zh/sdk/v3/guides/advanced/active-liquidity', '37d'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/advanced/introduction',
+                component: ComponentCreator('/zh/sdk/v3/guides/advanced/introduction', '4da'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/advanced/pool-data',
+                component: ComponentCreator('/zh/sdk/v3/guides/advanced/pool-data', '1f5'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/advanced/price-oracle',
+                component: ComponentCreator('/zh/sdk/v3/guides/advanced/price-oracle', '8fb'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/advanced/range-orders',
+                component: ComponentCreator('/zh/sdk/v3/guides/advanced/range-orders', '1cb'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/background',
+                component: ComponentCreator('/zh/sdk/v3/guides/background', 'e8c'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/liquidity/collecting-fees',
+                component: ComponentCreator('/zh/sdk/v3/guides/liquidity/collecting-fees', '0dc'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/liquidity/fetching-positions',
+                component: ComponentCreator('/zh/sdk/v3/guides/liquidity/fetching-positions', 'b16'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/liquidity/minting-position',
+                component: ComponentCreator('/zh/sdk/v3/guides/liquidity/minting-position', '4a4'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/liquidity/modifying-position',
+                component: ComponentCreator('/zh/sdk/v3/guides/liquidity/modifying-position', '540'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/liquidity/position-data',
+                component: ComponentCreator('/zh/sdk/v3/guides/liquidity/position-data', '046'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/liquidity/swap-and-add-liquidity',
+                component: ComponentCreator('/zh/sdk/v3/guides/liquidity/swap-and-add-liquidity', '0fc'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/local-development',
+                component: ComponentCreator('/zh/sdk/v3/guides/local-development', '8da'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/swaps/quoting',
+                component: ComponentCreator('/zh/sdk/v3/guides/swaps/quoting', '747'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/swaps/routing',
+                component: ComponentCreator('/zh/sdk/v3/guides/swaps/routing', '0a2'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/swaps/trading',
+                component: ComponentCreator('/zh/sdk/v3/guides/swaps/trading', '808'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/guides/web3-development-basics',
+                component: ComponentCreator('/zh/sdk/v3/guides/web3-development-basics', '65b'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/overview',
+                component: ComponentCreator('/zh/sdk/v3/overview', '116'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/FullMath',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/FullMath', 'dfc'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/LiquidityMath',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/LiquidityMath', 'ae2'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/Multicall',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/Multicall', '7a4'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/NonfungiblePositionManager',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/NonfungiblePositionManager', 'bbe'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/NoTickDataProvider',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/NoTickDataProvider', '829'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/Payments',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/Payments', 'fb3'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/Pool',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/Pool', 'ef8'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/Position',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/Position', '9f2'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/PositionLibrary',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/PositionLibrary', 'b4e'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/Route',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/Route', 'daa'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/SelfPermit',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/SelfPermit', '98a'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/SqrtPriceMath',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/SqrtPriceMath', 'ee8'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/Staker',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/Staker', '241'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/SwapMath',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/SwapMath', '602'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/SwapQuoter',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/SwapQuoter', '4e1'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/SwapRouter',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/SwapRouter', '131'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/Tick',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/Tick', 'ffa'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/TickLibrary',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/TickLibrary', '5f3'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/TickList',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/TickList', '415'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/TickListDataProvider',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/TickListDataProvider', 'cdf'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/TickMath',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/TickMath', 'a7c'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/classes/Trade',
+                component: ComponentCreator('/zh/sdk/v3/reference/classes/Trade', 'db6'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/enums/FeeAmount',
+                component: ComponentCreator('/zh/sdk/v3/reference/enums/FeeAmount', '7b0'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/AllowedPermitArguments',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/AllowedPermitArguments', '9d4'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/BestTradeOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/BestTradeOptions', '369'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/ClaimOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/ClaimOptions', 'c3f'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/CollectOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/CollectOptions', '1e0'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/CommonAddLiquidityOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/CommonAddLiquidityOptions', '2a6'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/FeeOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/FeeOptions', '700'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/IncentiveKey',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/IncentiveKey', '252'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/IncreaseSpecificOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/IncreaseSpecificOptions', 'cde'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/MethodParameters',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/MethodParameters', 'b5e'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/MintSpecificOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/MintSpecificOptions', '0e8'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/NFTPermitOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/NFTPermitOptions', 'e3d'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/QuoteOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/QuoteOptions', 'd70'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/RemoveLiquidityOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/RemoveLiquidityOptions', 'e79'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/SafeTransferOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/SafeTransferOptions', '662'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/StandardPermitArguments',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/StandardPermitArguments', 'a1b'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/SwapOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/SwapOptions', '139'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/TickConstructorArgs',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/TickConstructorArgs', '3b2'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/TickDataProvider',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/TickDataProvider', '798'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/interfaces/WithdrawOptions',
+                component: ComponentCreator('/zh/sdk/v3/reference/interfaces/WithdrawOptions', 'd0e'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/sdk/v3/reference/overview',
+                component: ComponentCreator('/zh/sdk/v3/reference/overview', '7f9'),
+                exact: true,
+                sidebar: "sdkSidebar"
+              },
+              {
+                path: '/zh/study/',
+                component: ComponentCreator('/zh/study/', 'ec1'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/product/liquidity/',
-                component: ComponentCreator('/study/product/liquidity/', 'd39'),
+                path: '/zh/study/product/',
+                component: ComponentCreator('/zh/study/product/', '00f'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/product/liquidity/pool',
-                component: ComponentCreator('/study/product/liquidity/pool', '987'),
+                path: '/zh/study/product/liquidity/',
+                component: ComponentCreator('/zh/study/product/liquidity/', 'b67'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/product/swap/',
-                component: ComponentCreator('/study/product/swap/', 'd95'),
+                path: '/zh/study/product/liquidity/pool',
+                component: ComponentCreator('/zh/study/product/liquidity/pool', '163'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/product/swap/market-maker-integration',
-                component: ComponentCreator('/study/product/swap/market-maker-integration', 'a54'),
+                path: '/zh/study/product/swap/',
+                component: ComponentCreator('/zh/study/product/swap/', '79f'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/product/swap/trade',
-                component: ComponentCreator('/study/product/swap/trade', '36b'),
+                path: '/zh/study/product/swap/market-maker-integration',
+                component: ComponentCreator('/zh/study/product/swap/market-maker-integration', '057'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/product/swap/trade_guide',
-                component: ComponentCreator('/study/product/swap/trade_guide', '8e1'),
+                path: '/zh/study/product/swap/trade',
+                component: ComponentCreator('/zh/study/product/swap/trade', 'b60'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/start/wallet_guide/',
-                component: ComponentCreator('/study/start/wallet_guide/', 'b91'),
+                path: '/zh/study/product/swap/trade_guide',
+                component: ComponentCreator('/zh/study/product/swap/trade_guide', 'ee4'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/start/wallet_guide/connect_wallet',
-                component: ComponentCreator('/study/start/wallet_guide/connect_wallet', '433'),
+                path: '/zh/study/start/wallet_guide/',
+                component: ComponentCreator('/zh/study/start/wallet_guide/', '33c'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/start/wallet_guide/create_wallet',
-                component: ComponentCreator('/study/start/wallet_guide/create_wallet', '2f5'),
+                path: '/zh/study/start/wallet_guide/connect_wallet',
+                component: ComponentCreator('/zh/study/start/wallet_guide/connect_wallet', 'b44'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/terms&conditions/privacy',
-                component: ComponentCreator('/study/terms&conditions/privacy', 'd25'),
+                path: '/zh/study/start/wallet_guide/create_wallet',
+                component: ComponentCreator('/zh/study/start/wallet_guide/create_wallet', '5c7'),
                 exact: true,
                 sidebar: "studySidebar"
               },
               {
-                path: '/study/terms&conditions/terms',
-                component: ComponentCreator('/study/terms&conditions/terms', '4b5'),
+                path: '/zh/study/terms&conditions/privacy',
+                component: ComponentCreator('/zh/study/terms&conditions/privacy', '4e4'),
+                exact: true,
+                sidebar: "studySidebar"
+              },
+              {
+                path: '/zh/study/terms&conditions/terms',
+                component: ComponentCreator('/zh/study/terms&conditions/terms', 'dfe'),
                 exact: true,
                 sidebar: "studySidebar"
               }
