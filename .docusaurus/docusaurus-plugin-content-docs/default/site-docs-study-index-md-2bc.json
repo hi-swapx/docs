@@ -1,7 +1,7 @@
 {
   "id": "study/index",
-  "title": "Study",
-  "description": "SwapX 为所有用户提供高效、便捷、安全的代币兑换服务。",
+  "title": "Hi Swapx!",
+  "description": "Exchange, Trading and Rewards",
   "source": "@site/docs/study/index.md",
   "sourceDirName": "study",
   "slug": "/study/",
@@ -13,13 +13,13 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "title": "Study",
-    "sidebar_label": "概述",
+    "title": "Hi Swapx!",
+    "sidebar_label": "Hi Swapx!",
     "sidebar_position": 1
   },
   "sidebar": "studySidebar",
   "next": {
-    "title": "条款和条件",
-    "permalink": "/category/条款和条件"
+    "title": "Start",
+    "permalink": "/category/start"
   }
 }

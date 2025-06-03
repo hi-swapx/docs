@@ -486,6 +486,56 @@
               "sidebar": "studySidebar"
             },
             {
+              "id": "study/product/index",
+              "path": "/study/product/",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/liquidity/liquidity",
+              "path": "/study/product/liquidity/",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/liquidity/pool",
+              "path": "/study/product/liquidity/pool",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/market-maker-integration",
+              "path": "/study/product/swap/market-maker-integration",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/README",
+              "path": "/study/product/swap/",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/trade",
+              "path": "/study/product/swap/trade",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/product/swap/trade_guide",
+              "path": "/study/product/swap/trade_guide",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/start/wallet_guide/connect_wallet",
+              "path": "/study/start/wallet_guide/connect_wallet",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/start/wallet_guide/create_wallet",
+              "path": "/study/start/wallet_guide/create_wallet",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "study/start/wallet_guide/README",
+              "path": "/study/start/wallet_guide/",
+              "sidebar": "studySidebar"
+            },
+            {
               "id": "study/terms&conditions/privacy",
               "path": "/study/terms&conditions/privacy",
               "sidebar": "studySidebar"
@@ -496,8 +546,28 @@
               "sidebar": "studySidebar"
             },
             {
-              "id": "/category/条款和条件",
-              "path": "/category/条款和条件",
+              "id": "/category/start",
+              "path": "/category/start",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "/category/wallet_guide",
+              "path": "/category/wallet_guide",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "/category/swap",
+              "path": "/category/swap",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "/category/liquidity",
+              "path": "/category/liquidity",
+              "sidebar": "studySidebar"
+            },
+            {
+              "id": "/category/privacy-and-terms",
+              "path": "/category/privacy-and-terms",
               "sidebar": "studySidebar"
             },
             {
@@ -551,7 +621,7 @@
             "studySidebar": {
               "link": {
                 "path": "/study/",
-                "label": "概述"
+                "label": "Hi Swapx!"
               }
             },
             "contractSidebar": {

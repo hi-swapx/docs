@@ -1,7 +1,7 @@
 {
   "id": "study/terms&conditions/privacy",
   "title": "privacy",
-  "description": "我们收集的数据",
+  "description": "1. Overview",
   "source": "@site/docs/study/terms&conditions/privacy.md",
   "sourceDirName": "study/terms&conditions",
   "slug": "/study/terms&conditions/privacy",
@@ -13,16 +13,16 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_label": "隐私政策",
+    "sidebar_label": "Privacy",
     "sidebar_position": 1
   },
   "sidebar": "studySidebar",
   "previous": {
-    "title": "条款和条件",
-    "permalink": "/category/条款和条件"
+    "title": "Privacy and terms",
+    "permalink": "/category/privacy-and-terms"
   },
   "next": {
-    "title": "服务协议",
+    "title": "terms",
     "permalink": "/study/terms&conditions/terms"
   }
 }
