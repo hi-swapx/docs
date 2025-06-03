@@ -8,7 +8,7 @@ export default {
   "tagline": "Efficient, convenient and safe",
   "favicon": "img/favicon.ico",
   "url": "https://docs.swapx.exchange",
-  "baseUrl": "/",
+  "baseUrl": "/zh/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "onBrokenLinks": "ignore",
@@ -57,12 +57,12 @@ export default {
       "items": [
         {
           "to": "/study",
-          "label": "Study",
+          "label": "学习",
           "position": "left"
         },
         {
           "to": "/contract",
-          "label": "Contract",
+          "label": "开发者",
           "position": "left"
         },
         {
