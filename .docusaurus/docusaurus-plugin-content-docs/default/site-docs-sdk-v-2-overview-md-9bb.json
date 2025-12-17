@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "概述",
+    "title": "🍋‍🟩Preview",
     "permalink": "/sdk/"
   },
   "next": {
-    "title": "指南",
-    "permalink": "/category/指南"
+    "title": "📖 指南",
+    "permalink": "/category/-指南"
   }
 }

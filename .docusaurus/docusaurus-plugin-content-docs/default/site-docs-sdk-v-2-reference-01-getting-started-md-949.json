@@ -16,10 +16,10 @@
     "sidebar_label": "第一步：入门",
     "sidebar_position": 1
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "参考",
-    "permalink": "/category/参考"
+    "title": "📚 参考",
+    "permalink": "/category/-参考"
   },
   "next": {
     "title": "第二步：对",

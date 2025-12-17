@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "生态系统参与者",
     "permalink": "/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants"

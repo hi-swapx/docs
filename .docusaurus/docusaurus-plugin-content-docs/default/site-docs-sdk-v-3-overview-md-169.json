@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "第五步：其他出口",
     "permalink": "/sdk/v2/reference/other-exports"
   },
   "next": {
-    "title": "指南",
-    "permalink": "/category/指南-1"
+    "title": "📖 指南",
+    "permalink": "/category/-指南-1"
   }
 }

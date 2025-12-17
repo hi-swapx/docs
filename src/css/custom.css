@@ -1,32 +1,1144 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Any CSS included here will be global.
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #fc4e27;
+  --ifm-color-primary-dark: #cf1a1a;
+  --ifm-color-primary-darker: #e74420;
+  --ifm-color-primary-darkest: #ed4423;
+  --ifm-color-primary-light: #ea3120;
+  --ifm-color-primary-lighter: #d83f15;
+  --ifm-color-primary-lightest: #ec5113;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* 自定义变量 */
+  --sidebar-bg-color: #fefefe;
+  --sidebar-hover-bg: rgba(240, 68, 29, 0.08);
+
+  /* 布局控制变量 */
+  --custom-container-width: 1400px; /* 最大宽度 */
+  --custom-side-spacing: 2rem;      /* 左右最小空隙 */
 }
-.hidden {
+
+[data-theme='dark'] {
+  --ifm-color-primary: #e82907;
+  --ifm-color-primary-dark: #e90756;
+  --ifm-color-primary-darker: #ea2b0e;
+  --ifm-color-primary-darkest: #e64303;
+  --ifm-color-primary-light: #da1705;
+  --ifm-color-primary-lighter: #de3c06;
+  --ifm-color-primary-lightest: #e3280f;
+  --docusaurus-highlighted-code-line-bg: rgba(249, 8, 8, 0.3);
+  
+  --sidebar-bg-color: #1a1a1b;
+  --sidebar-hover-bg: rgba(232, 41, 7, 0.15);
+}
+
+/* =========================================
+   1. 布局优化 (Layout)
+   ========================================= */
+
+/* 导航栏居中限制 */
+.navbar {
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(240, 68, 29, 0.1);
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom-color: rgba(232, 41, 7, 0.15);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navbar__inner {
+  max-width: var(--custom-container-width);
+  margin: 0 auto;
+  padding: 0 var(--custom-side-spacing);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 确保导航栏右侧元素不被搜索框遮挡 */
+.navbar__items--right {
+  position: relative;
+  z-index: 20;
+}
+
+/* 左侧导航栏元素 */
+.navbar__items--left {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* 页面主体内容居中限制 */
+.main-wrapper {
+  max-width: calc(var(--custom-container-width) * 1.1);
+  margin: 0 auto;
+  width: 100%;
+  padding-left: var(--custom-side-spacing);
+  padding-right: var(--custom-side-spacing);
+}
+
+@media (max-width: 996px) {
+  :root {
+    --custom-side-spacing: 1rem;
+  }
+}
+
+/* =========================================
+   2. 侧边栏美化 (Sidebar)
+   ========================================= */
+
+.theme-doc-sidebar-container {
+  border-right: none !important;
+  background-color: var(--sidebar-bg-color);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.03);
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 侧边栏菜单项 */
+.menu__link {
+  border-radius: 8px;
+  margin-bottom: 4px;
+  padding: 8px 12px;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  border-left: 3px solid transparent;
+}
+
+.menu__link:hover {
+  background-color: var(--sidebar-hover-bg);
+  border-left-color: var(--ifm-color-primary);
+  transform: translateX(2px);
+}
+
+.menu__link--active {
+  background-color: var(--sidebar-hover-bg);
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  border-left-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(240, 68, 29, 0.1);
+}
+
+/* ===== 一级目录样式（顶级分类）===== */
+.top-level-category > .menu__link {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--ifm-color-primary);
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(240, 68, 29, 0.08), rgba(255, 107, 74, 0.05));
+  border: none;
+  cursor: default;
+  pointer-events: none;
+  border-left: none;
+  transform: none;
+}
+
+.top-level-category > .menu__link:hover {
+  transform: none;
+}
+
+[data-theme='dark'] .top-level-category > .menu__link {
+  background: linear-gradient(135deg, rgba(232, 41, 7, 0.15), rgba(232, 41, 7, 0.08));
+  color: var(--ifm-color-primary);
+}
+
+/* 一级目录不显示折叠图标 */
+.top-level-category > .menu__link .menu__caret {
+  display: none !important;
+}
+
+/* 侧边栏分类标题 */
+.menu__list-item-collapsible {
+  margin-bottom: 8px;
+}
+
+.menu__link--sublist {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--ifm-font-color-base);
+}
+
+.menu__list {
+  margin-top: 8px;
+  padding-left: 4px;
+}
+
+/* ===== 统一所有目录的折叠箭头样式 ===== */
+
+/* 箭头容器样式 */
+.menu__caret {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: 1px !important;
+  margin-right: 5px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 16px !important;
+  height: 16px !important;
+  vertical-align: middle !important;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+
+/* 收起状态：箭头朝右 › (默认 90度) */
+.menu__list-item--collapsed .menu__caret {
+  transform: rotate(90deg) !important;
+}
+
+/* 展开状态：箭头朝下 ∨ (顺时针旋转0度) */
+.menu__list-item:not(.menu__list-item--collapsed) .menu__caret {
+  transform: rotate(0deg) !important;
+}
+
+/* 悬停时增强显示 */
+.menu__link--sublist:hover .menu__caret svg {
+  opacity: 1 !important;
+  color: var(--ifm-color-primary) !important;
+}
+
+.menu__list-item--collapsed .menu__link--sublist {
+  opacity: 0.75;
+}
+
+.menu__list-item--collapsed:hover .menu__caret,
+.menu__list-item--collapsed:hover .menu__link--sublist {
+  opacity: 1 !important;
+}
+
+
+/* =========================================
+   3. 🎯 顶部搜索框美化 (Top Search Bar)
+   ========================================= */
+
+/* 搜索框容器样式 - 居中显示 */
+.navbar__search {
+  position: absolute !important;
+  left: -100% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 10 !important;
+  margin: 0 !important;
+}
+
+/* 全局搜索输入框样式 - 适配所有搜索插件 */
+.navbar__search input,
+.navbar__search input[type="search"],
+.navbar__search .search-bar,
+.navbar__search input.search-input,
+nav input[type="search"],
+.navbar input[type="search"] {
+  width: 600px !important;
+  max-width: 600px !important;
+  min-width: 600px !important;
+  height: 44px !important;
+  min-height: 44px !important;
+  border-radius: 22px !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  border: 2px solid rgba(240, 68, 29, 0.2) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  padding: 0 20px 0 44px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+[data-theme='dark'] .navbar__search input,
+[data-theme='dark'] .navbar__search input[type="search"],
+[data-theme='dark'] .navbar__search .search-bar,
+[data-theme='dark'] nav input[type="search"],
+[data-theme='dark'] .navbar input[type="search"] {
+  background: rgba(40, 40, 41, 0.98) !important;
+  border-color: rgba(232, 41, 7, 0.3) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  color: var(--ifm-font-color-base) !important;
+}
+
+.navbar__search input:focus,
+.navbar__search input[type="search"]:focus,
+.navbar__search .search-bar:focus,
+nav input[type="search"]:focus,
+.navbar input[type="search"]:focus {
+  outline: none !important;
+  border-color: var(--ifm-color-primary) !important;
+  box-shadow: 0 4px 16px rgba(240, 68, 29, 0.2), 0 0 0 3px rgba(240, 68, 29, 0.1) !important;
+  transform: translateY(-1px) !important;
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+[data-theme='dark'] .navbar__search input:focus,
+[data-theme='dark'] .navbar__search input[type="search"]:focus,
+[data-theme='dark'] .navbar__search .search-bar:focus,
+[data-theme='dark'] nav input[type="search"]:focus,
+[data-theme='dark'] .navbar input[type="search"]:focus {
+  box-shadow: 0 4px 16px rgba(232, 41, 7, 0.25), 0 0 0 3px rgba(232, 41, 7, 0.12) !important;
+  background: rgba(45, 45, 46, 1) !important;
+}
+
+.navbar__search input::placeholder,
+.navbar__search input[type="search"]::placeholder,
+nav input[type="search"]::placeholder,
+.navbar input[type="search"]::placeholder {
+  color: rgba(0, 0, 0, 0.45) !important;
+  font-weight: 500 !important;
+}
+
+[data-theme='dark'] .navbar__search input::placeholder,
+[data-theme='dark'] .navbar__search input[type="search"]::placeholder,
+[data-theme='dark'] nav input[type="search"]::placeholder,
+[data-theme='dark'] .navbar input[type="search"]::placeholder {
+  color: rgba(255, 255, 255, 0.45) !important;
+}
+
+/* 搜索图标 */
+.navbar__search::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 14px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 20px !important;
+  height: 20px !important;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23f0441d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  pointer-events: none !important;
+  z-index: 2 !important;
+}
+
+[data-theme='dark'] .navbar__search::before {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23e82907" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>') !important;
+}
+
+.navbar__search .search-icon {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* 搜索结果下拉框 */
+.navbar__search .search-result-container,
+.navbar__search .search-results {
+  border-radius: 16px !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  margin-top: 12px !important;
+  background-color: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(10px) !important;
+  max-width: 600px !important;
+}
+
+[data-theme='dark'] .navbar__search .search-result-container,
+[data-theme='dark'] .navbar__search .search-results {
+  background-color: rgba(26, 26, 27, 0.98) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 搜索结果项 */
+.navbar__search .search-result-item,
+.navbar__search a[class*="searchResultItem"] {
+  border-radius: 10px !important;
+  padding: 12px 14px !important;
+  margin: 6px 10px !important;
+  transition: all 0.2s ease !important;
+}
+
+.navbar__search .search-result-item:hover,
+.navbar__search a[class*="searchResultItem"]:hover {
+  background-color: rgba(240, 68, 29, 0.08) !important;
+  transform: translateX(4px) !important;
+}
+
+/* Algolia搜索样式（如果使用） */
+.aa-Form {
+  width: 600px !important;
+  height: 44px !important;
+  border-radius: 22px !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  border: 2px solid rgba(240, 68, 29, 0.2) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  padding: 0 24px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+[data-theme='dark'] .aa-Form {
+  background: rgba(57, 57, 155, 0.98) !important;
+  border-color: rgba(232, 41, 7, 0.3) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.aa-Form:focus-within {
+  border-color: var(--ifm-color-primary) !important;
+  box-shadow: 0 4px 16px rgba(240, 68, 29, 0.2), 0 0 0 3px rgba(240, 68, 29, 0.1) !important;
+  transform: translateY(-1px) !important;
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+[data-theme='dark'] .aa-Form:focus-within {
+  box-shadow: 0 4px 16px rgba(232, 41, 7, 0.25), 0 0 0 3px rgba(232, 41, 7, 0.12) !important;
+  background: rgba(45, 45, 46, 1) !important;
+}
+
+.aa-Input {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  padding-left: 12px !important;
+  color: var(--ifm-font-color-base) !important;
+}
+
+.aa-Input::placeholder {
+  color: rgba(0, 0, 0, 0.45) !important;
+  font-weight: 500 !important;
+}
+
+[data-theme='dark'] .aa-Input::placeholder {
+  color: rgba(255, 255, 255, 0.45) !important;
+}
+
+/* 搜索图标 */
+.aa-SubmitIcon {
+  color: var(--ifm-color-primary) !important;
+  width: 20px !important;
+  height: 20px !important;
+  transition: all 0.3s ease !important;
+}
+
+.aa-Form:focus-within .aa-SubmitIcon {
+  transform: scale(1.15) rotate(15deg);
+  filter: drop-shadow(0 2px 4px rgba(240, 68, 29, 0.3));
+}
+
+[data-theme='dark'] .aa-SubmitIcon {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* 搜索下拉面板 */
+.aa-Panel {
+  border-radius: 16px !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  margin-top: 12px !important;
+  background-color: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+[data-theme='dark'] .aa-Panel {
+  background-color: rgba(26, 26, 27, 0.98) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 搜索结果项 */
+.aa-Item {
+  border-radius: 10px !important;
+  padding: 12px 14px !important;
+  margin: 6px 10px !important;
+  transition: all 0.2s ease !important;
+}
+
+.aa-Item:hover {
+  background-color: rgba(240, 68, 29, 0.08) !important;
+  transform: translateX(4px) !important;
+}
+
+.aa-Item[aria-selected='true'] {
+  background: linear-gradient(135deg, rgba(240, 68, 29, 0.15) 0%, rgba(255, 107, 74, 0.1) 100%) !important;
+  border: 1px solid rgba(240, 68, 29, 0.3) !important;
+}
+
+/* 搜索结果高亮 */
+.aa-ItemContentTitle mark {
+  background: linear-gradient(120deg, rgba(240, 68, 29, 0.3), rgba(255, 107, 74, 0.2)) !important;
+  color: var(--ifm-color-primary) !important;
+  font-weight: 700 !important;
+  border-radius: 4px !important;
+  padding: 2px 6px !important;
+}
+
+/* 快捷键提示 */
+.aa-DetachedSearchButton {
+  border-radius: 20px !important;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.04) 0%, rgba(0, 0, 0, 0.02) 100%) !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 6px 12px !important;
+  font-weight: 500 !important;
+}
+
+[data-theme='dark'] .aa-DetachedSearchButton {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.04) 100%) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* =========================================
+   4. 移动端搜索框优化
+   ========================================= */
+
+@media (max-width: 996px) {
+  .navbar__search {
+    position: static;
+    transform: none;
+    flex: 1;
+    max-width: 100%;
+    margin: 0 12px !important;
+    display: block;
+  }
+  
+  .aa-Form {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  
+  .navbar__items--right {
+    gap: 10px;
+  }
+  
+  .navbar__items--right > .navbar__search {
+    display: block;
+  }
+}
+
+/* =========================================
+   5. 滚动条美化
+   ========================================= */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ifm-color-primary);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* =========================================
+   6. 搜索结果页面优化
+   ========================================= */
+
+.aa-PanelLayout {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.aa-SourceHeader {
+  padding: 12px 16px 8px 16px !important;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .aa-SourceHeader {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* 空状态样式 */
+.aa-PanelLayout--empty {
+  padding: 32px 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .aa-PanelLayout--empty {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* =========================================
+   7. 导航栏按钮美化 (Navbar Buttons)
+   ========================================= */
+
+/* 导航栏右侧元素间距和对齐 */
+.navbar__items--right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar__items--right > .navbar__item {
+  display: flex;
+  align-items: center;
+  height: 42px;
+}
+
+/* 隐藏右侧的搜索框容器，因为我们使用绝对定位的版本 */
+.navbar__items--right > .navbar__search {
   display: none;
 }
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+/* GitHub 链接和 Go SwapX 按钮通用样式 */
+.navbar__item.navbar__link[href*="github"],
+.navbar__item.navbar-swapx-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  background: linear-gradient(135deg, rgba(240, 68, 29, 0.08), rgba(255, 107, 74, 0.05));
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid rgba(240, 68, 29, 0.2);
+  position: relative;
+  overflow: hidden;
+  height: 42px;
+}
+
+.navbar__item.navbar__link[href*="github"]::after,
+.navbar__item.navbar-swapx-link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.navbar__item.navbar__link[href*="github"]:hover::after,
+.navbar__item.navbar-swapx-link:hover::after {
+  width: 300px;
+  height: 300px;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="github"],
+[data-theme='dark'] .navbar__item.navbar-swapx-link {
+  background: linear-gradient(135deg, rgba(232, 41, 7, 0.15), rgba(232, 41, 7, 0.08));
+  border-color: rgba(232, 41, 7, 0.3);
+}
+
+.navbar__item.navbar__link[href*="github"]:hover,
+.navbar__item.navbar-swapx-link:hover {
+  background: linear-gradient(135deg, var(--ifm-color-primary), #ff6b4a);
+  color: white !important;
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(240, 68, 29, 0.4), 0 4px 8px rgba(240, 68, 29, 0.2);
+}
+
+/* GitHub 图标 */
+.navbar__item.navbar__link[href*="github"]::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.navbar__item.navbar__link[href*="github"]:hover::before {
+  transform: rotate(360deg) scale(1.1);
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="github"]:hover::before {
+  filter: brightness(0) invert(1);
+}
+
+/* Go SwapX 按钮不添加图标 */
+.navbar__item.navbar-swapx-link::before {
+  display: none;
+}
+
+/* 主题切换按钮美化 */
+html[data-theme='light'] .toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module,
+html[data-theme='dark'] .toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module,
+button[title*="Switch between dark and light mode"],
+.navbar__item button[aria-label*="mode"] {
+  border-radius: 12px;
+  padding: 8px !important;
+  background: linear-gradient(135deg, rgba(240, 68, 29, 0.08), rgba(255, 107, 74, 0.05));
+  border: 2px solid rgba(240, 68, 29, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-top: -5px !important;
+}
+
+button[title*="Switch between dark and light mode"]::before,
+.navbar__item button[aria-label*="mode"]::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+[data-theme='dark'] html[data-theme='light'] .toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module,
+[data-theme='dark'] html[data-theme='dark'] .toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module,
+[data-theme='dark'] button[title*="Switch between dark and light mode"],
+[data-theme='dark'] .navbar__item button[aria-label*="mode"] {
+  background: linear-gradient(135deg, rgba(232, 41, 7, 0.15), rgba(232, 41, 7, 0.08));
+  border-color: rgba(232, 41, 7, 0.3);
+}
+
+button[title*="Switch between dark and light mode"]:hover,
+.navbar__item button[aria-label*="mode"]:hover {
+  background: linear-gradient(135deg, var(--ifm-color-primary), #ff6b4a) !important;
+  border-color: var(--ifm-color-primary) !important;
+  transform: translateY(-3px) scale(1.1) rotate(180deg);
+  box-shadow: 0 8px 20px rgba(240, 68, 29, 0.4), 0 4px 8px rgba(240, 68, 29, 0.2);
+}
+
+button[title*="Switch between dark and light mode"]:hover::before,
+.navbar__item button[aria-label*="mode"]:hover::before {
+  width: 200px;
+  height: 200px;
+}
+
+/* 图标样式优化 */
+button[title*="Switch between dark and light mode"] svg,
+.navbar__item button[aria-label*="mode"] svg {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+button[title*="Switch between dark and light mode"]:hover svg,
+.navbar__item button[aria-label*="mode"]:hover svg {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* =========================================
+   8. 内容区域美化
+   ========================================= */
+
+/* 文章标题美化 */
+.markdown h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+color: var(--ifm-color-primary);
+
+}
+
+/* 代码块美化 */
+div[class^="codeBlockContainer"] {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 1.5rem 0;
+}
+
+[data-theme='dark'] div[class^="codeBlockContainer"] {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* 引用块美化 */
+.markdown blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  background-color: rgba(240, 68, 29, 0.05);
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+/* 表格美化 */
+.markdown table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.markdown table thead {
+  background-color: var(--sidebar-hover-bg);
+}
+
+.markdown table tr:hover {
+  background-color: rgba(240, 68, 29, 0.03);
+}
+
+/* =========================================
+   9. 页面动画效果
+   ========================================= */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.markdown > * {
+  animation: fadeInUp 0.4s ease-out;
+}
+
+/* =========================================
+   10. 移动端适配优化
+   ========================================= */
+
+@media (max-width: 996px) {
+  .navbar__item.navbar__link[href*="github"] {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+  
+  button[title*="Switch between dark and light mode"],
+  .navbar__item button[aria-label*="mode"] {
+    width: 38px;
+    height: 38px;
+    padding: 6px !important;
+  }
+  
+  .aa-Form {
+    width: 200px;
+  }
+  
+  .aa-Form:focus-within {
+    width: 240px;
+  }
+  
+  .markdown h1 {
+    font-size: 2rem;
+  }
+}
+
+/* =========================================
+   11. 图片缩放插件样式优化
+   ========================================= */
+
+.medium-zoom-image {
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+.medium-zoom-image:hover {
+  transform: scale(1.02);
+}
+
+.medium-zoom-image--opened {
+  cursor: zoom-out;
+}
+
+.medium-zoom-overlay {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(8px);
+}
+
+/* =========================================
+   12. 实时代码块样式优化
+   ========================================= */
+
+.playgroundPreview_node_modules-\@docusaurus-theme-live-codeblock-lib-theme-Playground-styles-module {
+  border-radius: 0 0 12px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: none;
+  background-color: rgba(240, 68, 29, 0.02);
+}
+
+[data-theme='dark'] .playgroundPreview_node_modules-\@docusaurus-theme-live-codeblock-lib-theme-Playground-styles-module {
+  border-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(232, 41, 7, 0.05);
+}
+
+/* =========================================
+   13. 导航栏优化
+   ========================================= */
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+[data-theme='dark'] .navbar {
+  background-color: rgba(26, 26, 27, 0.95);
+}
+
+.navbar__title {
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, #ff6b4a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* =========================================
+   14. 页脚优化
+   ========================================= */
+
+.footer {
+  background: linear-gradient(180deg, #1a1a1b 0%, #0d0d0e 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transform: translateX(4px);
+  transition: all 0.2s ease;
+}
+
+.footer__title {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* =========================================
+   15. 公告栏样式优化
+   ========================================= */
+
+div[class^="announcementBar"] {
+  background: linear-gradient(135deg, rgba(240, 68, 29, 0.1) 0%, rgba(255, 107, 74, 0.1) 100%);
+  border-bottom: 1px solid rgba(240, 68, 29, 0.2);
+  font-weight: 500;
+}
+
+div[class^="announcementBarContent"] {
+  padding: 8px 0;
+}
+
+div[class^="announcementBar"] a {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+div[class^="announcementBar"] a:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+/* =========================================
+   16. 面包屑导航优化
+   ========================================= */
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+.breadcrumbs__link:hover {
+  background-color: var(--sidebar-hover-bg);
+  border-radius: 4px;
+}
+
+/* =========================================
+   17. 目录（TOC）优化
+   ========================================= */
+
+.table-of-contents {
+  font-size: 14px;
+}
+
+.table-of-contents__link {
+  display: block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  border-left: 2px solid transparent;
+}
+
+.table-of-contents__link:hover {
+  background-color: var(--sidebar-hover-bg);
+  border-left-color: var(--ifm-color-primary);
+  transform: translateX(2px);
+}
+
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  border-left-color: var(--ifm-color-primary);
+  background-color: var(--sidebar-hover-bg);
+}
+
+.table-of-contents__link--active code {
+  background-color: rgba(240, 68, 29, 0.1);
+  color: var(--ifm-color-primary);
+}
+
+/* =========================================
+   18. 卡片效果优化
+   ========================================= */
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(240, 68, 29, 0.15);
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .card {
+  border-color: rgba(255, 255, 255, 0.12);
+  background-color: #1a1a1b;
+}
+
+/* =========================================
+   19. 警告框样式优化
+   ========================================= */
+
+.admonition {
+  border-radius: 12px;
+  border-left-width: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.admonition-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* =========================================
+   20. 标签页优化
+   ========================================= */
+
+.tabs {
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+.tabs__item {
+  border-radius: 8px 8px 0 0;
+  transition: all 0.2s ease;
+}
+
+.tabs__item:hover {
+  background-color: var(--sidebar-hover-bg);
+}
+
+.tabs__item--active {
+  border-bottom-color: var(--ifm-color-primary);
+  border-bottom-width: 3px;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
+
+/* =========================================
+   21. 按钮优化
+   ========================================= */
+
+.button {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-width: 2px;
+}
+
+.button--primary {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, #ff6b4a 100%);
+  border: none;
+}
+
+.button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(240, 68, 29, 0.3);
+}
+
+.button--secondary:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+/* =========================================
+   22. 徽章优化
+   ========================================= */
+
+.badge {
+  border-radius: 6px;
+  font-weight: 600;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+.badge--primary {
+  background-color: var(--ifm-color-primary);
+}
+
+/* =========================================
+   23. 打印样式优化
+   ========================================= */
+
+@media print {
+  .navbar,
+  .footer,
+  .theme-doc-sidebar-container,
+  .table-of-contents {
+    display: none !important;
+  }
+  
+  .main-wrapper {
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+/* 隐藏侧边栏底部收起按钮 */
+button[aria-label="Collapse sidebar"],
+button[title="Collapse sidebar"] {
+  display: none !important;
+}
+/* src/css/custom.css */
+
+/* 针对 Markdown 文档内容区域内的所有图片 */
+.markdown img {
+  /* --- 1. 居中显示 --- */
+  display: block;       /* 将图片转为块级元素 */
+  margin: 1.5rem auto;  /* 上下保持间距，左右自动居中 */
+
+  /* --- 2. 四角圆角 --- */
+  border-radius: 12px;  /* 圆角大小，可根据喜好调整，如 8px 或 16px */
+
+  /* --- 3. 自适应大小 --- */
+  max-width: 100%;      /* 限制最大宽度不超过父容器 */
+  height: auto;         /* 高度自动，保持比例 */
+  
+  /* --- 可选优化：添加轻微阴影，提升质感 --- */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 兼容深色模式（可选）- 如果图片太亮刺眼，可以在深色模式下稍微降低亮度 */
+[data-theme='dark'] .markdown img {
+  opacity: 0.9;
 }

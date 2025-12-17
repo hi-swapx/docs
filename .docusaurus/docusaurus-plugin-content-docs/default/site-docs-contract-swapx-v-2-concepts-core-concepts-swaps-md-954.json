@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Pools",
     "permalink": "/contract/swapx-v2/concepts/core-concepts/pools"
   },
   "next": {
-    "title": "生态系统参与者",
-    "permalink": "/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants"
+    "title": "高级主题",
+    "permalink": "/category/高级主题"
   }
 }

@@ -16,13 +16,13 @@
     "sidebar_label": "第五步：获取配对地址",
     "sidebar_position": 4
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "第四步：贸易",
     "permalink": "/sdk/v2/guides/trading"
   },
   "next": {
-    "title": "参考",
-    "permalink": "/category/参考"
+    "title": "📚 参考",
+    "permalink": "/category/-参考"
   }
 }

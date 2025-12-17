@@ -16,7 +16,7 @@
     "sidebar_label": "收集选项",
     "sidebar_position": 4
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "索赔选项",
     "permalink": "/sdk/v3/reference/interfaces/ClaimOptions"

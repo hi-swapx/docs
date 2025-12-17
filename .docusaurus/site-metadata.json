@@ -21,6 +21,19 @@
       "type": "package",
       "name": "@docusaurus/theme-classic",
       "version": "3.6.3"
+    },
+    "@easyops-cn/docusaurus-search-local": {
+      "type": "local"
+    },
+    "docusaurus-plugin-image-zoom": {
+      "type": "package",
+      "name": "docusaurus-plugin-image-zoom",
+      "version": "3.0.1"
+    },
+    "docusaurus-theme-live-codeblock": {
+      "type": "package",
+      "name": "@docusaurus/theme-live-codeblock",
+      "version": "3.6.3"
     }
   }
 }

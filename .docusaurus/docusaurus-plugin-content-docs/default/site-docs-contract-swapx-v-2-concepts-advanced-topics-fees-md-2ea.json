@@ -17,10 +17,10 @@
     "sidebar_label": "手续费",
     "sidebar_position": 1
   },
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "SwapX V2 智能合约",
-    "permalink": "/contract/swapx-v2/"
+    "title": "高级主题",
+    "permalink": "/category/高级主题"
   },
   "next": {
     "title": "价格是如何确定的?",

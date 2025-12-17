@@ -42,515 +42,618 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+  "/search-822": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
-    },
-    "content": "content---markdown-page-393-028"
+      "plugin": "plugin---search-138-688"
+    }
   },
   "/-2e1": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "plugin---a-74-9d6"
     },
     "config": "config---5-e-9-4f3"
   },
-  "/-2ea": {
+  "/-fcf": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-db0": {
+  "/-8fd": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-377": {
+  "/-a0f": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/category/liquidity-850": {
+  "/category/-先进的-16a": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-liquidityc-35-ec3"
+    "__props": "__props---category-先进的-2-d-3-014"
   },
-  "/category/privacy-and-terms-574": {
+  "/category/-兑换-b56": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-privacy-and-terms-4-b-8-65f"
+    "__props": "__props---category-兑换-900-3f0"
   },
-  "/category/start-ce6": {
+  "/category/-参考-626": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-start-81-a-6c6"
+    "__props": "__props---category-参考-5-a-8-391"
   },
-  "/category/swap-a2e": {
+  "/category/-指南-5dc": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-swap-9-eb-f83"
+    "__props": "__props---category-指南-3-d-3-d02"
   },
-  "/category/wallet_guide-c77": {
+  "/category/-指南-1-7f2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-wallet-guide-2-b-7-780"
+    "__props": "__props---category-指南-1-d-9-d-b28"
   },
-  "/category/先进的-fb4": {
+  "/category/-接口-6e2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-先进的c-38-e45"
+    "__props": "__props---category-接口-980-587"
   },
-  "/category/兑换-ada": {
+  "/category/-枚举-b9e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-兑换-6-cf-613"
+    "__props": "__props---category-枚举bfe-9c5"
   },
-  "/category/参考-e76": {
+  "/category/-概念-19c": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-参考-948-7cb"
+    "__props": "__props---category-概念-450-a9e"
   },
-  "/category/指南-2b7": {
+  "/category/-流动性-f6d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-流动性e-26-83d"
+  },
+  "/category/️-类-03d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-️-类-7-b-5-d61"
+  },
+  "/category/协议概览-74e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-协议概览-2-f-7-ef6"
+  },
+  "/category/外围合约-13a": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-外围合约-023-55f"
+  },
+  "/category/实现交换-aee": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-实现交换-9-f-9-2bd"
+  },
+  "/category/技术参考-839": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---category-技术参考-469-6db"
+  },
+  "/category/指南-2b6": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---category-指南-15-e-ad1"
   },
-  "/category/指南-1-5fc": {
+  "/category/核心合约-b82": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-指南-1-e-19-77a"
+    "__props": "__props---category-核心合约ee-8-c92"
   },
-  "/category/接口-b45": {
+  "/category/核心概念-8ba": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-接口a-32-be2"
+    "__props": "__props---category-核心概念c-37-e32"
   },
-  "/category/枚举-a34": {
+  "/category/高级主题-f55": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-枚举-7-a-5-1c5"
+    "__props": "__props---category-高级主题-2-c-9-459"
   },
-  "/category/流动性-6ef": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-流动性-5-d-6-9fe"
-  },
-  "/category/类-608": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-类-018-b0f"
-  },
-  "/contract/-b26": {
+  "/contract/-808": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-b-00-ed2"
   },
-  "/contract/swapx-v2/-77b": {
+  "/contract/swapx-v2/-fac": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-789-ac3"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/fees-cf6": {
+  "/contract/swapx-v2/concepts/advanced-topics/fees-f31": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-advanced-topics-fees-2-ea-57d"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/price-7bd": {
+  "/contract/swapx-v2/concepts/advanced-topics/price-d4c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-advanced-topics-price-5-fe-6fc"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/security-f14": {
+  "/contract/swapx-v2/concepts/advanced-topics/security-a3d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-advanced-topics-security-704-5e2"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/understanding-returns-d18": {
+  "/contract/swapx-v2/concepts/advanced-topics/understanding-returns-9ec": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-advanced-topics-understanding-returnsb-3-a-be3"
   },
-  "/contract/swapx-v2/concepts/core-concepts/flash-swaps-29a": {
+  "/contract/swapx-v2/concepts/advanced-topics/v2Contract-ae7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---contract-swapx-v-2-concepts-advanced-topics-v-2-contractba-6-d5f"
+  },
+  "/contract/swapx-v2/concepts/core-concepts/flash-swaps-951": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-core-concepts-flash-swapsc-32-1eb"
   },
-  "/contract/swapx-v2/concepts/core-concepts/pools-a03": {
+  "/contract/swapx-v2/concepts/core-concepts/pools-117": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-core-concepts-pools-2-ff-934"
   },
-  "/contract/swapx-v2/concepts/core-concepts/swaps-905": {
+  "/contract/swapx-v2/concepts/core-concepts/swaps-85d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-core-concepts-swaps-954-d7a"
   },
-  "/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants-d49": {
+  "/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants-7da": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-protocol-overview-ecosystem-participantsa-45-5e1"
   },
-  "/contract/swapx-v2/concepts/protocol-overview/how-it-works-301": {
+  "/contract/swapx-v2/concepts/protocol-overview/how-it-works-418": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-protocol-overview-how-it-worksd-9-c-7dd"
   },
-  "/contract/swapx-v2/concepts/protocol-overview/smart-contract-0fd": {
+  "/contract/swapx-v2/concepts/protocol-overview/smart-contract-48f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-2-concepts-protocol-overview-smart-contractad-3-faf"
   },
-  "/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps-70b": {
+  "/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps-df9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-guides-implement-a-swap-multihop-swaps-68-b-8ee"
   },
-  "/contract/swapx-v3/guides/Implement-A-Swap/single-swaps-60f": {
+  "/contract/swapx-v3/guides/Implement-A-Swap/single-swaps-fe9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-guides-implement-a-swap-single-swapse-7-b-3c8"
   },
-  "/contract/swapx-v3/overview-2f8": {
+  "/contract/swapx-v3/guides/Implement-A-Swap/v3ContractAPI-d94": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---contract-swapx-v-3-guides-implement-a-swap-v-3-contract-api-722-9d0"
+  },
+  "/contract/swapx-v3/overview-65e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-overviewcb-1-3fc"
   },
-  "/contract/swapx-v3/technical-reference/core/SwapXV3Factory-bc1": {
+  "/contract/swapx-v3/technical-reference/core/SwapXV3Factory-89a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-technical-reference-core-swap-xv-3-factory-60-f-94e"
   },
-  "/contract/swapx-v3/technical-reference/core/SwapXV3Pool-558": {
+  "/contract/swapx-v3/technical-reference/core/SwapXV3Pool-f60": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-technical-reference-core-swap-xv-3-pool-3-c-3-2b4"
   },
-  "/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer-7d8": {
+  "/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer-0f8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-technical-reference-core-swap-xv-3-pool-deployera-97-be3"
   },
-  "/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager-581": {
+  "/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager-648": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-technical-reference-periphery-nonfungible-position-managerfdd-fb0"
   },
-  "/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor-e37": {
+  "/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor-a59": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-technical-reference-periphery-nonfungible-token-position-descriptordca-5fa"
   },
-  "/contract/swapx-v3/technical-reference/periphery/SwapRouter-dc2": {
+  "/contract/swapx-v3/technical-reference/periphery/SwapRouter-efa": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---contract-swapx-v-3-technical-reference-periphery-swap-router-7-c-6-8ad"
   },
-  "/sdk/-dc1": {
+  "/sdk/-4f9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-e-05-b62"
   },
-  "/sdk/v2/guides/fetching-data-a31": {
+  "/sdk/v2/guides/fetching-data-64f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-guides-fetching-databc-8-796"
   },
-  "/sdk/v2/guides/getting-pair-addresses-a9d": {
+  "/sdk/v2/guides/getting-pair-addresses-3fe": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-guides-getting-pair-addressesdb-5-785"
   },
-  "/sdk/v2/guides/pricing-3a6": {
+  "/sdk/v2/guides/pricing-6ab": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-guides-pricingbc-1-878"
   },
-  "/sdk/v2/guides/quick-start-b31": {
+  "/sdk/v2/guides/quick-start-b3f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-guides-quick-start-87-c-358"
   },
-  "/sdk/v2/guides/trading-498": {
+  "/sdk/v2/guides/trading-ea2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-guides-trading-173-5f4"
   },
-  "/sdk/v2/overview-db2": {
+  "/sdk/v2/overview-5d8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-overview-9-bb-390"
   },
-  "/sdk/v2/reference/getting-started-643": {
+  "/sdk/v2/reference/getting-started-8d2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-reference-getting-started-949-591"
   },
-  "/sdk/v2/reference/other-exports-e95": {
+  "/sdk/v2/reference/other-exports-29a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-reference-other-exports-4-fa-bd8"
   },
-  "/sdk/v2/reference/pair-597": {
+  "/sdk/v2/reference/pair-18b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-reference-pair-0-a-2-811"
   },
-  "/sdk/v2/reference/route-d33": {
+  "/sdk/v2/reference/route-8ce": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-reference-route-712-c8d"
   },
-  "/sdk/v2/reference/trade-d65": {
+  "/sdk/v2/reference/trade-861": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-2-reference-trade-35-a-086"
   },
-  "/sdk/v3/guides/advanced/active-liquidity-074": {
+  "/sdk/v3/guides/advanced/active-liquidity-5cc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-advanced-active-liquiditya-71-632"
   },
-  "/sdk/v3/guides/advanced/introduction-714": {
+  "/sdk/v3/guides/advanced/introduction-235": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-advanced-introduction-986-ad9"
   },
-  "/sdk/v3/guides/advanced/pool-data-087": {
+  "/sdk/v3/guides/advanced/pool-data-0ca": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-advanced-pool-dataa-47-aaa"
   },
-  "/sdk/v3/guides/advanced/price-oracle-297": {
+  "/sdk/v3/guides/advanced/price-oracle-44c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-advanced-price-oracle-6-bb-1a7"
   },
-  "/sdk/v3/guides/advanced/range-orders-c94": {
+  "/sdk/v3/guides/advanced/range-orders-127": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-advanced-range-orders-487-064"
   },
-  "/sdk/v3/guides/background-ddf": {
+  "/sdk/v3/guides/background-af8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-background-4-d-1-f26"
   },
-  "/sdk/v3/guides/liquidity/collecting-fees-e23": {
+  "/sdk/v3/guides/liquidity/collecting-fees-1fb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-liquidity-collecting-fees-58-e-606"
   },
-  "/sdk/v3/guides/liquidity/fetching-positions-d33": {
+  "/sdk/v3/guides/liquidity/fetching-positions-caa": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-liquidity-fetching-positions-1-b-9-c4f"
   },
-  "/sdk/v3/guides/liquidity/minting-position-a60": {
+  "/sdk/v3/guides/liquidity/minting-position-07e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-liquidity-minting-position-369-b10"
   },
-  "/sdk/v3/guides/liquidity/modifying-position-c72": {
+  "/sdk/v3/guides/liquidity/modifying-position-870": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-liquidity-modifying-position-350-b32"
   },
-  "/sdk/v3/guides/liquidity/position-data-969": {
+  "/sdk/v3/guides/liquidity/position-data-52c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-liquidity-position-data-023-ee6"
   },
-  "/sdk/v3/guides/liquidity/swap-and-add-liquidity-e3a": {
+  "/sdk/v3/guides/liquidity/swap-and-add-liquidity-d0e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-liquidity-swap-and-add-liquidityc-08-ef6"
   },
-  "/sdk/v3/guides/local-development-396": {
+  "/sdk/v3/guides/local-development-6ec": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-local-development-463-604"
   },
-  "/sdk/v3/guides/swaps/quoting-fed": {
+  "/sdk/v3/guides/swaps/quoting-a66": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-swaps-quotinga-1-d-d55"
   },
-  "/sdk/v3/guides/swaps/routing-c24": {
+  "/sdk/v3/guides/swaps/routing-a37": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-swaps-routing-66-a-d98"
   },
-  "/sdk/v3/guides/swaps/trading-e5b": {
+  "/sdk/v3/guides/swaps/trading-0a2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-swaps-trading-480-5a7"
   },
-  "/sdk/v3/guides/web3-development-basics-a99": {
+  "/sdk/v3/guides/web3-development-basics-3bd": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-guides-web-3-development-basicsbd-7-0bd"
   },
-  "/sdk/v3/overview-d05": {
+  "/sdk/v3/overview-509": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-overview-169-536"
   },
-  "/sdk/v3/reference/classes/FullMath-ee1": {
+  "/sdk/v3/reference/classes/FullMath-bce": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-full-math-890-003"
   },
-  "/sdk/v3/reference/classes/LiquidityMath-3a3": {
+  "/sdk/v3/reference/classes/LiquidityMath-bf5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-liquidity-math-816-099"
   },
-  "/sdk/v3/reference/classes/Multicall-65e": {
+  "/sdk/v3/reference/classes/Multicall-02e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-multicall-5-e-0-f5b"
   },
-  "/sdk/v3/reference/classes/NonfungiblePositionManager-328": {
+  "/sdk/v3/reference/classes/NonfungiblePositionManager-dc8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-nonfungible-position-manager-2-ca-8ab"
   },
-  "/sdk/v3/reference/classes/NoTickDataProvider-11b": {
+  "/sdk/v3/reference/classes/NoTickDataProvider-79e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-no-tick-data-provider-3-c-8-510"
   },
-  "/sdk/v3/reference/classes/Payments-6ca": {
+  "/sdk/v3/reference/classes/Payments-0c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-paymentsa-82-233"
   },
-  "/sdk/v3/reference/classes/Pool-7c2": {
+  "/sdk/v3/reference/classes/Pool-35f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-pool-116-29e"
   },
-  "/sdk/v3/reference/classes/Position-148": {
+  "/sdk/v3/reference/classes/Position-06f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-position-8-fe-717"
   },
-  "/sdk/v3/reference/classes/PositionLibrary-284": {
+  "/sdk/v3/reference/classes/PositionLibrary-f51": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-position-library-148-6b0"
   },
-  "/sdk/v3/reference/classes/Route-c77": {
+  "/sdk/v3/reference/classes/Route-bbc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-route-0-c-2-151"
   },
-  "/sdk/v3/reference/classes/SelfPermit-4cf": {
+  "/sdk/v3/reference/classes/SelfPermit-009": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-self-permit-3-e-0-b80"
   },
-  "/sdk/v3/reference/classes/SqrtPriceMath-287": {
+  "/sdk/v3/reference/classes/SqrtPriceMath-149": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-sqrt-price-math-785-0f1"
   },
-  "/sdk/v3/reference/classes/Staker-9a2": {
+  "/sdk/v3/reference/classes/Staker-e6f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-staker-62-b-c41"
   },
-  "/sdk/v3/reference/classes/SwapMath-731": {
+  "/sdk/v3/reference/classes/SwapMath-30b": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-swap-math-4-ad-0fb"
   },
-  "/sdk/v3/reference/classes/SwapQuoter-477": {
+  "/sdk/v3/reference/classes/SwapQuoter-e38": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-swap-quoter-38-c-2b4"
   },
-  "/sdk/v3/reference/classes/SwapRouter-017": {
+  "/sdk/v3/reference/classes/SwapRouter-1d6": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-swap-router-7-fe-e9c"
   },
-  "/sdk/v3/reference/classes/Tick-112": {
+  "/sdk/v3/reference/classes/Tick-810": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-tick-20-a-ee2"
   },
-  "/sdk/v3/reference/classes/TickLibrary-55e": {
+  "/sdk/v3/reference/classes/TickLibrary-090": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-tick-library-769-901"
   },
-  "/sdk/v3/reference/classes/TickList-2ae": {
+  "/sdk/v3/reference/classes/TickList-35e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-tick-listcfa-ad4"
   },
-  "/sdk/v3/reference/classes/TickListDataProvider-b8e": {
+  "/sdk/v3/reference/classes/TickListDataProvider-c27": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-tick-list-data-providerf-7-f-faf"
   },
-  "/sdk/v3/reference/classes/TickMath-20b": {
+  "/sdk/v3/reference/classes/TickMath-147": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-tick-mathee-6-609"
   },
-  "/sdk/v3/reference/classes/Trade-cf8": {
+  "/sdk/v3/reference/classes/Trade-8ad": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-classes-trade-957-fd9"
   },
-  "/sdk/v3/reference/enums/FeeAmount-e7c": {
+  "/sdk/v3/reference/enums/FeeAmount-28f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-enums-fee-amountae-9-c5b"
   },
-  "/sdk/v3/reference/interfaces/AllowedPermitArguments-3a6": {
+  "/sdk/v3/reference/interfaces/AllowedPermitArguments-67a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-allowed-permit-arguments-73-e-da3"
   },
-  "/sdk/v3/reference/interfaces/BestTradeOptions-597": {
+  "/sdk/v3/reference/interfaces/BestTradeOptions-35d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-best-trade-options-7-b-0-cfe"
   },
-  "/sdk/v3/reference/interfaces/ClaimOptions-b00": {
+  "/sdk/v3/reference/interfaces/ClaimOptions-0a8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-claim-optionsd-6-a-eb9"
   },
-  "/sdk/v3/reference/interfaces/CollectOptions-163": {
+  "/sdk/v3/reference/interfaces/CollectOptions-54d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-collect-optionsb-71-068"
   },
-  "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions-0e6": {
+  "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions-606": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-common-add-liquidity-options-27-d-550"
   },
-  "/sdk/v3/reference/interfaces/FeeOptions-437": {
+  "/sdk/v3/reference/interfaces/FeeOptions-058": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-fee-options-786-9ab"
   },
-  "/sdk/v3/reference/interfaces/IncentiveKey-2bd": {
+  "/sdk/v3/reference/interfaces/IncentiveKey-9e2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-incentive-keyb-7-d-720"
   },
-  "/sdk/v3/reference/interfaces/IncreaseSpecificOptions-53c": {
+  "/sdk/v3/reference/interfaces/IncreaseSpecificOptions-d53": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-increase-specific-optionsf-5-f-d60"
   },
-  "/sdk/v3/reference/interfaces/MethodParameters-eeb": {
+  "/sdk/v3/reference/interfaces/MethodParameters-013": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-method-parameters-1-c-6-cbc"
   },
-  "/sdk/v3/reference/interfaces/MintSpecificOptions-6b0": {
+  "/sdk/v3/reference/interfaces/MintSpecificOptions-3b5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-mint-specific-options-62-f-b41"
   },
-  "/sdk/v3/reference/interfaces/NFTPermitOptions-7cb": {
+  "/sdk/v3/reference/interfaces/NFTPermitOptions-465": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-nft-permit-optionsf-3-a-efc"
   },
-  "/sdk/v3/reference/interfaces/QuoteOptions-2aa": {
+  "/sdk/v3/reference/interfaces/QuoteOptions-a77": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-quote-options-051-cf7"
   },
-  "/sdk/v3/reference/interfaces/RemoveLiquidityOptions-70c": {
+  "/sdk/v3/reference/interfaces/RemoveLiquidityOptions-956": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-remove-liquidity-options-2-fd-3be"
   },
-  "/sdk/v3/reference/interfaces/SafeTransferOptions-d75": {
+  "/sdk/v3/reference/interfaces/SafeTransferOptions-1fb": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-safe-transfer-options-88-a-596"
   },
-  "/sdk/v3/reference/interfaces/StandardPermitArguments-5d9": {
+  "/sdk/v3/reference/interfaces/StandardPermitArguments-aea": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-standard-permit-arguments-6-bf-163"
   },
-  "/sdk/v3/reference/interfaces/SwapOptions-837": {
+  "/sdk/v3/reference/interfaces/SwapOptions-c1a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-swap-options-022-ade"
   },
-  "/sdk/v3/reference/interfaces/TickConstructorArgs-413": {
+  "/sdk/v3/reference/interfaces/TickConstructorArgs-ebe": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-tick-constructor-argsdac-8bb"
   },
-  "/sdk/v3/reference/interfaces/TickDataProvider-ea3": {
+  "/sdk/v3/reference/interfaces/TickDataProvider-6c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-tick-data-providerf-5-e-c9d"
   },
-  "/sdk/v3/reference/interfaces/WithdrawOptions-d12": {
+  "/sdk/v3/reference/interfaces/WithdrawOptions-dd5": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-interfaces-withdraw-optionsde-7-009"
   },
-  "/sdk/v3/reference/overview-836": {
+  "/sdk/v3/reference/overview-35e": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---sdk-v-3-reference-overview-871-f67"
   },
-  "/study/-172": {
+  "/swapx-integration/-7d2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-2-bc-87e"
+    "content": "content---swapx-integration-45-c-34b"
   },
-  "/study/product/-3d7": {
+  "/swapx-integration/bridging/-b73": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-product-0-ae-7d5"
+    "content": "content---swapx-integration-bridging-82-c-083"
   },
-  "/study/product/liquidity/-d39": {
+  "/swapx-integration/bridging/learn-more-f24": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-product-liquidity-628-ec9"
+    "content": "content---swapx-integration-bridging-learn-more-108-ebe"
   },
-  "/study/product/liquidity/pool-987": {
+  "/swapx-integration/bridging/rainlink-bridging-1a0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-product-liquidity-pool-032-416"
+    "content": "content---swapx-integration-bridging-rainlink-bridgingca-0-f69"
   },
-  "/study/product/swap/-d95": {
+  "/swapx-integration/liquidity-pool/-370": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-product-swap-ab-3-e84"
+    "content": "content---swapx-integration-liquidity-pool-87-e-34a"
   },
-  "/study/product/swap/market-maker-integration-a54": {
+  "/swapx-integration/liquidity-pool/how-to-remove-liquidity-e88": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-product-swap-market-maker-integration-43-d-865"
+    "content": "content---swapx-integration-liquidity-pool-how-to-remove-liquidityf-6-d-9da"
   },
-  "/study/product/swap/trade-36b": {
+  "/swapx-integration/liquidity-pool/liquidity-overview-0b8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-product-swap-trade-26-b-95e"
+    "content": "content---swapx-integration-liquidity-pool-liquidity-overviewbf-5-4f1"
   },
-  "/study/product/swap/trade_guide-8e1": {
+  "/swapx-integration/liquidity-pool/swapx-v2-liquidity-pool-2ac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-product-swap-trade-guidee-17-0e6"
+    "content": "content---swapx-integration-liquidity-pool-swapx-v-2-liquidity-poolf-05-c5c"
   },
-  "/study/start/wallet_guide/-b91": {
+  "/swapx-integration/liquidity-pool/swapx-v3-liquidity-pool-879": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-start-wallet-guide-392-c2c"
+    "content": "content---swapx-integration-liquidity-pool-swapx-v-3-liquidity-pool-179-a2a"
   },
-  "/study/start/wallet_guide/connect_wallet-433": {
+  "/swapx-integration/liquidity-pool/understanding-liquidity-provider-returns-d9e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-start-wallet-guide-connect-wallet-814-f19"
+    "content": "content---swapx-integration-liquidity-pool-understanding-liquidity-provider-returns-45-a-5b5"
   },
-  "/study/start/wallet_guide/create_wallet-2f5": {
+  "/swapx-integration/protocol/-d5a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-start-wallet-guide-create-wallet-54-a-678"
+    "content": "content---swapx-integration-protocol-69-f-375"
   },
-  "/study/terms&conditions/privacy-d25": {
+  "/swapx-integration/protocol/swapx-tokenomics-ec9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-terms-conditions-privacy-243-84d"
+    "content": "content---swapx-integration-protocol-swapx-tokenomicsc-2-c-9d3"
   },
-  "/study/terms&conditions/terms-4b5": {
+  "/swapx-integration/swap/-640": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---study-terms-conditions-terms-254-fa3"
+    "content": "content---swapx-integration-swap-2-b-1-7e8"
+  },
+  "/swapx-integration/swap/basic-concepts-of-swap-067": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-swap-basic-concepts-of-swap-829-d3c"
+  },
+  "/swapx-integration/swap/how-to-trade-9d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-swap-how-to-trade-69-c-965"
+  },
+  "/swapx-integration/swap/liquidity-provider-fees-e6f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-swap-liquidity-provider-fees-2-ba-816"
+  },
+  "/swapx-integration/swap/market-maker-integration-95c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-swap-market-maker-integration-0-da-7c1"
+  },
+  "/swapx-integration/swap/price-mechanism-and-security-22a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-swap-price-mechanism-and-security-209-79e"
+  },
+  "/swapx-integration/swap/what-is-trade-cec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-swap-what-is-tradeab-3-862"
+  },
+  "/swapx-integration/welcome-to-swapx/-2c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-837-4db"
+  },
+  "/swapx-integration/welcome-to-swapx/about-us/-bb9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-about-us-39-b-529"
+  },
+  "/swapx-integration/welcome-to-swapx/about-us/brand-and-logos-c03": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-about-us-brand-and-logos-76-f-686"
+  },
+  "/swapx-integration/welcome-to-swapx/about-us/team-1ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-about-us-team-58-c-c91"
+  },
+  "/swapx-integration/welcome-to-swapx/audits-26b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-audits-348-cd7"
+  },
+  "/swapx-integration/welcome-to-swapx/contact-us-c7e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-contact-useed-46d"
+  },
+  "/swapx-integration/welcome-to-swapx/news-660": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-news-979-25e"
+  },
+  "/swapx-integration/welcome-to-swapx/privacy-and-terms/-f17": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-privacy-and-terms-446-543"
+  },
+  "/swapx-integration/welcome-to-swapx/privacy-and-terms/privacy-policy-2d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-privacy-and-terms-privacy-policydb-8-6ff"
+  },
+  "/swapx-integration/welcome-to-swapx/privacy-and-terms/terms-of-service-tos-f8c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-privacy-and-terms-terms-of-service-tosc-28-7ae"
+  },
+  "/swapx-integration/welcome-to-swapx/publish-your-docs-a2d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-publish-your-docs-4-fd-bde"
+  },
+  "/swapx-integration/welcome-to-swapx/quickstart/-6a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-quickstart-334-b95"
+  },
+  "/swapx-integration/welcome-to-swapx/quickstart/connect-your-wallet-to-swapx-577": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-quickstart-connect-your-wallet-to-swapx-2-b-2-a0d"
+  },
+  "/swapx-integration/welcome-to-swapx/quickstart/how-to-get-and-create-a-wallet-973": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-quickstart-how-to-get-and-create-a-wallete-78-a17"
   }
 }

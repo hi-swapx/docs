@@ -16,10 +16,10 @@
     "sidebar_label": "位置数据",
     "sidebar_position": 1
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "流动性",
-    "permalink": "/category/流动性"
+    "title": "💧 流动性",
+    "permalink": "/category/-流动性"
   },
   "next": {
     "title": "铸造位置",

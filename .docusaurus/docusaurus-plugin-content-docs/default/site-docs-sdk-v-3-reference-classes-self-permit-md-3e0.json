@@ -16,7 +16,7 @@
     "sidebar_label": "自我许可",
     "sidebar_position": 11
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "路线",
     "permalink": "/sdk/v3/reference/classes/Route"

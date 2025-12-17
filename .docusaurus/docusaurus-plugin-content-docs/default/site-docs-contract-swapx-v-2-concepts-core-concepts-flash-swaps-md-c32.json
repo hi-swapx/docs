@@ -12,10 +12,10 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "了解退货",
-    "permalink": "/contract/swapx-v2/concepts/advanced-topics/understanding-returns"
+    "title": "核心概念",
+    "permalink": "/category/核心概念"
   },
   "next": {
     "title": "Pools",

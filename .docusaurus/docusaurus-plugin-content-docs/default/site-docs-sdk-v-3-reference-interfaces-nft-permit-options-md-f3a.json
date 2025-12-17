@@ -16,7 +16,7 @@
     "sidebar_label": "NFTP 许可选项",
     "sidebar_position": 11
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "特定选项",
     "permalink": "/sdk/v3/reference/interfaces/MintSpecificOptions"

@@ -16,7 +16,7 @@
     "sidebar_label": "路线",
     "sidebar_position": 10
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "职位库",
     "permalink": "/sdk/v3/reference/classes/PositionLibrary"

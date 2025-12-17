@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "SwapXV3Pool",
     "permalink": "/contract/swapx-v3/technical-reference/core/SwapXV3Pool"
   },
   "next": {
-    "title": "将 SwapX V3 头寸封装为 ERC721 非同质化代币接口",
-    "permalink": "/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager"
+    "title": "外围合约",
+    "permalink": "/category/外围合约"
   }
 }

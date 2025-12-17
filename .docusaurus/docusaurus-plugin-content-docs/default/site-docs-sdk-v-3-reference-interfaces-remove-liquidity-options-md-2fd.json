@@ -16,7 +16,7 @@
     "sidebar_label": "移除流动性选项",
     "sidebar_position": 13
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "报价选项",
     "permalink": "/sdk/v3/reference/interfaces/QuoteOptions"

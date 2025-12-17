@@ -16,7 +16,7 @@
     "sidebar_label": "标准许可参数",
     "sidebar_position": 15
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "安全传输选项",
     "permalink": "/sdk/v3/reference/interfaces/SafeTransferOptions"

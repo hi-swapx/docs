@@ -16,7 +16,7 @@
     "sidebar_label": "获取位置",
     "sidebar_position": 3
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "铸造位置",
     "permalink": "/sdk/v3/guides/liquidity/minting-position"

@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "概述",
+    "title": "🥭Preview",
     "permalink": "/contract/"
   },
   "next": {
-    "title": "手续费",
-    "permalink": "/contract/swapx-v2/concepts/advanced-topics/fees"
+    "title": "💡 概念",
+    "permalink": "/category/-概念"
   }
 }

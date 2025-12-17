@@ -16,7 +16,7 @@
     "sidebar_label": "第二步：对",
     "sidebar_position": 2
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "第一步：入门",
     "permalink": "/sdk/v2/reference/getting-started"

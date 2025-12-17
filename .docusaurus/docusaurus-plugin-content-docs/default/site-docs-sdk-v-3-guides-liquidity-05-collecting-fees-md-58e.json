@@ -16,7 +16,7 @@
     "sidebar_label": "收费",
     "sidebar_position": 5
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "修改位置",
     "permalink": "/sdk/v3/guides/liquidity/modifying-position"

@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "SwapXV3Factory",
     "permalink": "/contract/swapx-v3/technical-reference/core/SwapXV3Factory"

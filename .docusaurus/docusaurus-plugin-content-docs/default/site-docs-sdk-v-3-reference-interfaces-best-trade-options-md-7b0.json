@@ -16,7 +16,7 @@
     "sidebar_label": "最佳交易选择",
     "sidebar_position": 2
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "允许的许可参数",
     "permalink": "/sdk/v3/reference/interfaces/AllowedPermitArguments"

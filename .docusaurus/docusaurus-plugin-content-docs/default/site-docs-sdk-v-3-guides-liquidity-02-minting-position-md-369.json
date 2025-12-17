@@ -16,7 +16,7 @@
     "sidebar_label": "铸造位置",
     "sidebar_position": 2
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "位置数据",
     "permalink": "/sdk/v3/guides/liquidity/position-data"

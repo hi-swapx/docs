@@ -16,10 +16,10 @@
     "sidebar_label": "允许的许可参数",
     "sidebar_position": 1
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "接口",
-    "permalink": "/category/接口"
+    "title": "🔌 接口",
+    "permalink": "/category/-接口"
   },
   "next": {
     "title": "最佳交易选择",

@@ -12,9 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "NonfungibleTokenPositionDescriptor",
     "permalink": "/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor"
+  },
+  "next": {
+    "title": "🍋‍🟩Preview",
+    "permalink": "/sdk/"
   }
 }

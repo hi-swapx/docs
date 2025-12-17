@@ -16,7 +16,7 @@
     "sidebar_label": "增加特定选项",
     "sidebar_position": 8
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "激励关键",
     "permalink": "/sdk/v3/reference/interfaces/IncentiveKey"

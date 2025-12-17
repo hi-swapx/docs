@@ -1,10 +1,10 @@
 ---
 title: Contract
-sidebar_label: "概述"
+sidebar_label: "🥭Preview"
 sidebar_position: 1
 ---
 
-# SwapX 协议
+# SwapX 协议 
 
 SwapX 协议是一种点对点 1 系统，旨在在 Xone 区块链上交换加密货币（ERC-20 代币）。该协议以一组持久的、不可升级的智能合约的形式实现；旨在优先考虑抗审查、安全性、自我托管，并在没有任何可能选择性限制访问的受信任中介的情况下运行。
 

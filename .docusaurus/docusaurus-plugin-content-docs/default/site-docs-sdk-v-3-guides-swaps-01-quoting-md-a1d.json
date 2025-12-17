@@ -16,10 +16,10 @@
     "sidebar_label": "获取报价",
     "sidebar_position": 1
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "兑换",
-    "permalink": "/category/兑换"
+    "title": "🔄 兑换",
+    "permalink": "/category/-兑换"
   },
   "next": {
     "title": "执行交易",

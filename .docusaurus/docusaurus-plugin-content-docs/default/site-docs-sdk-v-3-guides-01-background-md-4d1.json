@@ -16,10 +16,10 @@
     "sidebar_label": "第一步：背景",
     "sidebar_position": 1
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "指南",
-    "permalink": "/category/指南-1"
+    "title": "📖 指南",
+    "permalink": "/category/-指南-1"
   },
   "next": {
     "title": "第二步：本地发展",

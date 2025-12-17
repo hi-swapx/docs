@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Uniswap 的工作原理",
     "permalink": "/contract/swapx-v2/concepts/protocol-overview/how-it-works"

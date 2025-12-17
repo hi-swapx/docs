@@ -4,20 +4,43 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 6rem 0; /* 增加上下间距，更大气 */
   text-align: center;
   position: relative;
   overflow: hidden;
+  /* 添加柔和的渐变背景，从浅橙色淡入白色 */
+  background: linear-gradient(180deg, #fff9f6 0%, #ffffff 100%);
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 3rem 1rem;
   }
+}
+
+/* 可以在 index.js 中给 h1 加这个类名或者全局样式覆盖，这里做通用优化 */
+.heroBanner h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.5rem;
+  /* 文字渐变效果 */
+  background: -webkit-linear-gradient(45deg, #f0441d, #ff8e53);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroBanner p {
+  font-size: 1.25rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem; /* 按钮间距 */
 }

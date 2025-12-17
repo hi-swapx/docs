@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "SwapX Docs",
+  "title": "SwapX",
   "tagline": "Efficient, convenient and safe",
   "favicon": "img/favicon.ico",
   "url": "https://docs.swapx.exchange",
@@ -13,24 +13,6 @@ export default {
   "projectName": "docusaurus",
   "onBrokenLinks": "ignore",
   "onBrokenMarkdownLinks": "warn",
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en",
-      "zh"
-    ],
-    "localeConfigs": {
-      "en": {
-        "label": "English",
-        "direction": "ltr"
-      },
-      "zh": {
-        "label": "中文",
-        "direction": "ltr"
-      }
-    },
-    "path": "i18n"
-  },
   "presets": [
     [
       "classic",
@@ -38,7 +20,8 @@ export default {
         "docs": {
           "routeBasePath": "/",
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/hi-swapx/docs"
+          "editUrl": "https://github.com/hi-swapx/docs",
+          "includeCurrentVersion": true
         },
         "blog": false,
         "theme": {
@@ -47,47 +30,66 @@ export default {
       }
     ]
   ],
+  "themes": [
+    "@docusaurus/theme-live-codeblock"
+  ],
+  "plugins": [
+    [
+      null,
+      {
+        "hashed": true,
+        "docsRouteBasePath": "/",
+        "indexBlog": false,
+        "indexPages": false
+      }
+    ],
+    "docusaurus-plugin-image-zoom"
+  ],
   "themeConfig": {
+    "image": "img/social-card.png",
+    "announcementBar": {
+      "id": "support_us",
+      "content": "⭐️ 如果你喜欢 SwapX，欢迎在 <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/hi-swapx/docs\">GitHub</a> 上给我们一个 Star ⭐️",
+      "backgroundColor": "#fafbfc",
+      "textColor": "#091E42",
+      "isCloseable": true
+    },
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true
+    },
+    "docs": {
+      "sidebar": {
+        "hideable": true,
+        "autoCollapseCategories": true
+      },
+      "versionPersistence": "localStorage"
+    },
     "navbar": {
       "title": "SwapX Docs",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "SwapX Logo",
         "src": "img/logo.svg"
       },
+      "hideOnScroll": false,
       "items": [
         {
-          "to": "/study",
-          "label": "Study",
-          "position": "left"
+          "type": "search",
+          "position": "right"
         },
         {
-          "to": "/contract",
-          "label": "Contract",
-          "position": "left"
-        },
-        {
-          "to": "/sdk",
-          "label": "SDK",
-          "position": "left"
+          "href": "https://swapx.exchange/",
+          "label": "Go SwapX",
+          "position": "right",
+          "className": "navbar-swapx-link"
         },
         {
           "href": "https://github.com/hi-swapx/docs",
           "label": "GitHub",
           "position": "right"
-        },
-        {
-          "type": "localeDropdown",
-          "position": "right",
-          "dropdownItemsBefore": [],
-          "dropdownItemsAfter": []
         }
-      ],
-      "hideOnScroll": false
-    },
-    "footer": {
-      "style": "dark",
-      "copyright": "Copyright © 2025 SwapX.",
-      "links": []
+      ]
     },
     "prism": {
       "theme": {
@@ -281,7 +283,12 @@ export default {
           }
         ]
       },
-      "additionalLanguages": [],
+      "additionalLanguages": [
+        "solidity",
+        "javascript",
+        "typescript",
+        "json"
+      ],
       "magicComments": [
         {
           "className": "theme-code-block-highlighted-line",
@@ -293,17 +300,9 @@ export default {
         }
       ]
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
+    "tableOfContents": {
+      "minHeadingLevel": 2,
+      "maxHeadingLevel": 5
     },
     "blog": {
       "sidebar": {
@@ -311,12 +310,19 @@ export default {
       }
     },
     "metadata": [],
-    "tableOfContents": {
-      "minHeadingLevel": 2,
-      "maxHeadingLevel": 3
+    "liveCodeBlock": {
+      "playgroundPosition": "bottom"
     }
   },
   "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
   "future": {
     "experimental_faster": {
       "swcJsLoader": false,
@@ -338,8 +344,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
-  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],

@@ -16,7 +16,7 @@
     "sidebar_label": "第三步：路线",
     "sidebar_position": 3
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "第二步：对",
     "permalink": "/sdk/v2/reference/pair"

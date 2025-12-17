@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "将 SwapX V3 头寸封装为 ERC721 非同质化代币接口",
     "permalink": "/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager"

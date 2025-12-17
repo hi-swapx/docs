@@ -16,13 +16,13 @@
     "sidebar_label": "第三步：Web3 开发基础",
     "sidebar_position": 3
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "第二步：本地发展",
     "permalink": "/sdk/v3/guides/local-development"
   },
   "next": {
-    "title": "先进的",
-    "permalink": "/category/先进的"
+    "title": "⚡ 先进的",
+    "permalink": "/category/-先进的"
   }
 }

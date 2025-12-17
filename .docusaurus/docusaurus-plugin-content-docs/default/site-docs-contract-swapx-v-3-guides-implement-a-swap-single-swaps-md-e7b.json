@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "多跳交换",
     "permalink": "/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps"
   },
   "next": {
-    "title": "SwapXV3Factory",
-    "permalink": "/contract/swapx-v3/technical-reference/core/SwapXV3Factory"
+    "title": "swap V3 合约 API 文档",
+    "permalink": "/contract/swapx-v3/guides/Implement-A-Swap/v3ContractAPI"
   }
 }

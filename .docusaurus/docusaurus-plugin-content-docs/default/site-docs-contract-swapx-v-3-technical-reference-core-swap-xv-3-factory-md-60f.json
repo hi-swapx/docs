@@ -12,10 +12,10 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "单笔交换",
-    "permalink": "/contract/swapx-v3/guides/Implement-A-Swap/single-swaps"
+    "title": "核心合约",
+    "permalink": "/category/核心合约"
   },
   "next": {
     "title": "SwapXV3Pool",

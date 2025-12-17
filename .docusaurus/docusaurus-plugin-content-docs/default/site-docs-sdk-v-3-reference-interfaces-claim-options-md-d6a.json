@@ -16,7 +16,7 @@
     "sidebar_label": "索赔选项",
     "sidebar_position": 3
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "最佳交易选择",
     "permalink": "/sdk/v3/reference/interfaces/BestTradeOptions"

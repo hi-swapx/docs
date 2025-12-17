@@ -8,632 +8,750 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "study/index",
+          "mainDocId": "swapx-integration/README",
           "docs": [
             {
               "id": "contract/index",
               "path": "/contract/",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/advanced-topics/fees",
               "path": "/contract/swapx-v2/concepts/advanced-topics/fees",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/advanced-topics/price",
               "path": "/contract/swapx-v2/concepts/advanced-topics/price",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/advanced-topics/security",
               "path": "/contract/swapx-v2/concepts/advanced-topics/security",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/advanced-topics/understanding-returns",
               "path": "/contract/swapx-v2/concepts/advanced-topics/understanding-returns",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contract/swapx-v2/concepts/advanced-topics/v2Contract",
+              "path": "/contract/swapx-v2/concepts/advanced-topics/v2Contract",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/core-concepts/flash-swaps",
               "path": "/contract/swapx-v2/concepts/core-concepts/flash-swaps",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/core-concepts/pools",
               "path": "/contract/swapx-v2/concepts/core-concepts/pools",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/core-concepts/swaps",
               "path": "/contract/swapx-v2/concepts/core-concepts/swaps",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/protocol-overview/ecosystem-participants",
               "path": "/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/protocol-overview/how-it-works",
               "path": "/contract/swapx-v2/concepts/protocol-overview/how-it-works",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/concepts/protocol-overview/smart-contract",
               "path": "/contract/swapx-v2/concepts/protocol-overview/smart-contract",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v2/index",
               "path": "/contract/swapx-v2/",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps",
               "path": "/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/guides/Implement-A-Swap/single-swaps",
               "path": "/contract/swapx-v3/guides/Implement-A-Swap/single-swaps",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contract/swapx-v3/guides/Implement-A-Swap/v3ContractAPI",
+              "path": "/contract/swapx-v3/guides/Implement-A-Swap/v3ContractAPI",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/overview",
               "path": "/contract/swapx-v3/overview",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/technical-reference/core/SwapXV3Factory",
               "path": "/contract/swapx-v3/technical-reference/core/SwapXV3Factory",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/technical-reference/core/SwapXV3Pool",
               "path": "/contract/swapx-v3/technical-reference/core/SwapXV3Pool",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer",
               "path": "/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager",
               "path": "/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor",
               "path": "/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "contract/swapx-v3/technical-reference/periphery/SwapRouter",
               "path": "/contract/swapx-v3/technical-reference/periphery/SwapRouter",
-              "sidebar": "contractSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/index",
               "path": "/sdk/",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/guides/fetching-data",
               "path": "/sdk/v2/guides/fetching-data",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/guides/getting-pair-addresses",
               "path": "/sdk/v2/guides/getting-pair-addresses",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/guides/pricing",
               "path": "/sdk/v2/guides/pricing",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/guides/quick-start",
               "path": "/sdk/v2/guides/quick-start",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/guides/trading",
               "path": "/sdk/v2/guides/trading",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/overview",
               "path": "/sdk/v2/overview",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/reference/getting-started",
               "path": "/sdk/v2/reference/getting-started",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/reference/other-exports",
               "path": "/sdk/v2/reference/other-exports",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/reference/pair",
               "path": "/sdk/v2/reference/pair",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/reference/route",
               "path": "/sdk/v2/reference/route",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v2/reference/trade",
               "path": "/sdk/v2/reference/trade",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/advanced/active-liquidity",
               "path": "/sdk/v3/guides/advanced/active-liquidity",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/advanced/introduction",
               "path": "/sdk/v3/guides/advanced/introduction",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/advanced/pool-data",
               "path": "/sdk/v3/guides/advanced/pool-data",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/advanced/price-oracle",
               "path": "/sdk/v3/guides/advanced/price-oracle",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/advanced/range-orders",
               "path": "/sdk/v3/guides/advanced/range-orders",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/background",
               "path": "/sdk/v3/guides/background",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/liquidity/collecting-fees",
               "path": "/sdk/v3/guides/liquidity/collecting-fees",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/liquidity/fetching-positions",
               "path": "/sdk/v3/guides/liquidity/fetching-positions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/liquidity/minting-position",
               "path": "/sdk/v3/guides/liquidity/minting-position",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/liquidity/modifying-position",
               "path": "/sdk/v3/guides/liquidity/modifying-position",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/liquidity/position-data",
               "path": "/sdk/v3/guides/liquidity/position-data",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/liquidity/swap-and-add-liquidity",
               "path": "/sdk/v3/guides/liquidity/swap-and-add-liquidity",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/local-development",
               "path": "/sdk/v3/guides/local-development",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/swaps/quoting",
               "path": "/sdk/v3/guides/swaps/quoting",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/swaps/routing",
               "path": "/sdk/v3/guides/swaps/routing",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/swaps/trading",
               "path": "/sdk/v3/guides/swaps/trading",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/guides/web3-development-basics",
               "path": "/sdk/v3/guides/web3-development-basics",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/overview",
               "path": "/sdk/v3/overview",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/FullMath",
               "path": "/sdk/v3/reference/classes/FullMath",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/LiquidityMath",
               "path": "/sdk/v3/reference/classes/LiquidityMath",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/Multicall",
               "path": "/sdk/v3/reference/classes/Multicall",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/NonfungiblePositionManager",
               "path": "/sdk/v3/reference/classes/NonfungiblePositionManager",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/NoTickDataProvider",
               "path": "/sdk/v3/reference/classes/NoTickDataProvider",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/Payments",
               "path": "/sdk/v3/reference/classes/Payments",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/Pool",
               "path": "/sdk/v3/reference/classes/Pool",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/Position",
               "path": "/sdk/v3/reference/classes/Position",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/PositionLibrary",
               "path": "/sdk/v3/reference/classes/PositionLibrary",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/Route",
               "path": "/sdk/v3/reference/classes/Route",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/SelfPermit",
               "path": "/sdk/v3/reference/classes/SelfPermit",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/SqrtPriceMath",
               "path": "/sdk/v3/reference/classes/SqrtPriceMath",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/Staker",
               "path": "/sdk/v3/reference/classes/Staker",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/SwapMath",
               "path": "/sdk/v3/reference/classes/SwapMath",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/SwapQuoter",
               "path": "/sdk/v3/reference/classes/SwapQuoter",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/SwapRouter",
               "path": "/sdk/v3/reference/classes/SwapRouter",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/Tick",
               "path": "/sdk/v3/reference/classes/Tick",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/TickLibrary",
               "path": "/sdk/v3/reference/classes/TickLibrary",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/TickList",
               "path": "/sdk/v3/reference/classes/TickList",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/TickListDataProvider",
               "path": "/sdk/v3/reference/classes/TickListDataProvider",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/TickMath",
               "path": "/sdk/v3/reference/classes/TickMath",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/classes/Trade",
               "path": "/sdk/v3/reference/classes/Trade",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/enums/FeeAmount",
               "path": "/sdk/v3/reference/enums/FeeAmount",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/AllowedPermitArguments",
               "path": "/sdk/v3/reference/interfaces/AllowedPermitArguments",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/BestTradeOptions",
               "path": "/sdk/v3/reference/interfaces/BestTradeOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/ClaimOptions",
               "path": "/sdk/v3/reference/interfaces/ClaimOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/CollectOptions",
               "path": "/sdk/v3/reference/interfaces/CollectOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/CommonAddLiquidityOptions",
               "path": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/FeeOptions",
               "path": "/sdk/v3/reference/interfaces/FeeOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/IncentiveKey",
               "path": "/sdk/v3/reference/interfaces/IncentiveKey",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/IncreaseSpecificOptions",
               "path": "/sdk/v3/reference/interfaces/IncreaseSpecificOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/MethodParameters",
               "path": "/sdk/v3/reference/interfaces/MethodParameters",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/MintSpecificOptions",
               "path": "/sdk/v3/reference/interfaces/MintSpecificOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/NFTPermitOptions",
               "path": "/sdk/v3/reference/interfaces/NFTPermitOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/QuoteOptions",
               "path": "/sdk/v3/reference/interfaces/QuoteOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/RemoveLiquidityOptions",
               "path": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/SafeTransferOptions",
               "path": "/sdk/v3/reference/interfaces/SafeTransferOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/StandardPermitArguments",
               "path": "/sdk/v3/reference/interfaces/StandardPermitArguments",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/SwapOptions",
               "path": "/sdk/v3/reference/interfaces/SwapOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/TickConstructorArgs",
               "path": "/sdk/v3/reference/interfaces/TickConstructorArgs",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/TickDataProvider",
               "path": "/sdk/v3/reference/interfaces/TickDataProvider",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/interfaces/WithdrawOptions",
               "path": "/sdk/v3/reference/interfaces/WithdrawOptions",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdk/v3/reference/overview",
               "path": "/sdk/v3/reference/overview",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/index",
-              "path": "/study/",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/bridging/learn-more",
+              "path": "/swapx-integration/bridging/learn-more",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/product/index",
-              "path": "/study/product/",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/bridging/rainlink-bridging",
+              "path": "/swapx-integration/bridging/rainlink-bridging",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/product/liquidity/liquidity",
-              "path": "/study/product/liquidity/",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/bridging/README",
+              "path": "/swapx-integration/bridging/",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/product/liquidity/pool",
-              "path": "/study/product/liquidity/pool",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/liquidity-pool/how-to-remove-liquidity",
+              "path": "/swapx-integration/liquidity-pool/how-to-remove-liquidity",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/product/swap/market-maker-integration",
-              "path": "/study/product/swap/market-maker-integration",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/liquidity-pool/liquidity-overview",
+              "path": "/swapx-integration/liquidity-pool/liquidity-overview",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/product/swap/README",
-              "path": "/study/product/swap/",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/liquidity-pool/README",
+              "path": "/swapx-integration/liquidity-pool/",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/product/swap/trade",
-              "path": "/study/product/swap/trade",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/liquidity-pool/swapx-v2-liquidity-pool",
+              "path": "/swapx-integration/liquidity-pool/swapx-v2-liquidity-pool",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/product/swap/trade_guide",
-              "path": "/study/product/swap/trade_guide",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/liquidity-pool/swapx-v3-liquidity-pool",
+              "path": "/swapx-integration/liquidity-pool/swapx-v3-liquidity-pool",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/start/wallet_guide/connect_wallet",
-              "path": "/study/start/wallet_guide/connect_wallet",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/liquidity-pool/understanding-liquidity-provider-returns",
+              "path": "/swapx-integration/liquidity-pool/understanding-liquidity-provider-returns",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/start/wallet_guide/create_wallet",
-              "path": "/study/start/wallet_guide/create_wallet",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/protocol/README",
+              "path": "/swapx-integration/protocol/",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/start/wallet_guide/README",
-              "path": "/study/start/wallet_guide/",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/protocol/swapx-tokenomics",
+              "path": "/swapx-integration/protocol/swapx-tokenomics",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/terms&conditions/privacy",
-              "path": "/study/terms&conditions/privacy",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/README",
+              "path": "/swapx-integration/",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "study/terms&conditions/terms",
-              "path": "/study/terms&conditions/terms",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/swap/basic-concepts-of-swap",
+              "path": "/swapx-integration/swap/basic-concepts-of-swap",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/start",
-              "path": "/category/start",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/swap/how-to-trade",
+              "path": "/swapx-integration/swap/how-to-trade",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/wallet_guide",
-              "path": "/category/wallet_guide",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/swap/liquidity-provider-fees",
+              "path": "/swapx-integration/swap/liquidity-provider-fees",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/swap",
-              "path": "/category/swap",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/swap/market-maker-integration",
+              "path": "/swapx-integration/swap/market-maker-integration",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/liquidity",
-              "path": "/category/liquidity",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/swap/price-mechanism-and-security",
+              "path": "/swapx-integration/swap/price-mechanism-and-security",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/privacy-and-terms",
-              "path": "/category/privacy-and-terms",
-              "sidebar": "studySidebar"
+              "id": "swapx-integration/swap/README",
+              "path": "/swapx-integration/swap/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/swap/what-is-trade",
+              "path": "/swapx-integration/swap/what-is-trade",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/about-us/brand-and-logos",
+              "path": "/swapx-integration/welcome-to-swapx/about-us/brand-and-logos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/about-us/README",
+              "path": "/swapx-integration/welcome-to-swapx/about-us/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/about-us/team",
+              "path": "/swapx-integration/welcome-to-swapx/about-us/team",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/audits",
+              "path": "/swapx-integration/welcome-to-swapx/audits",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/contact-us",
+              "path": "/swapx-integration/welcome-to-swapx/contact-us",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/news",
+              "path": "/swapx-integration/welcome-to-swapx/news",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/privacy-and-terms/privacy-policy",
+              "path": "/swapx-integration/welcome-to-swapx/privacy-and-terms/privacy-policy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/privacy-and-terms/README",
+              "path": "/swapx-integration/welcome-to-swapx/privacy-and-terms/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/privacy-and-terms/terms-of-service-tos",
+              "path": "/swapx-integration/welcome-to-swapx/privacy-and-terms/terms-of-service-tos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/publish-your-docs",
+              "path": "/swapx-integration/welcome-to-swapx/publish-your-docs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/quickstart/connect-your-wallet-to-swapx",
+              "path": "/swapx-integration/welcome-to-swapx/quickstart/connect-your-wallet-to-swapx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/quickstart/how-to-get-and-create-a-wallet",
+              "path": "/swapx-integration/welcome-to-swapx/quickstart/how-to-get-and-create-a-wallet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/quickstart/README",
+              "path": "/swapx-integration/welcome-to-swapx/quickstart/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "swapx-integration/welcome-to-swapx/README",
+              "path": "/swapx-integration/welcome-to-swapx/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/-概念",
+              "path": "/category/-概念",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/核心概念",
+              "path": "/category/核心概念",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/高级主题",
+              "path": "/category/高级主题",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/协议概览",
+              "path": "/category/协议概览",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/指南",
               "path": "/category/指南",
-              "sidebar": "sdkSidebar"
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/参考",
-              "path": "/category/参考",
-              "sidebar": "sdkSidebar"
+              "id": "/category/实现交换",
+              "path": "/category/实现交换",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/指南-1",
-              "path": "/category/指南-1",
-              "sidebar": "sdkSidebar"
+              "id": "/category/技术参考",
+              "path": "/category/技术参考",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/先进的",
-              "path": "/category/先进的",
-              "sidebar": "sdkSidebar"
+              "id": "/category/核心合约",
+              "path": "/category/核心合约",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/流动性",
-              "path": "/category/流动性",
-              "sidebar": "sdkSidebar"
+              "id": "/category/外围合约",
+              "path": "/category/外围合约",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/兑换",
-              "path": "/category/兑换",
-              "sidebar": "sdkSidebar"
+              "id": "/category/-指南",
+              "path": "/category/-指南",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/类",
-              "path": "/category/类",
-              "sidebar": "sdkSidebar"
+              "id": "/category/-参考",
+              "path": "/category/-参考",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/枚举",
-              "path": "/category/枚举",
-              "sidebar": "sdkSidebar"
+              "id": "/category/-指南-1",
+              "path": "/category/-指南-1",
+              "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/接口",
-              "path": "/category/接口",
-              "sidebar": "sdkSidebar"
+              "id": "/category/-先进的",
+              "path": "/category/-先进的",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/-流动性",
+              "path": "/category/-流动性",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/-兑换",
+              "path": "/category/-兑换",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/️-类",
+              "path": "/category/️-类",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/-枚举",
+              "path": "/category/-枚举",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/-接口",
+              "path": "/category/-接口",
+              "sidebar": "tutorialSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "studySidebar": {
+            "tutorialSidebar": {
               "link": {
-                "path": "/study/",
-                "label": "Hi Swapx!"
-              }
-            },
-            "contractSidebar": {
-              "link": {
-                "path": "/contract/",
-                "label": "概述"
-              }
-            },
-            "sdkSidebar": {
-              "link": {
-                "path": "/sdk/",
-                "label": "概述"
+                "path": "/swapx-integration/",
+                "label": "swapx-integration/README"
               }
             }
           }

@@ -16,13 +16,13 @@
     "sidebar_label": "贸易",
     "sidebar_position": 22
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "滴答数学",
     "permalink": "/sdk/v3/reference/classes/TickMath"
   },
   "next": {
-    "title": "枚举",
-    "permalink": "/category/枚举"
+    "title": "📋 枚举",
+    "permalink": "/category/-枚举"
   }
 }

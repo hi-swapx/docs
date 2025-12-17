@@ -16,7 +16,7 @@
     "sidebar_label": "第二步：获取数据",
     "sidebar_position": 2
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "第一步：快速启动",
     "permalink": "/sdk/v2/guides/quick-start"

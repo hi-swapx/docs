@@ -16,7 +16,7 @@
     "sidebar_label": "方法参数",
     "sidebar_position": 9
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "增加特定选项",
     "permalink": "/sdk/v3/reference/interfaces/IncreaseSpecificOptions"

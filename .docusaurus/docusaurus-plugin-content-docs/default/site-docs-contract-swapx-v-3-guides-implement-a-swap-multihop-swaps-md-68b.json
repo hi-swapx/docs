@@ -12,10 +12,10 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "SwapX V3 智能合约",
-    "permalink": "/contract/swapx-v3/overview"
+    "title": "实现交换",
+    "permalink": "/category/实现交换"
   },
   "next": {
     "title": "单笔交换",

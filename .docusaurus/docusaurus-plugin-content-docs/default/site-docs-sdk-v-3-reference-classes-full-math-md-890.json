@@ -16,10 +16,10 @@
     "sidebar_label": "全数学",
     "sidebar_position": 1
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "类",
-    "permalink": "/category/类"
+    "title": "🏗️ 类",
+    "permalink": "/category/️-类"
   },
   "next": {
     "title": "流动性数学",

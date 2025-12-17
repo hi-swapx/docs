@@ -16,7 +16,7 @@
     "sidebar_label": "提款选项",
     "sidebar_position": 19
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "勾选数据提供者",
     "permalink": "/sdk/v3/reference/interfaces/TickDataProvider"

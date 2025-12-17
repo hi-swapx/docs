@@ -16,7 +16,7 @@
     "sidebar_label": "池数据",
     "sidebar_position": 2
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "介绍",
     "permalink": "/sdk/v3/guides/advanced/introduction"

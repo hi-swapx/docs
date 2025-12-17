@@ -1,6 +1,6 @@
 ---
 title: SDK
-sidebar_label: "概述"
+sidebar_label: "🍋‍🟩Preview"
 sidebar_position: 1
 ---
 

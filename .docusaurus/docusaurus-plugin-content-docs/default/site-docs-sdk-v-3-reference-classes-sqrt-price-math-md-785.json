@@ -16,7 +16,7 @@
     "sidebar_label": "平方价格数学",
     "sidebar_position": 12
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "自我许可",
     "permalink": "/sdk/v3/reference/classes/SelfPermit"

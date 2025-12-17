@@ -1,166 +1,124 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import { themes as prismThemes } from "prism-react-renderer";
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+import searchLocal from "@easyops-cn/docusaurus-search-local";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "SwapX Docs",
+  title: "SwapX",
   tagline: "Efficient, convenient and safe",
   favicon: "img/favicon.ico",
 
-  // Set the production url of your site here
+  // 生产环境 URL
   url: "https://docs.swapx.exchange",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "facebook",
+  projectName: "docusaurus",
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  //i18n: {
-   // defaultLocale: "zh",
-    //locales: ["zh"],
- // },
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh'], // 添加你需要的语言代码
-    localeConfigs: {
-      en: {
-        label: 'English',
-        direction: 'ltr',
-      },
-      zh: {
-        label: '中文',
-        direction: 'ltr',
-      },
-      // 其他语言配置...
-    },
-    
-  },
-
-  
   presets: [
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: "/",
-          sidebarPath: "./sidebars.js",
+          routeBasePath: "/", // 文档作为根路径
+          sidebarPath: "./sidebars.js", // 引用侧边栏配置
           editUrl: "https://github.com/hi-swapx/docs",
+          lastVersion: undefined,
+          includeCurrentVersion: true,
         },
         blog: false,
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: "./src/css/custom.css", // 引用自定义样式
         },
       }),
     ],
   ],
-  
+
+  themes: ['@docusaurus/theme-live-codeblock'],
+
+  plugins: [
+    [
+      searchLocal,
+      {
+        hashed: true,
+        docsRouteBasePath: "/",
+        indexBlog: false,
+        indexPages: false,
+      },
+    ],
+    'docusaurus-plugin-image-zoom',
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      // image: "",
-      
-    
-  
+      // 图片缩放功能
+      image: 'img/social-card.png',
+      // 公告栏配置
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '⭐️ 如果你喜欢 SwapX，欢迎在 <a target="_blank" rel="noopener noreferrer" href="https://github.com/hi-swapx/docs">GitHub</a> 上给我们一个 Star ⭐️',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+        isCloseable: true,
+      },
+      // 配色模式
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+      // 文档配置
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: "SwapX Docs",
         logo: {
-          alt: "My Site Logo",
+          alt: "SwapX Logo",
           src: "img/logo.svg",
         },
+        hideOnScroll: false,
         items: [
+          // 顶部导航仅保留必要的系统链接，文档目录已移至左侧侧边栏
+          
+          // 搜索框
           {
-            to: "/study",
-            label: "Study",
-            position: "left",
+            type: 'search',
+            position: 'right', 
           },
+          
           {
-            to: "/contract",
-            label: "Contract",
-            position: "left",
+            href: "https://swapx.exchange/",
+            label: "Go SwapX",
+            position: "right",
+            className: "navbar-swapx-link",
           },
-          {
-            to: "/sdk",
-            label: "SDK",
-            position: "left",
-          },
+          
           {
             href: "https://github.com/hi-swapx/docs",
             label: "GitHub",
             position: "right",
           },
-          {
-        type: 'localeDropdown',
-        position: 'right',
-      },
         ],
-      },
-      footer: {
-        style: "dark",
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'X',
-        //         href: 'https://x.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
-        copyright: `Copyright © ${new Date().getFullYear()} SwapX.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['solidity', 'javascript', 'typescript', 'json'],
+      },
+      // 表格配置
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 5,
       },
     }),
 };

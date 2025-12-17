@@ -14,10 +14,14 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "title": "Contract",
-    "sidebar_label": "概述",
+    "sidebar_label": "🥭Preview",
     "sidebar_position": 1
   },
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🪙SWAPX Tokenomics",
+    "permalink": "/swapx-integration/protocol/swapx-tokenomics"
+  },
   "next": {
     "title": "SwapX V2 智能合约",
     "permalink": "/contract/swapx-v2/"

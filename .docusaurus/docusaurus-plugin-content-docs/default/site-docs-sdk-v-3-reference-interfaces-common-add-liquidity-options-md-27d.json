@@ -16,7 +16,7 @@
     "sidebar_label": "常见的增加流动性选项",
     "sidebar_position": 5
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "收集选项",
     "permalink": "/sdk/v3/reference/interfaces/CollectOptions"

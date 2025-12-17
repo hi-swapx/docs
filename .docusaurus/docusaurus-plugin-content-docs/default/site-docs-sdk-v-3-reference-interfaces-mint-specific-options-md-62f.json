@@ -16,7 +16,7 @@
     "sidebar_label": "特定选项",
     "sidebar_position": 10
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "方法参数",
     "permalink": "/sdk/v3/reference/interfaces/MethodParameters"

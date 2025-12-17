@@ -16,7 +16,7 @@
     "sidebar_label": "滴答图书馆",
     "sidebar_position": 18
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "打钩",
     "permalink": "/sdk/v3/reference/classes/Tick"

@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "价格是如何确定的?",
     "permalink": "/contract/swapx-v2/concepts/advanced-topics/price"

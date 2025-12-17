@@ -12,10 +12,10 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Swaps",
-    "permalink": "/contract/swapx-v2/concepts/core-concepts/swaps"
+    "title": "协议概览",
+    "permalink": "/category/协议概览"
   },
   "next": {
     "title": "Uniswap 的工作原理",

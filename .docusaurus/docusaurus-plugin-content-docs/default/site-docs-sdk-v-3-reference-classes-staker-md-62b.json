@@ -16,7 +16,7 @@
     "sidebar_label": "赌注",
     "sidebar_position": 13
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "平方价格数学",
     "permalink": "/sdk/v3/reference/classes/SqrtPriceMath"

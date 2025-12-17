@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "智能合约",
     "permalink": "/contract/swapx-v2/concepts/protocol-overview/smart-contract"
   },
   "next": {
-    "title": "多跳交换",
-    "permalink": "/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps"
+    "title": "指南",
+    "permalink": "/category/指南"
   }
 }

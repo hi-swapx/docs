@@ -16,7 +16,7 @@
     "sidebar_label": "第四步：贸易",
     "sidebar_position": 4
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "第三步：路线",
     "permalink": "/sdk/v2/reference/route"

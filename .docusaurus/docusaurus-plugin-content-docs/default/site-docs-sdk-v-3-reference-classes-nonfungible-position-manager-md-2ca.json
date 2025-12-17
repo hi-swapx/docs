@@ -16,7 +16,7 @@
     "sidebar_label": "非同质化仓位经理",
     "sidebar_position": 4
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "多路呼叫",
     "permalink": "/sdk/v3/reference/classes/Multicall"

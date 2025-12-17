@@ -16,13 +16,13 @@
     "sidebar_label": "費用金額",
     "sidebar_position": 1
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "枚举",
-    "permalink": "/category/枚举"
+    "title": "📋 枚举",
+    "permalink": "/category/-枚举"
   },
   "next": {
-    "title": "接口",
-    "permalink": "/category/接口"
+    "title": "🔌 接口",
+    "permalink": "/category/-接口"
   }
 }

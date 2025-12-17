@@ -1,0 +1,3 @@
+# 🪙SWAPX Tokenomics
+
+Come soon！

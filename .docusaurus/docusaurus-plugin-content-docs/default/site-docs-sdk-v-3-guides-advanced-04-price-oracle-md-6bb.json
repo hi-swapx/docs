@@ -16,7 +16,7 @@
     "sidebar_label": "价格预言",
     "sidebar_position": 4
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "主动流动性",
     "permalink": "/sdk/v3/guides/advanced/active-liquidity"

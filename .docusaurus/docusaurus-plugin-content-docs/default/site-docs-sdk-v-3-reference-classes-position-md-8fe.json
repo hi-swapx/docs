@@ -16,7 +16,7 @@
     "sidebar_label": "位置",
     "sidebar_position": 8
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "水池",
     "permalink": "/sdk/v3/reference/classes/Pool"

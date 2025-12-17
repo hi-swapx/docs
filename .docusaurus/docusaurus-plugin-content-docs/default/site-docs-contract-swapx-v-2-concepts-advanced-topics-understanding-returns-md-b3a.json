@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "contractSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "在 SwapX 上构建时的注意事项",
     "permalink": "/contract/swapx-v2/concepts/advanced-topics/security"
   },
   "next": {
-    "title": "Flash Swaps",
-    "permalink": "/contract/swapx-v2/concepts/core-concepts/flash-swaps"
+    "title": "swap V2 合约 API 文档",
+    "permalink": "/contract/swapx-v2/concepts/advanced-topics/v2Contract"
   }
 }

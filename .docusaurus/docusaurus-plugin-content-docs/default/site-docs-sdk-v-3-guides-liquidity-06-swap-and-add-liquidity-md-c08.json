@@ -16,13 +16,13 @@
     "sidebar_label": "掉期和增加流动性",
     "sidebar_position": 6
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "收费",
     "permalink": "/sdk/v3/guides/liquidity/collecting-fees"
   },
   "next": {
-    "title": "兑换",
-    "permalink": "/category/兑换"
+    "title": "🔄 兑换",
+    "permalink": "/category/-兑换"
   }
 }

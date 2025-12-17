@@ -16,7 +16,7 @@
     "sidebar_label": "第三步：定价",
     "sidebar_position": 3
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "第二步：获取数据",
     "permalink": "/sdk/v2/guides/fetching-data"

@@ -16,7 +16,7 @@
     "sidebar_label": "费用选项",
     "sidebar_position": 6
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "常见的增加流动性选项",
     "permalink": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions"

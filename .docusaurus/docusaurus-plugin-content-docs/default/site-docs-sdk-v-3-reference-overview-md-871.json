@@ -12,13 +12,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "路由掉期",
     "permalink": "/sdk/v3/guides/swaps/routing"
   },
   "next": {
-    "title": "类",
-    "permalink": "/category/类"
+    "title": "🏗️ 类",
+    "permalink": "/category/️-类"
   }
 }

@@ -16,7 +16,7 @@
     "sidebar_label": "执行交易",
     "sidebar_position": 2
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "获取报价",
     "permalink": "/sdk/v3/guides/swaps/quoting"

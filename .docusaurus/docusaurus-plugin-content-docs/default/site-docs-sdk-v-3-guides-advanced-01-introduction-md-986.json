@@ -16,10 +16,10 @@
     "sidebar_label": "介绍",
     "sidebar_position": 1
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "先进的",
-    "permalink": "/category/先进的"
+    "title": "⚡ 先进的",
+    "permalink": "/category/-先进的"
   },
   "next": {
     "title": "池数据",

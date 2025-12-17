@@ -16,13 +16,13 @@
     "sidebar_label": "范围订单",
     "sidebar_position": 5
   },
-  "sidebar": "sdkSidebar",
+  "sidebar": "tutorialSidebar",
   "previous": {
     "title": "价格预言",
     "permalink": "/sdk/v3/guides/advanced/price-oracle"
   },
   "next": {
-    "title": "流动性",
-    "permalink": "/category/流动性"
+    "title": "💧 流动性",
+    "permalink": "/category/-流动性"
   }
 }
