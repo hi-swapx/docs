@@ -17,6 +17,7 @@ layout:
     visible: true
   metadata:
     visible: true
+  sidebar_position: 1
 ---
 
 # 🚀Quickstart

@@ -1,3 +1,0 @@
-# Team
-
-Come soon！

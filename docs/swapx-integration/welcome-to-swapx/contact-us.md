@@ -1,3 +1,7 @@
+---
+  sidebar_position: 2
+---
+
 # ☎️Contact Us
 
 ## 🔗 Official Channels & Verification
