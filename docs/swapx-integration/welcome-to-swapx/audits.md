@@ -1,4 +1,7 @@
+---
+sidebar_position: 9
 
+---
 # 🛡️Audits
 
 ## EVM Audit Report：
@@ -18,3 +21,5 @@
 ## Swapx router:
 
 > **Reference**: [https://cert-api.salusec.io/api/v1/salus/contract/certificate/full/2025/SwapX_contracts-router_audit_report_2025-10-31.pdf](https://cert-api.salusec.io/api/v1/salus/contract/certificate/full/2025/SwapX_contracts-router_audit_report_2025-10-31.pdf)
+
+

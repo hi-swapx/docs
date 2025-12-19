@@ -55,474 +55,1166 @@
     },
     "config": "config---5-e-9-4f3"
   },
-  "/-fcf": {
+  "/-6cf": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-8fd": {
+  "/-eaa": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-a0f": {
+  "/-960": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/category/-先进的-16a": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-先进的-2-d-3-014"
+  "/swapx-developer/-c3f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-5-a-3-b56"
+  },
+  "/swapx-developer/contracts-v2/-080": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-166-a60"
+  },
+  "/swapx-developer/contracts-v2/concepts/-2eb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-435-4b1"
+  },
+  "/swapx-developer/contracts-v2/concepts/advanced-topics/-e9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-advanced-topics-e-82-bbc"
+  },
+  "/swapx-developer/contracts-v2/concepts/advanced-topics/fees-579": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-advanced-topics-fees-299-29e"
+  },
+  "/swapx-developer/contracts-v2/concepts/advanced-topics/math-5ac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-advanced-topics-math-2-e-3-a00"
+  },
+  "/swapx-developer/contracts-v2/concepts/advanced-topics/pricing-78d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-advanced-topics-pricinga-84-a61"
+  },
+  "/swapx-developer/contracts-v2/concepts/advanced-topics/research-4a3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-advanced-topics-research-3-af-890"
+  },
+  "/swapx-developer/contracts-v2/concepts/advanced-topics/security-e0f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-advanced-topics-security-9-b-0-cd3"
+  },
+  "/swapx-developer/contracts-v2/concepts/advanced-topics/understanding-returns-e23": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-advanced-topics-understanding-returns-92-a-a8a"
+  },
+  "/swapx-developer/contracts-v2/concepts/core-concepts/-f22": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-core-concepts-1-a-1-006"
+  },
+  "/swapx-developer/contracts-v2/concepts/core-concepts/flash-swaps-c62": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-core-concepts-flash-swapse-9-f-c03"
+  },
+  "/swapx-developer/contracts-v2/concepts/core-concepts/oracles-144": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-core-concepts-oraclesc-86-e3f"
+  },
+  "/swapx-developer/contracts-v2/concepts/core-concepts/pools-b10": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-core-concepts-pools-332-96f"
+  },
+  "/swapx-developer/contracts-v2/concepts/core-concepts/swaps-dee": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-core-concepts-swaps-7-c-6-4e7"
+  },
+  "/swapx-developer/contracts-v2/concepts/protocol-overview/-400": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-protocol-overview-adc-80a"
+  },
+  "/swapx-developer/contracts-v2/concepts/protocol-overview/ecosystem-participants-0d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-protocol-overview-ecosystem-participantsecc-fc5"
+  },
+  "/swapx-developer/contracts-v2/concepts/protocol-overview/glossary-62e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-protocol-overview-glossaryf-70-997"
+  },
+  "/swapx-developer/contracts-v2/concepts/protocol-overview/how-uniswap-works-c25": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-protocol-overview-how-uniswap-worksd-8-f-b93"
+  },
+  "/swapx-developer/contracts-v2/concepts/protocol-overview/smart-contracts-505": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-concepts-protocol-overview-smart-contracts-21-a-558"
+  },
+  "/swapx-developer/contracts-v2/guides/-4dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-318-fb4"
+  },
+  "/swapx-developer/contracts-v2/guides/interface-integration/-c77": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-interface-integration-4-b-4-926"
+  },
+  "/swapx-developer/contracts-v2/guides/interface-integration/custom-interface-linking-41f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-interface-integration-custom-interface-linking-6-e-8-a9d"
+  },
+  "/swapx-developer/contracts-v2/guides/interface-integration/using-the-api-4a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-interface-integration-using-the-api-43-b-ac5"
+  },
+  "/swapx-developer/contracts-v2/guides/smart-contract-integration/-289": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-smart-contract-integration-72-c-20e"
+  },
+  "/swapx-developer/contracts-v2/guides/smart-contract-integration/building-an-oracle-03f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-smart-contract-integration-building-an-oraclefce-cae"
+  },
+  "/swapx-developer/contracts-v2/guides/smart-contract-integration/getting-pair-addresses-233": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-smart-contract-integration-getting-pair-addresses-591-8e4"
+  },
+  "/swapx-developer/contracts-v2/guides/smart-contract-integration/providing-liquidity-0fa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-smart-contract-integration-providing-liquiditye-96-822"
+  },
+  "/swapx-developer/contracts-v2/guides/smart-contract-integration/quick-start-797": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-smart-contract-integration-quick-startc-36-f6f"
+  },
+  "/swapx-developer/contracts-v2/guides/smart-contract-integration/supporting-meta-transactions-db5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-smart-contract-integration-supporting-meta-transactions-8-d-6-788"
+  },
+  "/swapx-developer/contracts-v2/guides/smart-contract-integration/trading-from-a-smart-contract-2a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-smart-contract-integration-trading-from-a-smart-contract-82-b-0f7"
+  },
+  "/swapx-developer/contracts-v2/guides/smart-contract-integration/using-flash-swaps-b01": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-2-guides-smart-contract-integration-using-flash-swapsd-85-f17"
+  },
+  "/swapx-developer/contracts-v3/-a41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-619-dee"
+  },
+  "/swapx-developer/contracts-v3/guides/-314": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-378-ce9"
+  },
+  "/swapx-developer/contracts-v3/guides/flash-integrations/-2b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-flash-integrations-062-082"
+  },
+  "/swapx-developer/contracts-v3/guides/flash-integrations/calling-flash-3d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-flash-integrations-calling-flashe-4-e-aec"
+  },
+  "/swapx-developer/contracts-v3/guides/flash-integrations/final-contract-1c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-flash-integrations-final-contract-5-cc-6e3"
+  },
+  "/swapx-developer/contracts-v3/guides/flash-integrations/flash-callback-f5b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-flash-integrations-flash-callback-158-04e"
+  },
+  "/swapx-developer/contracts-v3/guides/flash-integrations/Inheritance-constructors-3bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-flash-integrations-inheritance-constructors-55-c-f30"
+  },
+  "/swapx-developer/contracts-v3/guides/liquidity-mining/-ae9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-liquidity-mining-594-9ce"
+  },
+  "/swapx-developer/contracts-v3/guides/liquidity-mining/overview-4f3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-liquidity-mining-overview-5-ce-ac5"
+  },
+  "/swapx-developer/contracts-v3/guides/providing-liquidity/-9e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-providing-liquidity-445-aa5"
+  },
+  "/swapx-developer/contracts-v3/guides/providing-liquidity/collect-fees-bce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-providing-liquidity-collect-feesc-34-93d"
+  },
+  "/swapx-developer/contracts-v3/guides/providing-liquidity/decrease-liquidity-33e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-providing-liquidity-decrease-liquidityd-1-a-7e4"
+  },
+  "/swapx-developer/contracts-v3/guides/providing-liquidity/increase-liquidity-f63": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-providing-liquidity-increase-liquidity-6-dd-719"
+  },
+  "/swapx-developer/contracts-v3/guides/providing-liquidity/mint-a-new-position-cb8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-providing-liquidity-mint-a-new-position-8-ca-e99"
+  },
+  "/swapx-developer/contracts-v3/guides/providing-liquidity/setting-up-your-contract-44e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-providing-liquidity-setting-up-your-contractc-52-6d5"
+  },
+  "/swapx-developer/contracts-v3/guides/providing-liquidity/the-full-contract-179": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-providing-liquidity-the-full-contract-8-d-0-6f9"
+  },
+  "/swapx-developer/contracts-v3/guides/swaps/-d8e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-swaps-417-dda"
+  },
+  "/swapx-developer/contracts-v3/guides/swaps/multihop-swaps-ef8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-swaps-multihop-swaps-67-f-37e"
+  },
+  "/swapx-developer/contracts-v3/guides/swaps/single-swaps-0a0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-guides-swaps-single-swaps-81-c-fa5"
+  },
+  "/swapx-developer/contracts-v3/reference/-a11": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-f-32-45b"
+  },
+  "/swapx-developer/contracts-v3/reference/core/-3ec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-b-31-b2c"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/-ed4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-d-74-9dc"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/callback/-ac0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-callback-ec-7-d6f"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3FlashCallback-72b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-callback-i-uniswap-v-3-flash-callback-9-c-1-801"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3MintCallback-bcd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-callback-i-uniswap-v-3-mint-callback-987-705"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3SwapCallback-ee6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-callback-i-uniswap-v-3-swap-callback-18-c-386"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/IERC20Minimal-9a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-ierc-20-minimal-4-c-5-afd"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3Factory-e7f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-i-uniswap-v-3-factory-95-c-359"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3Pool-e4f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-i-uniswap-v-3-pool-189-ba0"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3PoolDeployer-a26": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-i-uniswap-v-3-pool-deployer-8-a-7-615"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/pool/-c4f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-pool-ce-4-dff"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolActions-f99": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-pool-i-uniswap-v-3-pool-actions-916-959"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolDerivedState-7b4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-pool-i-uniswap-v-3-pool-derived-stateed-3-427"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolEvents-e01": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-pool-i-uniswap-v-3-pool-eventsc-25-3d8"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolImmutables-d9b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-pool-i-uniswap-v-3-pool-immutablesb-7-e-be7"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolOwnerActions-90c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-pool-i-uniswap-v-3-pool-owner-actions-58-a-7d4"
+  },
+  "/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolState-1f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-interfaces-pool-i-uniswap-v-3-pool-statea-60-d58"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/-dcf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-213-983"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/BitMath-aa5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-bit-math-4-ea-53f"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/FixedPoint128-c97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-fixed-point-128307-1ad"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/FixedPoint96-c82": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-fixed-point-9664-d-9f4"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/FullMath-eac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-full-math-8-ad-bb8"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/LiquidityMath-e85": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-liquidity-mathd-12-e5c"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/LowGasSafeMath-275": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-low-gas-safe-math-333-e1e"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/Oracle-86c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-oracle-480-01f"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/Position-54e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-position-7-e-1-8b3"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/SafeCast-c75": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-safe-castf-98-8be"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/SecondsOutside-a22": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-seconds-outside-78-b-7e5"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/SqrtPriceMath-cd3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-sqrt-price-mathbe-8-05f"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/SwapMath-102": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-swap-math-4-a-4-ed9"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/Tick-4fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-tick-5-da-f59"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/TickBitmap-c59": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-tick-bitmapfac-f89"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/TickMath-35a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-tick-mathedc-d5a"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/TransferHelper-3dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-transfer-helperc-45-061"
+  },
+  "/swapx-developer/contracts-v3/reference/core/libraries/UnsafeMath-bed": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-libraries-unsafe-math-24-d-760"
+  },
+  "/swapx-developer/contracts-v3/reference/core/UniswapV3Factory-6a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-uniswap-v-3-factoryac-9-0ee"
+  },
+  "/swapx-developer/contracts-v3/reference/core/UniswapV3Pool-b7f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-uniswap-v-3-poolf-60-a88"
+  },
+  "/swapx-developer/contracts-v3/reference/core/UniswapV3PoolDeployer-87c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-core-uniswap-v-3-pool-deployere-90-bda"
+  },
+  "/swapx-developer/contracts-v3/reference/error-codes-f94": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-error-codese-11-627"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/-a80": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-044-1c4"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/-d49": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-fc-7-133"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/BlockTimestamp-68b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-block-timestamp-91-d-a7a"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/ERC721Permit-2d3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-erc-721-permit-69-b-003"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/LiquidityManagement-d7a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-liquidity-managementdef-c1e"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/Multicall-df3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-multicall-77-a-804"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/PeripheryImmutableState-02f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-periphery-immutable-state-04-d-18b"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/PeripheryPayments-6fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-periphery-paymentse-97-740"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/PeripheryPaymentsWithFee-573": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-periphery-payments-with-feefc-6-164"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/PoolInitializer-21f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-pool-initializer-6-d-5-af8"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/base/SelfPermit-2e5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-base-self-permitc-46-a6e"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/-362": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-e-32-800"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/external/-a80": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-external-d-9-a-237"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IERC1271-196": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-external-ierc-1271-c-10-7d1"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IERC20PermitAllowed-8e2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-external-ierc-20-permit-allowedefb-b51"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IWETH9-01b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-external-iweth-9995-12a"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IERC20Metadata-03a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-ierc-20-metadata-5-fb-381"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IERC721Permit-8fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-ierc-721-permitdbb-3d7"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IMulticall-99f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-multicall-4-f-3-138"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/INonfungiblePositionManager-c0a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-nonfungible-position-manager-9-ba-65d"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor-77d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-nonfungible-token-position-descriptord-0-a-075"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryImmutableState-1d0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-periphery-immutable-statee-76-c64"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryPayments-cdb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-periphery-payments-8-c-6-4d1"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryPaymentsWithFee-373": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-periphery-payments-with-fee-9-e-3-5ce"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IPoolInitializer-f18": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-pool-initializere-3-f-dab"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IQuoter-ab8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-quoteraf-7-a10"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IQuoterV2-c7a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-quoter-v-29-ce-849"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/ISelfPermit-414": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-self-permit-267-96d"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/ISwapRouter-8ff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-swap-router-961-da7"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/ITickLens-561": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-i-tick-lens-209-9fc"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/interfaces/IV3Migrator-4ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-interfaces-iv-3-migrator-262-b51"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/lens/-f47": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-lens-fcd-369"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/lens/Quoter-5f3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-lens-quotera-4-a-b5d"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/lens/QuoterV2-d41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-lens-quoter-v-275-f-7ed"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/lens/TickLens-546": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-lens-tick-lense-48-407"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/-5bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-2-a-3-291"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/Base64-c9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-base-64-dae-7c8"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/BytesLib-098": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-bytes-lib-7-c-3-cf4"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/CallbackValidation-bce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-callback-validation-226-a7d"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/ChainId-4d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-chain-id-9-b-8-188"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/HexStrings-8ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-hex-strings-582-e9d"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/LiquidityAmounts-562": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-liquidity-amountsd-26-693"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/NFTDescriptor-e71": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-nft-descriptor-5-de-df4"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/NFTSVG-be2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-nftsv-gb-4-c-4c1"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/OracleLibrary-bff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-oracle-library-123-06a"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/Path-f6b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-pathadb-868"
   },
-  "/category/-兑换-b56": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-兑换-900-3f0"
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/PoolAddress-e60": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-pool-addressd-74-db5"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/PoolTicksCounter-8fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-pool-ticks-counter-13-c-816"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/PositionKey-4b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-position-keycf-2-afd"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/TokenRatioSortOrder-57d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-token-ratio-sort-order-51-e-3b8"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/TransferHelper-c9b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-transfer-helper-4-f-7-d02"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/libraries/WeightedOracleLibrary-105": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-libraries-weighted-oracle-library-541-a64"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/NonfungiblePositionManager-9b8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-nonfungible-position-manager-5-f-2-d4d"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/NonfungibleTokenPositionDescriptor-90d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-nonfungible-token-position-descriptorbc-7-c74"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/-2fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-3-a-8-3f3"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/Design-9ff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-designbed-2d5"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/interfaces/-fb5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-interfaces-ec-7-31c"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/interfaces/IUniswapV3Staker-fa5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-interfaces-i-uniswap-v-3-staker-75-d-ebd"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/libraries/-643": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-libraries-984-14d"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/libraries/IncentiveId-b2b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-libraries-incentive-idad-2-412"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/libraries/NFTPositionInfo-37a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-libraries-nft-position-infoc-3-a-1ba"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/libraries/RewardMath-b47": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-libraries-reward-math-1-ac-f1f"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/staker/UniswapV3Staker-e01": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-staker-uniswap-v-3-staker-32-e-cf1"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/SwapRouter-5bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-swap-routerb-35-71a"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/-e35": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-5-f-2-853"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/Base64Test-8fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-base-64-test-1-e-2-338"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/LiquidityAmountsTest-d74": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-liquidity-amounts-test-929-fb4"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/MockTimeNonfungiblePositionManager-f7d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-mock-time-nonfungible-position-managerdfa-0cf"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/MockTimeSwapRouter-126": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-mock-time-swap-router-3-e-2-dfe"
   },
-  "/category/-参考-626": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-参考-5-a-8-391"
+  "/swapx-developer/contracts-v3/reference/periphery/test/NFTDescriptorTest-014": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-nft-descriptor-testecb-834"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/PathTest-bdc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-path-testab-6-e5d"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/PeripheryImmutableStateTest-3b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-periphery-immutable-state-test-175-0f4"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/PoolAddressTest-8dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-pool-address-testb-48-089"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/SelfPermitTest-2bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-self-permit-testc-2-e-ca9"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/TestCallbackValidation-45e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-test-callback-validation-4-a-1-a65"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/TestERC20-52d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-test-erc-201-dc-3d5"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/TestERC20Metadata-b4e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-test-erc-20-metadatadb-1-65c"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/TestERC20PermitAllowed-8a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-test-erc-20-permit-allowed-0-f-2-e88"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/TestMulticall-157": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-test-multicall-6-df-2f2"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/TestPositionNFTOwner-d86": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-test-position-nft-ownerb-0-b-7b9"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/test/TestUniswapV3Callee-81e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-test-uniswap-v-3-calleecbc-b27"
   },
-  "/category/-指南-5dc": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-指南-3-d-3-d02"
+  "/swapx-developer/contracts-v3/reference/periphery/test/TickLensTest-a80": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-test-tick-lens-testec-1-0df"
+  },
+  "/swapx-developer/contracts-v3/reference/periphery/V3Migrator-f11": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-contracts-v-3-reference-periphery-v-3-migratord-85-198"
+  },
+  "/swapx-developer/quick-start-tutorial/-413": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-quick-start-tutorial-58-e-0d7"
   },
-  "/category/-指南-1-7f2": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-指南-1-d-9-d-b28"
+  "/swapx-developer/quick-start-tutorial/connecting-to-network-ce3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-quick-start-tutorial-connecting-to-network-63-b-3eb"
+  },
+  "/swapx-developer/quick-start-tutorial/environment-setup-bc3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-quick-start-tutorial-environment-setupab-4-c05"
   },
-  "/category/-接口-6e2": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-接口-980-587"
+  "/swapx-developer/quick-start-tutorial/executing-trades-20c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-quick-start-tutorial-executing-trades-194-323"
+  },
+  "/swapx-developer/quick-start-tutorial/reading-chain-data-3c3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-quick-start-tutorial-reading-chain-data-817-dbb"
   },
-  "/category/-枚举-b9e": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-枚举bfe-9c5"
+  "/swapx-developer/sdks-core/-b55": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-83-c-3d8"
   },
-  "/category/-概念-19c": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-概念-450-a9e"
+  "/swapx-developer/sdks-core/reference/-d1f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-878-57c"
   },
-  "/category/-流动性-f6d": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-流动性e-26-83d"
+  "/swapx-developer/sdks-core/reference/classes/-636": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-classes-b-9-d-608"
   },
-  "/category/️-类-03d": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-️-类-7-b-5-d61"
+  "/swapx-developer/sdks-core/reference/classes/CurrencyAmount-37f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-classes-currency-amount-3-bb-dd9"
   },
-  "/category/协议概览-74e": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-协议概览-2-f-7-ef6"
+  "/swapx-developer/sdks-core/reference/classes/Ether-fdc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-classes-etherf-4-d-cb8"
   },
-  "/category/外围合约-13a": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-外围合约-023-55f"
+  "/swapx-developer/sdks-core/reference/classes/Fraction-774": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-classes-fractionb-21-2c2"
   },
-  "/category/实现交换-aee": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-实现交换-9-f-9-2bd"
+  "/swapx-developer/sdks-core/reference/classes/NativeCurrency-83f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-classes-native-currency-7-f-1-c64"
   },
-  "/category/技术参考-839": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-技术参考-469-6db"
+  "/swapx-developer/sdks-core/reference/classes/Percent-23e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-classes-percent-504-da6"
   },
-  "/category/指南-2b6": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-指南-15-e-ad1"
+  "/swapx-developer/sdks-core/reference/classes/Price-7dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-classes-pricee-82-e68"
   },
-  "/category/核心合约-b82": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-核心合约ee-8-c92"
+  "/swapx-developer/sdks-core/reference/classes/Token-ff4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-classes-token-589-6ca"
   },
-  "/category/核心概念-8ba": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-核心概念c-37-e32"
+  "/swapx-developer/sdks-core/reference/enums/-5b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-enums-403-625"
   },
-  "/category/高级主题-f55": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---category-高级主题-2-c-9-459"
+  "/swapx-developer/sdks-core/reference/enums/ChainId-afa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-developer-sdks-core-reference-enums-chain-id-13-e-10e"
   },
-  "/contract/-808": {
+  "/swapx-developer/sdks-core/reference/enums/NativeCurrencyName-92d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-b-00-ed2"
+    "content": "content---swapx-developer-sdks-core-reference-enums-native-currency-name-479-339"
   },
-  "/contract/swapx-v2/-fac": {
+  "/swapx-developer/sdks-core/reference/enums/Rounding-2b9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-789-ac3"
+    "content": "content---swapx-developer-sdks-core-reference-enums-roundingab-7-251"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/fees-f31": {
+  "/swapx-developer/sdks-core/reference/enums/TradeType-208": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-advanced-topics-fees-2-ea-57d"
+    "content": "content---swapx-developer-sdks-core-reference-enums-trade-typef-25-bf1"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/price-d4c": {
+  "/swapx-developer/sdks-core/reference/modules-a3c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-advanced-topics-price-5-fe-6fc"
+    "content": "content---swapx-developer-sdks-core-reference-modules-24-a-cd9"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/security-a3d": {
+  "/swapx-developer/sdks-core/reference/overview-689": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-advanced-topics-security-704-5e2"
+    "content": "content---swapx-developer-sdks-core-reference-overview-6-fc-174"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/understanding-returns-9ec": {
+  "/swapx-developer/sdks-v2/-a62": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-advanced-topics-understanding-returnsb-3-a-be3"
+    "content": "content---swapx-developer-sdks-v-2-7-e-3-dd8"
   },
-  "/contract/swapx-v2/concepts/advanced-topics/v2Contract-ae7": {
+  "/swapx-developer/sdks-v2/guides/-cf0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-advanced-topics-v-2-contractba-6-d5f"
+    "content": "content---swapx-developer-sdks-v-2-guides-718-92d"
   },
-  "/contract/swapx-v2/concepts/core-concepts/flash-swaps-951": {
+  "/swapx-developer/sdks-v2/guides/fetching-data-2c3": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-core-concepts-flash-swapsc-32-1eb"
+    "content": "content---swapx-developer-sdks-v-2-guides-fetching-dataf-55-427"
   },
-  "/contract/swapx-v2/concepts/core-concepts/pools-117": {
+  "/swapx-developer/sdks-v2/guides/getting-pair-addresses-7f0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-core-concepts-pools-2-ff-934"
+    "content": "content---swapx-developer-sdks-v-2-guides-getting-pair-addressesf-61-bd3"
   },
-  "/contract/swapx-v2/concepts/core-concepts/swaps-85d": {
+  "/swapx-developer/sdks-v2/guides/pricing-fdf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-core-concepts-swaps-954-d7a"
+    "content": "content---swapx-developer-sdks-v-2-guides-pricing-142-bec"
   },
-  "/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants-7da": {
+  "/swapx-developer/sdks-v2/guides/quick-start-bc8": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-protocol-overview-ecosystem-participantsa-45-5e1"
+    "content": "content---swapx-developer-sdks-v-2-guides-quick-start-625-c03"
   },
-  "/contract/swapx-v2/concepts/protocol-overview/how-it-works-418": {
+  "/swapx-developer/sdks-v2/guides/trading-f9d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-protocol-overview-how-it-worksd-9-c-7dd"
+    "content": "content---swapx-developer-sdks-v-2-guides-tradingf-0-d-e53"
   },
-  "/contract/swapx-v2/concepts/protocol-overview/smart-contract-48f": {
+  "/swapx-developer/sdks-v2/reference/-296": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-2-concepts-protocol-overview-smart-contractad-3-faf"
+    "content": "content---swapx-developer-sdks-v-2-reference-4-e-2-0d0"
   },
-  "/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps-df9": {
+  "/swapx-developer/sdks-v2/reference/getting-started-cba": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-guides-implement-a-swap-multihop-swaps-68-b-8ee"
+    "content": "content---swapx-developer-sdks-v-2-reference-getting-started-6-f-6-b72"
   },
-  "/contract/swapx-v3/guides/Implement-A-Swap/single-swaps-fe9": {
+  "/swapx-developer/sdks-v2/reference/other-exports-48f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-guides-implement-a-swap-single-swapse-7-b-3c8"
+    "content": "content---swapx-developer-sdks-v-2-reference-other-exports-126-368"
   },
-  "/contract/swapx-v3/guides/Implement-A-Swap/v3ContractAPI-d94": {
+  "/swapx-developer/sdks-v2/reference/pair-6ac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-guides-implement-a-swap-v-3-contract-api-722-9d0"
+    "content": "content---swapx-developer-sdks-v-2-reference-pair-98-c-e2a"
   },
-  "/contract/swapx-v3/overview-65e": {
+  "/swapx-developer/sdks-v2/reference/route-7fd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-overviewcb-1-3fc"
+    "content": "content---swapx-developer-sdks-v-2-reference-routeb-90-a29"
   },
-  "/contract/swapx-v3/technical-reference/core/SwapXV3Factory-89a": {
+  "/swapx-developer/sdks-v2/reference/trade-d77": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-technical-reference-core-swap-xv-3-factory-60-f-94e"
+    "content": "content---swapx-developer-sdks-v-2-reference-tradeed-5-c6c"
   },
-  "/contract/swapx-v3/technical-reference/core/SwapXV3Pool-f60": {
+  "/swapx-developer/sdks-v3/-30c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-technical-reference-core-swap-xv-3-pool-3-c-3-2b4"
+    "content": "content---swapx-developer-sdks-v-3-0-bc-d72"
   },
-  "/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer-0f8": {
+  "/swapx-developer/sdks-v3/guides/-452": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-technical-reference-core-swap-xv-3-pool-deployera-97-be3"
+    "content": "content---swapx-developer-sdks-v-3-guides-a-92-350"
   },
-  "/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager-648": {
+  "/swapx-developer/sdks-v3/guides/advanced/-b93": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-technical-reference-periphery-nonfungible-position-managerfdd-fb0"
+    "content": "content---swapx-developer-sdks-v-3-guides-advanced-e-4-c-67f"
   },
-  "/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor-a59": {
+  "/swapx-developer/sdks-v3/guides/advanced/active-liquidity-f61": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-technical-reference-periphery-nonfungible-token-position-descriptordca-5fa"
+    "content": "content---swapx-developer-sdks-v-3-guides-advanced-active-liquidity-843-e99"
   },
-  "/contract/swapx-v3/technical-reference/periphery/SwapRouter-efa": {
+  "/swapx-developer/sdks-v3/guides/advanced/introduction-5df": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---contract-swapx-v-3-technical-reference-periphery-swap-router-7-c-6-8ad"
+    "content": "content---swapx-developer-sdks-v-3-guides-advanced-introduction-1-f-6-140"
   },
-  "/sdk/-4f9": {
+  "/swapx-developer/sdks-v3/guides/advanced/pool-data-42e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-e-05-b62"
+    "content": "content---swapx-developer-sdks-v-3-guides-advanced-pool-data-676-475"
   },
-  "/sdk/v2/guides/fetching-data-64f": {
+  "/swapx-developer/sdks-v3/guides/advanced/price-oracle-a53": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-guides-fetching-databc-8-796"
+    "content": "content---swapx-developer-sdks-v-3-guides-advanced-price-oracle-6-e-4-00b"
   },
-  "/sdk/v2/guides/getting-pair-addresses-3fe": {
+  "/swapx-developer/sdks-v3/guides/background-4c9": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-guides-getting-pair-addressesdb-5-785"
+    "content": "content---swapx-developer-sdks-v-3-guides-backgrounddd-4-70b"
   },
-  "/sdk/v2/guides/pricing-6ab": {
+  "/swapx-developer/sdks-v3/guides/liquidity/-720": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-guides-pricingbc-1-878"
+    "content": "content---swapx-developer-sdks-v-3-guides-liquidity-666-381"
   },
-  "/sdk/v2/guides/quick-start-b3f": {
+  "/swapx-developer/sdks-v3/guides/liquidity/collecting-fees-a09": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-guides-quick-start-87-c-358"
+    "content": "content---swapx-developer-sdks-v-3-guides-liquidity-collecting-fees-9-ad-73d"
   },
-  "/sdk/v2/guides/trading-ea2": {
+  "/swapx-developer/sdks-v3/guides/liquidity/fetching-positions-d27": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-guides-trading-173-5f4"
+    "content": "content---swapx-developer-sdks-v-3-guides-liquidity-fetching-positionse-6-e-93e"
   },
-  "/sdk/v2/overview-5d8": {
+  "/swapx-developer/sdks-v3/guides/liquidity/minting-position-b28": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-overview-9-bb-390"
+    "content": "content---swapx-developer-sdks-v-3-guides-liquidity-minting-positiona-02-1e8"
   },
-  "/sdk/v2/reference/getting-started-8d2": {
+  "/swapx-developer/sdks-v3/guides/liquidity/modifying-position-654": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-reference-getting-started-949-591"
+    "content": "content---swapx-developer-sdks-v-3-guides-liquidity-modifying-position-854-95f"
   },
-  "/sdk/v2/reference/other-exports-29a": {
+  "/swapx-developer/sdks-v3/guides/liquidity/position-data-d47": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-reference-other-exports-4-fa-bd8"
+    "content": "content---swapx-developer-sdks-v-3-guides-liquidity-position-datae-55-4a0"
   },
-  "/sdk/v2/reference/pair-18b": {
+  "/swapx-developer/sdks-v3/guides/liquidity/swap-and-add-liquidity-4ab": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-reference-pair-0-a-2-811"
+    "content": "content---swapx-developer-sdks-v-3-guides-liquidity-swap-and-add-liquidity-4-a-3-fe5"
   },
-  "/sdk/v2/reference/route-8ce": {
+  "/swapx-developer/sdks-v3/guides/local-development-071": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-reference-route-712-c8d"
+    "content": "content---swapx-developer-sdks-v-3-guides-local-development-662-8ac"
   },
-  "/sdk/v2/reference/trade-861": {
+  "/swapx-developer/sdks-v3/guides/swaps/-578": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-2-reference-trade-35-a-086"
+    "content": "content---swapx-developer-sdks-v-3-guides-swaps-ed-6-efd"
   },
-  "/sdk/v3/guides/advanced/active-liquidity-5cc": {
+  "/swapx-developer/sdks-v3/guides/swaps/quoting-418": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-advanced-active-liquiditya-71-632"
+    "content": "content---swapx-developer-sdks-v-3-guides-swaps-quotinge-22-53a"
   },
-  "/sdk/v3/guides/advanced/introduction-235": {
+  "/swapx-developer/sdks-v3/guides/swaps/routing-2c6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-advanced-introduction-986-ad9"
+    "content": "content---swapx-developer-sdks-v-3-guides-swaps-routing-0-d-7-47b"
   },
-  "/sdk/v3/guides/advanced/pool-data-0ca": {
+  "/swapx-developer/sdks-v3/guides/swaps/trading-116": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-advanced-pool-dataa-47-aaa"
+    "content": "content---swapx-developer-sdks-v-3-guides-swaps-trading-9-d-3-140"
   },
-  "/sdk/v3/guides/advanced/price-oracle-44c": {
+  "/swapx-developer/sdks-v3/reference/-e80": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-advanced-price-oracle-6-bb-1a7"
+    "content": "content---swapx-developer-sdks-v-3-reference-8-e-0-ead"
   },
-  "/sdk/v3/guides/advanced/range-orders-127": {
+  "/swapx-developer/sdks-v3/reference/classes/-cdb": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-advanced-range-orders-487-064"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-02-f-ae7"
   },
-  "/sdk/v3/guides/background-af8": {
+  "/swapx-developer/sdks-v3/reference/classes/FullMath-64e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-background-4-d-1-f26"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-full-math-719-c56"
   },
-  "/sdk/v3/guides/liquidity/collecting-fees-1fb": {
+  "/swapx-developer/sdks-v3/reference/classes/LiquidityMath-176": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-liquidity-collecting-fees-58-e-606"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-liquidity-math-442-427"
   },
-  "/sdk/v3/guides/liquidity/fetching-positions-caa": {
+  "/swapx-developer/sdks-v3/reference/classes/Multicall-92f": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-liquidity-fetching-positions-1-b-9-c4f"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-multicall-4-c-8-481"
   },
-  "/sdk/v3/guides/liquidity/minting-position-07e": {
+  "/swapx-developer/sdks-v3/reference/classes/NonfungiblePositionManager-fe6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-liquidity-minting-position-369-b10"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-nonfungible-position-manager-378-5a9"
   },
-  "/sdk/v3/guides/liquidity/modifying-position-870": {
+  "/swapx-developer/sdks-v3/reference/classes/NoTickDataProvider-aa4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-liquidity-modifying-position-350-b32"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-no-tick-data-provider-539-2b4"
   },
-  "/sdk/v3/guides/liquidity/position-data-52c": {
+  "/swapx-developer/sdks-v3/reference/classes/Payments-027": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-liquidity-position-data-023-ee6"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-payments-392-540"
   },
-  "/sdk/v3/guides/liquidity/swap-and-add-liquidity-d0e": {
+  "/swapx-developer/sdks-v3/reference/classes/Pool-864": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-liquidity-swap-and-add-liquidityc-08-ef6"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-pool-4-ee-238"
   },
-  "/sdk/v3/guides/local-development-6ec": {
+  "/swapx-developer/sdks-v3/reference/classes/Position-aac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-local-development-463-604"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-positiond-5-a-e3a"
   },
-  "/sdk/v3/guides/swaps/quoting-a66": {
+  "/swapx-developer/sdks-v3/reference/classes/PositionLibrary-069": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-swaps-quotinga-1-d-d55"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-position-library-641-1fd"
   },
-  "/sdk/v3/guides/swaps/routing-a37": {
+  "/swapx-developer/sdks-v3/reference/classes/Route-5b2": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-swaps-routing-66-a-d98"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-route-14-d-755"
   },
-  "/sdk/v3/guides/swaps/trading-0a2": {
+  "/swapx-developer/sdks-v3/reference/classes/SelfPermit-fc6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-swaps-trading-480-5a7"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-self-permit-646-92d"
   },
-  "/sdk/v3/guides/web3-development-basics-3bd": {
+  "/swapx-developer/sdks-v3/reference/classes/SqrtPriceMath-c59": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-guides-web-3-development-basicsbd-7-0bd"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-sqrt-price-math-123-3b9"
   },
-  "/sdk/v3/overview-509": {
+  "/swapx-developer/sdks-v3/reference/classes/Staker-03a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-overview-169-536"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-staker-852-973"
   },
-  "/sdk/v3/reference/classes/FullMath-bce": {
+  "/swapx-developer/sdks-v3/reference/classes/SwapMath-c5b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-full-math-890-003"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-swap-math-900-8b2"
   },
-  "/sdk/v3/reference/classes/LiquidityMath-bf5": {
+  "/swapx-developer/sdks-v3/reference/classes/SwapQuoter-037": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-liquidity-math-816-099"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-swap-quoterd-73-62e"
   },
-  "/sdk/v3/reference/classes/Multicall-02e": {
+  "/swapx-developer/sdks-v3/reference/classes/SwapRouter-b76": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-multicall-5-e-0-f5b"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-swap-router-83-b-ea5"
   },
-  "/sdk/v3/reference/classes/NonfungiblePositionManager-dc8": {
+  "/swapx-developer/sdks-v3/reference/classes/Tick-409": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-nonfungible-position-manager-2-ca-8ab"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-tickc-79-3b4"
   },
-  "/sdk/v3/reference/classes/NoTickDataProvider-79e": {
+  "/swapx-developer/sdks-v3/reference/classes/TickLibrary-fd4": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-no-tick-data-provider-3-c-8-510"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-tick-librarye-53-c56"
   },
-  "/sdk/v3/reference/classes/Payments-0c9": {
+  "/swapx-developer/sdks-v3/reference/classes/TickList-0d7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-paymentsa-82-233"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-tick-list-284-3cc"
   },
-  "/sdk/v3/reference/classes/Pool-35f": {
+  "/swapx-developer/sdks-v3/reference/classes/TickListDataProvider-40b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-pool-116-29e"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-tick-list-data-providerb-5-c-f12"
   },
-  "/sdk/v3/reference/classes/Position-06f": {
+  "/swapx-developer/sdks-v3/reference/classes/TickMath-313": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-position-8-fe-717"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-tick-math-42-a-964"
   },
-  "/sdk/v3/reference/classes/PositionLibrary-f51": {
+  "/swapx-developer/sdks-v3/reference/classes/Trade-1df": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-position-library-148-6b0"
+    "content": "content---swapx-developer-sdks-v-3-reference-classes-trade-318-d84"
   },
-  "/sdk/v3/reference/classes/Route-bbc": {
+  "/swapx-developer/sdks-v3/reference/enums/-c24": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-route-0-c-2-151"
+    "content": "content---swapx-developer-sdks-v-3-reference-enums-659-f63"
   },
-  "/sdk/v3/reference/classes/SelfPermit-009": {
+  "/swapx-developer/sdks-v3/reference/enums/FeeAmount-cd6": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-self-permit-3-e-0-b80"
+    "content": "content---swapx-developer-sdks-v-3-reference-enums-fee-amount-5-b-5-fa1"
   },
-  "/sdk/v3/reference/classes/SqrtPriceMath-149": {
+  "/swapx-developer/sdks-v3/reference/interfaces/-2c1": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-sqrt-price-math-785-0f1"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-265-4dd"
   },
-  "/sdk/v3/reference/classes/Staker-e6f": {
+  "/swapx-developer/sdks-v3/reference/interfaces/AllowedPermitArguments-91e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-staker-62-b-c41"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-allowed-permit-arguments-99-a-0e9"
   },
-  "/sdk/v3/reference/classes/SwapMath-30b": {
+  "/swapx-developer/sdks-v3/reference/interfaces/BestTradeOptions-b45": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-swap-math-4-ad-0fb"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-best-trade-options-94-d-705"
   },
-  "/sdk/v3/reference/classes/SwapQuoter-e38": {
+  "/swapx-developer/sdks-v3/reference/interfaces/ClaimOptions-a90": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-swap-quoter-38-c-2b4"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-claim-options-5-e-5-257"
   },
-  "/sdk/v3/reference/classes/SwapRouter-1d6": {
+  "/swapx-developer/sdks-v3/reference/interfaces/CollectOptions-4a7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-swap-router-7-fe-e9c"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-collect-optionsba-2-aab"
   },
-  "/sdk/v3/reference/classes/Tick-810": {
+  "/swapx-developer/sdks-v3/reference/interfaces/CommonAddLiquidityOptions-e57": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-tick-20-a-ee2"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-common-add-liquidity-options-0-f-6-99d"
   },
-  "/sdk/v3/reference/classes/TickLibrary-090": {
+  "/swapx-developer/sdks-v3/reference/interfaces/FeeOptions-07b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-tick-library-769-901"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-fee-options-848-f82"
   },
-  "/sdk/v3/reference/classes/TickList-35e": {
+  "/swapx-developer/sdks-v3/reference/interfaces/IncentiveKey-0ec": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-tick-listcfa-ad4"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-incentive-key-477-9d8"
   },
-  "/sdk/v3/reference/classes/TickListDataProvider-c27": {
+  "/swapx-developer/sdks-v3/reference/interfaces/IncreaseSpecificOptions-094": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-tick-list-data-providerf-7-f-faf"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-increase-specific-optionsd-5-c-a45"
   },
-  "/sdk/v3/reference/classes/TickMath-147": {
+  "/swapx-developer/sdks-v3/reference/interfaces/MethodParameters-ff0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-tick-mathee-6-609"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-method-parametersc-6-f-d96"
   },
-  "/sdk/v3/reference/classes/Trade-8ad": {
+  "/swapx-developer/sdks-v3/reference/interfaces/MintSpecificOptions-385": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-classes-trade-957-fd9"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-mint-specific-optionsbe-9-f63"
   },
-  "/sdk/v3/reference/enums/FeeAmount-28f": {
+  "/swapx-developer/sdks-v3/reference/interfaces/NFTPermitOptions-26c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-enums-fee-amountae-9-c5b"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-nft-permit-options-2-bd-3d7"
   },
-  "/sdk/v3/reference/interfaces/AllowedPermitArguments-67a": {
+  "/swapx-developer/sdks-v3/reference/interfaces/QuoteOptions-2cf": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-allowed-permit-arguments-73-e-da3"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-quote-options-1-f-4-9be"
   },
-  "/sdk/v3/reference/interfaces/BestTradeOptions-35d": {
+  "/swapx-developer/sdks-v3/reference/interfaces/RemoveLiquidityOptions-31d": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-best-trade-options-7-b-0-cfe"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-remove-liquidity-options-0-c-8-219"
   },
-  "/sdk/v3/reference/interfaces/ClaimOptions-0a8": {
+  "/swapx-developer/sdks-v3/reference/interfaces/SafeTransferOptions-2ac": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-claim-optionsd-6-a-eb9"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-safe-transfer-options-309-825"
   },
-  "/sdk/v3/reference/interfaces/CollectOptions-54d": {
+  "/swapx-developer/sdks-v3/reference/interfaces/StandardPermitArguments-8ea": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-collect-optionsb-71-068"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-standard-permit-arguments-901-7fa"
   },
-  "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions-606": {
+  "/swapx-developer/sdks-v3/reference/interfaces/SwapOptions-4b7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-common-add-liquidity-options-27-d-550"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-swap-options-1-d-2-70b"
   },
-  "/sdk/v3/reference/interfaces/FeeOptions-058": {
+  "/swapx-developer/sdks-v3/reference/interfaces/TickConstructorArgs-c17": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-fee-options-786-9ab"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-tick-constructor-args-685-2d8"
   },
-  "/sdk/v3/reference/interfaces/IncentiveKey-9e2": {
+  "/swapx-developer/sdks-v3/reference/interfaces/TickDataProvider-a85": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-incentive-keyb-7-d-720"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-tick-data-providerf-53-1ec"
   },
-  "/sdk/v3/reference/interfaces/IncreaseSpecificOptions-d53": {
+  "/swapx-developer/sdks-v3/reference/interfaces/WithdrawOptions-559": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-increase-specific-optionsf-5-f-d60"
+    "content": "content---swapx-developer-sdks-v-3-reference-interfaces-withdraw-options-847-34a"
   },
-  "/sdk/v3/reference/interfaces/MethodParameters-013": {
+  "/swapx-developer/troubleshooting/-c6a": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-method-parameters-1-c-6-cbc"
+    "content": "content---swapx-developer-troubleshooting-9-a-2-95d"
   },
-  "/sdk/v3/reference/interfaces/MintSpecificOptions-3b5": {
+  "/swapx-developer/troubleshooting/network-and-rpc-646": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-mint-specific-options-62-f-b41"
+    "content": "content---swapx-developer-troubleshooting-network-and-rpce-14-a80"
   },
-  "/sdk/v3/reference/interfaces/NFTPermitOptions-465": {
+  "/swapx-developer/troubleshooting/sdk-errors-13e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-nft-permit-optionsf-3-a-efc"
+    "content": "content---swapx-developer-troubleshooting-sdk-errors-1-a-9-00d"
   },
-  "/sdk/v3/reference/interfaces/QuoteOptions-a77": {
+  "/swapx-developer/troubleshooting/transaction-reverts-d39": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-quote-options-051-cf7"
+    "content": "content---swapx-developer-troubleshooting-transaction-reverts-300-618"
   },
-  "/sdk/v3/reference/interfaces/RemoveLiquidityOptions-956": {
+  "/swapx-developer/use-case-example/-3b0": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-remove-liquidity-options-2-fd-3be"
+    "content": "content---swapx-developer-use-case-example-968-5b8"
   },
-  "/sdk/v3/reference/interfaces/SafeTransferOptions-1fb": {
+  "/swapx-developer/use-case-example/full-use-case-15b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-safe-transfer-options-88-a-596"
+    "content": "content---swapx-developer-use-case-example-full-use-case-3-b-3-0e2"
   },
-  "/sdk/v3/reference/interfaces/StandardPermitArguments-aea": {
+  "/swapx-developer/use-case-example/liquidity/-12c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-standard-permit-arguments-6-bf-163"
+    "content": "content---swapx-developer-use-case-example-liquidity-8-db-e4f"
   },
-  "/sdk/v3/reference/interfaces/SwapOptions-c1a": {
+  "/swapx-developer/use-case-example/liquidity/v2-liquidity-456": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-swap-options-022-ade"
+    "content": "content---swapx-developer-use-case-example-liquidity-v-2-liquidityd-11-bcc"
   },
-  "/sdk/v3/reference/interfaces/TickConstructorArgs-ebe": {
+  "/swapx-developer/use-case-example/liquidity/v3-liquidity-0ea": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-tick-constructor-argsdac-8bb"
+    "content": "content---swapx-developer-use-case-example-liquidity-v-3-liquidityedd-82c"
   },
-  "/sdk/v3/reference/interfaces/TickDataProvider-6c9": {
+  "/swapx-developer/use-case-example/swapping/-864": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-tick-data-providerf-5-e-c9d"
+    "content": "content---swapx-developer-use-case-example-swapping-7-b-9-f04"
   },
-  "/sdk/v3/reference/interfaces/WithdrawOptions-dd5": {
+  "/swapx-developer/use-case-example/swapping/v2-swaps-01e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-interfaces-withdraw-optionsde-7-009"
+    "content": "content---swapx-developer-use-case-example-swapping-v-2-swaps-593-dae"
   },
-  "/sdk/v3/reference/overview-35e": {
+  "/swapx-developer/use-case-example/swapping/v3-swaps-e19": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---sdk-v-3-reference-overview-871-f67"
+    "content": "content---swapx-developer-use-case-example-swapping-v-3-swaps-7-b-1-f1b"
   },
   "/swapx-integration/-7d2": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -624,6 +1316,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---swapx-integration-welcome-to-swapx-contact-useed-46d"
   },
+  "/swapx-integration/welcome-to-swapx/FAQs-69a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---swapx-integration-welcome-to-swapx-fa-qs-151-b32"
+  },
   "/swapx-integration/welcome-to-swapx/news-660": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---swapx-integration-welcome-to-swapx-news-979-25e"
@@ -640,9 +1336,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---swapx-integration-welcome-to-swapx-privacy-and-terms-terms-of-service-tosc-28-7ae"
   },
-  "/swapx-integration/welcome-to-swapx/publish-your-docs-a2d": {
+  "/swapx-integration/welcome-to-swapx/privacy-and-terms/XOCStaking-00e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---swapx-integration-welcome-to-swapx-publish-your-docs-4-fd-bde"
+    "content": "content---swapx-integration-welcome-to-swapx-privacy-and-terms-xoc-staking-2-b-0-ae8"
   },
   "/swapx-integration/welcome-to-swapx/quickstart/-6a4": {
     "__comp": "__comp---theme-doc-item-178-a40",

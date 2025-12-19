@@ -1,5 +1,5 @@
 ---
-title: 🪙protocol
+title: 💷Protocol
 ---
 
 # protocol

@@ -1,5 +1,5 @@
 ---
-title: 🌉 bridging
+title: 🌉 Bridging
 sidebar_position: 4
 ---
 

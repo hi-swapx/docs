@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # 🌉  RainLink  Bridging
 
 ### Prerequisites
@@ -16,19 +20,25 @@ Before you start, please make sure you have prepared the following:
 
 #### 1、Visit RainLink
 
-Go to the [RainLink ](https://rainlink.co/) website.
+Go to the [RainLink ](https://rainlink.co/) website.
 
 #### 2、Connect a wallet
 
 On the RainLink website, click the **Connect Wallet** button, select your wallet type and connect.
 
-> **Reference**: [https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Connect.mp4](https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Connect.mp4)
+<video controls width="100%" style={{maxWidth: '800px'}}>
+  <source src="https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Connect.mp4" type="video/mp4" />
+  您的浏览器不支持视频标签。
+</video>
 
 #### 3、Select the source and target chains
 
 Select the source and target chains you want to cross-chain from the operation bar displayed on the page.
 
-> **Reference**: [https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Select.mp4](https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Select.mp4)
+<video controls width="100%" style={{maxWidth: '800px'}}>
+  <source src="https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Select.mp4" type="video/mp4" />
+  您的浏览器不支持视频标签。
+</video>
 
 * What are the source and target chains?
 
@@ -46,11 +56,14 @@ If you need to know the supported source and target chains, please go [here](htt
 
 After completing the above steps, enter the number of assets you need to cross-chain in the input box. At this time, you need to confirm the number of cross-chain assets and the type of cross-chain assets.
 
-> **Reference**: [https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Amount.mp4](https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Amount.mp4)
+<video controls width="100%" style={{maxWidth: '800px'}}>
+  <source src="https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Amount.mp4" type="video/mp4" />
+  您的浏览器不支持视频标签。
+</video>
 
 * Which assets are supported?
 
-If you need to know the supported assets, please go [here ](https://docs.xone.org/developers/token).
+If you need to know the supported assets, please go [here ](https://docs.xone.org/developers/token).
 
 * Is there a limit on the number of cross-chain assets?
 
@@ -60,7 +73,10 @@ There is no limit on the number of cross-chain assets, as long as the basic cros
 
 Enter the address where you receive cross-chain assets in the **Receive Address** input box.
 
-> **Reference**: [https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Address.mp4](https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Address.mp4)
+<video controls width="100%" style={{maxWidth: '800px'}}>
+  <source src="https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Address.mp4" type="video/mp4" />
+  您的浏览器不支持视频标签。
+</video>
 
 **Please note:**
 
@@ -69,9 +85,12 @@ Enter the address where you receive cross-chain assets in the **Receive Address*
 
 #### 6、Start bridging
 
-Click the “Transfer” button, and the wallet plug-in or operation pop-up window of your terminal will be awakened. Follow the page prompts to confirm the information authorization.
+Click the "Transfer" button, and the wallet plug-in or operation pop-up window of your terminal will be awakened. Follow the page prompts to confirm the information authorization.
 
-> **Reference**: [https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Transfer.mp4](https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Transfer.mp4)
+<video controls width="100%" style={{maxWidth: '800px'}}>
+  <source src="https://rainlink-docs.s3.ap-southeast-1.amazonaws.com/video/Transfer.mp4" type="video/mp4" />
+  您的浏览器不支持视频标签。
+</video>
 
 > 🛑 NOTE
 

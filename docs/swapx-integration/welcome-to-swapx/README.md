@@ -1,13 +1,11 @@
 ---
-title: 🤗welcome-to-swapx
+title: 🤗Welcome to SwapX
 sidebar_position: 1
 ---
 
-# welcome-to-swapx
+# 🤗Welcome to SwapX
 
-This section contains the following pages:
 
-- [audits](./audits.md)
-- [contact us](./contact-us.md)
-- [news](./news.md)
-- [publish your docs](./publish-your-docs.md)
+
+
+

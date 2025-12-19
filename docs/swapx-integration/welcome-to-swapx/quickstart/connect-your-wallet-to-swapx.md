@@ -15,7 +15,7 @@ layout:
     visible: true
 ---
 
-# 🔗connect  your wallet to SwapX
+# 🔗Connect  your wallet to SwapX
 
 ## 👛 How to Connect and Use Your Wallet
 

@@ -1,9 +1,0 @@
-{
-  "label": "📈 start",
-  "position": 4,
- "className": "hidden",
-  "link": {
-    "type": "generated-index",
-    "description": "start"
-  }
-}

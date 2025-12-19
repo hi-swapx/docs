@@ -49,697 +49,1735 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'fcf'),
+    component: ComponentCreator('/', '6cf'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '8fd'),
+        component: ComponentCreator('/', 'eaa'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'a0f'),
+            component: ComponentCreator('/', '960'),
             routes: [
               {
-                path: '/category/-先进的',
-                component: ComponentCreator('/category/-先进的', '16a'),
+                path: '/swapx-developer/',
+                component: ComponentCreator('/swapx-developer/', 'c3f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/-兑换',
-                component: ComponentCreator('/category/-兑换', 'b56'),
+                path: '/swapx-developer/contracts-v2/',
+                component: ComponentCreator('/swapx-developer/contracts-v2/', '080'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/-参考',
-                component: ComponentCreator('/category/-参考', '626'),
+                path: '/swapx-developer/contracts-v2/concepts/',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/', '2eb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/-指南',
-                component: ComponentCreator('/category/-指南', '5dc'),
+                path: '/swapx-developer/contracts-v2/concepts/advanced-topics/',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/advanced-topics/', 'e9c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/-指南-1',
-                component: ComponentCreator('/category/-指南-1', '7f2'),
+                path: '/swapx-developer/contracts-v2/concepts/advanced-topics/fees',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/advanced-topics/fees', '579'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/-接口',
-                component: ComponentCreator('/category/-接口', '6e2'),
+                path: '/swapx-developer/contracts-v2/concepts/advanced-topics/math',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/advanced-topics/math', '5ac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/-枚举',
-                component: ComponentCreator('/category/-枚举', 'b9e'),
+                path: '/swapx-developer/contracts-v2/concepts/advanced-topics/pricing',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/advanced-topics/pricing', '78d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/-概念',
-                component: ComponentCreator('/category/-概念', '19c'),
+                path: '/swapx-developer/contracts-v2/concepts/advanced-topics/research',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/advanced-topics/research', '4a3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/-流动性',
-                component: ComponentCreator('/category/-流动性', 'f6d'),
+                path: '/swapx-developer/contracts-v2/concepts/advanced-topics/security',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/advanced-topics/security', 'e0f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/️-类',
-                component: ComponentCreator('/category/️-类', '03d'),
+                path: '/swapx-developer/contracts-v2/concepts/advanced-topics/understanding-returns',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/advanced-topics/understanding-returns', 'e23'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/协议概览',
-                component: ComponentCreator('/category/协议概览', '74e'),
+                path: '/swapx-developer/contracts-v2/concepts/core-concepts/',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/core-concepts/', 'f22'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/外围合约',
-                component: ComponentCreator('/category/外围合约', '13a'),
+                path: '/swapx-developer/contracts-v2/concepts/core-concepts/flash-swaps',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/core-concepts/flash-swaps', 'c62'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/实现交换',
-                component: ComponentCreator('/category/实现交换', 'aee'),
+                path: '/swapx-developer/contracts-v2/concepts/core-concepts/oracles',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/core-concepts/oracles', '144'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/技术参考',
-                component: ComponentCreator('/category/技术参考', '839'),
+                path: '/swapx-developer/contracts-v2/concepts/core-concepts/pools',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/core-concepts/pools', 'b10'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/指南',
-                component: ComponentCreator('/category/指南', '2b6'),
+                path: '/swapx-developer/contracts-v2/concepts/core-concepts/swaps',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/core-concepts/swaps', 'dee'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/核心合约',
-                component: ComponentCreator('/category/核心合约', 'b82'),
+                path: '/swapx-developer/contracts-v2/concepts/protocol-overview/',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/protocol-overview/', '400'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/核心概念',
-                component: ComponentCreator('/category/核心概念', '8ba'),
+                path: '/swapx-developer/contracts-v2/concepts/protocol-overview/ecosystem-participants',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/protocol-overview/ecosystem-participants', '0d8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/category/高级主题',
-                component: ComponentCreator('/category/高级主题', 'f55'),
+                path: '/swapx-developer/contracts-v2/concepts/protocol-overview/glossary',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/protocol-overview/glossary', '62e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/',
-                component: ComponentCreator('/contract/', '808'),
+                path: '/swapx-developer/contracts-v2/concepts/protocol-overview/how-uniswap-works',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/protocol-overview/how-uniswap-works', 'c25'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/',
-                component: ComponentCreator('/contract/swapx-v2/', 'fac'),
+                path: '/swapx-developer/contracts-v2/concepts/protocol-overview/smart-contracts',
+                component: ComponentCreator('/swapx-developer/contracts-v2/concepts/protocol-overview/smart-contracts', '505'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/advanced-topics/fees',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/fees', 'f31'),
+                path: '/swapx-developer/contracts-v2/guides/',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/', '4dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/advanced-topics/price',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/price', 'd4c'),
+                path: '/swapx-developer/contracts-v2/guides/interface-integration/',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/interface-integration/', 'c77'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/advanced-topics/security',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/security', 'a3d'),
+                path: '/swapx-developer/contracts-v2/guides/interface-integration/custom-interface-linking',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/interface-integration/custom-interface-linking', '41f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/advanced-topics/understanding-returns',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/understanding-returns', '9ec'),
+                path: '/swapx-developer/contracts-v2/guides/interface-integration/using-the-api',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/interface-integration/using-the-api', '4a2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/advanced-topics/v2Contract',
-                component: ComponentCreator('/contract/swapx-v2/concepts/advanced-topics/v2Contract', 'ae7'),
+                path: '/swapx-developer/contracts-v2/guides/smart-contract-integration/',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/smart-contract-integration/', '289'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/core-concepts/flash-swaps',
-                component: ComponentCreator('/contract/swapx-v2/concepts/core-concepts/flash-swaps', '951'),
+                path: '/swapx-developer/contracts-v2/guides/smart-contract-integration/building-an-oracle',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/smart-contract-integration/building-an-oracle', '03f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/core-concepts/pools',
-                component: ComponentCreator('/contract/swapx-v2/concepts/core-concepts/pools', '117'),
+                path: '/swapx-developer/contracts-v2/guides/smart-contract-integration/getting-pair-addresses',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/smart-contract-integration/getting-pair-addresses', '233'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/core-concepts/swaps',
-                component: ComponentCreator('/contract/swapx-v2/concepts/core-concepts/swaps', '85d'),
+                path: '/swapx-developer/contracts-v2/guides/smart-contract-integration/providing-liquidity',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/smart-contract-integration/providing-liquidity', '0fa'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants',
-                component: ComponentCreator('/contract/swapx-v2/concepts/protocol-overview/ecosystem-participants', '7da'),
+                path: '/swapx-developer/contracts-v2/guides/smart-contract-integration/quick-start',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/smart-contract-integration/quick-start', '797'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/protocol-overview/how-it-works',
-                component: ComponentCreator('/contract/swapx-v2/concepts/protocol-overview/how-it-works', '418'),
+                path: '/swapx-developer/contracts-v2/guides/smart-contract-integration/supporting-meta-transactions',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/smart-contract-integration/supporting-meta-transactions', 'db5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v2/concepts/protocol-overview/smart-contract',
-                component: ComponentCreator('/contract/swapx-v2/concepts/protocol-overview/smart-contract', '48f'),
+                path: '/swapx-developer/contracts-v2/guides/smart-contract-integration/trading-from-a-smart-contract',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/smart-contract-integration/trading-from-a-smart-contract', '2a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps',
-                component: ComponentCreator('/contract/swapx-v3/guides/Implement-A-Swap/multihop-swaps', 'df9'),
+                path: '/swapx-developer/contracts-v2/guides/smart-contract-integration/using-flash-swaps',
+                component: ComponentCreator('/swapx-developer/contracts-v2/guides/smart-contract-integration/using-flash-swaps', 'b01'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/guides/Implement-A-Swap/single-swaps',
-                component: ComponentCreator('/contract/swapx-v3/guides/Implement-A-Swap/single-swaps', 'fe9'),
+                path: '/swapx-developer/contracts-v3/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/', 'a41'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/guides/Implement-A-Swap/v3ContractAPI',
-                component: ComponentCreator('/contract/swapx-v3/guides/Implement-A-Swap/v3ContractAPI', 'd94'),
+                path: '/swapx-developer/contracts-v3/guides/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/', '314'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/overview',
-                component: ComponentCreator('/contract/swapx-v3/overview', '65e'),
+                path: '/swapx-developer/contracts-v3/guides/flash-integrations/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/flash-integrations/', '2b8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/technical-reference/core/SwapXV3Factory',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/core/SwapXV3Factory', '89a'),
+                path: '/swapx-developer/contracts-v3/guides/flash-integrations/calling-flash',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/flash-integrations/calling-flash', '3d6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/technical-reference/core/SwapXV3Pool',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/core/SwapXV3Pool', 'f60'),
+                path: '/swapx-developer/contracts-v3/guides/flash-integrations/final-contract',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/flash-integrations/final-contract', '1c2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/core/SwapXV3PoolDeployer', '0f8'),
+                path: '/swapx-developer/contracts-v3/guides/flash-integrations/flash-callback',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/flash-integrations/flash-callback', 'f5b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/periphery/NonfungiblePositionManager', '648'),
+                path: '/swapx-developer/contracts-v3/guides/flash-integrations/Inheritance-constructors',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/flash-integrations/Inheritance-constructors', '3bb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/periphery/NonfungibleTokenPositionDescriptor', 'a59'),
+                path: '/swapx-developer/contracts-v3/guides/liquidity-mining/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/liquidity-mining/', 'ae9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/contract/swapx-v3/technical-reference/periphery/SwapRouter',
-                component: ComponentCreator('/contract/swapx-v3/technical-reference/periphery/SwapRouter', 'efa'),
+                path: '/swapx-developer/contracts-v3/guides/liquidity-mining/overview',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/liquidity-mining/overview', '4f3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/',
-                component: ComponentCreator('/sdk/', '4f9'),
+                path: '/swapx-developer/contracts-v3/guides/providing-liquidity/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/providing-liquidity/', '9e4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/guides/fetching-data',
-                component: ComponentCreator('/sdk/v2/guides/fetching-data', '64f'),
+                path: '/swapx-developer/contracts-v3/guides/providing-liquidity/collect-fees',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/providing-liquidity/collect-fees', 'bce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/guides/getting-pair-addresses',
-                component: ComponentCreator('/sdk/v2/guides/getting-pair-addresses', '3fe'),
+                path: '/swapx-developer/contracts-v3/guides/providing-liquidity/decrease-liquidity',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/providing-liquidity/decrease-liquidity', '33e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/guides/pricing',
-                component: ComponentCreator('/sdk/v2/guides/pricing', '6ab'),
+                path: '/swapx-developer/contracts-v3/guides/providing-liquidity/increase-liquidity',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/providing-liquidity/increase-liquidity', 'f63'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/guides/quick-start',
-                component: ComponentCreator('/sdk/v2/guides/quick-start', 'b3f'),
+                path: '/swapx-developer/contracts-v3/guides/providing-liquidity/mint-a-new-position',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/providing-liquidity/mint-a-new-position', 'cb8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/guides/trading',
-                component: ComponentCreator('/sdk/v2/guides/trading', 'ea2'),
+                path: '/swapx-developer/contracts-v3/guides/providing-liquidity/setting-up-your-contract',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/providing-liquidity/setting-up-your-contract', '44e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/overview',
-                component: ComponentCreator('/sdk/v2/overview', '5d8'),
+                path: '/swapx-developer/contracts-v3/guides/providing-liquidity/the-full-contract',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/providing-liquidity/the-full-contract', '179'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/reference/getting-started',
-                component: ComponentCreator('/sdk/v2/reference/getting-started', '8d2'),
+                path: '/swapx-developer/contracts-v3/guides/swaps/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/swaps/', 'd8e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/reference/other-exports',
-                component: ComponentCreator('/sdk/v2/reference/other-exports', '29a'),
+                path: '/swapx-developer/contracts-v3/guides/swaps/multihop-swaps',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/swaps/multihop-swaps', 'ef8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/reference/pair',
-                component: ComponentCreator('/sdk/v2/reference/pair', '18b'),
+                path: '/swapx-developer/contracts-v3/guides/swaps/single-swaps',
+                component: ComponentCreator('/swapx-developer/contracts-v3/guides/swaps/single-swaps', '0a0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/reference/route',
-                component: ComponentCreator('/sdk/v2/reference/route', '8ce'),
+                path: '/swapx-developer/contracts-v3/reference/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/', 'a11'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v2/reference/trade',
-                component: ComponentCreator('/sdk/v2/reference/trade', '861'),
+                path: '/swapx-developer/contracts-v3/reference/core/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/', '3ec'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/advanced/active-liquidity',
-                component: ComponentCreator('/sdk/v3/guides/advanced/active-liquidity', '5cc'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/', 'ed4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/advanced/introduction',
-                component: ComponentCreator('/sdk/v3/guides/advanced/introduction', '235'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/callback/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/callback/', 'ac0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/advanced/pool-data',
-                component: ComponentCreator('/sdk/v3/guides/advanced/pool-data', '0ca'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3FlashCallback',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3FlashCallback', '72b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/advanced/price-oracle',
-                component: ComponentCreator('/sdk/v3/guides/advanced/price-oracle', '44c'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3MintCallback',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3MintCallback', 'bcd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/advanced/range-orders',
-                component: ComponentCreator('/sdk/v3/guides/advanced/range-orders', '127'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3SwapCallback',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/callback/IUniswapV3SwapCallback', 'ee6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/background',
-                component: ComponentCreator('/sdk/v3/guides/background', 'af8'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/IERC20Minimal',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/IERC20Minimal', '9a4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/liquidity/collecting-fees',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/collecting-fees', '1fb'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3Factory',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3Factory', 'e7f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/liquidity/fetching-positions',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/fetching-positions', 'caa'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3Pool',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3Pool', 'e4f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/liquidity/minting-position',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/minting-position', '07e'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3PoolDeployer',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/IUniswapV3PoolDeployer', 'a26'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/liquidity/modifying-position',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/modifying-position', '870'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/pool/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/pool/', 'c4f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/liquidity/position-data',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/position-data', '52c'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolActions',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolActions', 'f99'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/liquidity/swap-and-add-liquidity',
-                component: ComponentCreator('/sdk/v3/guides/liquidity/swap-and-add-liquidity', 'd0e'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolDerivedState',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolDerivedState', '7b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/local-development',
-                component: ComponentCreator('/sdk/v3/guides/local-development', '6ec'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolEvents',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolEvents', 'e01'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/swaps/quoting',
-                component: ComponentCreator('/sdk/v3/guides/swaps/quoting', 'a66'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolImmutables',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolImmutables', 'd9b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/swaps/routing',
-                component: ComponentCreator('/sdk/v3/guides/swaps/routing', 'a37'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolOwnerActions',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolOwnerActions', '90c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/swaps/trading',
-                component: ComponentCreator('/sdk/v3/guides/swaps/trading', '0a2'),
+                path: '/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolState',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/interfaces/pool/IUniswapV3PoolState', '1f5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/guides/web3-development-basics',
-                component: ComponentCreator('/sdk/v3/guides/web3-development-basics', '3bd'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/', 'dcf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/overview',
-                component: ComponentCreator('/sdk/v3/overview', '509'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/BitMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/BitMath', 'aa5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/FullMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/FullMath', 'bce'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/FixedPoint128',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/FixedPoint128', 'c97'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/LiquidityMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/LiquidityMath', 'bf5'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/FixedPoint96',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/FixedPoint96', 'c82'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/Multicall',
-                component: ComponentCreator('/sdk/v3/reference/classes/Multicall', '02e'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/FullMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/FullMath', 'eac'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/NonfungiblePositionManager',
-                component: ComponentCreator('/sdk/v3/reference/classes/NonfungiblePositionManager', 'dc8'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/LiquidityMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/LiquidityMath', 'e85'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/NoTickDataProvider',
-                component: ComponentCreator('/sdk/v3/reference/classes/NoTickDataProvider', '79e'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/LowGasSafeMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/LowGasSafeMath', '275'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/Payments',
-                component: ComponentCreator('/sdk/v3/reference/classes/Payments', '0c9'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/Oracle',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/Oracle', '86c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/Pool',
-                component: ComponentCreator('/sdk/v3/reference/classes/Pool', '35f'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/Position',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/Position', '54e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/Position',
-                component: ComponentCreator('/sdk/v3/reference/classes/Position', '06f'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/SafeCast',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/SafeCast', 'c75'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/PositionLibrary',
-                component: ComponentCreator('/sdk/v3/reference/classes/PositionLibrary', 'f51'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/SecondsOutside',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/SecondsOutside', 'a22'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/Route',
-                component: ComponentCreator('/sdk/v3/reference/classes/Route', 'bbc'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/SqrtPriceMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/SqrtPriceMath', 'cd3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/SelfPermit',
-                component: ComponentCreator('/sdk/v3/reference/classes/SelfPermit', '009'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/SwapMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/SwapMath', '102'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/SqrtPriceMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/SqrtPriceMath', '149'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/Tick',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/Tick', '4fb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/Staker',
-                component: ComponentCreator('/sdk/v3/reference/classes/Staker', 'e6f'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/TickBitmap',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/TickBitmap', 'c59'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/SwapMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/SwapMath', '30b'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/TickMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/TickMath', '35a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/SwapQuoter',
-                component: ComponentCreator('/sdk/v3/reference/classes/SwapQuoter', 'e38'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/TransferHelper',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/TransferHelper', '3dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/SwapRouter',
-                component: ComponentCreator('/sdk/v3/reference/classes/SwapRouter', '1d6'),
+                path: '/swapx-developer/contracts-v3/reference/core/libraries/UnsafeMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/libraries/UnsafeMath', 'bed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/Tick',
-                component: ComponentCreator('/sdk/v3/reference/classes/Tick', '810'),
+                path: '/swapx-developer/contracts-v3/reference/core/UniswapV3Factory',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/UniswapV3Factory', '6a8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/TickLibrary',
-                component: ComponentCreator('/sdk/v3/reference/classes/TickLibrary', '090'),
+                path: '/swapx-developer/contracts-v3/reference/core/UniswapV3Pool',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/UniswapV3Pool', 'b7f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/TickList',
-                component: ComponentCreator('/sdk/v3/reference/classes/TickList', '35e'),
+                path: '/swapx-developer/contracts-v3/reference/core/UniswapV3PoolDeployer',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/core/UniswapV3PoolDeployer', '87c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/TickListDataProvider',
-                component: ComponentCreator('/sdk/v3/reference/classes/TickListDataProvider', 'c27'),
+                path: '/swapx-developer/contracts-v3/reference/error-codes',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/error-codes', 'f94'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/TickMath',
-                component: ComponentCreator('/sdk/v3/reference/classes/TickMath', '147'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/', 'a80'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/classes/Trade',
-                component: ComponentCreator('/sdk/v3/reference/classes/Trade', '8ad'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/', 'd49'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/enums/FeeAmount',
-                component: ComponentCreator('/sdk/v3/reference/enums/FeeAmount', '28f'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/BlockTimestamp',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/BlockTimestamp', '68b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/AllowedPermitArguments',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/AllowedPermitArguments', '67a'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/ERC721Permit',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/ERC721Permit', '2d3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/BestTradeOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/BestTradeOptions', '35d'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/LiquidityManagement',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/LiquidityManagement', 'd7a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/ClaimOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/ClaimOptions', '0a8'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/Multicall',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/Multicall', 'df3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/CollectOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/CollectOptions', '54d'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/PeripheryImmutableState',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/PeripheryImmutableState', '02f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/CommonAddLiquidityOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/CommonAddLiquidityOptions', '606'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/PeripheryPayments',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/PeripheryPayments', '6fd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/FeeOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/FeeOptions', '058'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/PeripheryPaymentsWithFee',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/PeripheryPaymentsWithFee', '573'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/IncentiveKey',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/IncentiveKey', '9e2'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/PoolInitializer',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/PoolInitializer', '21f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/IncreaseSpecificOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/IncreaseSpecificOptions', 'd53'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/base/SelfPermit',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/base/SelfPermit', '2e5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/MethodParameters',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/MethodParameters', '013'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/', '362'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/MintSpecificOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/MintSpecificOptions', '3b5'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/external/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/external/', 'a80'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/NFTPermitOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/NFTPermitOptions', '465'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IERC1271',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IERC1271', '196'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/QuoteOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/QuoteOptions', 'a77'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IERC20PermitAllowed',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IERC20PermitAllowed', '8e2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/RemoveLiquidityOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/RemoveLiquidityOptions', '956'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IWETH9',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/external/IWETH9', '01b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/SafeTransferOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/SafeTransferOptions', '1fb'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IERC20Metadata',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IERC20Metadata', '03a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/StandardPermitArguments',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/StandardPermitArguments', 'aea'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IERC721Permit',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IERC721Permit', '8fe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/SwapOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/SwapOptions', 'c1a'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IMulticall',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IMulticall', '99f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/TickConstructorArgs',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/TickConstructorArgs', 'ebe'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/INonfungiblePositionManager',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/INonfungiblePositionManager', 'c0a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/TickDataProvider',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/TickDataProvider', '6c9'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor', '77d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/interfaces/WithdrawOptions',
-                component: ComponentCreator('/sdk/v3/reference/interfaces/WithdrawOptions', 'dd5'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryImmutableState',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryImmutableState', '1d0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/sdk/v3/reference/overview',
-                component: ComponentCreator('/sdk/v3/reference/overview', '35e'),
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryPayments',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryPayments', 'cdb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryPaymentsWithFee',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IPeripheryPaymentsWithFee', '373'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IPoolInitializer',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IPoolInitializer', 'f18'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IQuoter',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IQuoter', 'ab8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IQuoterV2',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IQuoterV2', 'c7a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/ISelfPermit',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/ISelfPermit', '414'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/ISwapRouter',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/ISwapRouter', '8ff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/ITickLens',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/ITickLens', '561'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/interfaces/IV3Migrator',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/interfaces/IV3Migrator', '4ce'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/lens/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/lens/', 'f47'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/lens/Quoter',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/lens/Quoter', '5f3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/lens/QuoterV2',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/lens/QuoterV2', 'd41'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/lens/TickLens',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/lens/TickLens', '546'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/', '5bb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/Base64',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/Base64', 'c9c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/BytesLib',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/BytesLib', '098'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/CallbackValidation',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/CallbackValidation', 'bce'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/ChainId',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/ChainId', '4d2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/HexStrings',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/HexStrings', '8ea'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/LiquidityAmounts',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/LiquidityAmounts', '562'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/NFTDescriptor',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/NFTDescriptor', 'e71'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/NFTSVG',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/NFTSVG', 'be2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/OracleLibrary',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/OracleLibrary', 'bff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/Path',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/Path', 'f6b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/PoolAddress',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/PoolAddress', 'e60'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/PoolTicksCounter',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/PoolTicksCounter', '8fb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/PositionKey',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/PositionKey', '4b0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/TokenRatioSortOrder',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/TokenRatioSortOrder', '57d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/TransferHelper',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/TransferHelper', 'c9b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/libraries/WeightedOracleLibrary',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/libraries/WeightedOracleLibrary', '105'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/NonfungiblePositionManager',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/NonfungiblePositionManager', '9b8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/NonfungibleTokenPositionDescriptor',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/NonfungibleTokenPositionDescriptor', '90d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/', '2fd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/Design',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/Design', '9ff'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/interfaces/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/interfaces/', 'fb5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/interfaces/IUniswapV3Staker',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/interfaces/IUniswapV3Staker', 'fa5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/libraries/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/libraries/', '643'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/libraries/IncentiveId',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/libraries/IncentiveId', 'b2b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/libraries/NFTPositionInfo',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/libraries/NFTPositionInfo', '37a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/libraries/RewardMath',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/libraries/RewardMath', 'b47'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/staker/UniswapV3Staker',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/staker/UniswapV3Staker', 'e01'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/SwapRouter',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/SwapRouter', '5bb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/', 'e35'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/Base64Test',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/Base64Test', '8fd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/LiquidityAmountsTest',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/LiquidityAmountsTest', 'd74'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/MockTimeNonfungiblePositionManager',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/MockTimeNonfungiblePositionManager', 'f7d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/MockTimeSwapRouter',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/MockTimeSwapRouter', '126'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/NFTDescriptorTest',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/NFTDescriptorTest', '014'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/PathTest',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/PathTest', 'bdc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/PeripheryImmutableStateTest',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/PeripheryImmutableStateTest', '3b0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/PoolAddressTest',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/PoolAddressTest', '8dc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/SelfPermitTest',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/SelfPermitTest', '2bf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/TestCallbackValidation',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/TestCallbackValidation', '45e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/TestERC20',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/TestERC20', '52d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/TestERC20Metadata',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/TestERC20Metadata', 'b4e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/TestERC20PermitAllowed',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/TestERC20PermitAllowed', '8a4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/TestMulticall',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/TestMulticall', '157'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/TestPositionNFTOwner',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/TestPositionNFTOwner', 'd86'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/TestUniswapV3Callee',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/TestUniswapV3Callee', '81e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/test/TickLensTest',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/test/TickLensTest', 'a80'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/contracts-v3/reference/periphery/V3Migrator',
+                component: ComponentCreator('/swapx-developer/contracts-v3/reference/periphery/V3Migrator', 'f11'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/quick-start-tutorial/',
+                component: ComponentCreator('/swapx-developer/quick-start-tutorial/', '413'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/quick-start-tutorial/connecting-to-network',
+                component: ComponentCreator('/swapx-developer/quick-start-tutorial/connecting-to-network', 'ce3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/quick-start-tutorial/environment-setup',
+                component: ComponentCreator('/swapx-developer/quick-start-tutorial/environment-setup', 'bc3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/quick-start-tutorial/executing-trades',
+                component: ComponentCreator('/swapx-developer/quick-start-tutorial/executing-trades', '20c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/quick-start-tutorial/reading-chain-data',
+                component: ComponentCreator('/swapx-developer/quick-start-tutorial/reading-chain-data', '3c3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/',
+                component: ComponentCreator('/swapx-developer/sdks-core/', 'b55'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/', 'd1f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/classes/',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/classes/', '636'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/classes/CurrencyAmount',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/classes/CurrencyAmount', '37f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/classes/Ether',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/classes/Ether', 'fdc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/classes/Fraction',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/classes/Fraction', '774'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/classes/NativeCurrency',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/classes/NativeCurrency', '83f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/classes/Percent',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/classes/Percent', '23e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/classes/Price',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/classes/Price', '7dd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/classes/Token',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/classes/Token', 'ff4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/enums/',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/enums/', '5b6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/enums/ChainId',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/enums/ChainId', 'afa'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/enums/NativeCurrencyName',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/enums/NativeCurrencyName', '92d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/enums/Rounding',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/enums/Rounding', '2b9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/enums/TradeType',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/enums/TradeType', '208'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/modules',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/modules', 'a3c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-core/reference/overview',
+                component: ComponentCreator('/swapx-developer/sdks-core/reference/overview', '689'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/',
+                component: ComponentCreator('/swapx-developer/sdks-v2/', 'a62'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/guides/',
+                component: ComponentCreator('/swapx-developer/sdks-v2/guides/', 'cf0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/guides/fetching-data',
+                component: ComponentCreator('/swapx-developer/sdks-v2/guides/fetching-data', '2c3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/guides/getting-pair-addresses',
+                component: ComponentCreator('/swapx-developer/sdks-v2/guides/getting-pair-addresses', '7f0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/guides/pricing',
+                component: ComponentCreator('/swapx-developer/sdks-v2/guides/pricing', 'fdf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/guides/quick-start',
+                component: ComponentCreator('/swapx-developer/sdks-v2/guides/quick-start', 'bc8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/guides/trading',
+                component: ComponentCreator('/swapx-developer/sdks-v2/guides/trading', 'f9d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/reference/',
+                component: ComponentCreator('/swapx-developer/sdks-v2/reference/', '296'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/reference/getting-started',
+                component: ComponentCreator('/swapx-developer/sdks-v2/reference/getting-started', 'cba'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/reference/other-exports',
+                component: ComponentCreator('/swapx-developer/sdks-v2/reference/other-exports', '48f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/reference/pair',
+                component: ComponentCreator('/swapx-developer/sdks-v2/reference/pair', '6ac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/reference/route',
+                component: ComponentCreator('/swapx-developer/sdks-v2/reference/route', '7fd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v2/reference/trade',
+                component: ComponentCreator('/swapx-developer/sdks-v2/reference/trade', 'd77'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/', '30c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/', '452'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/advanced/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/advanced/', 'b93'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/advanced/active-liquidity',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/advanced/active-liquidity', 'f61'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/advanced/introduction',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/advanced/introduction', '5df'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/advanced/pool-data',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/advanced/pool-data', '42e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/advanced/price-oracle',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/advanced/price-oracle', 'a53'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/background',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/background', '4c9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/liquidity/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/liquidity/', '720'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/liquidity/collecting-fees',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/liquidity/collecting-fees', 'a09'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/liquidity/fetching-positions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/liquidity/fetching-positions', 'd27'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/liquidity/minting-position',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/liquidity/minting-position', 'b28'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/liquidity/modifying-position',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/liquidity/modifying-position', '654'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/liquidity/position-data',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/liquidity/position-data', 'd47'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/liquidity/swap-and-add-liquidity',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/liquidity/swap-and-add-liquidity', '4ab'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/local-development',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/local-development', '071'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/swaps/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/swaps/', '578'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/swaps/quoting',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/swaps/quoting', '418'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/swaps/routing',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/swaps/routing', '2c6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/guides/swaps/trading',
+                component: ComponentCreator('/swapx-developer/sdks-v3/guides/swaps/trading', '116'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/', 'e80'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/', 'cdb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/FullMath',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/FullMath', '64e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/LiquidityMath',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/LiquidityMath', '176'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/Multicall',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/Multicall', '92f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/NonfungiblePositionManager',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/NonfungiblePositionManager', 'fe6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/NoTickDataProvider',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/NoTickDataProvider', 'aa4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/Payments',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/Payments', '027'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/Pool',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/Pool', '864'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/Position',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/Position', 'aac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/PositionLibrary',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/PositionLibrary', '069'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/Route',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/Route', '5b2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/SelfPermit',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/SelfPermit', 'fc6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/SqrtPriceMath',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/SqrtPriceMath', 'c59'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/Staker',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/Staker', '03a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/SwapMath',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/SwapMath', 'c5b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/SwapQuoter',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/SwapQuoter', '037'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/SwapRouter',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/SwapRouter', 'b76'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/Tick',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/Tick', '409'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/TickLibrary',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/TickLibrary', 'fd4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/TickList',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/TickList', '0d7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/TickListDataProvider',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/TickListDataProvider', '40b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/TickMath',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/TickMath', '313'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/classes/Trade',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/classes/Trade', '1df'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/enums/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/enums/', 'c24'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/enums/FeeAmount',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/enums/FeeAmount', 'cd6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/', '2c1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/AllowedPermitArguments',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/AllowedPermitArguments', '91e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/BestTradeOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/BestTradeOptions', 'b45'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/ClaimOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/ClaimOptions', 'a90'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/CollectOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/CollectOptions', '4a7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/CommonAddLiquidityOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/CommonAddLiquidityOptions', 'e57'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/FeeOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/FeeOptions', '07b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/IncentiveKey',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/IncentiveKey', '0ec'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/IncreaseSpecificOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/IncreaseSpecificOptions', '094'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/MethodParameters',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/MethodParameters', 'ff0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/MintSpecificOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/MintSpecificOptions', '385'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/NFTPermitOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/NFTPermitOptions', '26c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/QuoteOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/QuoteOptions', '2cf'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/RemoveLiquidityOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/RemoveLiquidityOptions', '31d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/SafeTransferOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/SafeTransferOptions', '2ac'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/StandardPermitArguments',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/StandardPermitArguments', '8ea'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/SwapOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/SwapOptions', '4b7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/TickConstructorArgs',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/TickConstructorArgs', 'c17'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/TickDataProvider',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/TickDataProvider', 'a85'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/sdks-v3/reference/interfaces/WithdrawOptions',
+                component: ComponentCreator('/swapx-developer/sdks-v3/reference/interfaces/WithdrawOptions', '559'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/troubleshooting/',
+                component: ComponentCreator('/swapx-developer/troubleshooting/', 'c6a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/troubleshooting/network-and-rpc',
+                component: ComponentCreator('/swapx-developer/troubleshooting/network-and-rpc', '646'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/troubleshooting/sdk-errors',
+                component: ComponentCreator('/swapx-developer/troubleshooting/sdk-errors', '13e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/troubleshooting/transaction-reverts',
+                component: ComponentCreator('/swapx-developer/troubleshooting/transaction-reverts', 'd39'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/use-case-example/',
+                component: ComponentCreator('/swapx-developer/use-case-example/', '3b0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/use-case-example/full-use-case',
+                component: ComponentCreator('/swapx-developer/use-case-example/full-use-case', '15b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/use-case-example/liquidity/',
+                component: ComponentCreator('/swapx-developer/use-case-example/liquidity/', '12c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/use-case-example/liquidity/v2-liquidity',
+                component: ComponentCreator('/swapx-developer/use-case-example/liquidity/v2-liquidity', '456'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/use-case-example/liquidity/v3-liquidity',
+                component: ComponentCreator('/swapx-developer/use-case-example/liquidity/v3-liquidity', '0ea'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/use-case-example/swapping/',
+                component: ComponentCreator('/swapx-developer/use-case-example/swapping/', '864'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/use-case-example/swapping/v2-swaps',
+                component: ComponentCreator('/swapx-developer/use-case-example/swapping/v2-swaps', '01e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/swapx-developer/use-case-example/swapping/v3-swaps',
+                component: ComponentCreator('/swapx-developer/use-case-example/swapping/v3-swaps', 'e19'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -894,6 +1932,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/swapx-integration/welcome-to-swapx/FAQs',
+                component: ComponentCreator('/swapx-integration/welcome-to-swapx/FAQs', '69a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/swapx-integration/welcome-to-swapx/news',
                 component: ComponentCreator('/swapx-integration/welcome-to-swapx/news', '660'),
                 exact: true,
@@ -918,8 +1962,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/swapx-integration/welcome-to-swapx/publish-your-docs',
-                component: ComponentCreator('/swapx-integration/welcome-to-swapx/publish-your-docs', 'a2d'),
+                path: '/swapx-integration/welcome-to-swapx/privacy-and-terms/XOCStaking',
+                component: ComponentCreator('/swapx-integration/welcome-to-swapx/privacy-and-terms/XOCStaking', '00e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
