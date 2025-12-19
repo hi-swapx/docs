@@ -368,6 +368,19 @@ aside[class*='docSidebarContainer']::-webkit-scrollbar {
    4. 移动端搜索框优化 (Mobile)
    ========================================= */
 
+/* 修复移动端侧边栏按钮点击问题：提高层级 */
+.navbar__toggle {
+  position: relative;
+  z-index: 50;
+  margin-right: 0.5rem;
+}
+
+/* 确保 Logo 区域也不被遮挡 */
+.navbar__brand {
+  position: relative;
+  z-index: 40;
+}
+
 @media (max-width: 996px) {
   .navbar__search {
     position: static !important;
@@ -382,9 +395,13 @@ aside[class*='docSidebarContainer']::-webkit-scrollbar {
     min-width: unset !important;
     max-width: unset !important;
   }
-  
-  /* 移动端隐藏中间的大搜索框，通常 Docusaurus 会自动变更为图标，
-     如果你的主题配置是保留搜索栏，上面的样式会让它自适应填满剩余空间 */
+}
+
+/* 当屏幕过窄时（如手机竖屏），隐藏搜索框以保证导航栏整洁及避免遮挡 */
+@media (max-width: 520px) {
+  .navbar__search {
+    display: none !important;
+  }
 }
 
 /* =========================================
