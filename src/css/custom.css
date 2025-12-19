@@ -368,39 +368,36 @@ aside[class*='docSidebarContainer']::-webkit-scrollbar {
    4. 移动端搜索框优化 (Mobile)
    ========================================= */
 
-/* 修复移动端侧边栏按钮点击问题：提高层级 */
-.navbar__toggle {
-  position: relative;
-  z-index: 50;
-  margin-right: 0.5rem;
-}
-
-/* 确保 Logo 区域也不被遮挡 */
-.navbar__brand {
-  position: relative;
-  z-index: 40;
-}
-
 @media (max-width: 996px) {
-  .navbar__search {
-    position: static !important;
-    transform: none !important;
-    margin: 0 10px !important;
-    flex: 1;
-  }
-  
-  .navbar__search input,
-  .aa-Form {
-    width: 100% !important;
-    min-width: unset !important;
-    max-width: unset !important;
-  }
-}
-
-/* 当屏幕过窄时（如手机竖屏），隐藏搜索框以保证导航栏整洁及避免遮挡 */
-@media (max-width: 520px) {
+  /* 1. 隐藏搜索框：当页面过窄时，不显示搜索框 */
   .navbar__search {
     display: none !important;
+  }
+  
+  /* 2. 修复移动端侧边栏点击问题 */
+  /* 确保汉堡菜单按钮层级足够高，且可点击 */
+  .navbar__toggle {
+    position: relative;
+    z-index: 50;
+    margin-right: 10px;
+  }
+
+  /* 3. 修复"两个顶部导航栏"问题 */
+  /* 移动端侧边栏打开时，确保它覆盖在主导航栏之上 */
+  .navbar-sidebar {
+    z-index: 1000 !important; /* 确保侧边栏在最上层 */
+    top: 0 !important;
+    height: 100vh !important;
+  }
+
+  /* 调整移动端导航栏内边距，避免过于拥挤 */
+  .navbar__inner {
+    padding: 0 10px;
+  }
+  
+  /* 确保Logo和右侧按钮正常显示 */
+  .navbar__brand {
+    margin-right: auto; /* 让Logo靠左，但允许右侧元素存在 */
   }
 }
 
