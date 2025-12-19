@@ -29,7 +29,6 @@ SwapX utilizes the **AMM model**, contrasting with the Order Book method:
 
 > **SwapX Trading:** Token Exchange on SwapX is a simple method where liquidity comes directly from the **liquidity pools** created on SwapX (`https://swapx.exchange/pools`).
 
-<div data-with-frame="true">![image](../assets/image%20(9).png)</div>
 
 ### 💸 Exchange Fees
 
