@@ -1,4 +1,6 @@
 ---
+banner: https://plus.unsplash.com/premium_photo-1765228499795-e58288bc382b?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8
+
 cover: .gitbook/assets/1080x360.jpeg
 sidebar_position: 1
 coverY: 0
@@ -21,45 +23,48 @@ layout:
     visible: true
 ---
 
-# ✨SwapX Product Overview
+# SwapX Product Overview 👋
 
-## 👋 Welcome to [SwapX](https://swapx.exchange/) Documentation
+**Welcome to SwapX — The Omni-chain DEX Hub**
 
-[SwapX](https://swapx.exchange/) is a decentralized token exchange system built upon the robust Uniswap v2/v3 protocols, designed to offer users a comprehensive digital asset management solution.
+SwapX is a decentralized token exchange system built on the powerful **Uniswap v2/v3** protocols. By deeply integrating the industry-leading **Li.Fi** aggregation protocol, SwapX has evolved from a single-chain DEX into an omni-chain liquidity hub. We aim to provide users with a one-stop digital asset management solution featuring cross-chain, cross-protocol, and fiat-to-crypto capabilities.
 
-As a core component of the Xone ecosystem, SwapX transcends traditional DEX functionality by not only providing on-chain token exchange services but also seamlessly integrating fiat currency trading via multiple trusted third-party payment platforms. This integration creates a truly seamless, one-stop cryptocurrency trading environment.
+As the core engine of the **Xone Ecosystem**, SwapX not only supports lightning-fast on-chain swaps but also breaks down barriers between blockchains to create a truly seamless cryptocurrency trading environment.
 
-***
+---
 
-### 🔄 Core Features: Swap, Trade, & Earn
+## 🔄 Core Pillars: Swap, Trade & Earn
 
-[SwapX](https://swapx.exchange/) is built around three fundamental pillars to provide a powerful and versatile trading experience:
+SwapX is built around three core pillars, offering a decentralized trading experience that goes beyond tradition:
 
-#### 1. Swap: Decentralized Token Exchange
+### 1. Swap: Omni-chain Decentralized Exchange
+Through the integration of the **Li.Fi** protocol, SwapX enables the true free flow of assets across chains.
 
-[SwapX ](https://swapx.exchange/)offers a secure, transparent, and efficient way to exchange digital assets.
+* **🌐 High-Speed Multi-chain Support:** Skip the complex manual bridging. Swap assets seamlessly across major public chains:
+    * **Ethereum Ecosystem:** Ethereum, Arbitrum, Optimism, Base
+    * **High-Performance Chains:** BNB Chain (BSC), Avalanche (AVAX), Polygon (POL)
+    * **Ecosystem Expansion:** Tron and the native **Xone Chain**
+* **⚡ Smart Omni-chain Routing:** Our built-in smart algorithm automatically scans hundreds of DEXs and bridges to lock in the path with the **lowest slippage** and **best price** in real-time.
+* **🔐 True Decentralization:** Assets always stay in your wallet. No pre-deposits, no trusted third-party custody—eliminating centralized risks at the source.
+* **💸 Ultimate Cost Control:** Enjoy highly competitive transaction fees combined with optimized Gas strategies to ensure every cent of your capital works for you.
 
-* 🔐 True Decentralization: Trade directly from your wallet. You maintain full control of your assets without the need to deposit funds or trust third parties, significantly reducing the security risks associated with centralized platforms.
-* 💸 Competitive Low Fees: Benefit from transaction fees that are more competitive than the industry average, ensuring every trade is more cost-effective.
-* 🌐 Xone Ecosystem Support: As the native DEX of the Xone public chain, SwapX enjoys optimized performance:
-  * Faster transaction confirmation speeds.
-  * Lower gas fees.
-  * Seamless interoperability with other Xone ecosystem applications.
-* ⚡ Efficient Transaction Routing: Our intelligent routing algorithm automatically discovers the optimal transaction path. This delivers minimum slippage and the best execution price, even for complex or large-volume token pairs.
+### 2. Trade: Direct Fiat Gateway
+SwapX drastically lowers the barrier to entry for cryptocurrency.
 
-#### 2. Trade: Integrated Fiat Currency Trading
+* **💵 Effortless Fiat Buy/Sell:** Purchase major digital assets directly with fiat currency via integration with top-tier third-party payment platforms.
+* **🚀 One-Stop On/Off-Ramp:** Eliminate the hassle of manual transfers from centralized exchanges; achieve a closed-loop trading experience from fiat to omni-chain assets.
 
-SwapX simplifies the crypto on-ramp and off-ramp process.
+### 3. Earn: Multi-Dimensional Yield Growth
+At SwapX, your assets don't just move—they grow.
 
-* 💵 Fast Buying and Selling of Fiat Currency: Through integration with third-party payment platforms, SwapX supports the direct purchase and sale of cryptocurrencies using multiple fiat currencies. This eliminates the complex deposit and withdrawal procedures of traditional exchanges, achieving a truly one-stop service.
+* **💰 Liquidity Mining (LP):** Provide capital to liquidity pools and earn a share of transaction fees generated by omni-chain trading.
+* **🏆 Ecosystem Incentives:** Participate in SwapX seasonal events and exclusive **Xone Ecosystem** rewards to capture outsized returns.
 
-#### 3. Earn: Income Opportunities
+---
 
-SwapX provides multiple avenues for users to generate passive income.
+## 💡 Our Commitment
+SwapX is dedicated to eliminating the barriers between blockchains. Whether you hold assets on any chain, or whether you are a DeFi novice or a professional trader, SwapX provides a smooth omni-chain experience as if you were operating on a single chain.
 
-* 💰 Earn Swap Fees (Liquidity Provision): By providing funds to a liquidity pool, you earn a proportional share of the transaction fee income, creating a passive income stream. SwapX’s optimized liquidity provision mechanism ensures a fairer return distribution for all liquidity providers.
-* 🏆 Seasonal Event Rewards: Participate in various seasonal events and campaigns hosted by SwapX to gain additional income opportunities and a unique participation experience.
+**Explore SwapX today and launch your omni-chain financial journey with one click!**
+Markdown
 
-> 💡 Our Commitment: SwapX is committed to building a safe, efficient, and user-friendly decentralized financial platform. Whether you are new to crypto or an experienced trader, you can find the perfect services and tools here.
->
-> Start exploring SwapX and experience the infinite possibilities of the next generation of decentralized trading!
