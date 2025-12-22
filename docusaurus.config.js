@@ -59,7 +59,7 @@ const config = {
   themes: ['@docusaurus/theme-live-codeblock'],
 
   plugins: [
-
+/*
     [
       "@easyops-cn/docusaurus-search-local",
       {
@@ -67,12 +67,12 @@ const config = {
         docsRouteBasePath: "/",
         indexBlog: false,
         indexPages: false,
-        /*language: ["zh", "en"],*/
+        language: ["zh", "en"],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
       },
     ],
-
+*/
     'docusaurus-plugin-image-zoom',
   ],
 
