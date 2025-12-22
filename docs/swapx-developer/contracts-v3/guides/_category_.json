@@ -2,5 +2,6 @@
   "label": "📚 Guides",
   "position": 1,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "key": "contracts-v3-guides"
 }
