@@ -17,6 +17,11 @@ const config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
+  i18n: {
+  defaultLocale: 'zh-Hans',
+  locales: ['zh-Hans'],
+  },
+
   presets: [
     [
       "classic",
