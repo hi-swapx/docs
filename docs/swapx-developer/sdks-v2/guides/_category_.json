@@ -2,6 +2,5 @@
   "label": "📚 Guides",
   "position": 1,
   "collapsible": true,
-  "collapsed": true,
-  "key": "sdks-v2-guides"
+  "collapsed": true
 }
