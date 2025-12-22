@@ -76,7 +76,7 @@ const config = {
       // 文档配置
       docs: {
         sidebar: {
-          hideable: true,
+          hideable: false,
           autoCollapseCategories: false,
         },
       },
