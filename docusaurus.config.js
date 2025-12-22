@@ -17,6 +17,23 @@ const config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
+  // 国际化配置
+  i18n: {
+    defaultLocale: 'zh',
+    locales: ['zh', 'en'],
+    localeConfigs: {
+      zh: {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+    },
+  },
 
   presets: [
     [
