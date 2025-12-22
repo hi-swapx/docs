@@ -17,7 +17,7 @@ const config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
-  
+
   // 国际化配置
   i18n: {
     defaultLocale: 'zh',
@@ -60,7 +60,7 @@ const config = {
 
   plugins: [
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
+      "@easyops-cn/docusaurus-search-local",
       {
         hashed: true,
         docsRouteBasePath: "/",
