@@ -59,6 +59,7 @@ const config = {
   themes: ['@docusaurus/theme-live-codeblock'],
 
   plugins: [
+    /*
     [
       "@easyops-cn/docusaurus-search-local",
       {
@@ -71,6 +72,7 @@ const config = {
         explicitSearchResultPath: true,
       },
     ],
+    */
     'docusaurus-plugin-image-zoom',
   ],
 
