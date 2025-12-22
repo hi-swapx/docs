@@ -1,6 +1,5 @@
 // @ts-check
-import { themes as prismThemes } from "prism-react-renderer";
-import searchLocal from "@easyops-cn/docusaurus-search-local";
+const { themes: prismThemes } = require("prism-react-renderer");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,6 +16,11 @@ const config = {
 
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
+
+  i18n: {
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
+  },
 
   presets: [
     [
@@ -42,7 +46,7 @@ const config = {
 
   plugins: [
     [
-      searchLocal,
+      require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
         docsRouteBasePath: "/",
@@ -123,4 +127,4 @@ const config = {
     }),
 };
 
-export default config;
+module.exports = config;
