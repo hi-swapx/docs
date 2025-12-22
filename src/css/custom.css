@@ -1,32 +1,480 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Any CSS included here will be global.
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #fc4e27;
+  --ifm-color-primary-dark: #cf1a1a;
+  --ifm-color-primary-darker: #e74420;
+  --ifm-color-primary-darkest: #ed4423;
+  --ifm-color-primary-light: #ea3120;
+  --ifm-color-primary-lighter: #d83f15;
+  --ifm-color-primary-lightest: #ec5113;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* 自定义变量 */
+  --sidebar-bg-color: #fefefe;
+  --sidebar-hover-bg: rgba(240, 68, 29, 0.08);
+
+  /* 布局控制变量 */
+  --custom-container-width: 1400px; /* 最大宽度 */
+  --custom-side-spacing: 2rem;      /* 左右最小空隙 */
 }
-.hidden {
+
+[data-theme='dark'] {
+  --ifm-color-primary: #e82907;
+  --ifm-color-primary-dark: #e90756;
+  --ifm-color-primary-darker: #ea2b0e;
+  --ifm-color-primary-darkest: #e64303;
+  --ifm-color-primary-light: #da1705;
+  --ifm-color-primary-lighter: #de3c06;
+  --ifm-color-primary-lightest: #e3280f;
+  --docusaurus-highlighted-code-line-bg: rgba(249, 8, 8, 0.3);
+  
+  --sidebar-bg-color: #1a1a1b;
+  --sidebar-hover-bg: rgba(232, 41, 7, 0.15);
+}
+
+/* =========================================
+   1. 布局优化 (Layout)
+   ========================================= */
+
+/* 导航栏样式 */
+.navbar {
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(240, 68, 29, 0.1);
+  /* 修复：确保导航栏可以作为绝对定位的参考 */
+  position: sticky; 
+}
+
+[data-theme='dark'] .navbar {
+  border-bottom-color: rgba(232, 41, 7, 0.15);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navbar__inner {
+  max-width: var(--custom-container-width);
+  margin: 0 auto;
+  padding: 0 var(--custom-side-spacing);
+  /* 关键：设置为 relative，作为搜索框绝对定位的父级参考点 */
+  position: relative; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 确保导航栏右侧元素不被搜索框遮挡 */
+.navbar__items--right {
+  position: static;
+  z-index: 20;
+}
+
+/* 左侧导航栏元素 */
+.navbar__items--left {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 20; /* 提高层级，防止被搜索框遮挡 */
+}
+
+/* 页面主体内容居中限制 */
+.main-wrapper {
+  max-width: calc(var(--custom-container-width) * 1.1);
+  margin: 0 auto;
+  width: 100%;
+  padding-left: var(--custom-side-spacing);
+  padding-right: var(--custom-side-spacing);
+}
+
+@media (max-width: 996px) {
+  :root {
+    --custom-side-spacing: 1rem;
+  }
+}
+
+/* =========================================
+   2. 侧边栏美化 (Sidebar) - 已修复字体大小选择器
+   ========================================= */
+
+.theme-doc-sidebar-container {
+  border-right: none !important;
+  background-color: var(--sidebar-bg-color);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.03);
+}
+
+[data-theme='dark'] .theme-doc-sidebar-container {
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 隐藏侧边栏滚动条 */
+.theme-doc-sidebar-container nav,
+.menu__list,
+aside[class*='docSidebarContainer'] {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.theme-doc-sidebar-container nav::-webkit-scrollbar,
+.menu__list::-webkit-scrollbar,
+aside[class*='docSidebarContainer']::-webkit-scrollbar {
   display: none;
 }
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+/* 侧边栏菜单项基础样式 */
+.menu__link {
+  border-radius: 6px;
+  margin-bottom: 2px;
+  padding: 7px 12px 7px 10px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border-left: 2px solid transparent;
+  position: relative;
+  line-height: 1.5;
+  /* 默认字体大小 */
+  font-size: 16px; 
+}
+
+/* 装饰线 */
+.menu__link::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  width: 14px;
+  height: 1px;
+  background: linear-gradient(to right, 
+    rgba(240, 68, 29, 0.15), 
+    rgba(240, 68, 29, 0.05));
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+[data-theme='dark'] .menu__link::before {
+  background: linear-gradient(to right, 
+    rgba(232, 41, 7, 0.25), 
+    rgba(232, 41, 7, 0.08));
+}
+
+/* 排除顶级分类，其他显示装饰线 */
+.menu__list-item:not(.top-level-category) .menu__link::before {
+  opacity: 1;
+}
+
+.menu__link:hover {
+  background-color: var(--sidebar-hover-bg);
+  border-left-color: var(--ifm-color-primary);
+  transform: translateX(3px);
+}
+
+.menu__link--active {
+  background: linear-gradient(90deg, 
+    var(--sidebar-hover-bg) 0%, 
+    rgba(240, 68, 29, 0.03) 100%);
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  border-left-color: var(--ifm-color-primary);
+  box-shadow: 0 1px 4px rgba(240, 68, 29, 0.12);
+}
+
+[data-theme='dark'] .menu__link--active {
+  background: linear-gradient(90deg, 
+    var(--sidebar-hover-bg) 0%, 
+    rgba(232, 41, 7, 0.05) 100%);
+  box-shadow: 0 1px 4px rgba(232, 41, 7, 0.2);
+}
+
+/* =========================================
+   侧边栏字体大小修复区 (Sidebar Font Fixes)
+   ========================================= */
+/* 说明：使用更明确的层级选择器，同时兼容 Link 和 Category (Category 通常包裹在 div 中) */
+
+/* 1. 一级目录 (Level 1) */
+.theme-doc-sidebar-menu > .menu__list-item > .menu__link,
+.theme-doc-sidebar-menu > .menu__list-item > div > .menu__link {
+  font-size: 18px !important;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+/* 2. 二级目录 (Level 2) */
+.theme-doc-sidebar-menu > .menu__list-item > .menu__list > .menu__list-item > .menu__link,
+.theme-doc-sidebar-menu > .menu__list-item > .menu__list > .menu__list-item > div > .menu__link {
+  font-size: 16px !important;
+  font-weight: 500;
+}
+
+/* 3. 三级目录 (Level 3) */
+.theme-doc-sidebar-menu > .menu__list-item > .menu__list > .menu__list-item > .menu__list > .menu__list-item > .menu__link,
+.theme-doc-sidebar-menu > .menu__list-item > .menu__list > .menu__list-item > .menu__list > .menu__list-item > div > .menu__link {
+  font-size: 15px !important;
+  padding-left: 25px; /* 增加缩进 */
+  opacity: 0.95;
+}
+
+/* 4. 四级及以下目录 (Level 4+) */
+.theme-doc-sidebar-menu .menu__list .menu__list .menu__list .menu__link {
+  font-size: 14px !important;
+  opacity: 0.9;
+}
+
+/* 侧边栏竖线 */
+.menu__list {
+  margin-top: 4px;
+  padding-left: 20px;
+  position: relative;
+}
+
+/* 添加竖线 */
+.menu__list::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 8px;
+  width: 1px;
+  border-radius: 1px;
+  background: linear-gradient(to bottom, 
+    rgba(242, 53, 10, 0.35) 0%, 
+    rgba(240, 68, 29, 0.25) 40%,
+    rgba(240, 68, 29, 0.15) 70%,
+    rgba(240, 68, 29, 0.05) 100%);
+}
+
+[data-theme='dark'] .menu__list::before {
+  background: linear-gradient(to bottom, 
+    rgba(232, 41, 7, 0.5) 0%, 
+    rgba(232, 41, 7, 0.35) 40%,
+    rgba(232, 41, 7, 0.2) 70%,
+    rgba(232, 41, 7, 0.08) 100%);
+}
+
+/* 一级目录下的列表不显示竖线 */
+.top-level-category > .menu__list::before {
+  display: none;
+}
+
+/* 箭头小而美 */
+.menu__caret {
+  padding: 0 !important;
+  margin-right: 6px !important;
+  width: 14px !important;
+  height: 14px !important;
+  opacity: 0.6;
+}
+
+/* =========================================
+   3. 🎯 顶部搜索框优化 (Top Search Bar)
+   ========================================= */
+
+/* 仅在桌面端应用居中逻辑 */
+@media (min-width: 997px) {
+  .navbar__search {
+    /* 核心修改：绝对居中定位 */
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    
+    /* 布局调整 */
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 10 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* 输入框响应式宽度控制 */
+  .navbar__search input,
+  .navbar__search input[type="search"],
+  .navbar__search .search-bar,
+  .aa-Form {
+    /* 响应式宽度：最小200px，最大600px，优先使用屏幕宽度的30% */
+    width: clamp(200px, 30vw, 600px) !important;
+    max-width: 600px !important;
+    min-width: 200px !important;
+    
+    /* 高度与外观 */
+    height: 40px !important;
+    min-height: 40px !important;
+    border-radius: 20px !important;
+    padding-left: 40px !important; /* 给图标留位置 */
+    transition: width 0.3s ease, box-shadow 0.3s ease !important;
+  }
+  
+  /* 聚焦时稍微变宽，增强体验 */
+  .navbar__search input:focus,
+  .navbar__search input[type="search"]:focus,
+  .aa-Form:focus-within {
+    width: clamp(250px, 35vw, 650px) !important;
+  }
+}
+
+/* 通用外观（不分端） */
+.navbar__search input,
+.aa-Form {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 2px solid rgba(240, 68, 29, 0.15) !important;
+  font-size: 14px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05) !important;
+}
+
+[data-theme='dark'] .navbar__search input,
+[data-theme='dark'] .aa-Form {
+  background: rgba(40, 40, 41, 0.9) !important;
+  border-color: rgba(232, 41, 7, 0.3) !important;
+  color: #fff !important;
+}
+
+/* 聚焦状态 */
+.navbar__search input:focus,
+.aa-Form:focus-within {
+  outline: none !important;
+  border-color: var(--ifm-color-primary) !important;
+  box-shadow: 0 0 0 3px rgba(240, 68, 29, 0.15) !important;
+  background: #fff !important;
+}
+
+[data-theme='dark'] .navbar__search input:focus,
+[data-theme='dark'] .aa-Form:focus-within {
+  background: #2d2d2e !important;
+  box-shadow: 0 0 0 3px rgba(232, 41, 7, 0.2) !important;
+}
+
+/* 搜索图标定位 */
+.navbar__search::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 12px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  width: 18px !important;
+  height: 18px !important;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23f0441d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>') !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  pointer-events: none !important;
+  z-index: 15 !important;
+}
+
+[data-theme='dark'] .navbar__search::before {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%23e82907" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>') !important;
+}
+
+/* =========================================
+   4. 移动端搜索框优化 (Mobile)
+   ========================================= */
+
+@media (max-width: 996px) {
+  /* 1. 隐藏搜索框：当页面过窄时，不显示搜索框 */
+  .navbar__search {
+    display: none !important;
+  }
+  
+  /* 2. 修复移动端侧边栏点击问题 */
+  /* 确保汉堡菜单按钮层级足够高，且可点击 */
+  .navbar__toggle {
+    position: relative;
+    z-index: 50;
+    margin-right: 10px;
+  }
+
+  /* 3. 修复"两个顶部导航栏"问题 */
+  /* 移动端侧边栏打开时，确保它覆盖在主导航栏之上 */
+  .navbar-sidebar {
+    z-index: 1000 !important; /* 确保侧边栏在最上层 */
+    top: 0 !important;
+    height: 100vh !important;
+  }
+
+  /* 调整移动端导航栏内边距，避免过于拥挤 */
+  .navbar__inner {
+    padding: 0 10px;
+  }
+  
+  /* 确保Logo和右侧按钮正常显示 */
+  .navbar__brand {
+    margin-right: auto; /* 让Logo靠左，但允许右侧元素存在 */
+  }
+}
+
+/* =========================================
+   5. 搜索结果面板 (Dropdown) 优化
+   ========================================= */
+/* 确保下拉结果也居中显示 */
+.navbar__search .search-result-container, 
+.aa-Panel {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 600px !important; /* 与最大宽度保持一致 */
+  max-width: 90vw !important;
+  margin-top: 10px !important;
+  border-radius: 12px !important;
+}
+
+/* =========================================
+   其他 UI 辅助样式 (Buttons, Scrollbars etc.)
+   ========================================= */
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ifm-color-primary); }
+
+/* 导航栏按钮容器 */
+.navbar__items--right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* GitHub & 按钮美化 */
+.navbar__item.navbar__link[href*="github"],
+.navbar__item.navbar-swapx-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  background: rgba(240, 68, 29, 0.05);
+  border: 1px solid rgba(240, 68, 29, 0.2);
+  transition: all 0.3s ease;
+  height: 36px;
+  /* 修复：提高层级，防止被搜索框遮挡 */
+  position: relative;
+  z-index: 12;
+}
+
+.navbar__item.navbar__link[href*="github"]:hover,
+.navbar__item.navbar-swapx-link:hover {
+  background: var(--ifm-color-primary);
+  color: white !important;
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(240, 68, 29, 0.3);
+}
+
+/* 深色模式按钮适配 */
+[data-theme='dark'] .navbar__item.navbar__link[href*="github"],
+[data-theme='dark'] .navbar__item.navbar-swapx-link {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* 颜色切换按钮 */
+button[class*="ColorModeToggle"] {
+  margin-left: 5px;
+}
+
+/* 文章内容区域图片美化 */
+.markdown img {
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  max-width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }

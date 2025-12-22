@@ -11,11 +11,15 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "test": "docusaurus build",
+    "clean": "bash clean.sh"
   },
   "dependencies": {
     "@docusaurus/core": "3.6.3",
     "@docusaurus/preset-classic": "3.6.3",
+    "@docusaurus/theme-search-algolia": "^3.9.2",
+    "@easyops-cn/docusaurus-search-local": "^0.52.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
@@ -24,7 +28,9 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.6.3",
-    "@docusaurus/types": "3.6.3"
+    "@docusaurus/theme-live-codeblock": "3.6.3",
+    "@docusaurus/types": "3.6.3",
+    "docusaurus-plugin-image-zoom": "^3.0.1"
   },
   "browserslist": {
     "production": [
