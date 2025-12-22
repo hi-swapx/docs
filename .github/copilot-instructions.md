@@ -58,7 +58,7 @@ pnpm clear          # Clear .docusaurus cache (use when build issues occur)
 pnpm clean          # Run clean.sh script (removes build/, .docusaurus/, .DS_Store)
 ```
 
-**Package Manager**: Always use `pnpm@9.15.3+` (enforced by `packageManager` field). Node ≥18 required.
+**Package Manager**: Always use `pnpm@9.15.3+` (enforced by `packageManager` field). Node ≥20 required.
 
 ### Build & Deployment
 - **Output directory**: `build/` (Cloudflare Pages compatible)
