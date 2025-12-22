@@ -17,6 +17,24 @@ const config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
+  
+  // 国际化配置
+  i18n: {
+    defaultLocale: 'zh',
+    locales: ['zh', 'en'],
+    localeConfigs: {
+      zh: {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+    },
+  },
 
   presets: [
     [
@@ -48,6 +66,9 @@ const config = {
         docsRouteBasePath: "/",
         indexBlog: false,
         indexPages: false,
+        language: ["zh", "en"],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
       },
     ],
     'docusaurus-plugin-image-zoom',
