@@ -15,7 +15,14 @@ const config = {
   projectName: "docusaurus",
 
   onBrokenLinks: "ignore",
-  onBrokenMarkdownLinks: "warn",
+  
+  // Markdown configuration
+  markdown: {
+    parseFrontMatter: async (params) => {
+      const result = await params.defaultParseFrontMatter(params);
+      return result;
+    },
+  },
 
 
   // 国际化配置
@@ -59,7 +66,7 @@ const config = {
   themes: ['@docusaurus/theme-live-codeblock'],
 
   plugins: [
-/*
+
     [
       "@easyops-cn/docusaurus-search-local",
       {
@@ -72,7 +79,7 @@ const config = {
         explicitSearchResultPath: true,
       },
     ],
-*/
+
     'docusaurus-plugin-image-zoom',
   ],
 
