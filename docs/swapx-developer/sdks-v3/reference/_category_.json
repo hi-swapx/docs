@@ -2,5 +2,6 @@
   "label": "📖 Reference",
   "position": 2,
   "collapsible": true,
-  "collapsed": true
+  "collapsed": true,
+  "key": "sdks-v3-reference"
 }
