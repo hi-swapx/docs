@@ -17,6 +17,7 @@ const config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
+  
   // 国际化配置
   i18n: {
     defaultLocale: 'zh',
