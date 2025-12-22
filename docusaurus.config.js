@@ -17,11 +17,6 @@ const config = {
   onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
 
-  // 国际化配置 - 单语言（中文）
-  i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
-  },
 
   presets: [
     [
