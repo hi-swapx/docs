@@ -17,31 +17,26 @@ const config = {
   onBrokenLinks: "ignore",
   
   // Markdown configuration
-  markdown: {
-    parseFrontMatter: async (params) => {
-      const result = await params.defaultParseFrontMatter(params);
-      return result;
-    },
-  },
-
-
-  // // 国际化配置
-  // i18n: {
-  //   defaultLocale: 'zh',
-  //   locales: ['zh', 'en'],
-  //   localeConfigs: {
-  //     zh: {
-  //       label: '简体中文',
-  //       direction: 'ltr',
-  //       htmlLang: 'zh-CN',
-  //     },
-  //     en: {
-  //       label: 'English',
-  //       direction: 'ltr',
-  //       htmlLang: 'en-US',
-  //     },
+  // markdown: {
+  //   parseFrontMatter: async (params) => {
+  //     const result = await params.defaultParseFrontMatter(params);
+  //     return result;
   //   },
   // },
+
+
+  // 国际化配置
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+    },
+  },
 
   presets: [
     [
@@ -81,33 +76,7 @@ const config = {
     // ],
 
     // 'docusaurus-plugin-image-zoom',
-    function myPlugin(context, options) {
-      return {
-        name: 'docusaurus-plugin-webpack-patch',
-        configureWebpack(config, isServer, utils) {
-          if (!isServer) return {}; // 仅针对服务端构建
-          
-          return {
-            plugins: [
-              new (class ShimResolveWeakPlugin {
-                apply(compiler) {
-                  compiler.hooks.compile.tap('ShimResolveWeakPlugin', () => {
-                    // 这里我们很难直接注入 runtime，
-                    // 但可以通过 DefinePlugin 或 ProvidePlugin 尝试修复
-                  });
-                }
-              })(),
-            ],
-            // 更有用的方法：通过 alias 将出问题的模块指向空实现
-            // resolve: {
-            //   alias: {
-            //     'problematic-module': false, 
-            //   }
-            // }
-          };
-        },
-      };
-    },
+
 
 
   ],
@@ -150,10 +119,10 @@ const config = {
           // 顶部导航仅保留必要的系统链接，文档目录已移至左侧侧边栏
           
           // 搜索框（需要搜索插件支持，当前已禁用）
-          // {
-          //   type: 'search',
-          //   position: 'right', 
-          // },
+          {
+            type: 'search',
+            position: 'right', 
+          },
           
           {
             href: "https://swapx.exchange/",
