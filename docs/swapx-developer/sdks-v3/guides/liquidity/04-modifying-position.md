@@ -87,7 +87,7 @@ const positionToIncreaseBy = constructPosition(
 The `fromReadableAmount()` function calculates the amount of tokens in their smallest unit, so for example 1 ETH would be `1000000000000000000` Wei as ETH has 18 decimals.
 
 A better way to get the amounts might be to fetch them with the positionId directly from the blockchain.
-We demonstrated how to do that in the [first guide](./01-position-data.md#fetching-positions) of this series.
+We demonstrated how to do that in the [first guide](./03-fetching-positions.md) of this series.
 
 ```typescript
 import { Pool, Position } from '@swapx-lib/v3-sdk'
@@ -133,7 +133,7 @@ const addLiquidityOptions: AddLiquidityOptions = {
 Compared to minting, we have omitted the `recipient` parameter and instead passed in the `tokenId` of the position we previously minted.
 As the Position already exists, the recipient doesn't change, instead the NonfungiblePositionManager contract can modify the existing Position by accessing it with its id.
 
-The tokenId can be fetched with the tokenOfOwnerByIndex function of the NonfungiblePositionManager Contract as described [here](./01-position-data.md#fetching-positions).
+The tokenId can be fetched with the tokenOfOwnerByIndex function of the NonfungiblePositionManager Contract as described [here](./03-fetching-positions.md).
 
 The newly created position along with the options object are then passed to the `NonfungiblePositionManager`'s `addCallParameters`:
 
