@@ -62,7 +62,7 @@ const collectOptions: CollectOptions = {
 }
 ```
 
-Read more about fetching position info [here](./01-position-data.md#fetching-positions).
+Read more about fetching position info [here](./03-fetching-positions.md).
 
 Similar to the other functions exposed by the `NonfungiblePositionManager`, we pass the `tokenId` and the `recipient` of the fees, which in this case is our function's input position id and our wallet's address.
 
