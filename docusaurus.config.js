@@ -66,19 +66,19 @@ const config = {
   themes: ['@docusaurus/theme-live-codeblock'],
 
   plugins: [
-
-    [
-      "@easyops-cn/docusaurus-search-local",
-      {
-        hashed: true,
-        docsRouteBasePath: "/",
-        indexBlog: false,
-        indexPages: false,
-        language: ["zh", "en"],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-      },
-    ],
+    // 搜索插件需要 Node.js 20+，当前使用 Node 18，暂时禁用
+    // [
+    //   "@easyops-cn/docusaurus-search-local",
+    //   {
+    //     hashed: true,
+    //     docsRouteBasePath: "/",
+    //     indexBlog: false,
+    //     indexPages: false,
+    //     language: ["zh", "en"],
+    //     highlightSearchTermsOnTargetPage: true,
+    //     explicitSearchResultPath: true,
+    //   },
+    // ],
 
     'docusaurus-plugin-image-zoom',
   ],
@@ -120,11 +120,11 @@ const config = {
         items: [
           // 顶部导航仅保留必要的系统链接，文档目录已移至左侧侧边栏
           
-          // 搜索框
-          {
-            type: 'search',
-            position: 'right', 
-          },
+          // 搜索框（需要搜索插件支持，当前已禁用）
+          // {
+          //   type: 'search',
+          //   position: 'right', 
+          // },
           
           {
             href: "https://swapx.exchange/",
