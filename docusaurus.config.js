@@ -119,10 +119,10 @@ const config = {
           // 顶部导航仅保留必要的系统链接，文档目录已移至左侧侧边栏
           
           // 搜索框（需要搜索插件支持，当前已禁用）
-          {
-            type: 'search',
-            position: 'right', 
-          },
+          // {
+          //   type: 'search',
+          //   position: 'right', 
+          // },
           
           {
             href: "https://swapx.exchange/",
