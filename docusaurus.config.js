@@ -17,31 +17,26 @@ const config = {
   onBrokenLinks: "ignore",
   
   // Markdown configuration
-  markdown: {
-    parseFrontMatter: async (params) => {
-      const result = await params.defaultParseFrontMatter(params);
-      return result;
-    },
-  },
-
-
-  // // 国际化配置
-  // i18n: {
-  //   defaultLocale: 'zh',
-  //   locales: ['zh', 'en'],
-  //   localeConfigs: {
-  //     zh: {
-  //       label: '简体中文',
-  //       direction: 'ltr',
-  //       htmlLang: 'zh-CN',
-  //     },
-  //     en: {
-  //       label: 'English',
-  //       direction: 'ltr',
-  //       htmlLang: 'en-US',
-  //     },
+  // markdown: {
+  //   parseFrontMatter: async (params) => {
+  //     const result = await params.defaultParseFrontMatter(params);
+  //     return result;
   //   },
   // },
+
+
+  // 国际化配置
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+      },
+    },
+  },
 
   presets: [
     [
@@ -67,20 +62,20 @@ const config = {
 
   plugins: [
     // 搜索插件需要 Node.js 20+，当前使用 Node 18，暂时禁用
-    [
-      "@easyops-cn/docusaurus-search-local",
-      {
-        hashed: true,
-        docsRouteBasePath: "/",
-        indexBlog: false,
-        indexPages: false,
-        language: ["zh", "en"],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-      },
-    ],
+    // [
+    //   "@easyops-cn/docusaurus-search-local",
+    //   {
+    //     hashed: true,
+    //     docsRouteBasePath: "/",
+    //     indexBlog: false,
+    //     indexPages: false,
+    //     language: ["zh", "en"],
+    //     highlightSearchTermsOnTargetPage: true,
+    //     explicitSearchResultPath: true,
+    //   },
+    // ],
 
-    'docusaurus-plugin-image-zoom',
+    // 'docusaurus-plugin-image-zoom',
 
 
 
