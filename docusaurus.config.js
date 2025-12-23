@@ -63,7 +63,7 @@ const config = {
     ],
   ],
 
-  themes: ['@docusaurus/theme-live-codeblock'],
+  // themes: ['@docusaurus/theme-live-codeblock'],
 
   plugins: [
     // 搜索插件需要 Node.js 20+，当前使用 Node 18，暂时禁用
@@ -81,6 +81,35 @@ const config = {
     // ],
 
     // 'docusaurus-plugin-image-zoom',
+    function myPlugin(context, options) {
+      return {
+        name: 'docusaurus-plugin-webpack-patch',
+        configureWebpack(config, isServer, utils) {
+          if (!isServer) return {}; // 仅针对服务端构建
+          
+          return {
+            plugins: [
+              new (class ShimResolveWeakPlugin {
+                apply(compiler) {
+                  compiler.hooks.compile.tap('ShimResolveWeakPlugin', () => {
+                    // 这里我们很难直接注入 runtime，
+                    // 但可以通过 DefinePlugin 或 ProvidePlugin 尝试修复
+                  });
+                }
+              })(),
+            ],
+            // 更有用的方法：通过 alias 将出问题的模块指向空实现
+            // resolve: {
+            //   alias: {
+            //     'problematic-module': false, 
+            //   }
+            // }
+          };
+        },
+      };
+    },
+
+
   ],
 
   themeConfig:
