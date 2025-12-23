@@ -80,7 +80,7 @@ const config = {
     //   },
     // ],
 
-    'docusaurus-plugin-image-zoom',
+    // 'docusaurus-plugin-image-zoom',
   ],
 
   themeConfig:
