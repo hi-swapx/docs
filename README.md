@@ -7,8 +7,13 @@
 </img>
 </p>
 
-SwapX is a decentralized token exchange system based on the Uniswap v2/v3 protocol, providing users with a complete digital asset management solution.
-This repository is the source of all documents related to SwapX, providing a complete resource for developers, contributors, and users who want to explore, understand, and build SwapX. The documents cover SwapX's unique features, technical specifications, integration guides, and best practices for efficient use.
+**Welcome to SwapX — The Omni-chain DEX Hub**
+
+SwapX is a decentralized token exchange system built on the powerful **Uniswap v2/v3** protocols. By deeply integrating the industry-leading **Li.Fi** aggregation protocol, SwapX has evolved from a single-chain DEX into an omni-chain liquidity hub. We aim to provide users with a one-stop digital asset management solution featuring cross-chain, cross-protocol, and fiat-to-crypto capabilities.
+
+As the core engine of the **Xone Ecosystem**, SwapX not only supports lightning-fast on-chain swaps but also breaks down barriers between blockchains to create a truly seamless cryptocurrency trading environment.
+
+---
 
 ## Table of Contents
 

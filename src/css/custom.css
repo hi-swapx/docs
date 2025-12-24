@@ -484,3 +484,55 @@ button[class*="collapseSidebarButton"],
 .collapseSidebarButton {
   display: none !important;
 }
+/* 完全隐藏标题锚点链接
+.hash-link {
+  display: none !important;
+} */
+
+
+/* 标题容器 - 防止文字被截断 */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  padding-right: 3rem !important;
+  position: relative;
+  /* 确保标题内容不会溢出 */
+  overflow: visible !important;
+  white-space: normal !important;
+  word-wrap: break-word !important;
+}
+
+/* 锚点链接样式优化 */
+.hash-link {
+  position: absolute !important;
+  right: 0 !important;
+  opacity: 0 !important;
+  transition: all 0.2s ease !important;
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  margin-left: 0.5rem !important;
+}
+
+/* 悬停时显示锚点 */
+h1:hover .hash-link,
+h2:hover .hash-link,
+h3:hover .hash-link,
+h4:hover .hash-link,
+h5:hover .hash-link,
+h6:hover .hash-link {
+  opacity: 0.8 !important;
+}
+
+.hash-link:hover {
+  opacity: 1 !important;
+  transform: scale(1.1);
+}
+
+/* 深色模式适配 */
+[data-theme='dark'] .hash-link {
+  color: var(--ifm-color-primary-light) !important;
+}
