@@ -35,7 +35,7 @@ As the core engine of the **Xone Ecosystem**, SwapX not only supports lightning-
 
 SwapX is built around three core pillars, offering a decentralized trading experience that goes beyond tradition:
 
-### 1. Swap: Omni-chain Decentralized Exchange
+### 1. SwapX: Omni-chain Decentralized Exchange
 Through the integration of the **Li.Fi** protocol, SwapX enables the true free flow of assets across chains.
 
 * **🌐 High-Speed Multi-chain Support:** Skip the complex manual bridging. Swap assets seamlessly across major public chains:

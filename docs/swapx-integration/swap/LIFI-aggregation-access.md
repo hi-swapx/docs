@@ -1,4 +1,9 @@
-# 🔄 LIFI aggregation access
+---
+sidebar_position: 5
+---
+
+
+# 🤝 LIFI aggregation access
 
 ## 1. 📖 Overview
 

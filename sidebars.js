@@ -6,7 +6,7 @@ const sidebars = {
   tutorialSidebar: [
     {
       type: 'category',
-      label: 'SWAPX INTEGRATION',
+      label: 'SwapX Introduction',
       collapsible: false,
       collapsed: false,
       className: 'top-level-category',
@@ -19,7 +19,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'SWAPX DEVELOPER',
+      label: 'SwapX Developer',
       collapsible: false,
       collapsed: false,
       className: 'top-level-category',
