@@ -478,3 +478,9 @@ button[class*="ColorModeToggle"] {
   max-width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
+/* 隐藏侧边栏底部收起按钮 */
+button[class*="collapseSidebarButton"],
+.collapseSidebarButton {
+  display: none !important;
+}

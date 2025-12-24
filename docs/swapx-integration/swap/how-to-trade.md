@@ -1,3 +1,9 @@
+---
+description: Trade
+sidebar_position: 3
+---
+
+
 # 🚀 How to Trade
 
 ## 🚀 How to Trade
