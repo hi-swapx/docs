@@ -337,7 +337,7 @@ export abstract class SwapBase {
 
 
 
-### Swapx
+### SwapX
 ```
 import {CHAIN_RPC, FeeTierList, PoolState, SWAP_SUPPORTED} from "@/constants/swap";
 import {SwapBase} from "@/web3/swap/SwapBase";
